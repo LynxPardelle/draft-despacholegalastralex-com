@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Astralex Open Graph image</title>
+  <desc id="desc">Open Graph artwork for Astralex corporate legal advisory.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07111E" />
+      <stop offset="52%" stop-color="#0E2236" />
+      <stop offset="100%" stop-color="#12304B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#D3B06C" />
+      <stop offset="100%" stop-color="#F1D7A2" />
+    </linearGradient>
+    <linearGradient id="panelGlow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1040" cy="120" r="220" fill="#D3B06C" fill-opacity="0.12" />
+  <circle cx="980" cy="520" r="180" fill="#6FA3C8" fill-opacity="0.08" />
+
+  <rect x="56" y="56" width="1088" height="518" rx="34" fill="url(#panelGlow)" stroke="rgba(255,255,255,0.18)" />
+  <rect x="84" y="84" width="1032" height="462" rx="28" fill="none" stroke="url(#accent)" stroke-opacity="0.5" />
+
+  <text x="124" y="150" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="7" fill="#D7E7F5" opacity="0.78">DESPACHO LEGAL</text>
+  <text x="124" y="248" font-family="Georgia, serif" font-size="84" font-weight="700" fill="#F8F2E7">ASTRALEX</text>
+  <rect x="126" y="278" width="126" height="6" rx="3" fill="url(#accent)" />
+
+  <text x="124" y="346" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#EAF3FA">Corporate advisory with clear legal next steps.</text>
+  <text x="124" y="404" font-family="Arial, sans-serif" font-size="25" fill="#D3E1EC">Preventive strategy, contract order, and business-focused guidance</text>
+  <text x="124" y="442" font-family="Arial, sans-serif" font-size="25" fill="#D3E1EC">for negotiations, compliance, and risk-sensitive decisions.</text>
+
+  <g transform="translate(860 152)">
+    <rect x="0" y="0" width="182" height="240" rx="24" fill="#081624" fill-opacity="0.44" stroke="#E6C88B" stroke-opacity="0.52" />
+    <path d="M48 184 L92 52 L136 184" fill="none" stroke="#F1D7A2" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M68 132 H116" fill="none" stroke="#8EC1E2" stroke-width="10" stroke-linecap="round" />
+    <text x="91" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4" fill="#DCE9F4">A L</text>
+  </g>
+
+  <g transform="translate(124 494)">
+    <rect x="0" y="0" width="224" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.08" />
+    <text x="22" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9FB">Contracts and governance</text>
+    <rect x="248" y="0" width="180" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.08" />
+    <text x="270" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9FB">Risk prevention</text>
+    <rect x="452" y="0" width="198" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.08" />
+    <text x="474" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#F7F9FB">Bilingual coordination</text>
+  </g>
+</svg>

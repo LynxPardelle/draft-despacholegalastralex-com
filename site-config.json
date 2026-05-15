@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "domain": "despacholegalastralex.com",
+  "defaultPageId": "default",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "default",
+      "label": "Home"
+    }
+  ],
+  "site": {
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#f3efe8",
+          "textColor": "#334155",
+          "titleColor": "#102235",
+          "linkColor": "#b58a4b",
+          "accentColor": "#b58a4b",
+          "secondaryBgColor": "#e6dfd3",
+          "secondaryTextColor": "#425466",
+          "secondaryTitleColor": "#14283b",
+          "secondaryLinkColor": "#6d8191",
+          "secondaryAccentColor": "#8f8166",
+          "successColor": "#198754",
+          "onSuccessColor": "#052e1c",
+          "errorColor": "#dc3545",
+          "onErrorColor": "#3b0a10",
+          "warningColor": "#f59e0b",
+          "onWarningColor": "#3a2400",
+          "infoColor": "#0d6efd",
+          "onInfoColor": "#041b44"
+        },
+        "dark": {
+          "bgColor": "#101b28",
+          "textColor": "#e7ecef",
+          "titleColor": "#f5ebdc",
+          "linkColor": "#d0a867",
+          "accentColor": "#d0a867",
+          "secondaryBgColor": "#18283a",
+          "secondaryTextColor": "#d4dde5",
+          "secondaryTitleColor": "#f1e6d7",
+          "secondaryLinkColor": "#93a7b8",
+          "secondaryAccentColor": "#7f8f9f",
+          "successColor": "#32d583",
+          "onSuccessColor": "#f3fff8",
+          "errorColor": "#ff6b6b",
+          "onErrorColor": "#fff5f5",
+          "warningColor": "#f5b942",
+          "onWarningColor": "#fff7e6",
+          "infoColor": "#58a6ff",
+          "onInfoColor": "#f5fbff"
+        }
+      },
+      "ui": {
+        "modalAccentColor": "secondaryAccentColor",
+        "legalModalAccentColor": "secondaryAccentColor",
+        "demoModalAccentColor": "accentColor"
+      }
+    },
+    "appIdentity": {
+      "identifier": "despacholegalastralexcom",
+      "name": "Despacho Legal Astralex",
+      "version": "1.0.0",
+      "description": "Corporate and civil legal advisory landing page."
+    },
+    "seo": {
+      "siteName": "Despacho Legal Astralex",
+      "title": "Despacho Legal Astralex",
+      "description": "Corporate and civil legal advisory landing page.",
+      "canonicalOrigin": "https://despacholegalastralex.com",
+      "defaultImage": "https://despacholegalastralex.com/assets/drafts/despacholegalastralex.com/default/astralex-og.svg",
+      "openGraph": {
+        "type": "website",
+        "site_name": "Despacho Legal Astralex"
+      },
+      "twitter": {
+        "card": "summary_large_image"
+      },
+      "keywords": [
+        "despacho legal",
+        "abogados",
+        "asesoria legal",
+        "derecho civil",
+        "derecho familiar",
+        "derecho laboral",
+        "contract review",
+        "business legal advisory",
+        "Mexico City law firm"
+      ],
+      "robots": "index,follow,max-image-preview:large"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        },
+        {
+          "code": "en",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "localStorage": {
+      "theme": "astralex-landing-theme",
+      "language": "astralex-landing-language",
+      "userPreferences": "astralex-landing-preferences",
+      "id": "astralex-landing-id",
+      "sessionId": "astralex-landing-session-id",
+      "allowAnalytics": "astralex-landing-allow-analytics",
+      "analyticsConsentSnooze": "astralex-landing-allow-analytics-snooze",
+      "pageViewCount": "astralex-landing-page-view-count"
+    },
+    "features": {
+      "debugMode": true
+    },
+    "analytics": {
+      "enabled": false,
+      "consentUI": "none",
+      "consentSnoozeSeconds": 30,
+      "track": [
+        "ip",
+        "userAgent",
+        "language",
+        "platform",
+        "vendor",
+        "cookiesEnabled",
+        "doNotTrack",
+        "screenWidth",
+        "screenHeight",
+        "colorDepth",
+        "timezone",
+        "geolocationLatitude",
+        "geolocationLongitude",
+        "geolocationAccuracy",
+        "cookies",
+        "battery",
+        "connection"
+      ],
+      "quickStats": {
+        "pageView": {
+          "event": "page_view",
+          "path": "metrics.pageViews",
+          "by": 1
+        },
+        "events": [
+          { "name": "hero_primary_click", "path": "metrics.ctaClicks", "by": 1 },
+          { "name": "hero_secondary_click", "path": "metrics.ctaClicks", "by": 1 },
+          { "name": "services_cta_click", "path": "metrics.ctaClicks", "by": 1 },
+          { "name": "faq_cta_click", "path": "metrics.ctaClicks", "by": 1 },
+          { "name": "cta_click", "path": "metrics.ctaClicks", "by": 1 },
+          { "name": "final_cta_primary_click", "path": "metrics.ctaClicks", "by": 1 },
+          { "name": "final_cta_secondary_click", "path": "metrics.ctaClicks", "by": 1 }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "despacholegalastralex.com",
+  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "modalRootIds": ["modalAnalyticsConsentRoot", "modalTermsRoot", "modalDataUseRoot"],
+  "metadata": {
+    "status": "draft_generated",
+    "source": "assistant-generated from generic legal questionnaire baseline",
+    "versionTag": "v1.0.0",
+    "owner": "Astralex"
+  },
+  "seo": {
+    "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
+    "description": "Despacho Legal Astralex offers practical legal guidance in civil, family, labor, contract, and business matters. Request a first legal assessment with clear next steps.",
+    "openGraph": {
+      "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
+      "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
+      "image": "/drafts/despacholegalastralex.com/default/astralex-og.svg",
+      "url": "https://despacholegalastralex.com",
+      "type": "website"
+    },
+    "twitter": {
+      "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
+      "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
+      "image": "/drafts/despacholegalastralex.com/default/astralex-og.svg",
+      "card": "summary_large_image"
+    },
+    "canonical": "https://despacholegalastralex.com"
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Despacho Legal Astralex",
+        "url": "https://despacholegalastralex.com",
+        "image": "/drafts/despacholegalastralex.com/default/astralex-og.svg",
+        "description": "General-practice legal guidance for individuals, families, entrepreneurs, and businesses in civil, family, labor, contract, and commercial matters.",
+        "areaServed": "Mexico",
+        "availableLanguage": ["es", "en"],
+        "email": "contacto@despacholegalastralex.com",
+        "sameAs": ["https://despacholegalastralex.com"]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Despacho Legal Astralex",
+        "url": "https://despacholegalastralex.com",
+        "logo": "/drafts/despacholegalastralex.com/default/astralex-logo.svg",
+        "email": "contacto@despacholegalastralex.com"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What types of legal matters does Despacho Legal Astralex handle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This draft positions the firm as a general-practice office focused on civil, family, labor, contract, commercial, and selected real-estate-related matters. Final scope must be confirmed before publication."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does sending a message create an attorney-client relationship?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. First contact only requests information. An attorney-client relationship begins only after formal acceptance and confirmation by the firm."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": ["home", "benefits", "process", "offers", "social-proof", "faq", "final-cta", "contact-section"],
+    "scrollMilestones": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+  }
+}
