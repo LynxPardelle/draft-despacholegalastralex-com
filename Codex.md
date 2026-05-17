@@ -9,5 +9,6 @@ This repository follows the secure Zoolanding draft release workflow.
 - `dev` does not deploy.
 - `test` deploys the test draft only after merge to `test`.
 - `main` deploys production only after merge to `main`.
+- Native GitHub branch protection should protect `test` and `main` when the account plan supports it. If GitHub blocks protection for private repos, the deploy workflow still rejects push-triggered deploys unless the commit is a merge from the expected source branch, but GitHub cannot block the push itself.
 - Do not commit secrets, tokens, API keys, signed URLs, `.env*`, local logs, PDFs/CVs, private keys, local databases, `ai_notes/`, `findings/`, or `errors-reports/`.
 - Deployment uses GitHub OIDC to assume AWS IAM roles split by repo and environment; do not add long-lived AWS access keys.
