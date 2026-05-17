@@ -185,7 +185,9 @@ async function signedPostJson({ endpoint, region, payload }) {
     }
   }
   if (!response.ok || parsed.ok === false) {
-    const error = new Error(parsed.error || parsed.message || `Authoring API returned ${response.status}`);
+    const responseType = response.headers.get('x-amzn-errortype') || response.headers.get('x-amzn-errorType');
+    const message = parsed.error || parsed.message || `Authoring API returned ${response.status}`;
+    const error = new Error(responseType ? `${message} (${responseType})` : message);
     error.statusCode = response.status;
     error.response = parsed;
     throw error;
