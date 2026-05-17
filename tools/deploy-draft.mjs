@@ -138,8 +138,8 @@ async function signedPostJson({ endpoint, region, payload }) {
   const accessKeyId = required(process.env.AWS_ACCESS_KEY_ID, 'AWS_ACCESS_KEY_ID');
   const secretAccessKey = required(process.env.AWS_SECRET_ACCESS_KEY, 'AWS_SECRET_ACCESS_KEY');
   const sessionToken = process.env.AWS_SESSION_TOKEN;
-  const service = 'execute-api';
   const url = new URL(endpoint);
+  const service = url.hostname.includes('.lambda-url.') ? 'lambda' : 'execute-api';
   const body = JSON.stringify(payload);
   const now = new Date();
   const amzDate = now.toISOString().replace(/[:-]|\.\d{3}/g, '');
