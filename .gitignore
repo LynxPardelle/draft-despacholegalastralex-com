@@ -1,12 +1,17 @@
+# Local-only draft context
 ai_notes/
 findings/
 errors-reports/
-logs/
-*.log
-
 CVs_N_photos/
-*.pdf
+devonly/
+logs/
+reports/
+Output/
+.superpowers/
+.codex/
+.agents/
 
+# Secrets and private local files
 .env
 .env.*
 *.pem
@@ -15,11 +20,48 @@ CVs_N_photos/
 *.pfx
 *.crt
 *.cer
-*.sqlite
-*.db
+*.cert
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.kdbx
+.npmrc
+.pypirc
+.netrc
+.aws/
+.azure/
+.gcp/
+google-credentials*.json
+*service-account*.json
+*credentials*.json
+*secret*.json
 
+# Local databases and exports
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# PII/source material that must be reviewed before publishing
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Runtime noise
 node_modules/
 dist/
 .cache/
+coverage/
 .DS_Store
 Thumbs.db
