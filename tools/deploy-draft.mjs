@@ -149,6 +149,7 @@ async function signedPostJson({ endpoint, region, payload }) {
   const headers = {
     'content-type': 'application/json',
     host: url.host,
+    'x-amz-content-sha256': hash(body),
     'x-amz-date': amzDate,
   };
   if (sessionToken) {
@@ -160,7 +161,7 @@ async function signedPostJson({ endpoint, region, payload }) {
     .sort()
     .map(name => `${name}:${headers[name]}\n`)
     .join('');
-  const payloadHash = hash(body);
+  const payloadHash = headers['x-amz-content-sha256'];
   const canonicalRequest = ['POST', canonicalUri, canonicalQueryString, canonicalHeaders, signedHeaders, payloadHash].join('\n');
   const credentialScope = `${dateStamp}/${region}/${service}/aws4_request`;
   const stringToSign = ['AWS4-HMAC-SHA256', amzDate, credentialScope, hash(canonicalRequest)].join('\n');
@@ -175,9 +176,16 @@ async function signedPostJson({ endpoint, region, payload }) {
     body,
   });
   const text = await response.text();
-  const parsed = text ? JSON.parse(text) : {};
+  let parsed = {};
+  if (text) {
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      parsed = { message: text.slice(0, 500) };
+    }
+  }
   if (!response.ok || parsed.ok === false) {
-    const error = new Error(parsed.error || `Authoring API returned ${response.status}`);
+    const error = new Error(parsed.error || parsed.message || `Authoring API returned ${response.status}`);
     error.statusCode = response.status;
     error.response = parsed;
     throw error;
