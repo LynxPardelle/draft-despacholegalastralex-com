@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "domain": "despacholegalastralex.com",
+  "pageId": "not-found",
+  "variables": {
+    "brand": {
+      "displayName": "Despacho Legal Astralex",
+      "tagline": "Corporate and civil legal advisory with clear next steps.",
+      "logoUrl": "/drafts/despacholegalastralex.com/default/astralex-logo.svg"
+    },
+    "ctaTargets": {
+      "primaryUrl": "mailto:contacto@despacholegalastralex.com?subject=Request%20a%20legal%20assessment",
+      "secondaryUrl": "#offers",
+      "finalPrimaryUrl": "mailto:contacto@despacholegalastralex.com?subject=Request%20a%20legal%20assessment",
+      "finalSecondaryUrl": "#contact-section"
+    },
+    "heroAssets": {
+      "heroImageUrl": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/hero-images/astralex-hero.svg",
+      "heroImageAlt": "Astralex corporate legal advisory overview"
+    },
+    "navigation": [],
+    "socialLinks": [
+      {
+        "id": "email",
+        "url": "mailto:contacto@despacholegalastralex.com",
+        "target": "_self",
+        "rel": "noopener noreferrer",
+        "icon": "EM",
+        "labelKey": "footer.social.email.label",
+        "ariaLabelKey": "footer.social.email.ariaLabel"
+      },
+      {
+        "id": "website",
+        "url": "https://despacholegalastralex.com",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "icon": "WEB",
+        "labelKey": "footer.social.website.label",
+        "ariaLabelKey": "footer.social.website.ariaLabel"
+      }
+    ],
+    "ui": {
+      "mobileMenuAriaLabel": "Menu",
+      "brandTextFallback": "ASTRALEX",
+      "skipTargetId": "landing-main",
+      "modals": {
+        "_default": {
+          "size": "sm",
+          "variant": "dialog",
+          "closeOnBackdrop": true,
+          "showCloseButton": true,
+          "showAccentBar": true,
+          "accentColor": "secondaryAccentColor",
+          "containerClasses": "ank-position-fixed ank-inset-0 ank-display-flex ank-pointerEvents-none ank-zIndex-1000",
+          "containerDialogClasses": "ank-alignItems-center ank-justifyContent-center",
+          "containerSheetClasses": "ank-alignItems-flexEnd ank-justifyContent-center",
+          "panelClasses": "modal-panel ank-pointerEvents-auto ank-display-flex ank-flexDirection-column ank-minWidth-280px ank-maxHeight-80vh ank-overflow-auto ank-p-1_25rem ank-bg-secondaryBgColor ank-color-textColor ank-border-1px ank-borderColor-border ank-boxShadow-0__0_5rem__2rem__MIN0_25rem__bgColor__OPA__0_35",
+          "panelDialogClasses": "ank-position-absolute ank-top-50per ank-left-50per ank-transform-translateSDMIN50perCOM__MIN50perED ank-borderRadius-0_75rem",
+          "panelSheetClasses": "ank-position-relative ank-width-100per ank-borderRadius-1rem__1rem__0__0 ank-pb-1_5rem",
+          "panelMotionClasses": "modal-anim-scaleIn",
+          "panelSMClasses": "ank-width-clampSD300px__COM__25vw__COM__320pxED",
+          "panelMDClasses": "ank-width-clampSD300px__COM__50vw__COM__480pxED",
+          "panelLGClasses": "ank-width-clampSD300px__COM__75vw__COM__720pxED",
+          "accentBarClasses": "ank-position-absolute ank-top-0 ank-left-0 ank-right-0 ank-height-4px ank-borderRadius-0_75rem__0_75rem__0__0",
+          "closeButtonClasses": "modal-close ank-bg-transparent ank-border-0 ank-color-inherit ank-fontSize-1_25rem ank-cursor-pointer ank-position-absolute ank-top-0_5rem ank-right-0_5rem"
+        },
+        "analytics-consent": {
+          "size": "sm",
+          "closeOnBackdrop": false,
+          "showCloseButton": false,
+          "accentColor": "secondaryAccentColor",
+          "ariaLabelKey": "ui.accessibility.analyticsConsentDialog"
+        },
+        "terms-of-service": {
+          "size": "lg",
+          "accentColor": "secondaryAccentColor",
+          "ariaLabelKey": "footer.legal.terms.title"
+        },
+        "data-use": {
+          "size": "md",
+          "accentColor": "secondaryAccentColor",
+          "ariaLabelKey": "footer.legal.data.title"
+        }
+      },
+      "toast": {
+        "hostClasses": "ank-position-fixed ank-display-flex ank-flexDirection-column ank-gap-0_5rem ank-zIndex-1000 ank-pointerEvents-none",
+        "hostTopClasses": "ank-top-1rem",
+        "hostBottomClasses": "ank-bottom-1rem",
+        "hostLeftClasses": "ank-left-1rem",
+        "hostRightClasses": "ank-right-1rem",
+        "hostCenterClasses": "ank-left-50per ank-transform-translateXSDMIN50perED",
+        "itemClasses": "ank-position-relative ank-display-flex ank-alignItems-stretch ank-gap-0_75rem ank-p-1rem ank-borderRadius-0_75rem ank-boxShadow-lg ank-border-1 ank-maxWidth-24rem ank-minWidth-20rem ank-pointerEvents-auto ank-overflow-hidden ank-backdropFilter-blurSD0_5remED ank-transformOrigin-center__bottom ank-transition-all ank-td-200ms",
+        "hoveredItemClasses": "ank-transform-scaleSD1_02ED",
+        "levelSuccessClasses": "ank-bg-successColorOPA__0_78 ank-color-onSuccessColor ank-borderColor-successColorOPA__0_34",
+        "levelErrorClasses": "ank-bg-errorColorOPA__0_78 ank-color-onErrorColor ank-borderColor-errorColorOPA__0_34",
+        "levelWarningClasses": "ank-bg-warningColorOPA__0_78 ank-color-onWarningColor ank-borderColor-warningColorOPA__0_34",
+        "levelInfoClasses": "ank-bg-infoColorOPA__0_78 ank-color-onInfoColor ank-borderColor-infoColorOPA__0_34",
+        "progressClasses": "toast-progress ank-position-absolute ank-bottom-0 ank-left-0 ank-right-0 ank-height-0_125rem ank-borderRadius-0_125rem ank-overflow-hidden",
+        "progressBarClasses": "ank-height-100per",
+        "progressBarSurfaceClasses": "ank-bg-bgColorOPA__0_58",
+        "iconSurfaceClasses": "ank-bg-bgColorOPA__0_22 ank-color-inherit",
+        "iconContainerClasses": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0 ank-width-1_5rem ank-height-1_5rem ank-borderRadius-50per ank-fontSize-1rem",
+        "iconErrorClasses": "toast-icon-error-anim",
+        "iconWarningClasses": "toast-icon-warning-anim",
+        "contentClasses": "toast-content ank-display-flex ank-flexDirection-column ank-gap-0_25rem ank-flex-1 ank-minWidth-0",
+        "titleClasses": "toast-title ank-fontSize-0_875rem ank-fontWeight-600 ank-lineHeight-1_2",
+        "textClasses": "toast-text ank-fontSize-0_875rem ank-lineHeight-1_4",
+        "actionsClasses": "toast-actions ank-display-flex ank-gap-0_5rem ank-mt-0_5rem",
+        "actionButtonClasses": "ank-fontSize-0_75rem ank-px-0_75rem ank-py-0_25rem ank-borderRadius-0_375rem ank-cursor-pointer ank-fontWeight-500 ank-transition-all ank-td-200ms ank-transformHover-translateYSDMIN1pxED ank-boxShadowHover-0__4px__8px__rgbaSD0COM0COM0COM0_2ED",
+        "actionPrimaryClasses": "ank-border-0 ank-bg-bgColorOPA__0_92 ank-color-titleColor ank-bgHover-bgColor",
+        "actionSecondaryClasses": "ank-border-1px ank-borderColor-bgColorOPA__0_32 ank-bg-bgColorOPA__0_12 ank-color-inherit ank-bgHover-bgColorOPA__0_2",
+        "dismissButtonClasses": "toast-dismiss ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0 ank-width-1_5rem ank-height-1_5rem ank-bgcl-transparent ank-border-0 ank-borderRadius-50per ank-cursor-pointer ank-fontSize-1rem ank-transition-all ank-color-textHover-primary ank-bgclHover-surface-secondary"
+      },
+      "languageOptions": [
+        {
+          "id": "lang-es",
+          "label": "ES",
+          "value": "es"
+        },
+        {
+          "id": "lang-en",
+          "label": "EN",
+          "value": "en"
+        }
+      ]
+    },
+    "statsCounters": {
+      "responseHours": {
+        "target": 24,
+        "durationMs": 1700,
+        "formatMode": "number",
+        "formatSuffix": ""
+      },
+      "practiceAreas": {
+        "target": 6,
+        "durationMs": 1400,
+        "formatMode": "number",
+        "formatSuffix": ""
+      },
+      "serviceModes": {
+        "target": 2,
+        "durationMs": 1600,
+        "formatMode": "number",
+        "formatSuffix": ""
+      }
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        },
+        {
+          "code": "en",
+          "label": "EN"
+        }
+      ]
+    }
+  }
+}

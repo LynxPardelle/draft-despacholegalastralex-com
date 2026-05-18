@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "domain": "despacholegalastralex.com",
+  "pageId": "not-found",
+  "components": [
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "eventInstructions": "skipToMain:main-content",
+      "valueInstructions": "set:config.text,i18n,ui.accessibility.skipToContent;set:config.ariaLabel,i18n,ui.accessibility.skipToContent",
+      "config": {
+        "id": "skip-to-main",
+        "href": "#main-content",
+        "text": "",
+        "ariaLabel": "",
+        "classes": "ank-display-none ank-position-absolute ank-left-16px ank-top-16px ank-zIndex-10 ank-paddingInline-12px ank-paddingBlock-8px ank-bg-secondaryBgColor ank-color-titleColor ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "notFoundPage",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "classes": "ank-display-flex ank-flexDirection-column ank-outline-none ank-bg-bgColor ank-color-textColor ank-minHeight-100vh",
+        "components": [
+          "notFoundHeroSection",
+          "notFoundRoutesSection"
+        ],
+        "id": "main-content",
+        "role": "main",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "notFoundHeroSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-72px ank-color-textColor ank-bg-bgColor",
+        "components": [
+          "notFoundHeroInner"
+        ],
+        "id": "home",
+        "styles": {
+          "alignItems": "center",
+          "borderBottom": "1px solid var(--ank-secondaryBgColor)"
+        }
+      }
+    },
+    {
+      "id": "notFoundHeroInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gap-28px ank-alignItems-center",
+        "components": [
+          "notFoundHeroCopy",
+          "notFoundHeroSignal"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 320px), 1fr))",
+          "gap": "32px",
+          "alignItems": "center"
+        }
+      }
+    },
+    {
+      "id": "notFoundHeroCopy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-alignItems-start ank-textAlign-left",
+        "components": [
+          "notFoundHeroEyebrow",
+          "notFoundHeroTitle",
+          "notFoundHeroLead",
+          "notFoundHeroActions"
+        ]
+      }
+    },
+    {
+      "id": "notFoundHeroEyebrow",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.eyebrow",
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "ank-color-accentColor ank-fontSize-0_92rem ank-fontWeight-900 ank-textTransform-uppercase ank-letterSpacing-0"
+      }
+    },
+    {
+      "id": "notFoundHeroTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.title",
+      "config": {
+        "tag": "h1",
+        "text": "",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_6rem ank-fontSize-md-4_3rem ank-lineHeight-1_02 ank-fontWeight-800"
+      }
+    },
+    {
+      "id": "notFoundHeroLead",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.lead",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_05rem ank-fontSize-md-1_18rem ank-lineHeight-1_55 ank-maxWidth-46rem"
+      }
+    },
+    {
+      "id": "notFoundHeroActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-marginTop-8px",
+        "components": [
+          "notFoundHeroPrimary"
+        ],
+        "styles": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "12px",
+          "alignItems": "stretch",
+          "rowGap": "28px",
+          "columnGap": "12px"
+        }
+      }
+    },
+    {
+      "id": "notFoundHeroPrimary",
+      "type": "link",
+      "eventInstructions": "trackEvent:cta_click,cta,not-found-home,page,not-found,location,hero",
+      "valueInstructions": "set:config.text,i18n,hero.primaryLabel;set:config.ariaLabel,i18n,hero.primaryLabel",
+      "config": {
+        "href": "/",
+        "text": "",
+        "ariaLabel": "",
+        "classes": "ank-d-block ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-18px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-successColor ank-color-white ank-fontWeight-800 ank-textDecoration-none ank-border-1px__solid__successColor ank-textAlign-center",
+        "target": "_self",
+        "styles": {
+          "whiteSpace": "normal",
+          "maxWidth": "100%",
+          "minWidth": "min(100%, 156px)",
+          "overflowWrap": "anywhere",
+          "textAlign": "center",
+          "flexShrink": "0"
+        }
+      }
+    },
+    {
+      "id": "notFoundHeroSignal",
+      "type": "container",
+      "config": {
+        "tag": "aside",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-alignItems-start ank-justifyContent-center ank-bg-secondaryBgColor ank-color-secondaryTextColor ank-borderRadius-8px ank-padding-28px",
+        "components": [
+          "notFoundCode",
+          "notFoundSignalTitle",
+          "notFoundSignalLead"
+        ],
+        "styles": {
+          "minHeight": "320px",
+          "borderLeft": "6px solid var(--ank-accentColor)"
+        }
+      }
+    },
+    {
+      "id": "notFoundCode",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,signal.code",
+      "config": {
+        "tag": "strong",
+        "text": "",
+        "classes": "ank-color-accentColor ank-fontSize-4rem ank-fontSize-md-6rem ank-fontWeight-900 ank-lineHeight-0_95"
+      }
+    },
+    {
+      "id": "notFoundSignalTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,signal.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_5rem ank-fontSize-md-2rem ank-lineHeight-1_1 ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "notFoundSignalLead",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,signal.lead",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "notFoundRoutesSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-56px ank-bg-secondaryBgColor ank-color-textColor",
+        "components": [
+          "notFoundRoutesInner"
+        ],
+        "id": "rutas",
+        "styles": {
+          "flexGrow": "1"
+        }
+      }
+    },
+    {
+      "id": "notFoundRoutesInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-24px",
+        "components": [
+          "notFoundRoutesTitle",
+          "notFoundRoutesLead",
+          "notFoundRoutesGrid"
+        ]
+      }
+    },
+    {
+      "id": "notFoundRoutesTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,routes.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_1rem ank-fontSize-md-3_2rem ank-lineHeight-1_05 ank-fontWeight-800"
+      }
+    },
+    {
+      "id": "notFoundRoutesLead",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,routes.lead",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_05rem ank-fontSize-md-1_18rem ank-lineHeight-1_55 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "notFoundRoutesGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gap-16px",
+        "components": [
+          "notFoundRoute1"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 250px), 1fr))",
+          "gap": "16px"
+        }
+      }
+    },
+    {
+      "id": "notFoundRoute1",
+      "type": "link",
+      "eventInstructions": "trackEvent:nav_click,navigation,not-found-route-1,page,not-found,location,recovery",
+      "valueInstructions": "set:config.text,i18n,routes.items.0.label;set:config.ariaLabel,i18n,routes.items.0.label",
+      "config": {
+        "href": "/",
+        "text": "",
+        "ariaLabel": "",
+        "classes": "ank-bg-bgColor ank-border-1px__solid__secondaryBgColor ank-borderRadius-8px ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-12px ank-color-titleColor ank-textDecoration-none ank-fontWeight-900",
+        "target": "_self",
+        "styles": {
+          "minHeight": "130px",
+          "justifyContent": "center",
+          "borderLeft": "4px solid var(--ank-linkColor)"
+        }
+      }
+    }
+  ]
+}

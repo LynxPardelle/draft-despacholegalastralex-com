@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "pageId": "not-found",
+  "domain": "despacholegalastralex.com",
+  "rootIds": [
+    "skipToMainLink",
+    "notFoundPage"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "routePurpose": "not-found-recovery"
+  },
+  "seo": {
+    "title": {
+      "es": "Página no encontrada | Despacho Legal Astralex",
+      "en": "Page not found | Despacho Legal Astralex",
+      "fr": "Page introuvable | Despacho Legal Astralex",
+      "de": "Seite nicht gefunden | Despacho Legal Astralex"
+    },
+    "description": {
+      "es": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
+      "en": "The requested page is not available on Despacho Legal Astralex. Return home or use a published route to continue.",
+      "fr": "La page demandée n'est pas disponible sur Despacho Legal Astralex. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+      "de": "Die angeforderte Seite ist auf Despacho Legal Astralex nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+    },
+    "canonical": "https://despacholegalastralex.com/404",
+    "robots": "noindex,follow",
+    "keywords": {
+      "es": [
+        "pagina no encontrada",
+        "Despacho Legal Astralex"
+      ],
+      "en": [
+        "page not found",
+        "Despacho Legal Astralex"
+      ],
+      "fr": [
+        "page introuvable",
+        "Despacho Legal Astralex"
+      ],
+      "de": [
+        "seite nicht gefunden",
+        "Despacho Legal Astralex"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Página no encontrada | Despacho Legal Astralex",
+        "en": "Page not found | Despacho Legal Astralex",
+        "fr": "Page introuvable | Despacho Legal Astralex",
+        "de": "Seite nicht gefunden | Despacho Legal Astralex"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Despacho Legal Astralex. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Despacho Legal Astralex. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Despacho Legal Astralex nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://despacholegalastralex.com/assets/drafts/despacholegalastralex.com/default/astralex-og.svg",
+      "url": "https://despacholegalastralex.com/404",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Página no encontrada | Despacho Legal Astralex",
+        "en": "Page not found | Despacho Legal Astralex",
+        "fr": "Page introuvable | Despacho Legal Astralex",
+        "de": "Seite nicht gefunden | Despacho Legal Astralex"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Despacho Legal Astralex. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Despacho Legal Astralex. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Despacho Legal Astralex nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://despacholegalastralex.com/assets/drafts/despacholegalastralex.com/default/astralex-og.svg",
+      "card": "summary_large_image"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Página no encontrada | Despacho Legal Astralex",
+        "description": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "url": "https://despacholegalastralex.com/404",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "rutas"
+    ],
+    "scrollMilestones": [
+      50,
+      100
+    ]
+  }
+}
