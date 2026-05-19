@@ -16,14 +16,14 @@
     "openGraph": {
       "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
       "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
-      "image": "/drafts/despacholegalastralex.com/default/astralex-og.svg",
+      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
       "url": "https://despacholegalastralex.com",
       "type": "website"
     },
     "twitter": {
       "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
       "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
-      "image": "/drafts/despacholegalastralex.com/default/astralex-og.svg",
+      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
       "card": "summary_large_image"
     },
     "canonical": "https://despacholegalastralex.com"
@@ -35,7 +35,7 @@
         "@type": "LegalService",
         "name": "Despacho Legal Astralex",
         "url": "https://despacholegalastralex.com",
-        "image": "/drafts/despacholegalastralex.com/default/astralex-og.svg",
+        "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
         "description": "General-practice legal guidance for individuals, families, entrepreneurs, and businesses in civil, family, labor, contract, and commercial matters.",
         "areaServed": "Mexico",
         "availableLanguage": ["es", "en"],
@@ -47,7 +47,7 @@
         "@type": "Organization",
         "name": "Despacho Legal Astralex",
         "url": "https://despacholegalastralex.com",
-        "logo": "/drafts/despacholegalastralex.com/default/astralex-logo.svg",
+        "logo": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-logo.svg",
         "email": "contacto@despacholegalastralex.com"
       },
       {
