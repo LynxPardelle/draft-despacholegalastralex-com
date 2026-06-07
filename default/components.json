@@ -168,7 +168,7 @@
         "id": "landing-main",
         "tag": "main",
         "tabindex": -1,
-        "classes": "ank-width-100per ank-display-flex ank-flexDirection-column",
+        "classes": "ank-width-100per ank-maxWidth-100per ank-overflowX-hidden ank-display-flex ank-flexDirection-column",
         "components": [
           "heroSection",
           "benefitsSection",
