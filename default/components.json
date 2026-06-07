@@ -1760,7 +1760,7 @@
         "text": "",
         "target": "_self",
         "rel": "noopener noreferrer",
-        "classes": "secondaryAction ank-width-fitContent"
+        "classes": "secondaryAction emailActionWrap"
       }
     },
     {
