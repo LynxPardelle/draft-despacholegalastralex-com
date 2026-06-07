@@ -38,6 +38,9 @@
     "secondaryAction": [
       "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-14px ank-border-1px__solid__secondaryAccentColor ank-bg-transparent ank-color-titleColor ank-fontWeight-800 ank-textDecoration-none"
     ],
+    "emailActionWrap": [
+      "ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-overflowWrap-anywhere ank-wordBreak-breakMINword ank-whiteSpace-normal ank-textAlign-center"
+    ],
     "statusChip": [
       "ank-display-inlineFlex ank-alignItems-center ank-gap-8px ank-paddingInline-14px ank-paddingBlock-8px ank-borderRadius-99rem ank-bg-secondaryBgColor ank-color-secondaryTitleColor ank-fontSize-0_88rem ank-fontWeight-700"
     ],
