@@ -197,14 +197,6 @@
   "aliases": [
     "despacholegalastralex.zoolandingpage.com.mx"
   ],
-  "environments": {
-    "test": {
-      "aliases": [
-        "test.despacholegalastralex.com",
-        "test.despacholegalastralex.zoolandingpage.com.mx"
-      ]
-    }
-  },
   "notFoundPageId": "not-found",
   "sitemap": {
     "excludePaths": [
