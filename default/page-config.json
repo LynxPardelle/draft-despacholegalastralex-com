@@ -2,28 +2,35 @@
   "version": 1,
   "pageId": "default",
   "domain": "despacholegalastralex.com",
-  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
-  "modalRootIds": ["modalAnalyticsConsentRoot", "modalTermsRoot", "modalDataUseRoot"],
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "landingPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [
+    "modalAnalyticsConsentRoot",
+    "modalTermsRoot",
+    "modalDataUseRoot"
+  ],
   "metadata": {
     "status": "draft_generated",
-    "source": "assistant-generated from generic legal questionnaire baseline",
+    "source": "Google Drive intake docs reviewed for Grupo Astra Legal; config-only repair",
     "versionTag": "v1.0.0",
-    "owner": "Astralex"
+    "owner": "Grupo Astra Legal"
   },
   "seo": {
-    "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
-    "description": "Despacho Legal Astralex offers practical legal guidance in civil, family, labor, contract, and business matters. Request a first legal assessment with clear next steps.",
+    "title": "Grupo Astra Legal | Estrategia legal moderna en México",
+    "description": "Grupo Astra Legal ofrece estrategia legal para soft landing empresarial, defensa fiscal y administrativa, propiedad intelectual y protección patrimonial.",
     "openGraph": {
-      "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
-      "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
-      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
+      "title": "Grupo Astra Legal | Estrategia legal moderna en México",
+      "description": "Prevención, defensa y soluciones legales modernas para inversionistas, empresas y personas en México.",
       "url": "https://despacholegalastralex.com",
       "type": "website"
     },
     "twitter": {
-      "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
-      "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
-      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
+      "title": "Grupo Astra Legal | Estrategia legal moderna en México",
+      "description": "Prevención, defensa y soluciones legales modernas para inversionistas, empresas y personas en México.",
       "card": "summary_large_image"
     },
     "canonical": "https://despacholegalastralex.com"
@@ -33,22 +40,25 @@
       {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "Despacho Legal Astralex",
+        "name": "Grupo Astra Legal",
         "url": "https://despacholegalastralex.com",
-        "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
-        "description": "General-practice legal guidance for individuals, families, entrepreneurs, and businesses in civil, family, labor, contract, and commercial matters.",
+        "description": "Legal strategy for corporate soft landing, tax and administrative defense, intellectual property, and patrimonial protection in Mexico.",
         "areaServed": "Mexico",
-        "availableLanguage": ["es", "en"],
-        "email": "contacto@despacholegalastralex.com",
-        "sameAs": ["https://despacholegalastralex.com"]
+        "availableLanguage": [
+          "es",
+          "en"
+        ],
+        "telephone": "+52 1 33 1993 7983",
+        "sameAs": [
+          "https://despacholegalastralex.com"
+        ]
       },
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Despacho Legal Astralex",
+        "name": "Grupo Astra Legal",
         "url": "https://despacholegalastralex.com",
-        "logo": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-logo.svg",
-        "email": "contacto@despacholegalastralex.com"
+        "telephone": "+52 1 33 1993 7983"
       },
       {
         "@context": "https://schema.org",
@@ -56,18 +66,18 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What types of legal matters does Despacho Legal Astralex handle?",
+            "name": "¿El primer WhatsApp crea una relación abogado-cliente?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "This draft positions the firm as a general-practice office focused on civil, family, labor, contract, commercial, and selected real-estate-related matters. Final scope must be confirmed before publication."
+              "text": "No. El primer contacto sirve para entender el contexto; la relación profesional requiere aceptación expresa y condiciones acordadas."
             }
           },
           {
             "@type": "Question",
-            "name": "Does sending a message create an attorney-client relationship?",
+            "name": "¿Atienden inversión extranjera y empresas chinas?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. First contact only requests information. An attorney-client relationship begins only after formal acceptance and confirmation by the firm."
+              "text": "Sí, el brief prioriza soft landing para empresas chinas que buscan invertir u operar en México. El alcance concreto se confirma después de revisar el caso."
             }
           }
         ]
@@ -75,7 +85,27 @@
     ]
   },
   "analytics": {
-    "sectionIds": ["home", "benefits", "process", "offers", "social-proof", "faq", "final-cta", "contact-section"],
-    "scrollMilestones": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    "sectionIds": [
+      "home",
+      "benefits",
+      "process",
+      "offers",
+      "social-proof",
+      "faq",
+      "final-cta",
+      "contact-section"
+    ],
+    "scrollMilestones": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
   }
 }

@@ -13,7 +13,7 @@
         "href": "#landing-main",
         "text": "",
         "ariaLabel": "Skip to main content",
-        "classes": "ank-position-absolute ank-top-8px ank-left-8px ank-zIndex-1000 ank-paddingInline-16px ank-paddingBlock-8px ank-bg-bgColor ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px"
+        "classes": "skipLink"
       }
     },
     {
@@ -22,7 +22,7 @@
       "config": {
         "id": "home",
         "tag": "header",
-        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-16px ank-position-sticky ank-top-0 ank-zIndex-50 ank-bg-bgColor__OPA__0_9 ank-backdropFilter-blurSD18pxED ank-borderBottom-1px__solid__secondaryAccentColor",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-10px ank-position-sticky ank-top-0 ank-zIndex-50 ank-bg-bgColor__OPA__0_94 ank-backdropFilter-blurSD18pxED ank-borderBottom-1px__solid__secondaryAccentColor",
         "components": [
           "headerContent"
         ]
@@ -33,7 +33,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1320px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-18px ank-flexWrap-wrap",
+        "classes": "ank-width-100per ank-maxWidth-1320px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-12px ank-flexWrap-wrap",
         "components": [
           "brandTitle",
           "headerNav",
@@ -44,11 +44,11 @@
     {
       "id": "brandTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,varOr,brand.displayName,ASTRALEX",
+      "valueInstructions": "set:config.text,varOr,brand.displayName,GRUPO ASTRA LEGAL",
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-fontSize-0_98rem ank-fontSize-md-1_08rem ank-fontWeight-800 ank-letterSpacing-0_26rem ank-color-titleColor"
+        "classes": "ank-m-0 ank-fontSize-0_98rem ank-fontSize-md-1_04rem ank-fontWeight-800 ank-color-titleColor ank-lineHeight-1_2"
       }
     },
     {
@@ -59,11 +59,58 @@
         "source": "var",
         "path": "navigation",
         "templateId": "navLinkTemplate",
-        "idPrefix": "navLink"
+        "idPrefix": "navLink",
+        "bindings": [
+          {
+            "to": "config.href",
+            "sources": [
+              "href",
+              "url",
+              {
+                "from": "value",
+                "transform": "navigationHref"
+              }
+            ]
+          },
+          {
+            "to": "config.text",
+            "sources": [
+              {
+                "from": "labelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "label",
+                "transform": "locale"
+              }
+            ]
+          },
+          {
+            "to": "config.ariaLabel",
+            "sources": [
+              {
+                "from": "ariaLabelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "ariaLabel",
+                "transform": "locale"
+              },
+              {
+                "from": "labelKey",
+                "transform": "i18nKey"
+              },
+              {
+                "from": "label",
+                "transform": "locale"
+              }
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "nav",
-        "classes": "ank-display-flex ank-gap-6px ank-flexWrap-wrap ank-justifyContent-center ank-flexGrow-1",
+        "classes": "ank-display-none ank-display-md-flex ank-gap-4px ank-flexWrap-wrap ank-justifyContent-center ank-flexGrow-1",
         "components": []
       }
     },
@@ -75,7 +122,8 @@
         "id": "navLinkTemplate",
         "href": "#home",
         "text": "",
-        "classes": "ank-textDecoration-none ank-fontSize-0_86rem ank-fontWeight-700 ank-letterSpacing-0_04rem ank-paddingInline-14px ank-paddingBlock-10px ank-borderRadius-99rem ank-color-secondaryTitleColor ank-bgHover-secondaryBgColor ank-colorHover-linkColor"
+        "classes": "ank-textDecoration-none ank-fontSize-0_84rem ank-fontWeight-700 ank-paddingInline-12px ank-paddingBlock-8px ank-borderRadius-8px ank-color-secondaryTitleColor ank-bgHover-secondaryBgColor ank-colorHover-linkColor",
+        "ariaLabel": ""
       }
     },
     {
@@ -83,7 +131,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-gap-10px ank-alignItems-center ank-flexWrap-wrap ank-justifyContent-end",
+        "classes": "ank-display-flex ank-gap-8px ank-alignItems-center ank-flexWrap-wrap ank-justifyContent-end",
         "components": [
           "toggleThemeBtn",
           "languageMenu",
@@ -134,7 +182,7 @@
       "config": {
         "tag": "span",
         "text": "",
-        "classes": "ank-fontSize-0_82rem ank-fontWeight-800 ank-letterSpacing-0_08rem"
+        "classes": "ank-fontSize-0_82rem ank-fontWeight-800"
       }
     },
     {
@@ -156,7 +204,7 @@
         "id": "headerPrimaryLink",
         "href": "#",
         "text": "",
-        "target": "_self",
+        "target": "_blank",
         "rel": "noopener noreferrer",
         "classes": "primaryAction"
       }
@@ -174,10 +222,8 @@
           "benefitsSection",
           "processSection",
           "offersSection",
-          "statsSection",
           "socialProofSection",
           "faqSection",
-          "contactPlaygroundSection",
           "finalCtaSection"
         ]
       }
@@ -188,7 +234,7 @@
       "config": {
         "id": "hero",
         "tag": "section",
-        "classes": "sectionBase ank-paddingBlock-88px ank-paddingBlock-md-112px",
+        "classes": "sectionBase ank-paddingBlock-36px ank-paddingBlock-md-76px",
         "components": [
           "heroContent"
         ]
@@ -199,7 +245,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1320px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1_1fr__0_9fr ank-gap-44px ank-alignItems-center",
+        "classes": "ank-width-100per ank-maxWidth-1320px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1_05fr__0_95fr ank-gap-32px ank-alignItems-center",
         "components": [
           "heroTextColumn",
           "heroMediaColumn"
@@ -211,7 +257,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-maxWidth-720px",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-maxWidth-680px",
         "components": [
           "heroTagline",
           "heroTitle",
@@ -231,7 +277,7 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-display-inlineBlock ank-width-fitContent ank-paddingInline-14px ank-paddingBlock-7px ank-borderRadius-99rem ank-border-1px__solid__secondaryAccentColor ank-fontSize-0_78rem ank-letterSpacing-0_12rem ank-fontWeight-800 ank-color-secondaryTitleColor ank-bg-secondaryBgColor"
+        "classes": "ank-display-inlineBlock ank-width-fitContent ank-paddingInline-12px ank-paddingBlock-7px ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-fontSize-0_78rem ank-fontWeight-800 ank-color-secondaryTitleColor ank-bg-secondaryBgColor"
       }
     },
     {
@@ -241,7 +287,7 @@
       "config": {
         "tag": "h1",
         "text": "",
-        "classes": "ank-fontSize-3rem ank-fontSize-md-4_7rem ank-fontWeight-800 ank-lineHeight-1_02 ank-letterSpacing-N0_03rem ank-maxWidth-11ch ank-color-titleColor"
+        "classes": "ank-fontSize-2_25rem ank-fontSize-md-3_8rem ank-fontWeight-800 ank-lineHeight-1_05 ank-maxWidth-13ch ank-color-titleColor"
       }
     },
     {
@@ -251,7 +297,7 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-fontSize-1_14rem ank-fontSize-md-1_28rem ank-fontWeight-700 ank-lineHeight-1_45 ank-maxWidth-42rem ank-color-secondaryTitleColor"
+        "classes": "ank-fontSize-1_08rem ank-fontSize-md-1_18rem ank-fontWeight-700 ank-lineHeight-1_45 ank-maxWidth-42rem ank-color-secondaryTitleColor"
       }
     },
     {
@@ -271,7 +317,7 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-fontSize-0_9rem ank-fontWeight-800 ank-letterSpacing-0_08rem ank-color-linkColor ank-textTransform-uppercase"
+        "classes": "ank-fontSize-0_9rem ank-fontWeight-800 ank-color-linkColor ank-textTransform-uppercase"
       }
     },
     {
@@ -296,7 +342,7 @@
         "id": "heroPrimaryLink",
         "href": "#",
         "text": "",
-        "target": "_self",
+        "target": "_blank",
         "rel": "noopener noreferrer",
         "classes": "primaryAction"
       }
@@ -333,7 +379,15 @@
         "source": "i18n",
         "path": "hero.badges",
         "templateId": "heroBadgeTemplate",
-        "idPrefix": "heroBadge"
+        "idPrefix": "heroBadge",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "$item"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",
@@ -355,7 +409,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-justifyContent-center ank-justifyContent-md-end",
+        "classes": "ank-display-none ank-display-md-flex ank-justifyContent-center ank-justifyContent-md-end",
         "components": [
           "heroMediaCard"
         ]
@@ -366,10 +420,9 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "legalPanel ank-display-flex ank-flexDirection-column ank-gap-16px ank-maxWidth-470px ank-ms-auto",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-maxWidth-460px ank-ms-auto",
         "components": [
           "heroMediaCardHeading",
-          "heroMedia",
           "heroMediaCaption",
           "heroMediaChecklist"
         ]
@@ -382,19 +435,7 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-fontSize-0_82rem ank-fontWeight-800 ank-letterSpacing-0_1rem ank-textTransform-uppercase ank-color-linkColor"
-      }
-    },
-    {
-      "id": "heroMedia",
-      "type": "media",
-      "valueInstructions": "set:config.src,var,heroAssets.heroImageUrl;set:config.alt,varOr,heroAssets.heroImageAlt,Astralex legal services visual",
-      "config": {
-        "id": "heroMedia",
-        "tag": "image",
-        "src": "",
-        "alt": "",
-        "classes": "ank-width-100per ank-display-block ank-borderRadius-18px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor"
+        "classes": "ank-m-0 ank-fontSize-0_82rem ank-fontWeight-800 ank-textTransform-uppercase ank-color-linkColor"
       }
     },
     {
@@ -404,7 +445,7 @@
       "config": {
         "tag": "small",
         "text": "",
-        "classes": "ank-fontSize-0_84rem ank-fontWeight-700 ank-letterSpacing-0_04rem ank-opacity-0_76"
+        "classes": "ank-fontSize-0_84rem ank-fontWeight-700 ank-opacity-0_76"
       }
     },
     {
@@ -414,7 +455,15 @@
         "source": "i18n",
         "path": "ui.heroMediaChecklist",
         "templateId": "heroMediaChecklistItem",
-        "idPrefix": "heroMediaChecklistItem"
+        "idPrefix": "heroMediaChecklistItem",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "$item"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",
@@ -428,7 +477,7 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-fontSize-0_94rem ank-lineHeight-1_55 ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-14px ank-bg-secondaryBgColor ank-color-secondaryTitleColor"
+        "classes": "ank-m-0 ank-fontSize-0_94rem ank-lineHeight-1_55 ank-paddingInline-14px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-secondaryTitleColor"
       }
     },
     {
@@ -483,7 +532,33 @@
         "source": "i18n",
         "path": "features",
         "templateId": "featureCardTemplate",
-        "idPrefix": "featureCard"
+        "idPrefix": "featureCard",
+        "bindings": [
+          {
+            "to": "config.icon",
+            "sources": [
+              "icon"
+            ]
+          },
+          {
+            "to": "config.title",
+            "sources": [
+              "title"
+            ]
+          },
+          {
+            "to": "config.description",
+            "sources": [
+              "description"
+            ]
+          },
+          {
+            "to": "config.benefits",
+            "sources": [
+              "benefits"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",
@@ -500,14 +575,14 @@
         "title": "",
         "description": "",
         "benefits": [],
-        "featureIconContainerClasses": "ank-mb-1_25rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_25rem ank-fontWeight-bold ank-mb-1rem ank-color-secondaryTitleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1_25rem ank-lineHeight-relaxed",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
+        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_12rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
-        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_5rem",
-        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
+        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
         "classes": "legalPanel"
       }
     },
@@ -563,7 +638,33 @@
         "source": "i18n",
         "path": "processCards",
         "templateId": "processCardTemplate",
-        "idPrefix": "processCard"
+        "idPrefix": "processCard",
+        "bindings": [
+          {
+            "to": "config.icon",
+            "sources": [
+              "icon"
+            ]
+          },
+          {
+            "to": "config.title",
+            "sources": [
+              "title"
+            ]
+          },
+          {
+            "to": "config.description",
+            "sources": [
+              "description"
+            ]
+          },
+          {
+            "to": "config.benefits",
+            "sources": [
+              "benefits"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",
@@ -580,14 +681,14 @@
         "title": "",
         "description": "",
         "benefits": [],
-        "featureIconContainerClasses": "ank-mb-1_25rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_25rem ank-fontWeight-bold ank-mb-1rem ank-color-secondaryTitleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1_25rem ank-lineHeight-relaxed",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
+        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_12rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
-        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_5rem",
-        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
+        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
         "classes": "mutedPanel"
       }
     },
@@ -643,7 +744,58 @@
         "source": "i18n",
         "path": "services",
         "templateId": "serviceCardTemplate",
-        "idPrefix": "serviceCard"
+        "idPrefix": "serviceCard",
+        "bindings": [
+          {
+            "to": "config.icon",
+            "sources": [
+              "icon"
+            ]
+          },
+          {
+            "to": "config.title",
+            "sources": [
+              "title"
+            ]
+          },
+          {
+            "to": "config.description",
+            "sources": [
+              "description"
+            ]
+          },
+          {
+            "to": "config.benefits",
+            "sources": [
+              "benefits"
+            ]
+          },
+          {
+            "to": "config.href",
+            "sources": [
+              "href"
+            ]
+          },
+          {
+            "to": "config.linkLabel",
+            "sources": [
+              "linkLabel",
+              "buttonLabel"
+            ]
+          },
+          {
+            "to": "config.target",
+            "sources": [
+              "target"
+            ]
+          },
+          {
+            "to": "config.rel",
+            "sources": [
+              "rel"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",
@@ -662,260 +814,21 @@
         "title": "",
         "description": "",
         "benefits": [],
-        "buttonLabel": "",
         "buttonClasses": "btnBase ank-btnOutline-secondaryLinkColor ank-bg-transparent ank-color-textColor ank-width-100per ank-py-1rem ank-my-1rem ank-fs-1_25rem",
-        "featureIconContainerClasses": "ank-mb-1_25rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_25rem ank-fontWeight-bold ank-mb-1rem ank-color-secondaryTitleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1_25rem ank-lineHeight-relaxed",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
+        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_12rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
-        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_5rem",
-        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
-        "classes": "legalPanel"
-      }
-    },
-    {
-      "id": "statsSection",
-      "type": "container",
-      "config": {
-        "id": "stats-strip",
-        "tag": "section",
-        "classes": "sectionBase ank-paddingBlock-32px ank-paddingBlock-md-44px",
-        "components": [
-          "statsContent"
-        ]
-      }
-    },
-    {
-      "id": "statsContent",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "sectionContent ank-gap-20px",
-        "components": [
-          "statsIntro",
-          "statsGrid"
-        ]
-      }
-    },
-    {
-      "id": "statsIntro",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-maxWidth-48rem",
-        "components": [
-          "statsEyebrow",
-          "statsSubtitle"
-        ]
-      }
-    },
-    {
-      "id": "statsEyebrow",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.statsEyebrow",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_82rem ank-fontWeight-800 ank-letterSpacing-0_12rem ank-textTransform-uppercase ank-color-linkColor"
-      }
-    },
-    {
-      "id": "statsSubtitle",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.statsSubtitle",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-1rem ank-lineHeight-1_7 ank-maxWidth-44rem ank-color-secondaryTitleColor"
-      }
-    },
-    {
-      "id": "statsGrid",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-14px ank-minWidth-0",
-        "components": [
-          "responseStatCard",
-          "practiceStatCard",
-          "languageStatCard"
-        ]
-      }
-    },
-    {
-      "id": "responseStatCard",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "metricPanel",
-        "components": [
-          "responseStatIcon",
-          "listenersCounter",
-          "responseStatLabel",
-          "responseStatCaption"
-        ]
-      }
-    },
-    {
-      "id": "responseStatIcon",
-      "type": "icon",
-      "config": {
-        "iconName": "schedule",
-        "title": "Response time",
-        "ariaLabel": "Response time",
-        "classes": "ank-fontSize-1_35rem ank-color-linkColor"
-      }
-    },
-    {
-      "id": "listenersCounter",
-      "type": "stats-counter",
-      "valueInstructions": "set:config.target,var,statsCounters.responseHours.target;set:config.durationMs,var,statsCounters.responseHours.durationMs;set:config.formatMode,var,statsCounters.responseHours.formatMode;set:config.formatSuffix,var,statsCounters.responseHours.formatSuffix;set:config.formatPrefix,var,statsCounters.responseHours.formatPrefix",
-      "config": {
-        "target": 0,
-        "durationMs": 1200,
-        "startOnVisible": true,
-        "ariaLabel": "Response time target",
-        "formatMode": "number",
-        "formatPrefix": "",
-        "formatSuffix": ""
-      }
-    },
-    {
-      "id": "responseStatLabel",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.stats.response.label",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_9rem ank-fontWeight-800 ank-letterSpacing-0_05rem ank-textTransform-uppercase ank-color-secondaryTitleColor"
-      }
-    },
-    {
-      "id": "responseStatCaption",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.stats.response.caption",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_94rem ank-lineHeight-1_55 ank-opacity-0_78"
-      }
-    },
-    {
-      "id": "practiceStatCard",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "metricPanel",
-        "components": [
-          "practiceStatIcon",
-          "platformsCounter",
-          "practiceStatLabel",
-          "practiceStatCaption"
-        ]
-      }
-    },
-    {
-      "id": "practiceStatIcon",
-      "type": "icon",
-      "config": {
-        "iconName": "gavel",
-        "title": "Practice areas",
-        "ariaLabel": "Practice areas",
-        "classes": "ank-fontSize-1_35rem ank-color-linkColor"
-      }
-    },
-    {
-      "id": "platformsCounter",
-      "type": "stats-counter",
-      "valueInstructions": "set:config.target,var,statsCounters.practiceAreas.target;set:config.durationMs,var,statsCounters.practiceAreas.durationMs;set:config.formatMode,var,statsCounters.practiceAreas.formatMode;set:config.formatSuffix,var,statsCounters.practiceAreas.formatSuffix;set:config.formatPrefix,var,statsCounters.practiceAreas.formatPrefix",
-      "config": {
-        "target": 0,
-        "durationMs": 1200,
-        "startOnVisible": true,
-        "ariaLabel": "Practice areas",
-        "formatMode": "number",
-        "formatPrefix": "",
-        "formatSuffix": ""
-      }
-    },
-    {
-      "id": "practiceStatLabel",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.stats.practice.label",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_9rem ank-fontWeight-800 ank-letterSpacing-0_05rem ank-textTransform-uppercase ank-color-secondaryTitleColor"
-      }
-    },
-    {
-      "id": "practiceStatCaption",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.stats.practice.caption",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_94rem ank-lineHeight-1_55 ank-opacity-0_78"
-      }
-    },
-    {
-      "id": "languageStatCard",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "metricPanel",
-        "components": [
-          "languageStatIcon",
-          "regionsCounter",
-          "languageStatLabel",
-          "languageStatCaption"
-        ]
-      }
-    },
-    {
-      "id": "languageStatIcon",
-      "type": "icon",
-      "config": {
-        "iconName": "translate",
-        "title": "Service languages",
-        "ariaLabel": "Service languages",
-        "classes": "ank-fontSize-1_35rem ank-color-linkColor"
-      }
-    },
-    {
-      "id": "regionsCounter",
-      "type": "stats-counter",
-      "valueInstructions": "set:config.target,var,statsCounters.serviceModes.target;set:config.durationMs,var,statsCounters.serviceModes.durationMs;set:config.formatMode,var,statsCounters.serviceModes.formatMode;set:config.formatSuffix,var,statsCounters.serviceModes.formatSuffix;set:config.formatPrefix,var,statsCounters.serviceModes.formatPrefix",
-      "config": {
-        "target": 0,
-        "durationMs": 1200,
-        "startOnVisible": true,
-        "ariaLabel": "Service languages",
-        "formatMode": "number",
-        "formatPrefix": "",
-        "formatSuffix": ""
-      }
-    },
-    {
-      "id": "languageStatLabel",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.stats.languages.label",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_9rem ank-fontWeight-800 ank-letterSpacing-0_05rem ank-textTransform-uppercase ank-color-secondaryTitleColor"
-      }
-    },
-    {
-      "id": "languageStatCaption",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,ui.stats.languages.caption",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_94rem ank-lineHeight-1_55 ank-opacity-0_78"
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
+        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
+        "classes": "legalPanel",
+        "linkLabel": "",
+        "href": "",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "linkClasses": "secondaryAction ank-width-100per ank-marginTop-12px"
       }
     },
     {
@@ -970,7 +883,33 @@
         "source": "i18n",
         "path": "trustSignals",
         "templateId": "testimonialTemplate",
-        "idPrefix": "trustSignal"
+        "idPrefix": "trustSignal",
+        "bindings": [
+          {
+            "to": "config.icon",
+            "sources": [
+              "icon"
+            ]
+          },
+          {
+            "to": "config.title",
+            "sources": [
+              "title"
+            ]
+          },
+          {
+            "to": "config.description",
+            "sources": [
+              "description"
+            ]
+          },
+          {
+            "to": "config.benefits",
+            "sources": [
+              "benefits"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",
@@ -987,7 +926,15 @@
         "title": "",
         "description": "",
         "benefits": [],
-        "classes": "mutedPanel"
+        "classes": "mutedPanel",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
+        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_3",
+        "featureDescriptionClasses": "ank-fs-0_96rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
+        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed"
       }
     },
     {
@@ -1067,409 +1014,6 @@
       }
     },
     {
-      "id": "contactPlaygroundSection",
-      "type": "container",
-      "config": {
-        "id": "contact-form-demo",
-        "tag": "section",
-        "classes": "sectionBase",
-        "components": [
-          "contactPlaygroundContent"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundContent",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "sectionContent",
-        "components": [
-          "contactPlaygroundTitle",
-          "contactPlaygroundSubtitle",
-          "contactPlaygroundScope"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundTitle",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.title",
-      "config": {
-        "tag": "h2",
-        "text": "",
-        "classes": "sectionTitle"
-      }
-    },
-    {
-      "id": "contactPlaygroundSubtitle",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.subtitle",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionSubtitle"
-      }
-    },
-    {
-      "id": "contactPlaygroundScope",
-      "type": "interaction-scope",
-      "valueInstructions": "set:config.ariaLabel,i18n,playgroundSection.form.ariaLabel",
-      "config": {
-        "scopeId": "contactPlayground",
-        "id": "contactPlaygroundScope",
-        "tag": "form",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px",
-        "components": [
-          "contactPlaygroundGrid"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundGrid",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1fr__1fr ank-gap-18px ank-alignItems-start",
-        "components": [
-          "contactPlaygroundFormPanel",
-          "contactPlaygroundPayloadPanel"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundFormPanel",
-      "type": "container",
-      "config": {
-        "tag": "section",
-        "classes": "legalPanel ank-display-flex ank-flexDirection-column ank-gap-16px",
-        "components": [
-          "contactPlaygroundFormBadge",
-          "contactPlaygroundFormTitle",
-          "contactPlaygroundFormDescription",
-          "contactPlaygroundPrimaryFields",
-          "contactPlaygroundSecondaryFields",
-          "contactPlaygroundMessageField",
-          "contactPlaygroundUrgentField",
-          "contactPlaygroundActions"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundFormBadge",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.form.eyebrow",
-      "config": {
-        "tag": "span",
-        "text": "",
-        "classes": "statusChip"
-      }
-    },
-    {
-      "id": "contactPlaygroundFormTitle",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.form.title",
-      "config": {
-        "tag": "h3",
-        "text": "",
-        "classes": "ank-fontSize-1_35rem ank-fontWeight-800 ank-color-titleColor"
-      }
-    },
-    {
-      "id": "contactPlaygroundFormDescription",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.form.description",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_98rem ank-lineHeight-1_65 ank-opacity-0_82"
-      }
-    },
-    {
-      "id": "contactPlaygroundPrimaryFields",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1fr__1fr ank-gap-14px",
-        "components": [
-          "contactPlaygroundFullNameField",
-          "contactPlaygroundEmailField"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundFullNameField",
-      "type": "input",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.form.fullName.label;set:config.placeholder,i18n,playgroundSection.form.fullName.placeholder;set:config.validation,i18n,playgroundSection.form.fullName.validation",
-      "config": {
-        "fieldId": "fullName",
-        "controlType": "text",
-        "inputType": "text",
-        "classes": "formField",
-        "labelClasses": "formLabel",
-        "inputClasses": "formInput",
-        "helperTextClasses": "formHelper",
-        "errorClasses": "formErrors",
-        "required": true,
-        "value": ""
-      }
-    },
-    {
-      "id": "contactPlaygroundEmailField",
-      "type": "input",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.form.email.label;set:config.placeholder,i18n,playgroundSection.form.email.placeholder;set:config.validation,i18n,playgroundSection.form.email.validation",
-      "config": {
-        "fieldId": "email",
-        "controlType": "text",
-        "inputType": "email",
-        "classes": "formField",
-        "labelClasses": "formLabel",
-        "inputClasses": "formInput",
-        "helperTextClasses": "formHelper",
-        "errorClasses": "formErrors",
-        "required": true,
-        "value": ""
-      }
-    },
-    {
-      "id": "contactPlaygroundSecondaryFields",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1fr__1fr ank-gap-14px",
-        "components": [
-          "contactPlaygroundPhoneField",
-          "contactPlaygroundMatterTypeField"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundPhoneField",
-      "type": "input",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.form.phone.label;set:config.placeholder,i18n,playgroundSection.form.phone.placeholder;set:config.helperText,i18n,playgroundSection.form.phone.helperText",
-      "config": {
-        "fieldId": "phone",
-        "controlType": "text",
-        "inputType": "tel",
-        "classes": "formField",
-        "labelClasses": "formLabel",
-        "inputClasses": "formInput",
-        "helperTextClasses": "formHelper",
-        "errorClasses": "formErrors",
-        "value": ""
-      }
-    },
-    {
-      "id": "contactPlaygroundMatterTypeField",
-      "type": "input",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.form.matterType.label;set:config.helperText,i18n,playgroundSection.form.matterType.helperText;set:config.ariaLabel,i18n,playgroundSection.form.matterType.ariaLabel;set:config.options,i18n,playgroundSection.form.matterType.options",
-      "config": {
-        "fieldId": "matterType",
-        "controlType": "select",
-        "classes": "formField",
-        "fieldClasses": "ank-width-100per",
-        "labelClasses": "formLabel",
-        "inputClasses": "formInput formSelectTrigger",
-        "helperTextClasses": "formHelper",
-        "errorClasses": "formErrors",
-        "dropdownTriggerClasses": "ank-width-100per ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-12px",
-        "dropdownIndicatorText": "▾",
-        "dropdownIndicatorClasses": "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0 ank-fontSize-0_9rem ank-color-secondaryTitleColor",
-        "dropdownTriggerTextConfig": {
-          "classes": "ank-display-block ank-flex-1 ank-overflow-hidden formSelectTriggerText"
-        },
-        "dropdownConfig": {
-          "classes": "formDropdown",
-          "buttonClasses": "formInput formSelectTrigger",
-          "menuContainerClasses": "formDropdownMenu",
-          "menuNavClasses": "formDropdownNav",
-          "menuListClasses": "formDropdownList",
-          "itemLinkClasses": "formDropdownOption",
-          "selectedItemClasses": "formDropdownOptionSelected",
-          "disabledItemClasses": "formDropdownOptionDisabled",
-          "menuRole": "listbox",
-          "itemRole": "option",
-          "triggerRole": "combobox",
-          "overlayMatchWidth": "origin",
-          "overlayOffsetY": 8
-        },
-        "value": "contract-review"
-      }
-    },
-    {
-      "id": "contactPlaygroundMessageField",
-      "type": "input",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.form.message.label;set:config.placeholder,i18n,playgroundSection.form.message.placeholder;set:config.helperText,i18n,playgroundSection.form.message.helperText;set:config.validation,i18n,playgroundSection.form.message.validation",
-      "config": {
-        "fieldId": "message",
-        "controlType": "textarea",
-        "rows": 6,
-        "classes": "formField",
-        "labelClasses": "formLabel",
-        "inputClasses": "formInput",
-        "helperTextClasses": "formHelper",
-        "errorClasses": "formErrors",
-        "required": true,
-        "value": ""
-      }
-    },
-    {
-      "id": "contactPlaygroundUrgentField",
-      "type": "input",
-      "valueInstructions": "set:config.helperText,i18n,playgroundSection.form.urgent.helperText",
-      "config": {
-        "fieldId": "urgent",
-        "controlType": "checkbox",
-        "classes": "formField",
-        "fieldClasses": "ank-display-inlineFlex ank-alignItems-center ank-gap-10px ank-fontWeight-700 ank-color-titleColor",
-        "inputClasses": "ank-width-18px ank-height-18px ank-flexShrink-0",
-        "helperTextClasses": "formHelper",
-        "errorClasses": "formErrors",
-        "value": false
-      }
-    },
-    {
-      "id": "contactPlaygroundActions",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-gap-12px ank-flexWrap-wrap",
-        "components": [
-          "contactPlaygroundSubmitButton",
-          "contactPlaygroundResetButton"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundSubmitButton",
-      "type": "button",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.form.submitLabel",
-      "config": {
-        "type": "submit",
-        "label": "",
-        "classes": "primaryAction"
-      }
-    },
-    {
-      "id": "contactPlaygroundResetButton",
-      "type": "button",
-      "eventInstructions": "resetScope",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.form.resetLabel",
-      "config": {
-        "type": "button",
-        "label": "",
-        "classes": "secondaryAction"
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadPanel",
-      "type": "container",
-      "config": {
-        "tag": "section",
-        "classes": "mutedPanel ank-display-flex ank-flexDirection-column ank-gap-16px",
-        "components": [
-          "contactPlaygroundPayloadBadge",
-          "contactPlaygroundPayloadTitle",
-          "contactPlaygroundPayloadDescription",
-          "contactPlaygroundPayloadMetaGrid",
-          "contactPlaygroundPayloadValuesLabel",
-          "contactPlaygroundPayloadValues",
-          "contactPlaygroundPayloadHint"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadBadge",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.preview.eyebrow",
-      "config": {
-        "tag": "span",
-        "text": "",
-        "classes": "statusChip"
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadTitle",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.preview.title",
-      "config": {
-        "tag": "h3",
-        "text": "",
-        "classes": "ank-fontSize-1_35rem ank-fontWeight-800 ank-color-titleColor"
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadDescription",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.preview.description",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_98rem ank-lineHeight-1_65 ank-opacity-0_82"
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadMetaGrid",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1fr__1fr ank-gap-10px",
-        "components": [
-          "contactPlaygroundSubmittedStatus",
-          "contactPlaygroundValidStatus"
-        ]
-      }
-    },
-    {
-      "id": "contactPlaygroundSubmittedStatus",
-      "type": "text",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.preview.submittedLabel;set:config.statusValue,scope,meta.submitted;set:config.text,concat,eval:config.label, ,eval:config.statusValue",
-      "config": {
-        "tag": "span",
-        "text": "",
-        "classes": "statusChip"
-      }
-    },
-    {
-      "id": "contactPlaygroundValidStatus",
-      "type": "text",
-      "valueInstructions": "set:config.label,i18n,playgroundSection.preview.validLabel;set:config.statusValue,scope,meta.valid;set:config.text,concat,eval:config.label, ,eval:config.statusValue",
-      "config": {
-        "tag": "span",
-        "text": "",
-        "classes": "statusChip"
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadValuesLabel",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.preview.valuesLabel",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_9rem ank-fontWeight-700 ank-letterSpacing-0_04rem ank-color-secondaryTitleColor"
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadValues",
-      "type": "text",
-      "valueInstructions": "set:config.payload,scope,values;set:config.payloadJson,json,eval:config.payload,2,true;set:config.html,concat,<pre class=\"payloadCodeBlock\">,eval:config.payloadJson,</pre>",
-      "config": {
-        "tag": "",
-        "html": ""
-      }
-    },
-    {
-      "id": "contactPlaygroundPayloadHint",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,playgroundSection.preview.hint",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-fontSize-0_88rem ank-lineHeight-1_6 ank-opacity-0_74 ank-color-secondaryTitleColor"
-      }
-    },
-    {
       "id": "finalCtaSection",
       "type": "container",
       "config": {
@@ -1536,7 +1080,7 @@
         "id": "finalPrimaryLink",
         "href": "#",
         "text": "",
-        "target": "_self",
+        "target": "_blank",
         "rel": "noopener noreferrer",
         "classes": "primaryAction"
       }
@@ -1601,19 +1145,18 @@
         "components": [
           "footerBrandName",
           "footerBrandTagline",
-          "footerBrandDescription",
-          "footerLegalSection"
+          "footerBrandDescription"
         ]
       }
     },
     {
       "id": "footerBrandName",
       "type": "text",
-      "valueInstructions": "set:config.text,varOr,brand.displayName,ASTRALEX",
+      "valueInstructions": "set:config.text,varOr,brand.displayName,GRUPO ASTRA LEGAL",
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "ank-fontSize-1_1rem ank-fontWeight-800 ank-letterSpacing-0_24rem ank-color-titleColor"
+        "classes": "ank-m-0 ank-fontSize-1_08rem ank-fontWeight-800 ank-color-titleColor ank-lineHeight-1_25"
       }
     },
     {
@@ -1701,7 +1244,7 @@
         "id": "footerAssessmentLink",
         "href": "#",
         "text": "",
-        "target": "_self",
+        "target": "_blank",
         "rel": "noopener noreferrer",
         "classes": "secondaryAction ank-width-fitContent"
       }
@@ -1724,9 +1267,9 @@
       "id": "footerEmailIcon",
       "type": "icon",
       "config": {
-        "iconName": "mail",
-        "title": "Email",
-        "ariaLabel": "Email",
+        "iconName": "chat",
+        "title": "WhatsApp",
+        "ariaLabel": "WhatsApp",
         "classes": "ank-fontSize-1_35rem ank-color-linkColor"
       }
     },
@@ -1756,9 +1299,9 @@
       "valueInstructions": "set:config.text,i18n,footer.contact.email.label",
       "config": {
         "id": "footerEmailLink",
-        "href": "mailto:contacto@despacholegalastralex.com",
+        "href": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
         "text": "",
-        "target": "_self",
+        "target": "_blank",
         "rel": "noopener noreferrer",
         "classes": "secondaryAction emailActionWrap"
       }
@@ -1974,7 +1517,16 @@
         "source": "i18n",
         "path": "footer.legal.terms.sections",
         "templateId": "modalTermsSectionTemplate",
-        "idPrefix": "modalTermsSection"
+        "idPrefix": "modalTermsSection",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "text",
+              "$item"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",
@@ -2088,7 +1640,15 @@
         "source": "i18n",
         "path": "footer.legal.data.points",
         "templateId": "modalDataPointTemplate",
-        "idPrefix": "modalDataPoint"
+        "idPrefix": "modalDataPoint",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "$item"
+            ]
+          }
+        ]
       },
       "config": {
         "tag": "div",

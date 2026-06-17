@@ -13,68 +13,66 @@
   },
   "seo": {
     "title": {
-      "es": "Página no encontrada | Despacho Legal Astralex",
-      "en": "Page not found | Despacho Legal Astralex",
-      "fr": "Page introuvable | Despacho Legal Astralex",
-      "de": "Seite nicht gefunden | Despacho Legal Astralex"
+      "es": "Página no encontrada | Grupo Astra Legal",
+      "en": "Page not found | Grupo Astra Legal",
+      "fr": "Page introuvable | Grupo Astra Legal",
+      "de": "Seite nicht gefunden | Grupo Astra Legal"
     },
     "description": {
-      "es": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
-      "en": "The requested page is not available on Despacho Legal Astralex. Return home or use a published route to continue.",
-      "fr": "La page demandée n'est pas disponible sur Despacho Legal Astralex. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
-      "de": "Die angeforderte Seite ist auf Despacho Legal Astralex nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      "es": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
+      "en": "The requested page is not available on Grupo Astra Legal. Return home or use a published route to continue.",
+      "fr": "La page demandée n'est pas disponible sur Grupo Astra Legal. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+      "de": "Die angeforderte Seite ist auf Grupo Astra Legal nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
     },
     "canonical": "https://despacholegalastralex.com/404",
     "robots": "noindex,follow",
     "keywords": {
       "es": [
         "pagina no encontrada",
-        "Despacho Legal Astralex"
+        "Grupo Astra Legal"
       ],
       "en": [
         "page not found",
-        "Despacho Legal Astralex"
+        "Grupo Astra Legal"
       ],
       "fr": [
         "page introuvable",
-        "Despacho Legal Astralex"
+        "Grupo Astra Legal"
       ],
       "de": [
         "seite nicht gefunden",
-        "Despacho Legal Astralex"
+        "Grupo Astra Legal"
       ]
     },
     "openGraph": {
       "title": {
-        "es": "Página no encontrada | Despacho Legal Astralex",
-        "en": "Page not found | Despacho Legal Astralex",
-        "fr": "Page introuvable | Despacho Legal Astralex",
-        "de": "Seite nicht gefunden | Despacho Legal Astralex"
+        "es": "Página no encontrada | Grupo Astra Legal",
+        "en": "Page not found | Grupo Astra Legal",
+        "fr": "Page introuvable | Grupo Astra Legal",
+        "de": "Seite nicht gefunden | Grupo Astra Legal"
       },
       "description": {
-        "es": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
-        "en": "The requested page is not available on Despacho Legal Astralex. Return home or use a published route to continue.",
-        "fr": "La page demandée n'est pas disponible sur Despacho Legal Astralex. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
-        "de": "Die angeforderte Seite ist auf Despacho Legal Astralex nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+        "es": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Grupo Astra Legal. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Grupo Astra Legal. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Grupo Astra Legal nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
       },
-      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
       "url": "https://despacholegalastralex.com/404",
       "type": "website"
     },
     "twitter": {
       "title": {
-        "es": "Página no encontrada | Despacho Legal Astralex",
-        "en": "Page not found | Despacho Legal Astralex",
-        "fr": "Page introuvable | Despacho Legal Astralex",
-        "de": "Seite nicht gefunden | Despacho Legal Astralex"
+        "es": "Página no encontrada | Grupo Astra Legal",
+        "en": "Page not found | Grupo Astra Legal",
+        "fr": "Page introuvable | Grupo Astra Legal",
+        "de": "Seite nicht gefunden | Grupo Astra Legal"
       },
       "description": {
-        "es": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
-        "en": "The requested page is not available on Despacho Legal Astralex. Return home or use a published route to continue.",
-        "fr": "La page demandée n'est pas disponible sur Despacho Legal Astralex. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
-        "de": "Die angeforderte Seite ist auf Despacho Legal Astralex nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+        "es": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Grupo Astra Legal. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Grupo Astra Legal. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Grupo Astra Legal nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
       },
-      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
       "card": "summary_large_image"
     }
   },
@@ -83,8 +81,8 @@
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Página no encontrada | Despacho Legal Astralex",
-        "description": "La página solicitada no está disponible en Despacho Legal Astralex. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "name": "Página no encontrada | Grupo Astra Legal",
+        "description": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
         "url": "https://despacholegalastralex.com/404",
         "inLanguage": "es"
       }

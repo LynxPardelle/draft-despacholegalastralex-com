@@ -14,3 +14,7 @@ This repository follows the secure Zoolanding draft release workflow.
 - Do not commit secrets, tokens, API keys, signed URLs, `.env*`, local logs, PDFs/CVs, private keys, certificates, local databases, credential JSON, local agent state, `ai_notes/`, `findings/`, or `errors-reports/`.
 - Public contact details in draft content are allowed only when they are intentionally client-facing; personal source files, CVs, private photos, identity documents, and raw research stay local-only.
 - Deployment uses GitHub OIDC to assume AWS IAM roles split by repo and environment; do not add long-lived AWS access keys.
+
+## 2026-06-16 22:12 CT
+
+- Confirmed by Alec: WhatsApp `+52 1 33 1993 7983` is intentionally client-facing and can be used as the primary CTA for Grupo Astra Legal draft content.

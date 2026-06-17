@@ -4,28 +4,28 @@
   "pageId": "not-found",
   "variables": {
     "brand": {
-      "displayName": "Despacho Legal Astralex",
-      "tagline": "Corporate and civil legal advisory with clear next steps.",
-      "logoUrl": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-logo.svg"
+      "displayName": "Grupo Astra Legal",
+      "tagline": "Estrategia legal moderna para prevenir, defender y proteger patrimonio.",
+      "logoUrl": ""
     },
     "ctaTargets": {
-      "primaryUrl": "mailto:contacto@despacholegalastralex.com?subject=Request%20a%20legal%20assessment",
+      "primaryUrl": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
       "secondaryUrl": "#offers",
-      "finalPrimaryUrl": "mailto:contacto@despacholegalastralex.com?subject=Request%20a%20legal%20assessment",
+      "finalPrimaryUrl": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
       "finalSecondaryUrl": "#contact-section"
     },
     "heroAssets": {
-      "heroImageUrl": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/hero-images/astralex-hero.svg",
-      "heroImageAlt": "Astralex corporate legal advisory overview"
+      "heroImageUrl": "",
+      "heroImageAlt": "Grupo Astra Legal strategic legal services overview"
     },
     "navigation": [],
     "socialLinks": [
       {
-        "id": "email",
-        "url": "mailto:contacto@despacholegalastralex.com",
-        "target": "_self",
+        "id": "whatsapp",
+        "url": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
+        "target": "_blank",
         "rel": "noopener noreferrer",
-        "icon": "EM",
+        "icon": "WA",
         "labelKey": "footer.social.email.label",
         "ariaLabelKey": "footer.social.email.ariaLabel"
       },
@@ -41,7 +41,7 @@
     ],
     "ui": {
       "mobileMenuAriaLabel": "Menu",
-      "brandTextFallback": "ASTRALEX",
+      "brandTextFallback": "GRUPO ASTRA LEGAL",
       "skipTargetId": "landing-main",
       "modals": {
         "_default": {
@@ -123,26 +123,6 @@
           "value": "en"
         }
       ]
-    },
-    "statsCounters": {
-      "responseHours": {
-        "target": 24,
-        "durationMs": 1700,
-        "formatMode": "number",
-        "formatSuffix": ""
-      },
-      "practiceAreas": {
-        "target": 6,
-        "durationMs": 1400,
-        "formatMode": "number",
-        "formatSuffix": ""
-      },
-      "serviceModes": {
-        "target": 2,
-        "durationMs": 1600,
-        "formatMode": "number",
-        "formatSuffix": ""
-      }
     },
     "i18n": {
       "defaultLanguage": "es",

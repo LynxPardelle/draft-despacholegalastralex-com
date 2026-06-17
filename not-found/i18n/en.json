@@ -7,7 +7,7 @@
     "hero": {
       "eyebrow": "Page not found",
       "title": "This route is not published.",
-      "lead": "We could not find an active page for this address on Despacho Legal Astralex. You can return home and continue from a published route.",
+      "lead": "We could not find an active page for this address on Grupo Astra Legal. You can return home and continue from a published route.",
       "primaryLabel": "Back to home"
     },
     "signal": {
@@ -20,7 +20,7 @@
       "lead": "These are published draft routes so navigation can recover without falling back to the home page by mistake.",
       "items": [
         {
-          "label": "Open Home"
+          "label": "Open home"
         }
       ]
     },
