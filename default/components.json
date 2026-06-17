@@ -576,12 +576,12 @@
         "description": "",
         "benefits": [],
         "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
-        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureIconClasses": "ank-d-block ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
         "featureTitleClasses": "ank-fs-1_12rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_25",
         "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
-        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitIconClasses": "ank-d-block ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
         "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
         "classes": "legalPanel"
       }
@@ -682,12 +682,12 @@
         "description": "",
         "benefits": [],
         "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
-        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureIconClasses": "ank-d-block ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
         "featureTitleClasses": "ank-fs-1_12rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_25",
         "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
-        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitIconClasses": "ank-d-block ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
         "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
         "classes": "mutedPanel"
       }
@@ -816,12 +816,12 @@
         "benefits": [],
         "buttonClasses": "btnBase ank-btnOutline-secondaryLinkColor ank-bg-transparent ank-color-textColor ank-width-100per ank-py-1rem ank-my-1rem ank-fs-1_25rem",
         "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
-        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureIconClasses": "ank-d-block ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
         "featureTitleClasses": "ank-fs-1_12rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_25",
         "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
-        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitIconClasses": "ank-d-block ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
         "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed",
         "classes": "legalPanel",
         "linkLabel": "",
@@ -928,12 +928,12 @@
         "benefits": [],
         "classes": "mutedPanel",
         "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-flexStart",
-        "featureIconClasses": "ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
+        "featureIconClasses": "ank-d-block ank-fs-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-accentColor",
         "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-bold ank-mb-0_75rem ank-color-secondaryTitleColor ank-lineHeight-1_3",
         "featureDescriptionClasses": "ank-fs-0_96rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-relaxed",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-textAlign-left",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem ank-mb-0_45rem",
-        "benefitIconClasses": "ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitIconClasses": "ank-d-block ank-fs-0_98rem ank-width-0_98rem ank-height-0_98rem ank-color-secondaryAccentColor ank-mt-0_125rem ank-flexShrink-0",
         "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-relaxed"
       }
     },
@@ -1213,7 +1213,7 @@
         "iconName": "fact_check",
         "title": "Assessment",
         "ariaLabel": "Assessment",
-        "classes": "ank-fontSize-1_35rem ank-color-linkColor"
+        "classes": "ank-d-block ank-fontSize-1_35rem ank-width-1_35rem ank-height-1_35rem ank-color-linkColor"
       }
     },
     {
@@ -1267,10 +1267,10 @@
       "id": "footerEmailIcon",
       "type": "icon",
       "config": {
-        "iconName": "chat",
+        "iconName": "phone_android",
         "title": "WhatsApp",
         "ariaLabel": "WhatsApp",
-        "classes": "ank-fontSize-1_35rem ank-color-linkColor"
+        "classes": "ank-d-block ank-fontSize-1_35rem ank-width-1_35rem ank-height-1_35rem ank-color-linkColor"
       }
     },
     {
@@ -1327,7 +1327,7 @@
         "iconName": "account_tree",
         "title": "Process",
         "ariaLabel": "Process",
-        "classes": "ank-fontSize-1_35rem ank-color-linkColor"
+        "classes": "ank-d-block ank-fontSize-1_35rem ank-width-1_35rem ank-height-1_35rem ank-color-linkColor"
       }
     },
     {

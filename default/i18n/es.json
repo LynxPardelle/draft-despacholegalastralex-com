@@ -73,7 +73,7 @@
     },
     "features": [
       {
-        "icon": "verified_user",
+        "icon": "security",
         "title": "Estrategia antes que trámite",
         "description": "Cada asunto se traduce en riesgos, prioridades y rutas de acción comprensibles para tomar decisiones con base jurídica.",
         "benefits": [
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "icon": "travel_explore",
+        "icon": "translate",
         "title": "Lectura nacional e internacional",
         "description": "El enfoque contempla inversión extranjera, operaciones en México y comunicación preparada para contrapartes internacionales.",
         "benefits": [
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "icon": "account_balance_wallet",
+        "icon": "verified",
         "title": "Protección patrimonial",
         "description": "El mensaje central es proteger e incrementar patrimonio con análisis jurídico, evidencia y comunicación clara.",
         "benefits": [
@@ -119,7 +119,7 @@
     },
     "processCards": [
       {
-        "icon": "forum",
+        "icon": "phone_android",
         "title": "1. Contacto inicial por WhatsApp",
         "description": "Se confirma el contexto, la urgencia, el tipo de asunto y el objetivo práctico antes de solicitar documentos sensibles.",
         "benefits": [
@@ -129,7 +129,7 @@
         ]
       },
       {
-        "icon": "find_in_page",
+        "icon": "saved_search",
         "title": "2. Investigación jurídica y documental",
         "description": "Se revisan hechos, documentos, leyes, criterios y analogías útiles para entender el margen real de acción.",
         "benefits": [
@@ -139,7 +139,7 @@
         ]
       },
       {
-        "icon": "alt_route",
+        "icon": "account_tree",
         "title": "3. Estrategia preventiva o de defensa",
         "description": "Se propone una ruta con prioridades, dependencias y escenarios según el asunto requiera prevenir, negociar, defender o demandar.",
         "benefits": [
@@ -149,7 +149,7 @@
         ]
       },
       {
-        "icon": "task_alt",
+        "icon": "check_circle",
         "title": "4. Implementación y seguimiento",
         "description": "El acompañamiento avanza con responsables, pendientes visibles y ajustes cuando cambian hechos, autoridades o contrapartes.",
         "benefits": [
@@ -165,7 +165,7 @@
     },
     "services": [
       {
-        "icon": "public",
+        "icon": "rocket_launch",
         "title": "Soft landing para empresas chinas",
         "description": "Acompañamiento legal para empresas extranjeras que buscan invertir, operar o estructurar su entrada a México.",
         "benefits": [
@@ -179,7 +179,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "account_balance",
+        "icon": "gavel",
         "title": "Defensa fiscal, administrativa y amparo",
         "description": "Análisis de actos de autoridad, riesgos fiscales y alternativas de defensa con enfoque constitucional cuando aplique.",
         "benefits": [
@@ -193,7 +193,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "work",
+        "icon": "assignment",
         "title": "Laboral, corporativo y cumplimiento",
         "description": "Revisión de obligaciones, decisiones internas y escenarios laborales o societarios que necesitan prevención y orden documental.",
         "benefits": [
@@ -207,7 +207,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "lightbulb",
+        "icon": "auto_awesome",
         "title": "Propiedad intelectual, marcas y patentes",
         "description": "Orientación para proteger invenciones, marcas y activos intangibles con una lectura estratégica del valor tecnológico.",
         "benefits": [
@@ -221,7 +221,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "family_restroom",
+        "icon": "favorite",
         "title": "Protección patrimonial familiar",
         "description": "Revisión de escenarios civiles y familiares donde el patrimonio, los acuerdos y la evidencia requieren estrategia preventiva o litigiosa.",
         "benefits": [
@@ -235,7 +235,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "home_work",
+        "icon": "home",
         "title": "Revisión fiscal inmobiliaria en CDMX",
         "description": "Análisis de pagos, documentos y posibles rutas legales relacionadas con adquisición inmobiliaria y cargas fiscales locales.",
         "benefits": [
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "icon": "school",
+        "icon": "fact_check",
         "title": "Enfoque constitucional y fiscal",
         "description": "La propuesta integra investigación jurídica, derecho constitucional y lectura fiscal para construir estrategias defendibles.",
         "benefits": [
