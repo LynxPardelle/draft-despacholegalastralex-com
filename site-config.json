@@ -67,33 +67,33 @@
     },
     "appIdentity": {
       "identifier": "despacholegalastralexcom",
-      "name": "Despacho Legal Astralex",
+      "name": "Grupo Astra Legal",
       "version": "1.0.0",
-      "description": "Corporate and civil legal advisory landing page."
+      "description": "Landing page for Grupo Astra Legal legal strategy, soft landing, defense, and patrimonial protection services."
     },
     "seo": {
-      "siteName": "Despacho Legal Astralex",
-      "title": "Despacho Legal Astralex",
-      "description": "Corporate and civil legal advisory landing page.",
+      "siteName": "Grupo Astra Legal",
+      "title": "Grupo Astra Legal",
+      "description": "Estrategia legal para soft landing empresarial, defensa fiscal y administrativa, propiedad intelectual y protección patrimonial en México.",
       "canonicalOrigin": "https://despacholegalastralex.zoolandingpage.com.mx",
-      "defaultImage": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
       "openGraph": {
         "type": "website",
-        "site_name": "Despacho Legal Astralex"
+        "site_name": "Grupo Astra Legal"
       },
       "twitter": {
         "card": "summary_large_image"
       },
       "keywords": [
-        "despacho legal",
-        "abogados",
-        "asesoria legal",
-        "derecho civil",
-        "derecho familiar",
+        "Grupo Astra Legal",
+        "soft landing México",
+        "abogados inversión china",
+        "defensa fiscal",
+        "amparo",
+        "derecho administrativo",
         "derecho laboral",
-        "contract review",
-        "business legal advisory",
-        "Mexico City law firm"
+        "propiedad intelectual",
+        "patentes México",
+        "protección patrimonial"
       ],
       "robots": "index,follow,max-image-preview:large"
     },

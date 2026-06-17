@@ -7,7 +7,7 @@
     "hero": {
       "eyebrow": "Página no encontrada",
       "title": "Esta ruta no está publicada.",
-      "lead": "No encontramos una página activa para esta dirección en Despacho Legal Astralex. Puedes volver al inicio y continuar desde una ruta publicada.",
+      "lead": "No encontramos una página activa para esta dirección en Grupo Astra Legal. Puedes volver al inicio y continuar desde una ruta publicada.",
       "primaryLabel": "Volver al inicio"
     },
     "signal": {
@@ -20,7 +20,7 @@
       "lead": "Estas son rutas publicadas del draft para retomar la navegación sin caer en la página de inicio por error.",
       "items": [
         {
-          "label": "Home"
+          "label": "Inicio"
         }
       ]
     },

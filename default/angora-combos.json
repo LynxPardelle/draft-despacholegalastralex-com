@@ -20,76 +20,121 @@
       "ank-position-relative"
     ],
     "sectionBase": [
-      "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-72px ank-paddingBlock-md-88px"
+      "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-60px ank-paddingBlock-md-76px"
     ],
-    "sectionContent": ["ank-width-100per ank-maxWidth-1240px ank-display-flex ank-flexDirection-column ank-gap-24px"],
+    "sectionContent": [
+      "ank-width-100per ank-maxWidth-1240px ank-display-flex ank-flexDirection-column ank-gap-24px"
+    ],
     "sectionTitle": [
-      "ank-fontSize-2rem ank-fontSize-md-3rem ank-fontWeight-800 ank-lineHeight-1_08 ank-letterSpacing-N0_02rem ank-maxWidth-18ch ank-color-titleColor"
+      "ank-fontSize-1_9rem ank-fontSize-md-2_6rem ank-fontWeight-800 ank-lineHeight-1_12 ank-maxWidth-20ch ank-color-titleColor"
     ],
     "sectionSubtitle": [
-      "ank-fontSize-1rem ank-lineHeight-1_72 ank-maxWidth-50rem ank-opacity-0_8 ank-color-secondaryTitleColor"
+      "ank-fontSize-1rem ank-lineHeight-1_7 ank-maxWidth-52rem ank-opacity-0_82 ank-color-secondaryTitleColor"
     ],
     "utilityButton": [
       "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-14px ank-paddingBlock-10px ank-borderRadius-99rem ank-border-1px__solid__secondaryAccentColor ank-bg-transparent ank-color-secondaryTitleColor ank-fontWeight-700 ank-textDecoration-none ank-cursor-pointer ank-bgHover-secondaryBgColor"
     ],
     "primaryAction": [
-      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-14px ank-bg-accentColor ank-color-bgColor ank-fontWeight-800 ank-textDecoration-none ank-boxShadow-0__14px__28px__accentColor__OPA__0_22"
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-accentColor ank-color-bgColor ank-fontWeight-800 ank-textDecoration-none ank-boxShadow-0__12px__24px__accentColor__OPA__0_18"
     ],
     "secondaryAction": [
-      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-14px ank-border-1px__solid__secondaryAccentColor ank-bg-transparent ank-color-titleColor ank-fontWeight-800 ank-textDecoration-none"
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-18px ank-paddingBlock-11px ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-transparent ank-color-titleColor ank-fontWeight-800 ank-textDecoration-none"
+    ],
+    "emailActionWrap": [
+      "ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-overflowWrap-anywhere ank-wordBreak-breakMINword ank-whiteSpace-normal ank-textAlign-center"
     ],
     "emailActionWrap": [
       "ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-overflowWrap-anywhere ank-wordBreak-breakMINword ank-whiteSpace-normal ank-textAlign-center"
     ],
     "statusChip": [
-      "ank-display-inlineFlex ank-alignItems-center ank-gap-8px ank-paddingInline-14px ank-paddingBlock-8px ank-borderRadius-99rem ank-bg-secondaryBgColor ank-color-secondaryTitleColor ank-fontSize-0_88rem ank-fontWeight-700"
+      "ank-display-inlineFlex ank-alignItems-center ank-gap-8px ank-paddingInline-12px ank-paddingBlock-7px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-secondaryTitleColor ank-fontSize-0_88rem ank-fontWeight-700"
     ],
     "legalPanel": [
-      "ank-width-100per ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-border-1px__solid__secondaryAccentColor ank-borderRadius-24px ank-bg-bgColor ank-padding-24px ank-padding-md-28px ank-boxShadow-0__18px__40px__bgColor__OPA__0_14"
+      "ank-width-100per ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-padding-22px ank-padding-md-24px ank-boxShadow-0__12px__28px__bgColor__OPA__0_12"
     ],
     "mutedPanel": [
-      "ank-width-100per ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-border-1px__solid__secondaryAccentColor ank-borderRadius-22px ank-bg-secondaryBgColor ank-padding-22px ank-padding-md-24px"
+      "ank-width-100per ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-secondaryBgColor ank-padding-20px ank-padding-md-22px"
     ],
     "metricPanel": [
-      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-22px ank-bg-bgColor ank-padding-22px ank-display-flex ank-flexDirection-column ank-gap-10px ank-boxShadow-0__16px__32px__bgColor__OPA__0_12"
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-padding-20px ank-display-flex ank-flexDirection-column ank-gap-10px ank-boxShadow-0__12px__24px__bgColor__OPA__0_1"
     ],
-    "formField": ["ank-display-flex ank-flexDirection-column ank-gap-8px"],
-    "formLabel": ["ank-fontSize-0_95rem ank-fontWeight-700 ank-color-titleColor"],
-    "formDescription": ["ank-fontSize-0_9rem ank-lineHeight-1_6 ank-opacity-0_78 ank-color-secondaryTitleColor"],
+    "formField": [
+      "ank-display-flex ank-flexDirection-column ank-gap-8px"
+    ],
+    "formLabel": [
+      "ank-fontSize-0_95rem ank-fontWeight-700 ank-color-titleColor"
+    ],
+    "formDescription": [
+      "ank-fontSize-0_9rem ank-lineHeight-1_6 ank-opacity-0_78 ank-color-secondaryTitleColor"
+    ],
     "formInput": [
       "ank-width-100per ank-paddingInline-14px ank-paddingBlock-12px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-14px ank-bg-bgColor ank-color-titleColor"
     ],
     "formSelectTrigger": [
       "ank-minHeight-50px ank-textAlign-left ank-boxShadow-0__8px__20px__bgColor__OPA__0_08 ank-transition-all ank-borderColorHover-titleColor"
     ],
-    "formSelectTriggerText": ["ank-fontWeight-700 ank-color-titleColor ank-lineHeight-1_4"],
-    "formDropdown": ["ank-width-100per"],
+    "formSelectTriggerText": [
+      "ank-fontWeight-700 ank-color-titleColor ank-lineHeight-1_4"
+    ],
+    "formDropdown": [
+      "ank-width-100per"
+    ],
     "formDropdownMenu": [
       "ank-marginTop-6px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-18px ank-bg-bgColor ank-overflow-hidden ank-boxShadow-0__18px__40px__bgColor__OPA__0_16"
     ],
-    "formDropdownNav": ["ank-width-100per"],
-    "formDropdownList": ["ank-display-flex ank-flexDirection-column ank-gap-0 ank-paddingBlock-8px"],
+    "formDropdownNav": [
+      "ank-width-100per"
+    ],
+    "formDropdownList": [
+      "ank-display-flex ank-flexDirection-column ank-gap-0 ank-paddingBlock-8px"
+    ],
     "formDropdownOption": [
       "ank-display-flex ank-width-100per ank-alignItems-center ank-textDecoration-none ank-paddingInline-16px ank-paddingBlock-14px ank-lineHeight-1_45 ank-color-titleColor ank-bg-transparent ank-transition-all ank-bgHover-secondaryBgColor"
     ],
-    "formDropdownOptionSelected": ["ank-bg-secondaryBgColor ank-fontWeight-800 ank-color-titleColor"],
-    "formDropdownOptionDisabled": ["ank-opacity-50 ank-cursor-notAllowed"],
-    "formHelper": ["ank-fontSize-0_84rem ank-lineHeight-1_5 ank-opacity-0_74 ank-color-secondaryTitleColor"],
-    "formErrors": ["ank-display-flex ank-flexDirection-column ank-gap-4px ank-fontSize-0_84rem ank-color-linkColor"],
+    "formDropdownOptionSelected": [
+      "ank-bg-secondaryBgColor ank-fontWeight-800 ank-color-titleColor"
+    ],
+    "formDropdownOptionDisabled": [
+      "ank-opacity-50 ank-cursor-notAllowed"
+    ],
+    "formHelper": [
+      "ank-fontSize-0_84rem ank-lineHeight-1_5 ank-opacity-0_74 ank-color-secondaryTitleColor"
+    ],
+    "formErrors": [
+      "ank-display-flex ank-flexDirection-column ank-gap-4px ank-fontSize-0_84rem ank-color-linkColor"
+    ],
     "payloadCodeBlock": [
       "ank-margin-0 ank-padding-18px ank-borderRadius-18px ank-bg-secondaryBgColor ank-overflowX-auto ank-fontSize-0_92rem ank-lineHeight-1_6 ank-color-titleColor"
     ],
-    "accContainer": ["ank-display-flex ank-flexDirection-column ank-gap-12px"],
-    "accItemContainer": ["ank-borderRadius-20px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor"],
-    "accItemExpandedContainer": ["ank-boxShadow-0__14px__30px__bgColor__OPA__0_16"],
-    "accItemNotExpandedContainer": [""],
+    "accContainer": [
+      "ank-display-flex ank-flexDirection-column ank-gap-12px"
+    ],
+    "accItemContainer": [
+      "ank-borderRadius-20px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor"
+    ],
+    "accItemExpandedContainer": [
+      "ank-boxShadow-0__14px__30px__bgColor__OPA__0_16"
+    ],
+    "accItemNotExpandedContainer": [
+      ""
+    ],
     "accItemButton": [
       "ank-width-100per ank-display-flex ank-justifyContent-spaceBetween ank-alignItems-center ank-gap-12px ank-paddingInline-20px ank-paddingBlock-18px ank-bg-transparent ank-border-none ank-textAlign-left ank-fontWeight-800 ank-color-titleColor ank-cursor-pointer"
     ],
-    "accItemButtonIsExpanded": [""],
-    "accItemButtonIsNotExpanded": [""],
-    "accItemPanel": ["ank-paddingInline-20px ank-paddingBlockEnd-18px ank-lineHeight-1_72 ank-opacity-0_82"],
-    "accItemButtonIconIsExpanded": ["ank-transform-rotateZSD180degED"],
-    "accItemButtonIconIsNotExpanded": [""]
+    "accItemButtonIsExpanded": [
+      ""
+    ],
+    "accItemButtonIsNotExpanded": [
+      ""
+    ],
+    "accItemPanel": [
+      "ank-paddingInline-20px ank-paddingBlockEnd-18px ank-lineHeight-1_72 ank-opacity-0_82"
+    ],
+    "accItemButtonIconIsExpanded": [
+      "ank-transform-rotateZSD180degED"
+    ],
+    "accItemButtonIconIsNotExpanded": [
+      ""
+    ]
   }
 }
