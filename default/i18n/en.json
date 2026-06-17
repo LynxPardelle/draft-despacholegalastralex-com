@@ -73,7 +73,7 @@
     },
     "features": [
       {
-        "icon": "verified_user",
+        "icon": "security",
         "title": "Strategy before paperwork",
         "description": "Each matter is translated into risks, priorities, and action routes that support grounded decisions.",
         "benefits": [
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "icon": "travel_explore",
+        "icon": "translate",
         "title": "National and international reading",
         "description": "The approach considers foreign investment, operations in Mexico, and communication prepared for international counterparties.",
         "benefits": [
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "icon": "account_balance_wallet",
+        "icon": "verified",
         "title": "Patrimonial protection",
         "description": "The central message is to protect and increase patrimony through legal analysis, evidence, and clear communication.",
         "benefits": [
@@ -119,7 +119,7 @@
     },
     "processCards": [
       {
-        "icon": "forum",
+        "icon": "phone_android",
         "title": "1. Initial WhatsApp contact",
         "description": "Context, urgency, matter type, and the practical objective are confirmed before requesting sensitive documents.",
         "benefits": [
@@ -129,7 +129,7 @@
         ]
       },
       {
-        "icon": "find_in_page",
+        "icon": "saved_search",
         "title": "2. Legal and document research",
         "description": "Facts, documents, laws, criteria, and useful analogies are reviewed to understand the real margin of action.",
         "benefits": [
@@ -139,7 +139,7 @@
         ]
       },
       {
-        "icon": "alt_route",
+        "icon": "account_tree",
         "title": "3. Preventive or defense strategy",
         "description": "A route is proposed with priorities, dependencies, and scenarios depending on whether the matter requires prevention, negotiation, defense, or litigation.",
         "benefits": [
@@ -149,7 +149,7 @@
         ]
       },
       {
-        "icon": "task_alt",
+        "icon": "check_circle",
         "title": "4. Implementation and follow-through",
         "description": "Support advances with responsible parties, visible pending items, and adjustments when facts, authorities, or counterparties change.",
         "benefits": [
@@ -165,7 +165,7 @@
     },
     "services": [
       {
-        "icon": "public",
+        "icon": "rocket_launch",
         "title": "Soft landing for Chinese companies",
         "description": "Legal support for foreign companies seeking to invest, operate, or structure their entry into Mexico.",
         "benefits": [
@@ -179,7 +179,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "account_balance",
+        "icon": "gavel",
         "title": "Tax, administrative, and amparo defense",
         "description": "Analysis of authority acts, tax risks, and defense alternatives with a constitutional lens when applicable.",
         "benefits": [
@@ -193,7 +193,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "work",
+        "icon": "assignment",
         "title": "Labor, corporate, and compliance",
         "description": "Review of obligations, internal decisions, and labor or corporate scenarios that need prevention and document order.",
         "benefits": [
@@ -207,7 +207,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "lightbulb",
+        "icon": "auto_awesome",
         "title": "Intellectual property, brands, and patents",
         "description": "Guidance to protect inventions, brands, and intangible assets with a strategic reading of technological value.",
         "benefits": [
@@ -221,7 +221,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "family_restroom",
+        "icon": "favorite",
         "title": "Family patrimonial protection",
         "description": "Review of civil and family scenarios where patrimony, agreements, and evidence require preventive or litigation strategy.",
         "benefits": [
@@ -235,7 +235,7 @@
         "rel": "noopener noreferrer"
       },
       {
-        "icon": "home_work",
+        "icon": "home",
         "title": "Real estate tax review in Mexico City",
         "description": "Analysis of payments, documents, and possible legal routes related to real estate acquisition and local tax charges.",
         "benefits": [
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "icon": "school",
+        "icon": "fact_check",
         "title": "Constitutional and tax lens",
         "description": "The proposal integrates legal research, constitutional law, and tax reading to build defensible strategies.",
         "benefits": [

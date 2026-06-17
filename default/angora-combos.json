@@ -47,7 +47,7 @@
       "ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-overflowWrap-anywhere ank-wordBreak-breakMINword ank-whiteSpace-normal ank-textAlign-center"
     ],
     "statusChip": [
-      "ank-display-inlineFlex ank-alignItems-center ank-gap-8px ank-paddingInline-12px ank-paddingBlock-7px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-secondaryTitleColor ank-fontSize-0_88rem ank-fontWeight-700"
+      "ank-d-block ank-width-fitContent ank-marginBottom-6px ank-lineHeight-1_35 ank-whiteSpace-normal ank-paddingInline-12px ank-paddingBlock-7px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-secondaryTitleColor ank-fontSize-0_88rem ank-fontWeight-700"
     ],
     "legalPanel": [
       "ank-width-100per ank-maxWidth-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-padding-22px ank-padding-md-24px ank-boxShadow-0__12px__28px__bgColor__OPA__0_12"
