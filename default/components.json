@@ -401,7 +401,7 @@
       "config": {
         "tag": "span",
         "text": "",
-        "classes": "statusChip"
+        "classes": "statusChip ank-d-block"
       }
     },
     {
