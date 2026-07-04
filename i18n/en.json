@@ -1,7 +1,37 @@
 {
   "version": 1,
-  "domain": "despacholegalastralex.com",
+  "domain": "grupoastralegal.com",
   "pageId": "allPages",
   "lang": "en",
-  "dictionary": {}
+  "dictionary": {
+    "ui": {
+      "skipToMain": "Skip to main content",
+      "selectLanguage": "Select language",
+      "toggleTheme": "Change theme",
+      "logoAlt": "Temporary Astra Legal logo",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "schedule": "Schedule assessment"
+    },
+    "nav": {
+      "services": "Services",
+      "brand": "Brand",
+      "mobile": "Menu"
+    },
+    "footer": {
+      "summary": "A legal strategy firm for companies, governments, and people who need clarity before acting.",
+      "servicesTitle": "Services",
+      "brandTitle": "Astra Legal",
+      "legalTitle": "Legal",
+      "contactTitle": "Contact",
+      "phone": "Phone",
+      "phoneAria": "Call Astra Legal",
+      "email": "Email",
+      "emailAria": "Email Astra Legal",
+      "calendly": "Schedule a call",
+      "whatsapp": "WhatsApp",
+      "disclaimer": "Informational content. Legal advice requires express acceptance, defined scope, and case review.",
+      "copyright": "© 2026 Astra Legal."
+    }
+  }
 }

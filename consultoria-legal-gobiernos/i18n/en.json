@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "consultoria-legal-gobiernos",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Legal consulting for governments",
+      "summary": "Legal support for public projects, procedures, procurement, and institutional risk prevention.",
+      "intro": "Public operations require defensible decisions, documented processes, and clear institutional communication. Astra Legal supports legal diagnosis, design, and follow-up.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Administrative procedures",
+        "Procurement and projects",
+        "Liability prevention"
+      ],
+      "cards": [
+        {
+          "icon": "account_tree",
+          "title": "Process design",
+          "description": "We align acts, authority, owners, and documentary evidence.",
+          "benefits": [
+            "Decision flows",
+            "Document control"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Legal review",
+          "description": "We evaluate rules, contracts, calls, or files before execution.",
+          "benefits": [
+            "Compliance criteria",
+            "Actionable observations"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "analytics",
+          "title": "Institutional follow-up",
+          "description": "We support changes, clarifications, and responses with technical and public language.",
+          "benefits": [
+            "Minutes and evidence",
+            "Risk management"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Institutional module",
+      "moduleTitle": "Public decisions with document support.",
+      "moduleDescription": "Government consulting focuses on procedures, procurement, risks, and institutional traceability.",
+      "moduleItems": [
+        {
+          "icon": "account_tree",
+          "title": "Process design",
+          "description": "Authority, acts, owners, and evidence are aligned from the start.",
+          "benefits": [
+            "Defensible flow",
+            "Clear roles"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Procurement review",
+          "description": "Calls, contracts, and files are reviewed before sensitive decisions.",
+          "benefits": [
+            "Applicable criteria",
+            "Actionable observations"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "analytics",
+          "title": "Public follow-up",
+          "description": "Clarifications and responses are prepared with technical and institutional language.",
+          "benefits": [
+            "Minutes and evidence",
+            "Liability prevention"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

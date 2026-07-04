@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "soft-landing-empresas-chinas",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "中国企业在墨西哥落地",
+      "summary": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。",
+      "intro": "Astra Legal 协助计划在墨西哥投资、用工、保护资产和运营的企业建立法律落地路径，重点是预防、当地协调和清晰文件。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "进入墨西哥市场",
+        "政府协调",
+        "合同、许可与初始风险"
+      ],
+      "cards": [
+        {
+          "icon": "saved_search",
+          "title": "进入诊断",
+          "description": "在执行前梳理业务、法律架构、许可、义务和风险。",
+          "benefits": [
+            "设立与运营路径",
+            "分阶段优先风险"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "volunteer_activism",
+          "title": "协同执行",
+          "description": "协调备案、合同以及与第三方和主管部门的重要沟通。",
+          "benefits": [
+            "按里程碑推进法律议程",
+            "面向管理层的清晰沟通"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "持续保护",
+          "description": "帮助运营团队应对审查、监管变化和预防性防御。",
+          "benefits": [
+            "文件控制",
+            "法律连续性计划"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "进入模块",
+      "moduleTitle": "从商业意图到可辩护运营。",
+      "moduleDescription": "落地路径按里程碑组织：架构、许可、合同、主管部门和文件控制，以降低运营摩擦。",
+      "moduleItems": [
+        {
+          "icon": "saved_search",
+          "title": "进入判断",
+          "description": "在选择路径前审查业务、合作方、投资、许可和义务。",
+          "benefits": [
+            "初始风险地图",
+            "里程碑优先级"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "account_tree",
+          "title": "当地协调",
+          "description": "通过清晰法律议程协调合同、主管部门和第三方。",
+          "benefits": [
+            "明确负责人",
+            "双语或三语跟进"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "受保护运营",
+          "description": "文件为审查、监管变化和管理层决策做好准备。",
+          "benefits": [
+            "文件控制",
+            "连续性计划"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

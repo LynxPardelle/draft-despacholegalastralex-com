@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "metodo",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "The Astra method",
+      "summary": "A working process that turns legal uncertainty into organized, actionable decisions.",
+      "intro": "The method avoids impulse decisions. We first understand facts, then organize evidence, evaluate routes, and only then execute with clear priorities.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Diagnosis",
+        "Strategy",
+        "Execution and follow-up"
+      ],
+      "cards": [
+        {
+          "icon": "saved_search",
+          "title": "1. Understand",
+          "description": "Context, parties, documents, urgency, and real consequences.",
+          "benefits": [
+            "Initial brief",
+            "Stakeholder map"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "trending_up",
+          "title": "2. Design",
+          "description": "Compared routes with cost, time, risk, and required evidence.",
+          "benefits": [
+            "Scenarios",
+            "Priorities"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "check_circle",
+          "title": "3. Execute",
+          "description": "Actions, filings, conversations, and traceable follow-up.",
+          "benefits": [
+            "Clear owners",
+            "Progress evidence"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

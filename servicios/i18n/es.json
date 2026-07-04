@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "servicios",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Servicios",
+      "title": "Soluciones para decisiones legales que necesitan estructura.",
+      "description": "El menú de Astra Legal se organiza por casos reales: entrada empresarial, defensa frente a autoridad, propiedad intelectual, reclamaciones laborales, consultoría pública y protección patrimonial.",
+      "services": [
+        {
+          "icon": "translate",
+          "title": "Soft landing para empresas chinas",
+          "description": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+          "href": "/soft-landing-empresas-chinas",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Entrada al mercado mexicano",
+            "Relación con autoridades"
+          ]
+        },
+        {
+          "icon": "security",
+          "title": "Protección patrimonial, matrimonio y divorcio",
+          "description": "Estrategia para proteger patrimonio, ordenar obligaciones y reducir incertidumbre en decisiones familiares complejas.",
+          "href": "/proteccion-patrimonial-matrimonio-divorcio",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Convenios y acuerdos familiares",
+            "Divorcio y protección patrimonial"
+          ]
+        },
+        {
+          "icon": "assignment",
+          "title": "Recuperación de impuestos inmobiliarios",
+          "description": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+          "href": "/recuperacion-impuestos-inmobiliarios",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Pagos y contribuciones",
+            "Actos de autoridad"
+          ]
+        },
+        {
+          "icon": "gavel",
+          "title": "Defensa fiscal, administrativa y amparo",
+          "description": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+          "href": "/defensa-fiscal-administrativa-amparo",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Multas, créditos y resoluciones",
+            "Recursos administrativos"
+          ]
+        },
+        {
+          "icon": "star",
+          "title": "Registro de marca",
+          "description": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
+          "href": "/registro-de-marca",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Búsqueda fonética y conceptual",
+            "Clases y estrategia de uso"
+          ]
+        },
+        {
+          "icon": "auto_awesome",
+          "title": "Registro de patentes",
+          "description": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
+          "href": "/registro-de-patentes",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Invenciones y modelos de utilidad",
+            "Documentación técnica"
+          ]
+        },
+        {
+          "icon": "security",
+          "title": "Defensa y recuperación por multas de gobierno",
+          "description": "Análisis y defensa frente a multas, sanciones y cobros indebidos emitidos por autoridades.",
+          "href": "/defensa-multas-gobierno",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Multas administrativas",
+            "Cobros indebidos"
+          ]
+        },
+        {
+          "icon": "history",
+          "title": "Despido injustificado y reclamaciones laborales",
+          "description": "Acompañamiento para valorar derechos laborales, pruebas y ruta de reclamación cuando exista despido injustificado.",
+          "href": "/despido-injustificado",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Cartas, pagos y contratos",
+            "Conciliación laboral"
+          ]
+        },
+        {
+          "icon": "gavel",
+          "title": "Consultoría legal para gobiernos",
+          "description": "Apoyo jurídico para proyectos públicos, procedimientos, contratación y prevención de riesgos institucionales.",
+          "href": "/consultoria-legal-gobiernos",
+          "linkLabel": "Ver servicio",
+          "benefits": [
+            "Procedimientos administrativos",
+            "Contratación y proyectos"
+          ]
+        }
+      ],
+      "contactTitle": "¿Necesitas elegir una ruta?",
+      "contactDescription": "Una valoración inicial breve puede ayudar a identificar documentos y primera decisión.",
+      "contactLabel": "Agendar valoración"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "defensa-fiscal-administrativa-amparo",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "税务、行政与宪法保护诉讼防御",
+      "summary": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。",
+      "intro": "每项行政行为都有时间节点和后果。我们整理档案、确定路径，并确保策略由证据支撑。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "罚款、税务债权与决定",
+        "行政救济",
+        "诉讼与宪法保护"
+      ],
+      "cards": [
+        {
+          "icon": "schedule",
+          "title": "期限控制",
+          "description": "行动前识别关键日期和每条路径的后果。",
+          "benefits": [
+            "程序日历",
+            "风险提醒"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "证据与论证",
+          "description": "整合事实、文件和法律标准，形成一致防御。",
+          "benefits": [
+            "证据矩阵",
+            "法律叙事"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "路径策略",
+          "description": "判断适合行政救济、诉讼、宪法保护或机构沟通。",
+          "benefits": [
+            "路径比较",
+            "文件化执行"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "防御模块",
+      "moduleTitle": "回应前先明确期限、证据和路径。",
+      "moduleDescription": "面对主管机关的防御需要快速判断行为、后果和可支撑策略的证据。",
+      "moduleItems": [
+        {
+          "icon": "schedule",
+          "title": "程序时钟",
+          "description": "确定关键日期，避免延迟回应或错失路径。",
+          "benefits": [
+            "防御日历",
+            "紧急提醒"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "证据矩阵",
+          "description": "每项论点与事实、文件和适用标准相连。",
+          "benefits": [
+            "可验证事实",
+            "文件支持"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "路径选择",
+          "description": "根据事项比较行政救济、诉讼、宪法保护或机构沟通。",
+          "benefits": [
+            "成本与后果",
+            "文件化执行"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

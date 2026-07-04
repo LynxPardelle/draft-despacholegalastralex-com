@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "allPages",
+  "lang": "zh",
+  "dictionary": {
+    "ui": {
+      "skipToMain": "跳到主要内容",
+      "selectLanguage": "选择语言",
+      "toggleTheme": "切换主题",
+      "logoAlt": "Astra Legal 临时标志",
+      "openMenu": "打开菜单",
+      "closeMenu": "关闭菜单",
+      "schedule": "预约评估"
+    },
+    "nav": {
+      "services": "服务",
+      "brand": "品牌",
+      "mobile": "菜单"
+    },
+    "footer": {
+      "summary": "一家法律策略机构，帮助企业、政府和个人在行动前获得清晰判断。",
+      "servicesTitle": "服务",
+      "brandTitle": "Astra Legal",
+      "legalTitle": "法律",
+      "contactTitle": "联系",
+      "phone": "电话",
+      "phoneAria": "致电 Astra Legal",
+      "email": "电子邮件",
+      "emailAria": "给 Astra Legal 发送邮件",
+      "calendly": "预约通话",
+      "whatsapp": "WhatsApp",
+      "disclaimer": "内容仅供参考。法律服务需要明确接受、确定范围并审查具体案件。",
+      "copyright": "© 2026 Astra Legal."
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "despido-injustificado",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "不当解雇与劳动索赔",
+      "summary": "在可能存在不当解雇时，评估劳动权利、证据和索赔路径。",
+      "intro": "第一步是整理事实和文件，由此确定调解、索赔或防御的现实路径。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "通知、付款与合同",
+        "劳动调解",
+        "索赔或防御"
+      ],
+      "cards": [
+        {
+          "icon": "assignment",
+          "title": "案件整理",
+          "description": "将日期、工资、文件和沟通记录整理成时间线。",
+          "benefits": [
+            "可验证事实",
+            "可用证据"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "有准备的调解",
+          "description": "以计算、支持材料和明确边界进入沟通。",
+          "benefits": [
+            "项目测算",
+            "协议条件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "正式路径",
+          "description": "若无法达成协议，准备相应机构所需文件。",
+          "benefits": [
+            "申请与附件",
+            "程序跟进"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "劳动模块",
+      "moduleTitle": "以证据支持事实、计算和调解。",
+      "moduleDescription": "劳动路径从日期、付款、文件和沟通记录开始，以判断调解或索赔。",
+      "moduleItems": [
+        {
+          "icon": "history",
+          "title": "时间线",
+          "description": "整理入职、离职、付款、通知和相关沟通。",
+          "benefits": [
+            "可验证日期",
+            "关键文件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "初步计算",
+          "description": "把可索赔项目与预期或不完整信息区分开。",
+          "benefits": [
+            "劳动项目",
+            "谈判边界"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "调解或索赔",
+          "description": "根据证据、紧急性和各方意愿确定下一步。",
+          "benefits": [
+            "可能协议",
+            "正式档案"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

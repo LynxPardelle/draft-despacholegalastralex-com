@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "soft-landing-empresas-chinas",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Soft landing for Chinese companies",
+      "summary": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
+      "intro": "Astra Legal organizes the legal landing path for companies planning to invest, hire, protect assets, and operate in Mexico. The approach combines prevention, local coordination, and clear documentation for executive decisions.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Mexican market entry",
+        "Government coordination",
+        "Contracts, permits, and early risk"
+      ],
+      "cards": [
+        {
+          "icon": "saved_search",
+          "title": "Entry diagnosis",
+          "description": "We map activity, legal structure, permits, obligations, and risk before execution.",
+          "benefits": [
+            "Incorporation and operating paths",
+            "Priority risks by phase"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "volunteer_activism",
+          "title": "Coordinated execution",
+          "description": "We align filings, contracts, and critical conversations with third parties and authorities.",
+          "benefits": [
+            "Legal agenda by milestone",
+            "Clear executive communication"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Ongoing protection",
+          "description": "We prepare operations for audits, regulatory changes, and preventive defense.",
+          "benefits": [
+            "Document control",
+            "Legal continuity plan"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Entry module",
+      "moduleTitle": "From market intent to defensible operations.",
+      "moduleDescription": "The landing path is organized by milestones: structure, permits, contracts, authorities, and document control for lower-friction operations.",
+      "moduleItems": [
+        {
+          "icon": "saved_search",
+          "title": "Entry read",
+          "description": "Activity, partners, investment, permits, and obligations are reviewed before choosing a route.",
+          "benefits": [
+            "Initial risk map",
+            "Milestone priorities"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "account_tree",
+          "title": "Local coordination",
+          "description": "Contracts, authorities, and third parties are organized through a visible legal agenda.",
+          "benefits": [
+            "Clear owners",
+            "Bilingual or trilingual follow-up"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Protected operation",
+          "description": "Documentation is prepared for audits, regulatory changes, and executive decisions.",
+          "benefits": [
+            "Document control",
+            "Continuity plan"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

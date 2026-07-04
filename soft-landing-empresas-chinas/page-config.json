@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "soft-landing-empresas-chinas",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Soft landing para empresas chinas | Astra Legal",
+      "en": "Soft landing for Chinese companies | Astra Legal",
+      "zh": "中国企业在墨西哥落地 | Astra Legal"
+    },
+    "description": {
+      "es": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+      "en": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
+      "zh": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。"
+    },
+    "canonical": "https://grupoastralegal.com/soft-landing-empresas-chinas",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Soft landing para empresas chinas | Astra Legal",
+        "en": "Soft landing for Chinese companies | Astra Legal",
+        "zh": "中国企业在墨西哥落地 | Astra Legal"
+      },
+      "description": {
+        "es": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+        "en": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
+        "zh": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。"
+      },
+      "url": "https://grupoastralegal.com/soft-landing-empresas-chinas",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Soft landing para empresas chinas | Astra Legal",
+        "en": "Soft landing for Chinese companies | Astra Legal",
+        "zh": "中国企业在墨西哥落地 | Astra Legal"
+      },
+      "description": {
+        "es": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+        "en": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
+        "zh": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Soft landing para empresas chinas | Astra Legal",
+        "description": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+        "url": "https://grupoastralegal.com/soft-landing-empresas-chinas",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

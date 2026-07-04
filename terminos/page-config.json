@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "terminos",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Términos de uso | Astra Legal",
+      "en": "Terms of use | Astra Legal",
+      "zh": "使用条款 | Astra Legal"
+    },
+    "description": {
+      "es": "Condiciones básicas para consultar este sitio informativo de Astra Legal.",
+      "en": "Basic terms for viewing this informational Astra Legal site.",
+      "zh": "浏览 Astra Legal 信息网站的基本条款。"
+    },
+    "canonical": "https://grupoastralegal.com/terminos",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Términos de uso | Astra Legal",
+        "en": "Terms of use | Astra Legal",
+        "zh": "使用条款 | Astra Legal"
+      },
+      "description": {
+        "es": "Condiciones básicas para consultar este sitio informativo de Astra Legal.",
+        "en": "Basic terms for viewing this informational Astra Legal site.",
+        "zh": "浏览 Astra Legal 信息网站的基本条款。"
+      },
+      "url": "https://grupoastralegal.com/terminos",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Términos de uso | Astra Legal",
+        "en": "Terms of use | Astra Legal",
+        "zh": "使用条款 | Astra Legal"
+      },
+      "description": {
+        "es": "Condiciones básicas para consultar este sitio informativo de Astra Legal.",
+        "en": "Basic terms for viewing this informational Astra Legal site.",
+        "zh": "浏览 Astra Legal 信息网站的基本条款。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Términos de uso | Astra Legal",
+        "description": "Condiciones básicas para consultar este sitio informativo de Astra Legal.",
+        "url": "https://grupoastralegal.com/terminos",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

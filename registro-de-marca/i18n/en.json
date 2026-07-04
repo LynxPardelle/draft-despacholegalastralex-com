@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "registro-de-marca",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Trademark registration",
+      "summary": "Search, filing, and follow-up for trademarks that protect commercial identity in Mexico.",
+      "intro": "A trademark protects more than a name. We review availability, classes, opposition risk, and commercial use before filing.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Phonetic and conceptual search",
+        "Classes and use strategy",
+        "Application follow-up"
+      ],
+      "cards": [
+        {
+          "icon": "search",
+          "title": "Availability",
+          "description": "We identify matches and risk before investing in a public identity.",
+          "benefits": [
+            "Prior search",
+            "Viability criteria"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "filter_alt",
+          "title": "Correct classes",
+          "description": "Protection depends on classification aligned to the real business.",
+          "benefits": [
+            "Goods and services",
+            "Future expansion"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "mail",
+          "title": "Follow-up",
+          "description": "We monitor requirements, deadlines, and decisions until there is clarity.",
+          "benefits": [
+            "Office action response",
+            "Deadline control"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Trademark module",
+      "moduleTitle": "Commercial protection before going to market.",
+      "moduleDescription": "The trademark is prepared as an asset: availability, classes, real use, and authority follow-up.",
+      "moduleItems": [
+        {
+          "icon": "search",
+          "title": "Name risk",
+          "description": "Phonetic, conceptual, and visual matches are reviewed before filing.",
+          "benefits": [
+            "Prior search",
+            "Opposition risk"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "filter_alt",
+          "title": "Protection classes",
+          "description": "Coverage is aligned with goods, services, and expected growth.",
+          "benefits": [
+            "Current use",
+            "Future expansion"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "star",
+          "title": "Monitored asset",
+          "description": "The file is followed with timely responses and clear status reading.",
+          "benefits": [
+            "Office actions and deadlines",
+            "Use decision"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "defensa-fiscal-administrativa-amparo",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Tax, administrative, and amparo defense",
+      "summary": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
+      "intro": "Every authority act has timing and consequences. We organize the file, define the route, and make sure the strategy is supported by evidence.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Fines, tax credits, and resolutions",
+        "Administrative remedies",
+        "Trial and amparo"
+      ],
+      "cards": [
+        {
+          "icon": "schedule",
+          "title": "Deadline control",
+          "description": "We identify critical dates and consequences of each path before acting.",
+          "benefits": [
+            "Procedural calendar",
+            "Risk alerts"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Evidence and argument",
+          "description": "We integrate facts, documents, and legal criteria for a consistent defense.",
+          "benefits": [
+            "Evidence matrix",
+            "Legal narrative"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Route strategy",
+          "description": "We determine whether an administrative remedy, trial, amparo, or institutional negotiation is suitable.",
+          "benefits": [
+            "Route comparison",
+            "Documented execution"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Defense module",
+      "moduleTitle": "Deadlines, evidence, and route before responding.",
+      "moduleDescription": "Defense against authorities requires a quick read of the act, its consequences, and evidence that can support the strategy.",
+      "moduleItems": [
+        {
+          "icon": "schedule",
+          "title": "Procedural clock",
+          "description": "Critical dates are set to avoid late responses or lost routes.",
+          "benefits": [
+            "Defense calendar",
+            "Urgency alerts"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Evidence matrix",
+          "description": "Each argument is tied to facts, documents, and applicable criteria.",
+          "benefits": [
+            "Verifiable facts",
+            "Document support"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Route selection",
+          "description": "Remedy, trial, amparo, or institutional conversation are compared by matter.",
+          "benefits": [
+            "Cost and consequence",
+            "Documented execution"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

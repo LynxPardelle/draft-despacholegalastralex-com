@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "defensa-fiscal-administrativa-amparo",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Defensa fiscal, administrativa y amparo",
+      "summary": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+      "intro": "Cada acto de autoridad tiene tiempos y consecuencias. Ordenamos el expediente, definimos la vía y cuidamos que la estrategia se sostenga con pruebas.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Multas, créditos y resoluciones",
+        "Recursos administrativos",
+        "Juicio y amparo"
+      ],
+      "cards": [
+        {
+          "icon": "schedule",
+          "title": "Control de plazos",
+          "description": "Ubicamos fechas críticas y consecuencias de cada vía antes de actuar.",
+          "benefits": [
+            "Calendario procesal",
+            "Alertas de riesgo"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Prueba y argumento",
+          "description": "Integramos hechos, documentos y criterios legales para una defensa consistente.",
+          "benefits": [
+            "Matriz de pruebas",
+            "Narrativa jurídica"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Estrategia de vía",
+          "description": "Determinamos si conviene recurso, juicio, amparo o negociación institucional.",
+          "benefits": [
+            "Comparativo de rutas",
+            "Ejecución documentada"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Módulo de defensa",
+      "moduleTitle": "Plazos, prueba y vía antes de responder.",
+      "moduleDescription": "La defensa frente a autoridad necesita una lectura rápida del acto, sus consecuencias y la evidencia que puede sostener la estrategia.",
+      "moduleItems": [
+        {
+          "icon": "schedule",
+          "title": "Reloj procesal",
+          "description": "Se fijan fechas críticas para evitar respuestas tardías o vías perdidas.",
+          "benefits": [
+            "Calendario de defensa",
+            "Alertas de urgencia"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Matriz de prueba",
+          "description": "Cada argumento se liga con hechos, documentos y criterios aplicables.",
+          "benefits": [
+            "Hechos verificables",
+            "Soporte documental"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Selección de vía",
+          "description": "Se compara recurso, juicio, amparo o conversación institucional según el caso.",
+          "benefits": [
+            "Costo y consecuencia",
+            "Ejecución documentada"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "privacidad",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Privacidad | Astra Legal",
+      "en": "Privacy | Astra Legal",
+      "zh": "隐私 | Astra Legal"
+    },
+    "description": {
+      "es": "Información preliminar sobre el tratamiento de datos de contacto en este sitio informativo.",
+      "en": "Preliminary information about contact-data handling on this informational site.",
+      "zh": "关于本信息网站处理联系数据的初步说明。"
+    },
+    "canonical": "https://grupoastralegal.com/privacidad",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Privacidad | Astra Legal",
+        "en": "Privacy | Astra Legal",
+        "zh": "隐私 | Astra Legal"
+      },
+      "description": {
+        "es": "Información preliminar sobre el tratamiento de datos de contacto en este sitio informativo.",
+        "en": "Preliminary information about contact-data handling on this informational site.",
+        "zh": "关于本信息网站处理联系数据的初步说明。"
+      },
+      "url": "https://grupoastralegal.com/privacidad",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Privacidad | Astra Legal",
+        "en": "Privacy | Astra Legal",
+        "zh": "隐私 | Astra Legal"
+      },
+      "description": {
+        "es": "Información preliminar sobre el tratamiento de datos de contacto en este sitio informativo.",
+        "en": "Preliminary information about contact-data handling on this informational site.",
+        "zh": "关于本信息网站处理联系数据的初步说明。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Privacidad | Astra Legal",
+        "description": "Información preliminar sobre el tratamiento de datos de contacto en este sitio informativo.",
+        "url": "https://grupoastralegal.com/privacidad",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

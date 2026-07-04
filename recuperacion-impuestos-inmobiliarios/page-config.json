@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "recuperacion-impuestos-inmobiliarios",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Recuperación de impuestos inmobiliarios | Astra Legal",
+      "en": "Real estate tax recovery | Astra Legal",
+      "zh": "不动产税费追回 | Astra Legal"
+    },
+    "description": {
+      "es": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+      "en": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
+      "zh": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。"
+    },
+    "canonical": "https://grupoastralegal.com/recuperacion-impuestos-inmobiliarios",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Recuperación de impuestos inmobiliarios | Astra Legal",
+        "en": "Real estate tax recovery | Astra Legal",
+        "zh": "不动产税费追回 | Astra Legal"
+      },
+      "description": {
+        "es": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+        "en": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
+        "zh": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。"
+      },
+      "url": "https://grupoastralegal.com/recuperacion-impuestos-inmobiliarios",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Recuperación de impuestos inmobiliarios | Astra Legal",
+        "en": "Real estate tax recovery | Astra Legal",
+        "zh": "不动产税费追回 | Astra Legal"
+      },
+      "description": {
+        "es": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+        "en": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
+        "zh": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Recuperación de impuestos inmobiliarios | Astra Legal",
+        "description": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+        "url": "https://grupoastralegal.com/recuperacion-impuestos-inmobiliarios",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "metodo",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Método Astra",
+      "summary": "Un proceso de trabajo para pasar de incertidumbre legal a decisiones ordenadas y accionables.",
+      "intro": "El método evita actuar por impulso. Primero entendemos hechos, después ordenamos evidencia, evaluamos rutas y solo entonces ejecutamos con prioridades claras.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Diagnóstico",
+        "Estrategia",
+        "Ejecución y seguimiento"
+      ],
+      "cards": [
+        {
+          "icon": "saved_search",
+          "title": "1. Entender",
+          "description": "Contexto, partes, documentos, urgencias y consecuencias reales.",
+          "benefits": [
+            "Brief inicial",
+            "Mapa de actores"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "trending_up",
+          "title": "2. Diseñar",
+          "description": "Rutas comparadas con costo, tiempo, riesgo y evidencia necesaria.",
+          "benefits": [
+            "Escenarios",
+            "Prioridades"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "check_circle",
+          "title": "3. Ejecutar",
+          "description": "Acciones, escritos, conversaciones y seguimiento con trazabilidad.",
+          "benefits": [
+            "Responsables claros",
+            "Evidencia de avance"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

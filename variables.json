@@ -1,6 +1,768 @@
 {
   "version": 1,
-  "domain": "despacholegalastralex.com",
+  "domain": "grupoastralegal.com",
   "pageId": "allPages",
-  "variables": {}
+  "variables": {
+    "brand": {
+      "displayName": "Astra Legal",
+      "tagline": "Los problemas son para resolverse. Lo imposible solo toma un poco más de tiempo.",
+      "logoUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png"
+    },
+    "heroAssets": {
+      "heroImageUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg",
+      "heroImageAlt": "Dirección legal de Astra Legal"
+    },
+    "ctaTargets": {
+      "calendlyUrl": "https://calendly.com/jluis-ortega27/30min",
+      "whatsappUrl": "https://wa.me/5213319937983?text=Hola%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
+      "emailUrl": "mailto:grupoastralegal@gmail.com",
+      "phoneUrl": "tel:+523319937983",
+      "primaryUrl": "https://calendly.com/jluis-ortega27/30min",
+      "secondaryUrl": "/servicios"
+    },
+    "navigation": [
+      {
+        "id": "inicio",
+        "label": {
+          "es": "Inicio",
+          "en": "Home",
+          "zh": "首页"
+        },
+        "href": "/",
+        "value": "/"
+      },
+      {
+        "id": "recursos",
+        "label": {
+          "es": "Recursos",
+          "en": "Resources",
+          "zh": "资源"
+        },
+        "href": "/recursos-legales",
+        "value": "/recursos-legales"
+      },
+      {
+        "id": "contacto",
+        "label": {
+          "es": "Contacto",
+          "en": "Contact",
+          "zh": "联系"
+        },
+        "href": "/contacto",
+        "value": "/contacto"
+      }
+    ],
+    "navMenus": {
+      "servicesMenu": [
+        {
+          "id": "servicios",
+          "label": {
+            "es": "Todos los servicios",
+            "en": "All services",
+            "zh": "全部服务"
+          },
+          "href": "/servicios",
+          "value": "/servicios"
+        },
+        {
+          "id": "grupo-negocios",
+          "label": {
+            "es": "Negocios y entrada a México",
+            "en": "Business and Mexico entry",
+            "zh": "业务与墨西哥进入"
+          },
+          "href": "#",
+          "value": "grupo-negocios",
+          "disabled": true
+        },
+        {
+          "id": "soft-landing-china",
+          "label": {
+            "es": "Soft landing para empresas chinas",
+            "en": "Soft landing for Chinese companies",
+            "zh": "中国企业在墨西哥落地"
+          },
+          "href": "/soft-landing-empresas-chinas",
+          "value": "/soft-landing-empresas-chinas",
+          "ariaLabel": {
+            "es": "Soft landing para empresas chinas",
+            "en": "Soft landing for Chinese companies",
+            "zh": "中国企业在墨西哥落地"
+          }
+        },
+        {
+          "id": "grupo-autoridad",
+          "label": {
+            "es": "Autoridad, impuestos y defensa",
+            "en": "Authorities, tax, and defense",
+            "zh": "主管机关、税务与防御"
+          },
+          "href": "#",
+          "value": "grupo-autoridad",
+          "disabled": true
+        },
+        {
+          "id": "impuestos-inmobiliarios",
+          "label": {
+            "es": "Recuperación de impuestos inmobiliarios",
+            "en": "Real estate tax recovery",
+            "zh": "不动产税费追回"
+          },
+          "href": "/recuperacion-impuestos-inmobiliarios",
+          "value": "/recuperacion-impuestos-inmobiliarios",
+          "ariaLabel": {
+            "es": "Recuperación de impuestos inmobiliarios",
+            "en": "Real estate tax recovery",
+            "zh": "不动产税费追回"
+          }
+        },
+        {
+          "id": "defensa-fiscal",
+          "label": {
+            "es": "Defensa fiscal, administrativa y amparo",
+            "en": "Tax, administrative, and amparo defense",
+            "zh": "税务、行政与宪法保护诉讼防御"
+          },
+          "href": "/defensa-fiscal-administrativa-amparo",
+          "value": "/defensa-fiscal-administrativa-amparo",
+          "ariaLabel": {
+            "es": "Defensa fiscal, administrativa y amparo",
+            "en": "Tax, administrative, and amparo defense",
+            "zh": "税务、行政与宪法保护诉讼防御"
+          }
+        },
+        {
+          "id": "multas-gobierno",
+          "label": {
+            "es": "Defensa y recuperación por multas de gobierno",
+            "en": "Government fine defense and recovery",
+            "zh": "政府罚款防御与追回"
+          },
+          "href": "/defensa-multas-gobierno",
+          "value": "/defensa-multas-gobierno",
+          "ariaLabel": {
+            "es": "Defensa y recuperación por multas de gobierno",
+            "en": "Government fine defense and recovery",
+            "zh": "政府罚款防御与追回"
+          }
+        },
+        {
+          "id": "grupo-propiedad-intelectual",
+          "label": {
+            "es": "Propiedad intelectual",
+            "en": "Intellectual property",
+            "zh": "知识产权"
+          },
+          "href": "#",
+          "value": "grupo-propiedad-intelectual",
+          "disabled": true
+        },
+        {
+          "id": "marca",
+          "label": {
+            "es": "Registro de marca",
+            "en": "Trademark registration",
+            "zh": "商标注册"
+          },
+          "href": "/registro-de-marca",
+          "value": "/registro-de-marca",
+          "ariaLabel": {
+            "es": "Registro de marca",
+            "en": "Trademark registration",
+            "zh": "商标注册"
+          }
+        },
+        {
+          "id": "patentes",
+          "label": {
+            "es": "Registro de patentes",
+            "en": "Patent registration",
+            "zh": "专利申请"
+          },
+          "href": "/registro-de-patentes",
+          "value": "/registro-de-patentes",
+          "ariaLabel": {
+            "es": "Registro de patentes",
+            "en": "Patent registration",
+            "zh": "专利申请"
+          }
+        },
+        {
+          "id": "grupo-patrimonio-trabajo",
+          "label": {
+            "es": "Patrimonio y trabajo",
+            "en": "Assets and labor",
+            "zh": "资产与劳动"
+          },
+          "href": "#",
+          "value": "grupo-patrimonio-trabajo",
+          "disabled": true
+        },
+        {
+          "id": "proteccion-patrimonial",
+          "label": {
+            "es": "Protección patrimonial, matrimonio y divorcio",
+            "en": "Asset protection, marriage, and divorce",
+            "zh": "婚姻、离婚与资产保护"
+          },
+          "href": "/proteccion-patrimonial-matrimonio-divorcio",
+          "value": "/proteccion-patrimonial-matrimonio-divorcio",
+          "ariaLabel": {
+            "es": "Protección patrimonial, matrimonio y divorcio",
+            "en": "Asset protection, marriage, and divorce",
+            "zh": "婚姻、离婚与资产保护"
+          }
+        },
+        {
+          "id": "despido-injustificado",
+          "label": {
+            "es": "Despido injustificado y reclamaciones laborales",
+            "en": "Wrongful dismissal and labor claims",
+            "zh": "不当解雇与劳动索赔"
+          },
+          "href": "/despido-injustificado",
+          "value": "/despido-injustificado",
+          "ariaLabel": {
+            "es": "Despido injustificado y reclamaciones laborales",
+            "en": "Wrongful dismissal and labor claims",
+            "zh": "不当解雇与劳动索赔"
+          }
+        },
+        {
+          "id": "grupo-gobierno",
+          "label": {
+            "es": "Gobierno y proyectos públicos",
+            "en": "Government and public projects",
+            "zh": "政府与公共项目"
+          },
+          "href": "#",
+          "value": "grupo-gobierno",
+          "disabled": true
+        },
+        {
+          "id": "gobiernos",
+          "label": {
+            "es": "Consultoría legal para gobiernos",
+            "en": "Legal consulting for governments",
+            "zh": "政府法律咨询"
+          },
+          "href": "/consultoria-legal-gobiernos",
+          "value": "/consultoria-legal-gobiernos",
+          "ariaLabel": {
+            "es": "Consultoría legal para gobiernos",
+            "en": "Legal consulting for governments",
+            "zh": "政府法律咨询"
+          }
+        }
+      ],
+      "brandMenu": [
+        {
+          "id": "quienes-somos",
+          "label": {
+            "es": "Quiénes somos",
+            "en": "About us",
+            "zh": "关于我们"
+          },
+          "href": "/quienes-somos",
+          "value": "/quienes-somos"
+        },
+        {
+          "id": "metodo",
+          "label": {
+            "es": "Método",
+            "en": "Method",
+            "zh": "方法"
+          },
+          "href": "/metodo",
+          "value": "/metodo"
+        },
+        {
+          "id": "casos-de-uso",
+          "label": {
+            "es": "Casos de uso",
+            "en": "Use cases",
+            "zh": "使用场景"
+          },
+          "href": "/casos-de-uso",
+          "value": "/casos-de-uso"
+        },
+        {
+          "id": "preguntas-frecuentes",
+          "label": {
+            "es": "Preguntas frecuentes",
+            "en": "FAQ",
+            "zh": "常见问题"
+          },
+          "href": "/preguntas-frecuentes",
+          "value": "/preguntas-frecuentes"
+        }
+      ],
+      "mobileMenu": [
+        {
+          "id": "inicio",
+          "label": {
+            "es": "Inicio",
+            "en": "Home",
+            "zh": "首页"
+          },
+          "href": "/",
+          "value": "/"
+        },
+        {
+          "id": "recursos",
+          "label": {
+            "es": "Recursos",
+            "en": "Resources",
+            "zh": "资源"
+          },
+          "href": "/recursos-legales",
+          "value": "/recursos-legales"
+        },
+        {
+          "id": "contacto",
+          "label": {
+            "es": "Contacto",
+            "en": "Contact",
+            "zh": "联系"
+          },
+          "href": "/contacto",
+          "value": "/contacto"
+        },
+        {
+          "id": "servicios",
+          "label": {
+            "es": "Servicios",
+            "en": "Services",
+            "zh": "服务"
+          },
+          "href": "/servicios",
+          "value": "/servicios"
+        },
+        {
+          "id": "soft-landing-china",
+          "label": {
+            "es": "Soft landing para empresas chinas",
+            "en": "Soft landing for Chinese companies",
+            "zh": "中国企业在墨西哥落地"
+          },
+          "href": "/soft-landing-empresas-chinas",
+          "value": "/soft-landing-empresas-chinas",
+          "ariaLabel": {
+            "es": "Soft landing para empresas chinas",
+            "en": "Soft landing for Chinese companies",
+            "zh": "中国企业在墨西哥落地"
+          }
+        },
+        {
+          "id": "proteccion-patrimonial",
+          "label": {
+            "es": "Protección patrimonial, matrimonio y divorcio",
+            "en": "Asset protection, marriage, and divorce",
+            "zh": "婚姻、离婚与资产保护"
+          },
+          "href": "/proteccion-patrimonial-matrimonio-divorcio",
+          "value": "/proteccion-patrimonial-matrimonio-divorcio",
+          "ariaLabel": {
+            "es": "Protección patrimonial, matrimonio y divorcio",
+            "en": "Asset protection, marriage, and divorce",
+            "zh": "婚姻、离婚与资产保护"
+          }
+        },
+        {
+          "id": "impuestos-inmobiliarios",
+          "label": {
+            "es": "Recuperación de impuestos inmobiliarios",
+            "en": "Real estate tax recovery",
+            "zh": "不动产税费追回"
+          },
+          "href": "/recuperacion-impuestos-inmobiliarios",
+          "value": "/recuperacion-impuestos-inmobiliarios",
+          "ariaLabel": {
+            "es": "Recuperación de impuestos inmobiliarios",
+            "en": "Real estate tax recovery",
+            "zh": "不动产税费追回"
+          }
+        },
+        {
+          "id": "defensa-fiscal",
+          "label": {
+            "es": "Defensa fiscal, administrativa y amparo",
+            "en": "Tax, administrative, and amparo defense",
+            "zh": "税务、行政与宪法保护诉讼防御"
+          },
+          "href": "/defensa-fiscal-administrativa-amparo",
+          "value": "/defensa-fiscal-administrativa-amparo",
+          "ariaLabel": {
+            "es": "Defensa fiscal, administrativa y amparo",
+            "en": "Tax, administrative, and amparo defense",
+            "zh": "税务、行政与宪法保护诉讼防御"
+          }
+        },
+        {
+          "id": "marca",
+          "label": {
+            "es": "Registro de marca",
+            "en": "Trademark registration",
+            "zh": "商标注册"
+          },
+          "href": "/registro-de-marca",
+          "value": "/registro-de-marca",
+          "ariaLabel": {
+            "es": "Registro de marca",
+            "en": "Trademark registration",
+            "zh": "商标注册"
+          }
+        },
+        {
+          "id": "patentes",
+          "label": {
+            "es": "Registro de patentes",
+            "en": "Patent registration",
+            "zh": "专利申请"
+          },
+          "href": "/registro-de-patentes",
+          "value": "/registro-de-patentes",
+          "ariaLabel": {
+            "es": "Registro de patentes",
+            "en": "Patent registration",
+            "zh": "专利申请"
+          }
+        },
+        {
+          "id": "multas-gobierno",
+          "label": {
+            "es": "Defensa y recuperación por multas de gobierno",
+            "en": "Government fine defense and recovery",
+            "zh": "政府罚款防御与追回"
+          },
+          "href": "/defensa-multas-gobierno",
+          "value": "/defensa-multas-gobierno",
+          "ariaLabel": {
+            "es": "Defensa y recuperación por multas de gobierno",
+            "en": "Government fine defense and recovery",
+            "zh": "政府罚款防御与追回"
+          }
+        },
+        {
+          "id": "despido-injustificado",
+          "label": {
+            "es": "Despido injustificado y reclamaciones laborales",
+            "en": "Wrongful dismissal and labor claims",
+            "zh": "不当解雇与劳动索赔"
+          },
+          "href": "/despido-injustificado",
+          "value": "/despido-injustificado",
+          "ariaLabel": {
+            "es": "Despido injustificado y reclamaciones laborales",
+            "en": "Wrongful dismissal and labor claims",
+            "zh": "不当解雇与劳动索赔"
+          }
+        },
+        {
+          "id": "gobiernos",
+          "label": {
+            "es": "Consultoría legal para gobiernos",
+            "en": "Legal consulting for governments",
+            "zh": "政府法律咨询"
+          },
+          "href": "/consultoria-legal-gobiernos",
+          "value": "/consultoria-legal-gobiernos",
+          "ariaLabel": {
+            "es": "Consultoría legal para gobiernos",
+            "en": "Legal consulting for governments",
+            "zh": "政府法律咨询"
+          }
+        },
+        {
+          "id": "quienes-somos",
+          "label": {
+            "es": "Quiénes somos",
+            "en": "About us",
+            "zh": "关于我们"
+          },
+          "href": "/quienes-somos",
+          "value": "/quienes-somos"
+        },
+        {
+          "id": "metodo",
+          "label": {
+            "es": "Método",
+            "en": "Method",
+            "zh": "方法"
+          },
+          "href": "/metodo",
+          "value": "/metodo"
+        },
+        {
+          "id": "casos-de-uso",
+          "label": {
+            "es": "Casos de uso",
+            "en": "Use cases",
+            "zh": "使用场景"
+          },
+          "href": "/casos-de-uso",
+          "value": "/casos-de-uso"
+        },
+        {
+          "id": "preguntas-frecuentes",
+          "label": {
+            "es": "Preguntas frecuentes",
+            "en": "FAQ",
+            "zh": "常见问题"
+          },
+          "href": "/preguntas-frecuentes",
+          "value": "/preguntas-frecuentes"
+        },
+        {
+          "id": "privacidad",
+          "label": {
+            "es": "Privacidad",
+            "en": "Privacy",
+            "zh": "隐私"
+          },
+          "href": "/privacidad",
+          "value": "/privacidad"
+        },
+        {
+          "id": "terminos",
+          "label": {
+            "es": "Términos",
+            "en": "Terms",
+            "zh": "条款"
+          },
+          "href": "/terminos",
+          "value": "/terminos"
+        }
+      ],
+      "footerServices": [
+        {
+          "id": "soft-landing-china",
+          "label": {
+            "es": "Soft landing para empresas chinas",
+            "en": "Soft landing for Chinese companies",
+            "zh": "中国企业在墨西哥落地"
+          },
+          "href": "/soft-landing-empresas-chinas",
+          "value": "/soft-landing-empresas-chinas",
+          "ariaLabel": {
+            "es": "Soft landing para empresas chinas",
+            "en": "Soft landing for Chinese companies",
+            "zh": "中国企业在墨西哥落地"
+          }
+        },
+        {
+          "id": "proteccion-patrimonial",
+          "label": {
+            "es": "Protección patrimonial, matrimonio y divorcio",
+            "en": "Asset protection, marriage, and divorce",
+            "zh": "婚姻、离婚与资产保护"
+          },
+          "href": "/proteccion-patrimonial-matrimonio-divorcio",
+          "value": "/proteccion-patrimonial-matrimonio-divorcio",
+          "ariaLabel": {
+            "es": "Protección patrimonial, matrimonio y divorcio",
+            "en": "Asset protection, marriage, and divorce",
+            "zh": "婚姻、离婚与资产保护"
+          }
+        },
+        {
+          "id": "impuestos-inmobiliarios",
+          "label": {
+            "es": "Recuperación de impuestos inmobiliarios",
+            "en": "Real estate tax recovery",
+            "zh": "不动产税费追回"
+          },
+          "href": "/recuperacion-impuestos-inmobiliarios",
+          "value": "/recuperacion-impuestos-inmobiliarios",
+          "ariaLabel": {
+            "es": "Recuperación de impuestos inmobiliarios",
+            "en": "Real estate tax recovery",
+            "zh": "不动产税费追回"
+          }
+        },
+        {
+          "id": "defensa-fiscal",
+          "label": {
+            "es": "Defensa fiscal, administrativa y amparo",
+            "en": "Tax, administrative, and amparo defense",
+            "zh": "税务、行政与宪法保护诉讼防御"
+          },
+          "href": "/defensa-fiscal-administrativa-amparo",
+          "value": "/defensa-fiscal-administrativa-amparo",
+          "ariaLabel": {
+            "es": "Defensa fiscal, administrativa y amparo",
+            "en": "Tax, administrative, and amparo defense",
+            "zh": "税务、行政与宪法保护诉讼防御"
+          }
+        },
+        {
+          "id": "marca",
+          "label": {
+            "es": "Registro de marca",
+            "en": "Trademark registration",
+            "zh": "商标注册"
+          },
+          "href": "/registro-de-marca",
+          "value": "/registro-de-marca",
+          "ariaLabel": {
+            "es": "Registro de marca",
+            "en": "Trademark registration",
+            "zh": "商标注册"
+          }
+        },
+        {
+          "id": "patentes",
+          "label": {
+            "es": "Registro de patentes",
+            "en": "Patent registration",
+            "zh": "专利申请"
+          },
+          "href": "/registro-de-patentes",
+          "value": "/registro-de-patentes",
+          "ariaLabel": {
+            "es": "Registro de patentes",
+            "en": "Patent registration",
+            "zh": "专利申请"
+          }
+        },
+        {
+          "id": "multas-gobierno",
+          "label": {
+            "es": "Defensa y recuperación por multas de gobierno",
+            "en": "Government fine defense and recovery",
+            "zh": "政府罚款防御与追回"
+          },
+          "href": "/defensa-multas-gobierno",
+          "value": "/defensa-multas-gobierno",
+          "ariaLabel": {
+            "es": "Defensa y recuperación por multas de gobierno",
+            "en": "Government fine defense and recovery",
+            "zh": "政府罚款防御与追回"
+          }
+        },
+        {
+          "id": "despido-injustificado",
+          "label": {
+            "es": "Despido injustificado y reclamaciones laborales",
+            "en": "Wrongful dismissal and labor claims",
+            "zh": "不当解雇与劳动索赔"
+          },
+          "href": "/despido-injustificado",
+          "value": "/despido-injustificado",
+          "ariaLabel": {
+            "es": "Despido injustificado y reclamaciones laborales",
+            "en": "Wrongful dismissal and labor claims",
+            "zh": "不当解雇与劳动索赔"
+          }
+        },
+        {
+          "id": "gobiernos",
+          "label": {
+            "es": "Consultoría legal para gobiernos",
+            "en": "Legal consulting for governments",
+            "zh": "政府法律咨询"
+          },
+          "href": "/consultoria-legal-gobiernos",
+          "value": "/consultoria-legal-gobiernos",
+          "ariaLabel": {
+            "es": "Consultoría legal para gobiernos",
+            "en": "Legal consulting for governments",
+            "zh": "政府法律咨询"
+          }
+        }
+      ],
+      "footerBrand": [
+        {
+          "id": "quienes-somos",
+          "label": {
+            "es": "Quiénes somos",
+            "en": "About us",
+            "zh": "关于我们"
+          },
+          "href": "/quienes-somos",
+          "value": "/quienes-somos"
+        },
+        {
+          "id": "metodo",
+          "label": {
+            "es": "Método",
+            "en": "Method",
+            "zh": "方法"
+          },
+          "href": "/metodo",
+          "value": "/metodo"
+        },
+        {
+          "id": "casos-de-uso",
+          "label": {
+            "es": "Casos de uso",
+            "en": "Use cases",
+            "zh": "使用场景"
+          },
+          "href": "/casos-de-uso",
+          "value": "/casos-de-uso"
+        },
+        {
+          "id": "preguntas-frecuentes",
+          "label": {
+            "es": "Preguntas frecuentes",
+            "en": "FAQ",
+            "zh": "常见问题"
+          },
+          "href": "/preguntas-frecuentes",
+          "value": "/preguntas-frecuentes"
+        }
+      ],
+      "footerLegal": [
+        {
+          "id": "privacidad",
+          "label": {
+            "es": "Privacidad",
+            "en": "Privacy",
+            "zh": "隐私"
+          },
+          "href": "/privacidad",
+          "value": "/privacidad"
+        },
+        {
+          "id": "terminos",
+          "label": {
+            "es": "Términos",
+            "en": "Terms",
+            "zh": "条款"
+          },
+          "href": "/terminos",
+          "value": "/terminos"
+        }
+      ]
+    },
+    "contact": {
+      "phoneDisplay": "+52 33 1993 7983",
+      "phoneHref": "tel:+523319937983",
+      "email": "grupoastralegal@gmail.com",
+      "emailHref": "mailto:grupoastralegal@gmail.com",
+      "calendlyUrl": "https://calendly.com/jluis-ortega27/30min",
+      "whatsappUrl": "https://wa.me/5213319937983?text=Hola%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
+      "domain": "grupoastralegal.com"
+    },
+    "ui": {
+      "languageOptions": [
+        {
+          "id": "lang-es",
+          "label": "ES",
+          "value": "es"
+        },
+        {
+          "id": "lang-en",
+          "label": "EN",
+          "value": "en"
+        },
+        {
+          "id": "lang-zh",
+          "label": "中文",
+          "value": "zh"
+        }
+      ]
+    }
+  }
 }

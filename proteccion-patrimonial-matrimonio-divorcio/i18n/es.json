@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "proteccion-patrimonial-matrimonio-divorcio",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Protección patrimonial, matrimonio y divorcio",
+      "summary": "Estrategia para proteger patrimonio, ordenar obligaciones y reducir incertidumbre en decisiones familiares complejas.",
+      "intro": "La protección patrimonial exige orden, sensibilidad y documentos bien pensados. Trabajamos la parte preventiva y contenciosa para que cada decisión tenga un marco legal claro.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Convenios y acuerdos familiares",
+        "Divorcio y protección patrimonial",
+        "Prevención de conflictos futuros"
+      ],
+      "cards": [
+        {
+          "icon": "gavel",
+          "title": "Mapa patrimonial",
+          "description": "Identificamos bienes, obligaciones, riesgos y documentos clave antes de proponer una ruta.",
+          "benefits": [
+            "Inventario jurídico",
+            "Prioridades de protección"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Ruta de negociación o defensa",
+          "description": "Definimos cuándo conviene negociar, formalizar o litigar, sin prometer resultados que dependen de terceros.",
+          "benefits": [
+            "Estrategia por escenario",
+            "Documentación de soporte"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Cierre ordenado",
+          "description": "Buscamos acuerdos claros, ejecutables y respetuosos del contexto familiar.",
+          "benefits": [
+            "Condiciones verificables",
+            "Seguimiento posterior"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Módulo patrimonial",
+      "moduleTitle": "Orden antes de decidir, negociar o litigar.",
+      "moduleDescription": "La estrategia patrimonial combina inventario, documentos, escenarios familiares y efectos legales para reducir incertidumbre.",
+      "moduleItems": [
+        {
+          "icon": "home",
+          "title": "Mapa de bienes y obligaciones",
+          "description": "Se separan bienes, deudas, acuerdos, riesgos y documentos que sostienen cada decisión.",
+          "benefits": [
+            "Inventario jurídico",
+            "Puntos de tensión"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Escenario familiar",
+          "description": "La ruta considera personas involucradas, acuerdos posibles y límites razonables de negociación.",
+          "benefits": [
+            "Convenios claros",
+            "Lenguaje cuidadoso"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Ruta formal",
+          "description": "Cuando no basta negociar, el expediente se prepara para una defensa ordenada.",
+          "benefits": [
+            "Pruebas disponibles",
+            "Siguiente paso verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

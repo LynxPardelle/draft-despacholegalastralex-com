@@ -1,100 +1,71 @@
 {
   "version": 1,
   "pageId": "not-found",
-  "domain": "despacholegalastralex.com",
+  "domain": "grupoastralegal.com",
   "rootIds": [
     "skipToMainLink",
-    "notFoundPage"
+    "siteHeader",
+    "notFoundPage",
+    "siteFooter"
   ],
   "modalRootIds": [],
   "metadata": {
     "status": "local-draft",
-    "routePurpose": "not-found-recovery"
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
   },
   "seo": {
     "title": {
-      "es": "Página no encontrada | Grupo Astra Legal",
-      "en": "Page not found | Grupo Astra Legal",
-      "fr": "Page introuvable | Grupo Astra Legal",
-      "de": "Seite nicht gefunden | Grupo Astra Legal"
+      "es": "Página no encontrada | Astra Legal",
+      "en": "Page not found | Astra Legal",
+      "zh": "页面未找到 | Astra Legal"
     },
     "description": {
-      "es": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
-      "en": "The requested page is not available on Grupo Astra Legal. Return home or use a published route to continue.",
-      "fr": "La page demandée n'est pas disponible sur Grupo Astra Legal. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
-      "de": "Die angeforderte Seite ist auf Grupo Astra Legal nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      "es": "La ruta no está disponible en Astra Legal.",
+      "en": "The route is not available on Astra Legal.",
+      "zh": "Astra Legal 上没有该路径。"
     },
-    "canonical": "https://despacholegalastralex.com/404",
-    "robots": "noindex,follow",
-    "keywords": {
-      "es": [
-        "pagina no encontrada",
-        "Grupo Astra Legal"
-      ],
-      "en": [
-        "page not found",
-        "Grupo Astra Legal"
-      ],
-      "fr": [
-        "page introuvable",
-        "Grupo Astra Legal"
-      ],
-      "de": [
-        "seite nicht gefunden",
-        "Grupo Astra Legal"
-      ]
-    },
-    "openGraph": {
-      "title": {
-        "es": "Página no encontrada | Grupo Astra Legal",
-        "en": "Page not found | Grupo Astra Legal",
-        "fr": "Page introuvable | Grupo Astra Legal",
-        "de": "Seite nicht gefunden | Grupo Astra Legal"
-      },
-      "description": {
-        "es": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
-        "en": "The requested page is not available on Grupo Astra Legal. Return home or use a published route to continue.",
-        "fr": "La page demandée n'est pas disponible sur Grupo Astra Legal. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
-        "de": "Die angeforderte Seite ist auf Grupo Astra Legal nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
-      },
-      "url": "https://despacholegalastralex.com/404",
-      "type": "website"
-    },
-    "twitter": {
-      "title": {
-        "es": "Página no encontrada | Grupo Astra Legal",
-        "en": "Page not found | Grupo Astra Legal",
-        "fr": "Page introuvable | Grupo Astra Legal",
-        "de": "Seite nicht gefunden | Grupo Astra Legal"
-      },
-      "description": {
-        "es": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
-        "en": "The requested page is not available on Grupo Astra Legal. Return home or use a published route to continue.",
-        "fr": "La page demandée n'est pas disponible sur Grupo Astra Legal. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
-        "de": "Die angeforderte Seite ist auf Grupo Astra Legal nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
-      },
-      "card": "summary_large_image"
-    }
+    "canonical": "https://grupoastralegal.com/404",
+    "robots": "noindex,follow"
   },
   "structuredData": {
     "entries": [
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Página no encontrada | Grupo Astra Legal",
-        "description": "La página solicitada no está disponible en Grupo Astra Legal. Vuelve al inicio o usa una ruta publicada para continuar.",
-        "url": "https://despacholegalastralex.com/404",
-        "inLanguage": "es"
+        "name": "Página no encontrada | Astra Legal",
+        "description": "La ruta no está disponible en Astra Legal.",
+        "url": "https://grupoastralegal.com/404",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
       }
     ]
   },
   "analytics": {
     "sectionIds": [
-      "home",
-      "rutas"
+      "main-content",
+      "site-footer"
     ],
     "scrollMilestones": [
+      25,
       50,
+      75,
       100
     ]
   }

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "privacidad",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Privacy",
+      "summary": "Preliminary information about contact-data handling on this informational site.",
+      "intro": "Astra Legal receives contact data through email, WhatsApp, or Calendly to respond and assess the matter. If forms or other data-capture features are added, the privacy notice will be updated before requesting additional information.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "No active user accounts",
+        "No active analytics at this stage",
+        "Do not send sensitive data without confirmation"
+      ],
+      "cards": [
+        {
+          "icon": "mail",
+          "title": "Contact data",
+          "description": "Name, contact channel, and general context may be received through external channels chosen by the visitor.",
+          "benefits": [
+            "Message response",
+            "Preliminary assessment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "Sensitive documents should not be sent until scope, channel, and need are confirmed.",
+          "benefits": [
+            "Data minimization",
+            "Appropriate channels"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "account_tree",
+          "title": "Future changes",
+          "description": "If forms, user areas, or analytics are enabled, the notice must be updated before publication.",
+          "benefits": [
+            "Prior legal review",
+            "Visitor transparency"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}
