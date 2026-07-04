@@ -1,426 +1,163 @@
 {
   "version": 1,
+  "domain": "grupoastralegal.com",
   "pageId": "default",
-  "domain": "despacholegalastralex.com",
   "lang": "es",
   "dictionary": {
-    "brand": {
-      "name": "Grupo Astra Legal"
-    },
-    "nav": {
-      "home": "Inicio",
-      "benefits": "Enfoque",
-      "process": "Proceso",
-      "offers": "Especialidades",
-      "faq": "Dudas",
-      "contact": "WhatsApp"
-    },
-    "ui": {
-      "skipToMain": "Saltar al contenido principal",
-      "toggleTheme": "Cambiar tema",
-      "toggleLanguage": "Cambiar idioma",
-      "selectLanguage": "Seleccionar idioma",
-      "controls": {
-        "languageToggle": "Cambiar idioma"
+    "page": {
+      "hero": {
+        "eyebrow": "Estrategia jurídica con alcance internacional",
+        "title": "Astra Legal",
+        "subtitle": "Claridad legal para decisiones que no conviene resolver con improvisación.",
+        "description": "Astra Legal acompaña a empresas, gobiernos y personas en estrategia preventiva, defensa, propiedad intelectual, soft landing y protección patrimonial en México.",
+        "quote": "Los problemas son para resolverse. Lo imposible solo toma un poco más de tiempo.",
+        "primary": "Agendar valoración",
+        "secondary": "Explorar servicios",
+        "portraitTitle": "Dirección legal",
+        "portraitDescription": "Una puerta de entrada profesional para asuntos que necesitan método, discreción y ejecución precisa.",
+        "portraitAlt": "Retrato profesional de Astra Legal"
       },
-      "accessibility": {
-        "analyticsConsentDialog": "Diálogo de consentimiento de analítica",
-        "dialog": "Diálogo",
-        "dialogOpened": "Diálogo abierto",
-        "dialogClosed": "Diálogo cerrado"
-      },
-      "debugPanel": {
-        "downloadDraftPayloads": "Descargar payloads del draft",
-        "writeDraftsToDisk": "Escribir drafts en disco",
-        "configIssues": "Problemas de configuración",
-        "analyticsLatest": "Eventos analíticos recientes",
-        "unknownComponentPrefix": "Componente desconocido"
-      },
-      "heroMediaHeading": "Mapa de estrategia legal",
-      "heroMediaCaption": "Lectura inicial del asunto, riesgos y ruta de atención sugerida.",
-      "heroMediaChecklist": [
-        "Soft landing para empresas extranjeras que necesitan entrar a México con estructura.",
-        "Defensa fiscal, administrativa, laboral y de amparo cuando el problema ya está activo.",
-        "Protección patrimonial, propiedad intelectual y decisiones sensibles con explicación clara."
-      ],
-      "common": {
-        "verified": "Verificado"
-      }
-    },
-    "hero": {
-      "eyebrow": "ESTUDIO LEGAL MULTIDISCIPLINARIO",
-      "title": "Grupo Astra Legal",
-      "subtitle": "Estrategia legal para prevenir y resolver problemas modernos en México.",
-      "description": "Acompañamos a inversionistas extranjeros, empresas y personas con análisis jurídico, defensa y planes preventivos orientados a proteger e incrementar su patrimonio.",
-      "highlight": "Atención inicial por WhatsApp para entender contexto, urgencia y viabilidad.",
-      "badgesLabel": "La conversación inicial se enfoca en:",
-      "badges": [
-        "Soft landing para inversión china",
-        "Defensa fiscal, administrativa y amparo",
-        "Laboral, corporativo y cumplimiento",
-        "Patentes, marcas y patrimonio"
-      ],
-      "primary": {
-        "label": "Escribir por WhatsApp"
-      },
-      "secondary": {
-        "label": "Ver especialidades"
-      }
-    },
-    "featuresSection": {
-      "title": "Un enfoque legal para decidir antes de que el problema crezca",
-      "subtitle": "El draft comunica prevención, defensa y claridad operativa sin promesas absolutas ni tecnicismos innecesarios."
-    },
-    "features": [
-      {
-        "icon": "security",
-        "title": "Estrategia antes que trámite",
-        "description": "Cada asunto se traduce en riesgos, prioridades y rutas de acción comprensibles para tomar decisiones con base jurídica.",
-        "benefits": [
-          "Diagnóstico del contexto",
-          "Riesgos priorizados",
-          "Siguiente paso delimitado"
+      "services": {
+        "eyebrow": "Soluciones",
+        "title": "Trabajo legal organizado por la decisión que necesitas tomar.",
+        "description": "Cada página de servicio explica alcance, documentos útiles y tipo de acompañamiento que puede aportar Astra Legal.",
+        "cards": [
+          {
+            "icon": "translate",
+            "title": "Soft landing para empresas chinas",
+            "description": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+            "href": "/soft-landing-empresas-chinas",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Entrada al mercado mexicano",
+              "Relación con autoridades"
+            ]
+          },
+          {
+            "icon": "security",
+            "title": "Protección patrimonial, matrimonio y divorcio",
+            "description": "Estrategia para proteger patrimonio, ordenar obligaciones y reducir incertidumbre en decisiones familiares complejas.",
+            "href": "/proteccion-patrimonial-matrimonio-divorcio",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Convenios y acuerdos familiares",
+              "Divorcio y protección patrimonial"
+            ]
+          },
+          {
+            "icon": "assignment",
+            "title": "Recuperación de impuestos inmobiliarios",
+            "description": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+            "href": "/recuperacion-impuestos-inmobiliarios",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Pagos y contribuciones",
+              "Actos de autoridad"
+            ]
+          },
+          {
+            "icon": "gavel",
+            "title": "Defensa fiscal, administrativa y amparo",
+            "description": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+            "href": "/defensa-fiscal-administrativa-amparo",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Multas, créditos y resoluciones",
+              "Recursos administrativos"
+            ]
+          },
+          {
+            "icon": "star",
+            "title": "Registro de marca",
+            "description": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
+            "href": "/registro-de-marca",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Búsqueda fonética y conceptual",
+              "Clases y estrategia de uso"
+            ]
+          },
+          {
+            "icon": "auto_awesome",
+            "title": "Registro de patentes",
+            "description": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
+            "href": "/registro-de-patentes",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Invenciones y modelos de utilidad",
+              "Documentación técnica"
+            ]
+          },
+          {
+            "icon": "security",
+            "title": "Defensa y recuperación por multas de gobierno",
+            "description": "Análisis y defensa frente a multas, sanciones y cobros indebidos emitidos por autoridades.",
+            "href": "/defensa-multas-gobierno",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Multas administrativas",
+              "Cobros indebidos"
+            ]
+          },
+          {
+            "icon": "history",
+            "title": "Despido injustificado y reclamaciones laborales",
+            "description": "Acompañamiento para valorar derechos laborales, pruebas y ruta de reclamación cuando exista despido injustificado.",
+            "href": "/despido-injustificado",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Cartas, pagos y contratos",
+              "Conciliación laboral"
+            ]
+          },
+          {
+            "icon": "gavel",
+            "title": "Consultoría legal para gobiernos",
+            "description": "Apoyo jurídico para proyectos públicos, procedimientos, contratación y prevención de riesgos institucionales.",
+            "href": "/consultoria-legal-gobiernos",
+            "linkLabel": "Ver servicio",
+            "benefits": [
+              "Procedimientos administrativos",
+              "Contratación y proyectos"
+            ]
+          }
         ]
       },
-      {
-        "icon": "translate",
-        "title": "Lectura nacional e internacional",
-        "description": "El enfoque contempla inversión extranjera, operaciones en México y comunicación preparada para contrapartes internacionales.",
-        "benefits": [
-          "Soft landing para México",
-          "Inglés cuando el asunto lo requiere",
-          "Preparación intercultural"
+      "about": {
+        "eyebrow": "Confianza y método",
+        "title": "Astra Legal está pensado para problemas con contexto jurídico, comercial y humano.",
+        "description": "Astra Legal combina criterio jurídico, comunicación clara y atención multilingüe para que empresas, gobiernos y personas entiendan sus opciones antes de actuar.",
+        "linkLabel": "Conocer Astra Legal"
+      },
+      "method": {
+        "eyebrow": "Cómo trabajamos",
+        "title": "Diagnosticar, diseñar, ejecutar.",
+        "description": "El método ayuda a reducir ruido, cuidar plazos y hacer entendible el siguiente paso legal.",
+        "steps": [
+          {
+            "icon": "saved_search",
+            "title": "Diagnóstico",
+            "description": "Hechos, partes, documentos, riesgo y urgencia."
+          },
+          {
+            "icon": "trending_up",
+            "title": "Estrategia",
+            "description": "Rutas comparadas por costo, tiempo, evidencia y consecuencia."
+          },
+          {
+            "icon": "check_circle",
+            "title": "Ejecución",
+            "description": "Escritos, conversaciones, seguimiento y responsables claros."
+          }
         ]
       },
-      {
-        "icon": "gavel",
-        "title": "Defensa y prevención coordinadas",
-        "description": "La estrategia puede partir de un plan preventivo o de una defensa cuando ya existe una autoridad, contraparte o contingencia.",
-        "benefits": [
-          "Administrativo y fiscal",
-          "Laboral y corporativo",
-          "Amparo cuando sea procedente"
-        ]
-      },
-      {
-        "icon": "verified",
-        "title": "Protección patrimonial",
-        "description": "El mensaje central es proteger e incrementar patrimonio con análisis jurídico, evidencia y comunicación clara.",
-        "benefits": [
-          "Personas y empresas",
-          "Escenarios familiares sensibles",
-          "Decisiones documentadas"
-        ]
-      }
-    ],
-    "processSection": {
-      "title": "Cómo se organiza el acompañamiento",
-      "sidebarTitle": "El proceso se presenta como una ruta de análisis, estrategia e implementación, no como una promesa automática de resultado."
-    },
-    "processCards": [
-      {
-        "icon": "phone_android",
-        "title": "1. Contacto inicial por WhatsApp",
-        "description": "Se confirma el contexto, la urgencia, el tipo de asunto y el objetivo práctico antes de solicitar documentos sensibles.",
-        "benefits": [
-          "Canal directo",
-          "Contexto y urgencia",
-          "Alcance preliminar"
-        ]
-      },
-      {
-        "icon": "saved_search",
-        "title": "2. Investigación jurídica y documental",
-        "description": "Se revisan hechos, documentos, leyes, criterios y analogías útiles para entender el margen real de acción.",
-        "benefits": [
-          "Documentos clave",
-          "Base normativa",
-          "Riesgos detectados"
-        ]
-      },
-      {
-        "icon": "account_tree",
-        "title": "3. Estrategia preventiva o de defensa",
-        "description": "Se propone una ruta con prioridades, dependencias y escenarios según el asunto requiera prevenir, negociar, defender o demandar.",
-        "benefits": [
-          "Plan preventivo",
-          "Estrategia de defensa",
-          "Escenarios para decidir"
-        ]
-      },
-      {
-        "icon": "check_circle",
-        "title": "4. Implementación y seguimiento",
-        "description": "El acompañamiento avanza con responsables, pendientes visibles y ajustes cuando cambian hechos, autoridades o contrapartes.",
-        "benefits": [
-          "Seguimiento formal",
-          "Pendientes claros",
-          "Ajustes documentados"
-        ]
-      }
-    ],
-    "servicesSection": {
-      "title": "Especialidades que el brief prioriza",
-      "subtitle": "La página concentra los servicios mencionados por el cliente y evita áreas no confirmadas o testimonios ficticios."
-    },
-    "services": [
-      {
-        "icon": "rocket_launch",
-        "title": "Soft landing para empresas chinas",
-        "description": "Acompañamiento legal para empresas extranjeras que buscan invertir, operar o estructurar su entrada a México.",
-        "benefits": [
-          "Entrada al mercado mexicano",
-          "Lectura corporativa y administrativa",
-          "Coordinación legal inicial"
-        ],
-        "linkLabel": "Consultar soft landing",
-        "href": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      },
-      {
-        "icon": "gavel",
-        "title": "Defensa fiscal, administrativa y amparo",
-        "description": "Análisis de actos de autoridad, riesgos fiscales y alternativas de defensa con enfoque constitucional cuando aplique.",
-        "benefits": [
-          "Riesgos del SAT y autoridades",
-          "Ruta de defensa",
-          "Criterio constitucional"
-        ],
-        "linkLabel": "Consultar defensa",
-        "href": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      },
-      {
-        "icon": "assignment",
-        "title": "Laboral, corporativo y cumplimiento",
-        "description": "Revisión de obligaciones, decisiones internas y escenarios laborales o societarios que necesitan prevención y orden documental.",
-        "benefits": [
-          "Cumplimiento laboral",
-          "Documentación corporativa",
-          "Prevención de contingencias"
-        ],
-        "linkLabel": "Consultar empresa",
-        "href": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      },
-      {
-        "icon": "auto_awesome",
-        "title": "Propiedad intelectual, marcas y patentes",
-        "description": "Orientación para proteger invenciones, marcas y activos intangibles con una lectura estratégica del valor tecnológico.",
-        "benefits": [
-          "Patentes e invenciones",
-          "Marcas",
-          "Protección de activos intangibles"
-        ],
-        "linkLabel": "Consultar propiedad intelectual",
-        "href": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      },
-      {
-        "icon": "favorite",
-        "title": "Protección patrimonial familiar",
-        "description": "Revisión de escenarios civiles y familiares donde el patrimonio, los acuerdos y la evidencia requieren estrategia preventiva o litigiosa.",
-        "benefits": [
-          "Planeación patrimonial",
-          "Divorcio y bienes",
-          "Estrategia documental"
-        ],
-        "linkLabel": "Consultar caso familiar",
-        "href": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      },
-      {
-        "icon": "home",
-        "title": "Revisión fiscal inmobiliaria en CDMX",
-        "description": "Análisis de pagos, documentos y posibles rutas legales relacionadas con adquisición inmobiliaria y cargas fiscales locales.",
-        "benefits": [
-          "Documentos de compraventa",
-          "Pagos y comprobantes",
-          "Viabilidad jurídica"
-        ],
-        "linkLabel": "Consultar inmueble",
-        "href": "https://wa.me/5213319937983?text=Hola%20Grupo%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      }
-    ],
-    "trustSection": {
-      "title": "Señales de confianza sin exagerar resultados",
-      "subtitle": "El draft usa credenciales y método mencionados en el brief, con lenguaje prudente para servicios legales."
-    },
-    "trustSignals": [
-      {
-        "icon": "translate",
-        "title": "Preparación intercultural",
-        "description": "El brief menciona estudio de chino mandarín e inglés para atender asuntos donde la comunicación internacional importa.",
-        "benefits": [
-          "Inversión extranjera",
-          "Comunicación clara",
-          "Contexto México-China"
-        ]
-      },
-      {
-        "icon": "fact_check",
-        "title": "Enfoque constitucional y fiscal",
-        "description": "La propuesta integra investigación jurídica, derecho constitucional y lectura fiscal para construir estrategias defendibles.",
-        "benefits": [
-          "Leyes y jurisprudencia",
-          "Casos y analogías",
-          "Argumentación jurídica"
-        ]
-      },
-      {
-        "icon": "psychology",
-        "title": "Comunicación sin tecnicismos",
-        "description": "La experiencia debe explicar riesgos, opciones y próximos pasos con empatía y valor práctico para el cliente.",
-        "benefits": [
-          "Lenguaje claro",
-          "Decisiones informadas",
-          "Expectativas delimitadas"
-        ]
-      }
-    ],
-    "faqSection": {
-      "title": "Preguntas frecuentes",
-      "subtitle": "Respuestas generales para orientar el primer contacto sin sustituir una asesoría legal individualizada."
-    },
-    "faq": [
-      {
-        "id": "faq-1",
-        "title": "¿El primer WhatsApp crea una relación abogado-cliente?",
-        "content": "No. El primer contacto sirve para entender el contexto y definir si existe una ruta de atención. La relación profesional requiere aceptación expresa y condiciones acordadas."
-      },
-      {
-        "id": "faq-2",
-        "title": "¿Qué conviene preparar antes de escribir?",
-        "content": "Hechos principales, fechas, documentos, comunicaciones, pagos, contratos o cualquier evidencia que permita entender el problema sin exponer información innecesaria."
-      },
-      {
-        "id": "faq-3",
-        "title": "¿Atienden inversión extranjera y empresas chinas?",
-        "content": "Sí, el brief prioriza soft landing para empresas chinas que buscan invertir u operar en México. El alcance concreto se confirma después de revisar el caso."
-      },
-      {
-        "id": "faq-4",
-        "title": "¿Pueden garantizar un resultado?",
-        "content": "No. La página debe evitar promesas absolutas. El servicio puede ofrecer análisis, estrategia, defensa y seguimiento, pero los resultados dependen de hechos, pruebas, autoridades y ley aplicable."
-      }
-    ],
-    "finalCtaSection": {
-      "title": "Escribe por WhatsApp y ordena el primer paso legal.",
-      "subtitle": "Comparte el contexto general de tu asunto con Grupo Astra Legal. No envíes datos sensibles hasta que el equipo confirme el canal y el alcance de atención. WhatsApp: +52 1 33 1993 7983.",
-      "primaryLabel": "Escribir por WhatsApp",
-      "secondaryLabel": "Ver contacto"
-    },
-    "footer": {
-      "brandDescription": "Grupo Astra Legal comunica una práctica enfocada en prevención, defensa, soft landing corporativo y protección patrimonial.",
-      "copyright": "Copyright Grupo Astra Legal. Todos los derechos reservados.",
       "contact": {
-        "assessment": {
-          "title": "Valoración inicial",
-          "description": "Canal principal para abrir el asunto con contexto, prioridad y siguiente paso útil.",
-          "label": "Escribir por WhatsApp"
-        },
-        "email": {
-          "title": "WhatsApp directo",
-          "description": "Usa este canal para solicitar una primera revisión y confirmar qué información conviene compartir.",
-          "label": "+52 1 33 1993 7983"
-        },
-        "process": {
-          "title": "Proceso de atención",
-          "description": "Consulta cómo se organiza la revisión antes de avanzar con decisiones o documentos sensibles.",
-          "label": "Ver el proceso"
-        }
-      },
-      "social": {
-        "email": {
-          "label": "WhatsApp",
-          "ariaLabel": "Escribir a Grupo Astra Legal por WhatsApp"
-        },
-        "website": {
-          "label": "Sitio web",
-          "ariaLabel": "Visitar sitio web de Grupo Astra Legal"
-        }
-      },
-      "actions": {
-        "close": "Cerrar"
-      },
-      "legal": {
-        "title": "Avisos legales:",
-        "terms": {
-          "icon": "LG",
-          "link": "Términos",
-          "title": "Términos del servicio",
-          "intro": "Este sitio tiene fines informativos y no sustituye una asesoría legal individualizada.",
-          "sections": [
-            {
-              "title": "Alcance profesional",
-              "text": "La información publicada describe servicios y procesos de manera general."
-            },
-            {
-              "title": "Relación profesional",
-              "text": "Enviar un mensaje o navegar el sitio no crea por sí mismo una relación abogado-cliente."
-            },
-            {
-              "title": "Uso permitido",
-              "text": "El contenido no debe copiarse, reutilizarse ni presentarse como asesoría específica sin autorización."
-            }
-          ]
-        },
-        "data": {
-          "icon": "PR",
-          "link": "Datos personales",
-          "title": "Aviso de privacidad",
-          "intro": "Los datos de contacto y navegación se procesan para atender consultas y mejorar el rendimiento del sitio.",
-          "points": [
-            "Los datos de contacto se usan para atender consultas y seguimiento.",
-            "La analítica puede recopilarse de forma agregada para mejorar la experiencia y la calidad del contenido.",
-            "Los datos personales no se venden a terceros.",
-            "Los términos finales de tratamiento deben revisarse conforme a la ley aplicable."
-          ],
-          "consentNote": "El uso de analítica no esencial debe mantenerse sujeto al mecanismo de consentimiento activo."
-        }
-      }
-    },
-    "consent": {
-      "title": "Consentimiento de analítica",
-      "intro": "Puedes permitir medición no esencial para mejorar contenido, rendimiento y experiencia del sitio.",
-      "bullets": {
-        "0": "Se usan eventos de navegación y lectura para detectar mejoras.",
-        "1": "La decisión puede modificarse más adelante.",
-        "2": "La información se trata con fines de análisis de experiencia."
-      },
-      "actions": {
-        "allow": "Permitir",
-        "decline": "Rechazar",
-        "later": "Más tarde",
-        "remove": "Retirar consentimiento",
-        "confirm": "Sí",
-        "cancel": "No"
-      },
-      "feedback": {
-        "confirmRemove": "¿Seguro que deseas retirar el consentimiento?"
-      }
-    },
-    "demo": {
-      "modal": {
-        "title": "Demo del sistema",
-        "button": {
-          "open": "Abrir demo"
-        },
-        "header": "Vista de componentes de ejemplo",
-        "desc": "Este modal pertenece al entorno de desarrollo y permite validar interacciones genéricas del sistema.",
-        "features": {
-          "0": "Renderizado dinámico por configuración",
-          "1": "Eventos y estados centralizados",
-          "2": "Compatibilidad con temas e i18n"
-        },
-        "close": "Cerrar demo"
+        "eyebrow": "Contacto",
+        "title": "Un primer mensaje útil es breve y preciso.",
+        "description": "Comparte contexto general, fechas importantes y forma de seguimiento preferida. Los documentos sensibles deben esperar a confirmar alcance y canal.",
+        "calendly": "Agendar llamada de 30 minutos",
+        "whatsapp": "Enviar WhatsApp",
+        "email": "Enviar correo"
       }
     }
   }

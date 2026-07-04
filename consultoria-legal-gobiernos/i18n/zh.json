@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "consultoria-legal-gobiernos",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "政府法律咨询",
+      "summary": "为公共项目、程序、采购和机构风险预防提供法律支持。",
+      "intro": "公共运营需要可辩护的决策、文件化流程和清晰机构沟通。Astra Legal 提供法律诊断、设计和跟进。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "行政程序",
+        "采购与项目",
+        "责任预防"
+      ],
+      "cards": [
+        {
+          "icon": "account_tree",
+          "title": "流程设计",
+          "description": "对齐行为、权限、责任人和文件证据。",
+          "benefits": [
+            "决策流程",
+            "文件控制"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "法律审查",
+          "description": "执行前审查规则、合同、公告或档案。",
+          "benefits": [
+            "合规标准",
+            "可执行意见"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "analytics",
+          "title": "机构跟进",
+          "description": "以技术和公共语言支持变更、说明和回应。",
+          "benefits": [
+            "会议记录与证据",
+            "风险管理"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "机构模块",
+      "moduleTitle": "有文件支持的公共决策。",
+      "moduleDescription": "政府咨询聚焦程序、采购、风险和机构可追踪性。",
+      "moduleItems": [
+        {
+          "icon": "account_tree",
+          "title": "流程设计",
+          "description": "从一开始对齐权限、行为、负责人和证据。",
+          "benefits": [
+            "可辩护流程",
+            "明确角色"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "采购审查",
+          "description": "敏感决策前审查公告、合同和档案。",
+          "benefits": [
+            "适用标准",
+            "可执行意见"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "analytics",
+          "title": "公共跟进",
+          "description": "以技术和机构语言准备说明和回应。",
+          "benefits": [
+            "会议记录与证据",
+            "责任预防"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "casos-de-uso",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Casos de uso",
+      "summary": "Situaciones donde Astra Legal puede ordenar la estrategia antes de que el problema escale.",
+      "intro": "Estos escenarios no sustituyen una revisión del caso. Sirven para identificar cuándo conviene pedir una valoración inicial y preparar documentos.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Empresas que entran a México",
+        "Personas con decisiones patrimoniales",
+        "Actos de autoridad o conflictos laborales"
+      ],
+      "cards": [
+        {
+          "icon": "account_tree",
+          "title": "Nueva operación en México",
+          "description": "Antes de firmar, contratar o invertir, conviene revisar permisos, contratos y riesgos.",
+          "benefits": [
+            "Soft landing",
+            "Relación con autoridades"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "home",
+          "title": "Patrimonio en movimiento",
+          "description": "Compra, separación, herencia o conflicto familiar requieren orden documental.",
+          "benefits": [
+            "Mapa patrimonial",
+            "Acuerdos defendibles"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Multa, requerimiento o despido",
+          "description": "Cuando hay plazos, la primera tarea es preservar evidencia y elegir la vía correcta.",
+          "benefits": [
+            "Control de plazo",
+            "Estrategia de respuesta"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

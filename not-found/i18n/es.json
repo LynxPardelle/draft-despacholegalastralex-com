@@ -1,33 +1,14 @@
 {
   "version": 1,
-  "domain": "despacholegalastralex.com",
+  "domain": "grupoastralegal.com",
   "pageId": "not-found",
   "lang": "es",
   "dictionary": {
-    "hero": {
-      "eyebrow": "Página no encontrada",
-      "title": "Esta ruta no está publicada.",
-      "lead": "No encontramos una página activa para esta dirección en Grupo Astra Legal. Puedes volver al inicio y continuar desde una ruta publicada.",
-      "primaryLabel": "Volver al inicio"
-    },
-    "signal": {
-      "code": "404",
-      "title": "La página no está disponible.",
-      "lead": "El sitio sigue activo. Esta respuesta se muestra en la URL original para evitar redirecciones innecesarias."
-    },
-    "routes": {
-      "title": "Rutas útiles para continuar.",
-      "lead": "Estas son rutas publicadas del draft para retomar la navegación sin caer en la página de inicio por error.",
-      "items": [
-        {
-          "label": "Inicio"
-        }
-      ]
-    },
-    "ui": {
-      "accessibility": {
-        "skipToContent": "Saltar al contenido principal"
-      }
+    "page": {
+      "title": "Página no encontrada",
+      "description": "La ruta no está disponible en Astra Legal. Usa el menú para continuar.",
+      "primaryLabel": "Volver al inicio",
+      "secondaryLabel": "Ver servicios"
     }
   }
 }

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "contacto",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "联系",
+      "summary": "预约初步评估，或发送包含事项核心背景的信息。",
+      "intro": "为保护信息，初次消息请仅提供一般背景、重要日期和后续偏好。敏感文件在确认范围后再提供。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "电话：+52 33 1993 7983",
+        "邮箱：grupoastralegal@gmail.com",
+        "Calendly 30 分钟通话"
+      ],
+      "cards": [
+        {
+          "icon": "calendar",
+          "title": "预约通话",
+          "description": "使用 Calendly 选择初步评估时间。",
+          "benefits": [
+            "30 分钟",
+            "一般背景"
+          ],
+          "href": "https://calendly.com/jluis-ortega27/30min",
+          "linkLabel": "选择时间",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "icon": "phone_android",
+          "title": "WhatsApp",
+          "description": "简短说明姓名、事项和大致紧急程度。",
+          "benefits": [
+            "+52 33 1993 7983",
+            "初期不发送敏感文件"
+          ],
+          "href": "https://wa.me/5213319937983?text=Hola%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
+          "linkLabel": "发送 WhatsApp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "icon": "mail",
+          "title": "电子邮件",
+          "description": "适合初次联系即需要书面背景的事项。",
+          "benefits": [
+            "grupoastralegal@gmail.com",
+            "摘要和联系方式"
+          ],
+          "href": "mailto:grupoastralegal@gmail.com",
+          "linkLabel": "发送邮件",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

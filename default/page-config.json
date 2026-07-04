@@ -1,110 +1,123 @@
 {
   "version": 1,
   "pageId": "default",
-  "domain": "despacholegalastralex.com",
+  "domain": "grupoastralegal.com",
   "rootIds": [
     "skipToMainLink",
     "siteHeader",
-    "landingPage",
+    "homePage",
     "siteFooter"
   ],
-  "modalRootIds": [
-    "modalAnalyticsConsentRoot",
-    "modalTermsRoot",
-    "modalDataUseRoot"
-  ],
+  "modalRootIds": [],
   "metadata": {
-    "status": "draft_generated",
-    "source": "Google Drive intake docs reviewed for Grupo Astra Legal; config-only repair",
-    "versionTag": "v1.0.0",
-    "owner": "Grupo Astra Legal"
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
   },
   "seo": {
-    "title": "Grupo Astra Legal | Estrategia legal moderna en México",
-    "description": "Grupo Astra Legal ofrece estrategia legal para soft landing empresarial, defensa fiscal y administrativa, propiedad intelectual y protección patrimonial.",
+    "title": {
+      "es": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+      "en": "Astra Legal | Legal strategy in Mexico | Astra Legal",
+      "zh": "Astra Legal | 墨西哥法律策略 | Astra Legal"
+    },
+    "description": {
+      "es": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+      "en": "Legal strategy for companies, governments, and individuals in Mexico, with service prepared in Spanish, English, and Chinese.",
+      "zh": "面向墨西哥企业、政府和个人的法律策略服务，支持西班牙语、英语和中文。"
+    },
+    "canonical": "https://grupoastralegal.com",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
     "openGraph": {
-      "title": "Grupo Astra Legal | Estrategia legal moderna en México",
-      "description": "Prevención, defensa y soluciones legales modernas para inversionistas, empresas y personas en México.",
-      "url": "https://despacholegalastralex.com",
-      "type": "website"
+      "title": {
+        "es": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+        "en": "Astra Legal | Legal strategy in Mexico | Astra Legal",
+        "zh": "Astra Legal | 墨西哥法律策略 | Astra Legal"
+      },
+      "description": {
+        "es": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+        "en": "Legal strategy for companies, governments, and individuals in Mexico, with service prepared in Spanish, English, and Chinese.",
+        "zh": "面向墨西哥企业、政府和个人的法律策略服务，支持西班牙语、英语和中文。"
+      },
+      "url": "https://grupoastralegal.com",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
     },
     "twitter": {
-      "title": "Grupo Astra Legal | Estrategia legal moderna en México",
-      "description": "Prevención, defensa y soluciones legales modernas para inversionistas, empresas y personas en México.",
-      "card": "summary_large_image"
-    },
-    "canonical": "https://despacholegalastralex.com"
+      "title": {
+        "es": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+        "en": "Astra Legal | Legal strategy in Mexico | Astra Legal",
+        "zh": "Astra Legal | 墨西哥法律策略 | Astra Legal"
+      },
+      "description": {
+        "es": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+        "en": "Legal strategy for companies, governments, and individuals in Mexico, with service prepared in Spanish, English, and Chinese.",
+        "zh": "面向墨西哥企业、政府和个人的法律策略服务，支持西班牙语、英语和中文。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
   },
   "structuredData": {
     "entries": [
       {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "Grupo Astra Legal",
-        "url": "https://despacholegalastralex.com",
-        "description": "Legal strategy for corporate soft landing, tax and administrative defense, intellectual property, and patrimonial protection in Mexico.",
-        "areaServed": "Mexico",
-        "availableLanguage": [
+        "name": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+        "description": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+        "url": "https://grupoastralegal.com",
+        "inLanguage": [
           "es",
-          "en"
+          "en",
+          "zh"
         ],
-        "telephone": "+52 1 33 1993 7983",
-        "sameAs": [
-          "https://despacholegalastralex.com"
-        ]
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Grupo Astra Legal",
-        "url": "https://despacholegalastralex.com",
-        "telephone": "+52 1 33 1993 7983"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "¿El primer WhatsApp crea una relación abogado-cliente?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. El primer contacto sirve para entender el contexto; la relación profesional requiere aceptación expresa y condiciones acordadas."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Atienden inversión extranjera y empresas chinas?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sí, el brief prioriza soft landing para empresas chinas que buscan invertir u operar en México. El alcance concreto se confirma después de revisar el caso."
-            }
-          }
-        ]
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
       }
     ]
   },
   "analytics": {
     "sectionIds": [
-      "home",
-      "benefits",
-      "process",
-      "offers",
-      "social-proof",
-      "faq",
-      "final-cta",
-      "contact-section"
+      "main-content",
+      "site-footer"
     ],
     "scrollMilestones": [
-      10,
-      20,
-      30,
-      40,
+      25,
       50,
-      60,
-      70,
-      80,
-      90,
+      75,
       100
     ]
   }

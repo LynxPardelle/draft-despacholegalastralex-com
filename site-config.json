@@ -1,12 +1,104 @@
 {
   "version": 1,
-  "domain": "despacholegalastralex.com",
+  "domain": "grupoastralegal.com",
+  "aliases": [],
   "defaultPageId": "default",
+  "notFoundPageId": "not-found",
   "routes": [
     {
       "path": "/",
       "pageId": "default",
-      "label": "Home"
+      "label": "Inicio"
+    },
+    {
+      "path": "/servicios",
+      "pageId": "servicios",
+      "label": "Servicios"
+    },
+    {
+      "path": "/soft-landing-empresas-chinas",
+      "pageId": "soft-landing-empresas-chinas",
+      "label": "Soft landing para empresas chinas"
+    },
+    {
+      "path": "/proteccion-patrimonial-matrimonio-divorcio",
+      "pageId": "proteccion-patrimonial-matrimonio-divorcio",
+      "label": "Protección patrimonial, matrimonio y divorcio"
+    },
+    {
+      "path": "/recuperacion-impuestos-inmobiliarios",
+      "pageId": "recuperacion-impuestos-inmobiliarios",
+      "label": "Recuperación de impuestos inmobiliarios"
+    },
+    {
+      "path": "/defensa-fiscal-administrativa-amparo",
+      "pageId": "defensa-fiscal-administrativa-amparo",
+      "label": "Defensa fiscal, administrativa y amparo"
+    },
+    {
+      "path": "/registro-de-marca",
+      "pageId": "registro-de-marca",
+      "label": "Registro de marca"
+    },
+    {
+      "path": "/registro-de-patentes",
+      "pageId": "registro-de-patentes",
+      "label": "Registro de patentes"
+    },
+    {
+      "path": "/defensa-multas-gobierno",
+      "pageId": "defensa-multas-gobierno",
+      "label": "Defensa y recuperación por multas de gobierno"
+    },
+    {
+      "path": "/despido-injustificado",
+      "pageId": "despido-injustificado",
+      "label": "Despido injustificado y reclamaciones laborales"
+    },
+    {
+      "path": "/consultoria-legal-gobiernos",
+      "pageId": "consultoria-legal-gobiernos",
+      "label": "Consultoría legal para gobiernos"
+    },
+    {
+      "path": "/quienes-somos",
+      "pageId": "quienes-somos",
+      "label": "Quiénes somos"
+    },
+    {
+      "path": "/metodo",
+      "pageId": "metodo",
+      "label": "Método Astra"
+    },
+    {
+      "path": "/casos-de-uso",
+      "pageId": "casos-de-uso",
+      "label": "Casos de uso"
+    },
+    {
+      "path": "/recursos-legales",
+      "pageId": "recursos-legales",
+      "label": "Recursos legales"
+    },
+    {
+      "path": "/preguntas-frecuentes",
+      "pageId": "preguntas-frecuentes",
+      "label": "Preguntas frecuentes"
+    },
+    {
+      "path": "/contacto",
+      "pageId": "contacto",
+      "label": "Contacto"
+    },
+    {
+      "path": "/privacidad",
+      "pageId": "privacidad",
+      "label": "Privacidad"
+    },
+    {
+      "path": "/terminos",
+      "pageId": "terminos",
+      "label": "Términos de uso"
     },
     {
       "path": "/404",
@@ -19,82 +111,97 @@
       "defaultMode": "light",
       "palettes": {
         "light": {
-          "bgColor": "#f3efe8",
-          "textColor": "#334155",
-          "titleColor": "#102235",
-          "linkColor": "#b58a4b",
-          "accentColor": "#b58a4b",
-          "secondaryBgColor": "#e6dfd3",
-          "secondaryTextColor": "#425466",
-          "secondaryTitleColor": "#14283b",
-          "secondaryLinkColor": "#6d8191",
-          "secondaryAccentColor": "#8f8166",
+          "bgColor": "#FCFEFF",
+          "textColor": "#2F2D2B",
+          "titleColor": "#181716",
+          "linkColor": "#B90F35",
+          "accentColor": "#DDB005",
+          "secondaryBgColor": "#F4F1EC",
+          "secondaryTextColor": "#4F4A45",
+          "secondaryTitleColor": "#2A2927",
+          "secondaryLinkColor": "#B90F35",
+          "secondaryAccentColor": "#C8BFB4",
           "successColor": "#198754",
           "onSuccessColor": "#052e1c",
-          "errorColor": "#dc3545",
-          "onErrorColor": "#3b0a10",
-          "warningColor": "#f59e0b",
+          "errorColor": "#D1143D",
+          "onErrorColor": "#fff5f5",
+          "warningColor": "#DDB005",
           "onWarningColor": "#3a2400",
-          "infoColor": "#0d6efd",
-          "onInfoColor": "#041b44"
+          "infoColor": "#385A8A",
+          "onInfoColor": "#f5fbff"
         },
         "dark": {
-          "bgColor": "#101b28",
-          "textColor": "#e7ecef",
-          "titleColor": "#f5ebdc",
-          "linkColor": "#d0a867",
-          "accentColor": "#d0a867",
-          "secondaryBgColor": "#18283a",
-          "secondaryTextColor": "#d4dde5",
-          "secondaryTitleColor": "#f1e6d7",
-          "secondaryLinkColor": "#93a7b8",
-          "secondaryAccentColor": "#7f8f9f",
+          "bgColor": "#181716",
+          "textColor": "#F4F1EC",
+          "titleColor": "#FCFEFF",
+          "linkColor": "#F35A77",
+          "accentColor": "#F3C63B",
+          "secondaryBgColor": "#252321",
+          "secondaryTextColor": "#D8D0C6",
+          "secondaryTitleColor": "#FCFEFF",
+          "secondaryLinkColor": "#F35A77",
+          "secondaryAccentColor": "#4A4642",
           "successColor": "#32d583",
           "onSuccessColor": "#f3fff8",
           "errorColor": "#ff6b6b",
           "onErrorColor": "#fff5f5",
-          "warningColor": "#f5b942",
-          "onWarningColor": "#fff7e6",
-          "infoColor": "#58a6ff",
+          "warningColor": "#F3C63B",
+          "onWarningColor": "#1f1600",
+          "infoColor": "#8BB5F0",
           "onInfoColor": "#f5fbff"
         }
       },
       "ui": {
-        "modalAccentColor": "secondaryAccentColor",
+        "modalAccentColor": "accentColor",
         "legalModalAccentColor": "secondaryAccentColor",
         "demoModalAccentColor": "accentColor"
       }
     },
     "appIdentity": {
-      "identifier": "despacholegalastralexcom",
-      "name": "Grupo Astra Legal",
+      "identifier": "grupoastralegalcom",
+      "name": "Astra Legal",
       "version": "1.0.0",
-      "description": "Landing page for Grupo Astra Legal legal strategy, soft landing, defense, and patrimonial protection services."
+      "description": "Astra Legal website for legal strategy, soft landing, defense, intellectual property, public consulting, labor claims, and asset protection."
     },
     "seo": {
-      "siteName": "Grupo Astra Legal",
-      "title": "Grupo Astra Legal",
-      "description": "Estrategia legal para soft landing empresarial, defensa fiscal y administrativa, propiedad intelectual y protección patrimonial en México.",
-      "canonicalOrigin": "https://despacholegalastralex.zoolandingpage.com.mx",
+      "siteName": "Astra Legal",
+      "title": "Astra Legal | Estrategia jurídica en México",
+      "description": "Estrategia jurídica para empresas, gobiernos y personas en México, con servicios en español, inglés y chino.",
+      "canonicalOrigin": "https://grupoastralegal.com",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg",
       "openGraph": {
         "type": "website",
-        "site_name": "Grupo Astra Legal"
+        "site_name": "Astra Legal",
+        "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
       },
       "twitter": {
-        "card": "summary_large_image"
+        "card": "summary_large_image",
+        "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
       },
-      "keywords": [
-        "Grupo Astra Legal",
-        "soft landing México",
-        "abogados inversión china",
-        "defensa fiscal",
-        "amparo",
-        "derecho administrativo",
-        "derecho laboral",
-        "propiedad intelectual",
-        "patentes México",
-        "protección patrimonial"
-      ],
+      "keywords": {
+        "es": [
+          "Astra Legal",
+          "estrategia jurídica",
+          "soft landing México",
+          "empresas chinas México",
+          "defensa administrativa",
+          "registro de marca"
+        ],
+        "en": [
+          "Astra Legal",
+          "legal strategy Mexico",
+          "Chinese companies Mexico",
+          "administrative defense",
+          "trademark registration"
+        ],
+        "zh": [
+          "Astra Legal",
+          "墨西哥法律策略",
+          "中国企业墨西哥",
+          "行政防御",
+          "商标注册"
+        ]
+      },
       "robots": "index,follow,max-image-preview:large"
     },
     "i18n": {
@@ -107,46 +214,44 @@
         {
           "code": "en",
           "label": "EN"
+        },
+        {
+          "code": "zh",
+          "label": "中文"
         }
       ]
     }
   },
   "runtime": {
     "localStorage": {
-      "theme": "astralex-landing-theme",
-      "language": "astralex-landing-language",
-      "userPreferences": "astralex-landing-preferences",
-      "id": "astralex-landing-id",
-      "sessionId": "astralex-landing-session-id",
-      "allowAnalytics": "astralex-landing-allow-analytics",
-      "analyticsConsentSnooze": "astralex-landing-allow-analytics-snooze",
-      "pageViewCount": "astralex-landing-page-view-count"
+      "theme": "astra-legal-theme",
+      "language": "astra-legal-language",
+      "userPreferences": "astra-legal-preferences",
+      "id": "astra-legal-id",
+      "sessionId": "astra-legal-session-id",
+      "allowAnalytics": "astra-legal-allow-analytics",
+      "analyticsConsentSnooze": "astra-legal-allow-analytics-snooze",
+      "pageViewCount": "astra-legal-page-view-count"
     },
     "features": {
-      "debugMode": true
+      "debugMode": false
+    },
+    "navigation": {
+      "scrollRestoration": {
+        "mode": "top",
+        "behavior": "smooth"
+      }
     },
     "analytics": {
       "enabled": false,
       "consentUI": "none",
       "consentSnoozeSeconds": 30,
       "track": [
-        "ip",
-        "userAgent",
         "language",
         "platform",
-        "vendor",
-        "cookiesEnabled",
-        "doNotTrack",
         "screenWidth",
         "screenHeight",
-        "colorDepth",
-        "timezone",
-        "geolocationLatitude",
-        "geolocationLongitude",
-        "geolocationAccuracy",
-        "cookies",
-        "battery",
-        "connection"
+        "timezone"
       ],
       "quickStats": {
         "pageView": {
@@ -156,48 +261,19 @@
         },
         "events": [
           {
-            "name": "hero_primary_click",
-            "path": "metrics.ctaClicks",
-            "by": 1
-          },
-          {
-            "name": "hero_secondary_click",
-            "path": "metrics.ctaClicks",
-            "by": 1
-          },
-          {
-            "name": "services_cta_click",
-            "path": "metrics.ctaClicks",
-            "by": 1
-          },
-          {
-            "name": "faq_cta_click",
-            "path": "metrics.ctaClicks",
-            "by": 1
-          },
-          {
             "name": "cta_click",
             "path": "metrics.ctaClicks",
             "by": 1
           },
           {
-            "name": "final_cta_primary_click",
-            "path": "metrics.ctaClicks",
-            "by": 1
-          },
-          {
-            "name": "final_cta_secondary_click",
-            "path": "metrics.ctaClicks",
+            "name": "nav_click",
+            "path": "metrics.navClicks",
             "by": 1
           }
         ]
       }
     }
   },
-  "aliases": [
-    "despacholegalastralex.zoolandingpage.com.mx"
-  ],
-  "notFoundPageId": "not-found",
   "sitemap": {
     "excludePaths": [
       "/404"

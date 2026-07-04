@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "privacidad",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "隐私",
+      "summary": "关于本信息网站处理联系数据的初步说明。",
+      "intro": "Astra Legal 通过邮件、WhatsApp 或 Calendly 接收联系信息，用于回复并评估事项。如后续加入表单或其他信息收集功能，将在请求更多信息前更新隐私声明。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "无活跃用户账户",
+        "现阶段未启用分析跟踪",
+        "未经确认不要发送敏感数据"
+      ],
+      "cards": [
+        {
+          "icon": "mail",
+          "title": "联系数据",
+          "description": "可通过访客选择的外部渠道接收姓名、联系方式和一般背景。",
+          "benefits": [
+            "回复信息",
+            "初步评估"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围、渠道和必要性前，不建议发送敏感文件。",
+          "benefits": [
+            "数据最小化",
+            "合适渠道"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "account_tree",
+          "title": "未来变更",
+          "description": "若启用表单、用户区域或分析功能，发布前必须更新声明。",
+          "benefits": [
+            "事前法律审查",
+            "对访客透明"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

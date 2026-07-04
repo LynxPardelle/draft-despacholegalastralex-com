@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "casos-de-uso",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Use cases",
+      "summary": "Situations where Astra Legal can organize strategy before the problem escalates.",
+      "intro": "These scenarios do not replace a case review. They help identify when an initial assessment and document preparation are useful.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Companies entering Mexico",
+        "People making asset decisions",
+        "Authority acts or labor conflicts"
+      ],
+      "cards": [
+        {
+          "icon": "account_tree",
+          "title": "New operation in Mexico",
+          "description": "Before signing, hiring, or investing, permits, contracts, and risks should be reviewed.",
+          "benefits": [
+            "Soft landing",
+            "Government coordination"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "home",
+          "title": "Assets in motion",
+          "description": "Purchase, separation, inheritance, or family conflict require document order.",
+          "benefits": [
+            "Asset map",
+            "Defensible agreements"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Fine, requirement, or dismissal",
+          "description": "When deadlines exist, the first task is preserving evidence and choosing the right route.",
+          "benefits": [
+            "Deadline control",
+            "Response strategy"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

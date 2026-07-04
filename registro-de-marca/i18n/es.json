@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "registro-de-marca",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Registro de marca",
+      "summary": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
+      "intro": "Una marca protege más que un nombre. Revisamos disponibilidad, clases, riesgos de oposición y uso comercial antes de presentar.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Búsqueda fonética y conceptual",
+        "Clases y estrategia de uso",
+        "Seguimiento de expediente"
+      ],
+      "cards": [
+        {
+          "icon": "search",
+          "title": "Disponibilidad",
+          "description": "Identificamos coincidencias y riesgos antes de invertir en identidad pública.",
+          "benefits": [
+            "Búsqueda previa",
+            "Criterio de viabilidad"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "filter_alt",
+          "title": "Clases correctas",
+          "description": "La protección depende de una clasificación alineada al negocio real.",
+          "benefits": [
+            "Productos y servicios",
+            "Expansión futura"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "mail",
+          "title": "Seguimiento",
+          "description": "Monitoreamos requerimientos, vencimientos y resoluciones hasta tener claridad.",
+          "benefits": [
+            "Respuesta a oficios",
+            "Control de vencimientos"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Módulo de marca",
+      "moduleTitle": "Protección comercial antes de salir a mercado.",
+      "moduleDescription": "La marca se prepara como activo: disponibilidad, clases, uso real y seguimiento de autoridad.",
+      "moduleItems": [
+        {
+          "icon": "search",
+          "title": "Riesgo de nombre",
+          "description": "Se revisan coincidencias fonéticas, conceptuales y visuales antes de presentar.",
+          "benefits": [
+            "Búsqueda previa",
+            "Riesgo de oposición"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "filter_alt",
+          "title": "Clases de protección",
+          "description": "La cobertura se alinea con productos, servicios y crecimiento esperado.",
+          "benefits": [
+            "Uso actual",
+            "Expansión futura"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "star",
+          "title": "Activo vigilado",
+          "description": "El expediente se sigue con respuestas oportunas y lectura clara del estado.",
+          "benefits": [
+            "Oficios y vencimientos",
+            "Decisión de uso"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

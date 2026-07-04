@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "defensa-multas-gobierno",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Government fine defense and recovery",
+      "summary": "Analysis and defense against fines, sanctions, and improper charges issued by authorities.",
+      "intro": "A fine should not be handled improvisationally. We review authority, reasoning, evidence, deadlines, and defense or recovery opportunities.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Administrative fines",
+        "Improper charges",
+        "Nullity, remedy, or amparo"
+      ],
+      "cards": [
+        {
+          "icon": "security",
+          "title": "Legality review",
+          "description": "We detect issues in authority, legal basis, reasoning, or procedure.",
+          "benefits": [
+            "Challengeable act",
+            "Risks and deadlines"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Defense strategy",
+          "description": "We choose the route based on evidence, cost, and operational consequences.",
+          "benefits": [
+            "Remedy or trial",
+            "Institutional negotiation"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Potential recovery",
+          "description": "When there is an improper payment, we evaluate refund or offset with documentary support.",
+          "benefits": [
+            "Refund file",
+            "Traceable follow-up"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Fine module",
+      "moduleTitle": "Separate legitimate charges from defendable acts.",
+      "moduleDescription": "A fine is reviewed by authority, reasoning, procedure, evidence, and operational effects.",
+      "moduleItems": [
+        {
+          "icon": "security",
+          "title": "Act review",
+          "description": "We identify who issued the fine, under what basis, and what it requires.",
+          "benefits": [
+            "Authority and reasoning",
+            "Possible defects"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Economic impact",
+          "description": "The cost of paying, defending, or recovering is compared before moving forward.",
+          "benefits": [
+            "Disputable amount",
+            "Operational risk"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Recovery route",
+          "description": "If there was an improper payment, support is prepared for refund or offset.",
+          "benefits": [
+            "Exhibits and filings",
+            "Traceable follow-up"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

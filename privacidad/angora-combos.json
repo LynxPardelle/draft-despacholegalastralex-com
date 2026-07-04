@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "pageId": "privacidad",
+  "domain": "grupoastralegal.com",
+  "combos": {
+    "sectionBase": [
+      "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-64px ank-paddingBlock-md-84px"
+    ],
+    "sectionContent": [
+      "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-24px"
+    ],
+    "sectionEyebrow": [
+      "ank-width-fitContent ank-paddingInline-12px ank-paddingBlock-7px ank-borderRadius-8px ank-bg-secondaryBgColor ank-color-titleColor ank-fontSize-0_78rem ank-fontWeight-900 ank-textTransform-uppercase"
+    ],
+    "sectionTitle": [
+      "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-3rem ank-fontWeight-900 ank-lineHeight-1_08 ank-maxWidth-16ch"
+    ],
+    "sectionSubtitle": [
+      "ank-m-0 ank-color-secondaryTitleColor ank-fontSize-1rem ank-fontSize-md-1_1rem ank-lineHeight-1_72 ank-maxWidth-58rem"
+    ],
+    "panel": [
+      "ank-width-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-padding-22px ank-boxShadow-0__14px__32px__bgColor__OPA__0_10"
+    ],
+    "mutedPanel": [
+      "ank-width-100per ank-minWidth-0 ank-boxSizing-borderMINbox ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-secondaryBgColor ank-padding-20px"
+    ],
+    "primaryAction": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-linkColor ank-color-bgColor ank-fontWeight-900 ank-textDecoration-none ank-boxShadow-0__12px__24px__linkColor__OPA__0_18"
+    ],
+    "secondaryAction": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-18px ank-paddingBlock-11px ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-textDecoration-none"
+    ],
+    "utilityButton": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-12px ank-paddingBlock-10px ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-textDecoration-none ank-cursor-pointer ank-lineHeight-1"
+    ],
+    "navLink": [
+      "ank-color-secondaryTitleColor ank-textDecoration-none ank-fontSize-0_92rem ank-fontWeight-900 ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-bgHover-secondaryBgColor"
+    ],
+    "navDropdownButton": [
+      "ank-display-inlineFlex ank-alignItems-center ank-justifyContent-center ank-gap-6px ank-paddingInline-10px ank-paddingBlock-8px ank-borderRadius-8px ank-border-0 ank-bg-transparent ank-color-secondaryTitleColor ank-fontWeight-900 ank-cursor-pointer ank-bgHover-secondaryBgColor ank-lineHeight-1 ank-whiteSpace-nowrap"
+    ],
+    "dropdownMenu": [
+      "ank-bg-bgColor ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-padding-8px ank-minWidth-260px ank-boxShadow-0__18px__44px__bgColor__OPA__0_22"
+    ],
+    "dropdownItem": [
+      "ank-display-flex ank-paddingInline-12px ank-paddingBlock-10px ank-textDecoration-none ank-borderRadius-8px ank-color-titleColor ank-fontWeight-800 ank-lineHeight-1_35 ank-bgHover-secondaryBgColor ank-overflowWrap-anywhere"
+    ],
+    "cardLink": [
+      "ank-display-inlineFlex ank-width-fitContent ank-marginTop-12px ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none"
+    ],
+    "cardTitle": [
+      "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontWeight-900 ank-lineHeight-1_25"
+    ],
+    "cardDescription": [
+      "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_96rem ank-lineHeight-1_65"
+    ],
+    "benefitList": [
+      "ank-listStyle-none ank-padding-0 ank-margin-0 ank-display-flex ank-flexDirection-column ank-gap-8px"
+    ],
+    "benefitItem": [
+      "ank-display-flex ank-alignItems-start ank-gap-8px ank-color-secondaryTitleColor ank-fontSize-0_92rem ank-lineHeight-1_45"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "registro-de-patentes",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Registro de patentes",
+      "summary": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
+      "intro": "El registro de patente necesita coordinación técnica y jurídica. Ayudamos a ordenar la evidencia, definir alcance y preparar la ruta de protección.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Invenciones y modelos de utilidad",
+        "Documentación técnica",
+        "Estrategia de protección"
+      ],
+      "cards": [
+        {
+          "icon": "auto_awesome",
+          "title": "Viabilidad inicial",
+          "description": "Revisamos novedad, aplicación y riesgos evidentes antes de preparar el expediente.",
+          "benefits": [
+            "Criterios de patentabilidad",
+            "Recomendación de ruta"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Expediente técnico-jurídico",
+          "description": "Ordenamos descripción, reivindicaciones, anexos y soporte documental.",
+          "benefits": [
+            "Control de versiones",
+            "Estructura de alcance"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "autorenew",
+          "title": "Seguimiento con autoridad",
+          "description": "Atendemos requerimientos y decisiones con una lectura clara para el cliente.",
+          "benefits": [
+            "Oficios y respuestas",
+            "Estado del trámite"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Módulo técnico-jurídico",
+      "moduleTitle": "Convertir una invención en expediente protegible.",
+      "moduleDescription": "La patente exige traducir información técnica a una ruta jurídica con alcance, evidencia y seguimiento.",
+      "moduleItems": [
+        {
+          "icon": "auto_awesome",
+          "title": "Lectura de novedad",
+          "description": "Se revisa si la invención parece tener elementos diferenciables y aplicables.",
+          "benefits": [
+            "Viabilidad preliminar",
+            "Tipo de protección"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Documentación técnica",
+          "description": "La información se ordena para descripción, reivindicaciones, anexos y soporte.",
+          "benefits": [
+            "Control de versiones",
+            "Alcance defendible"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "autorenew",
+          "title": "Seguimiento de autoridad",
+          "description": "Los requerimientos se atienden con coordinación entre equipo técnico y legal.",
+          "benefits": [
+            "Respuestas preparadas",
+            "Estado del trámite"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

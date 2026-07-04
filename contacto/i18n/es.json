@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "contacto",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Contacto",
+      "summary": "Agenda una valoración inicial o envía un mensaje con el contexto esencial de tu asunto.",
+      "intro": "Para cuidar tu información, en el primer mensaje comparte solo contexto general, fechas importantes y cómo prefieres dar seguimiento. Los documentos sensibles se solicitan después de confirmar el alcance.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Teléfono: +52 33 1993 7983",
+        "Correo: grupoastralegal@gmail.com",
+        "Calendly para llamada de 30 minutos"
+      ],
+      "cards": [
+        {
+          "icon": "calendar",
+          "title": "Agendar llamada",
+          "description": "Usa Calendly para elegir un horario de valoración inicial.",
+          "benefits": [
+            "30 minutos",
+            "Contexto general"
+          ],
+          "href": "https://calendly.com/jluis-ortega27/30min",
+          "linkLabel": "Elegir horario",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "icon": "phone_android",
+          "title": "WhatsApp",
+          "description": "Mensaje breve con tu nombre, asunto y urgencia aproximada.",
+          "benefits": [
+            "+52 33 1993 7983",
+            "Sin documentos sensibles al inicio"
+          ],
+          "href": "https://wa.me/5213319937983?text=Hola%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
+          "linkLabel": "Enviar WhatsApp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "icon": "mail",
+          "title": "Correo",
+          "description": "Útil para asuntos que requieren contexto escrito desde el primer contacto.",
+          "benefits": [
+            "grupoastralegal@gmail.com",
+            "Resumen y datos de contacto"
+          ],
+          "href": "mailto:grupoastralegal@gmail.com",
+          "linkLabel": "Enviar correo",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

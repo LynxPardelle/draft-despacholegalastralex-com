@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "terminos",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Términos de uso",
+      "summary": "Condiciones básicas para consultar este sitio informativo de Astra Legal.",
+      "intro": "El contenido del sitio es informativo. No constituye asesoría legal, no promete resultados y no crea relación profesional sin aceptación expresa de Astra Legal y del cliente.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Uso informativo",
+        "Sin promesa de resultados",
+        "Relación profesional por acuerdo"
+      ],
+      "cards": [
+        {
+          "icon": "help_outline",
+          "title": "Contenido",
+          "description": "Los textos ayudan a entender servicios y criterios generales, no sustituyen análisis de caso.",
+          "benefits": [
+            "Contexto general",
+            "Revisión específica requerida"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Relación profesional",
+          "description": "Solo existe cuando hay aceptación expresa, alcance definido y condiciones acordadas.",
+          "benefits": [
+            "Alcance por escrito",
+            "Condiciones claras"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Responsabilidad",
+          "description": "Cada asunto depende de hechos, pruebas, plazos, autoridades y criterios aplicables.",
+          "benefits": [
+            "Sin garantías absolutas",
+            "Estrategia responsable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

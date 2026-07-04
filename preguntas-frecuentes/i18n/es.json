@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "preguntas-frecuentes",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Preguntas frecuentes",
+      "summary": "Respuestas claras sobre el primer contacto, idiomas, alcance y expectativas razonables.",
+      "intro": "Estas respuestas son informativas y no sustituyen una revisión jurídica del caso concreto.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Primer contacto",
+        "Idiomas de atención",
+        "Relación profesional"
+      ],
+      "cards": [
+        {
+          "icon": "help_outline",
+          "title": "¿El primer contacto crea relación abogado-cliente?",
+          "description": "No. La relación profesional requiere aceptación expresa, alcance definido y condiciones acordadas.",
+          "benefits": [
+            "Valoración inicial",
+            "Alcance por escrito"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "¿Atienden en español, inglés y chino?",
+          "description": "Astra Legal puede orientar el primer contacto en español, inglés o chino. El idioma de seguimiento se confirma según el asunto y la disponibilidad.",
+          "benefits": [
+            "Comunicación internacional",
+            "Soft landing para China"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "verified",
+          "title": "¿Prometen resultados?",
+          "description": "No. Se explica viabilidad, riesgos y rutas posibles. Los resultados dependen de hechos, pruebas y autoridades.",
+          "benefits": [
+            "Transparencia",
+            "Estrategia responsable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

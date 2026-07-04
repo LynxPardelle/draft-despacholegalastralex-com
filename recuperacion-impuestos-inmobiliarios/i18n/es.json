@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "recuperacion-impuestos-inmobiliarios",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Recuperación de impuestos inmobiliarios",
+      "summary": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+      "intro": "Analizamos operaciones inmobiliarias, pagos y resoluciones para determinar si existe una vía de devolución, compensación o defensa.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Pagos y contribuciones",
+        "Actos de autoridad",
+        "Expediente de recuperación"
+      ],
+      "cards": [
+        {
+          "icon": "saved_search",
+          "title": "Revisión técnica",
+          "description": "Contratos, recibos, avalúos y comunicaciones se revisan contra la norma aplicable.",
+          "benefits": [
+            "Base documental",
+            "Riesgos de plazo"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Cálculo de oportunidad",
+          "description": "Separamos montos discutibles, costos de gestión y probabilidad jurídica antes de avanzar.",
+          "benefits": [
+            "Criterio costo-beneficio",
+            "Ruta administrativa o judicial"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Gestión del expediente",
+          "description": "Integramos escritos, anexos y seguimiento con trazabilidad para el cliente.",
+          "benefits": [
+            "Control de entregables",
+            "Comunicación de estado"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Módulo de recuperación",
+      "moduleTitle": "Primero viabilidad, después expediente.",
+      "moduleDescription": "La recuperación de importes exige separar pagos, autoridad, plazos y soporte antes de iniciar una gestión.",
+      "moduleItems": [
+        {
+          "icon": "assignment",
+          "title": "Origen del pago",
+          "description": "Se ubica qué se pagó, por qué concepto y con qué documento se acredita.",
+          "benefits": [
+            "Recibos y contratos",
+            "Montos separables"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "schedule",
+          "title": "Plazo y vía",
+          "description": "La oportunidad se revisa contra fechas, norma aplicable y criterio de autoridad.",
+          "benefits": [
+            "Devolución o defensa",
+            "Riesgo procesal"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Expediente trazable",
+          "description": "Los escritos, anexos y seguimientos se organizan para lectura clara del cliente.",
+          "benefits": [
+            "Anexos controlados",
+            "Estado visible"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "contacto",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Contact",
+      "summary": "Schedule an initial assessment or send a message with the essential context of your matter.",
+      "intro": "To protect your information, share only general context, important dates, and preferred follow-up in the first message. Sensitive documents are requested after scope confirmation.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Phone: +52 33 1993 7983",
+        "Email: grupoastralegal@gmail.com",
+        "Calendly for a 30-minute call"
+      ],
+      "cards": [
+        {
+          "icon": "calendar",
+          "title": "Schedule a call",
+          "description": "Use Calendly to choose an initial assessment time.",
+          "benefits": [
+            "30 minutes",
+            "General context"
+          ],
+          "href": "https://calendly.com/jluis-ortega27/30min",
+          "linkLabel": "Choose a time",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "icon": "phone_android",
+          "title": "WhatsApp",
+          "description": "Brief message with your name, matter, and approximate urgency.",
+          "benefits": [
+            "+52 33 1993 7983",
+            "No sensitive documents at first"
+          ],
+          "href": "https://wa.me/5213319937983?text=Hola%20Astra%20Legal%2C%20quiero%20solicitar%20una%20valoraci%C3%B3n%20inicial.",
+          "linkLabel": "Send WhatsApp",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "icon": "mail",
+          "title": "Email",
+          "description": "Useful for matters that need written context from the first contact.",
+          "benefits": [
+            "grupoastralegal@gmail.com",
+            "Summary and contact details"
+          ],
+          "href": "mailto:grupoastralegal@gmail.com",
+          "linkLabel": "Send email",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

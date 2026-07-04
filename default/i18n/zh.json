@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "default",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "hero": {
+        "eyebrow": "具有国际视角的法律策略",
+        "title": "Astra Legal",
+        "subtitle": "为不能靠临时反应处理的决策提供法律清晰度。",
+        "description": "Astra Legal 在墨西哥为企业、政府和个人提供预防性策略、防御、知识产权、落地和资产保护支持。",
+        "quote": "问题就是要被解决。不可能的事只是需要多一点时间。",
+        "primary": "预约评估",
+        "secondary": "查看服务",
+        "portraitTitle": "法律方向",
+        "portraitDescription": "为需要方法、谨慎和精准执行的事项提供专业入口。",
+        "portraitAlt": "Astra Legal 专业肖像"
+      },
+      "services": {
+        "eyebrow": "解决方案",
+        "title": "围绕你需要做出的决策组织法律工作。",
+        "description": "每个服务页面说明范围、所需文件以及 Astra Legal 可提供的支持类型。",
+        "cards": [
+          {
+            "icon": "translate",
+            "title": "中国企业在墨西哥落地",
+            "description": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。",
+            "href": "/soft-landing-empresas-chinas",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "进入墨西哥市场",
+              "政府协调"
+            ]
+          },
+          {
+            "icon": "security",
+            "title": "婚姻、离婚与资产保护",
+            "description": "在复杂家庭决策中保护资产、梳理义务并降低不确定性。",
+            "href": "/proteccion-patrimonial-matrimonio-divorcio",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "家庭协议",
+              "离婚与资产保护"
+            ]
+          },
+          {
+            "icon": "assignment",
+            "title": "不动产税费追回",
+            "description": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。",
+            "href": "/recuperacion-impuestos-inmobiliarios",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "付款与税费",
+              "行政机关行为"
+            ]
+          },
+          {
+            "icon": "gavel",
+            "title": "税务、行政与宪法保护诉讼防御",
+            "description": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。",
+            "href": "/defensa-fiscal-administrativa-amparo",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "罚款、税务债权与决定",
+              "行政救济"
+            ]
+          },
+          {
+            "icon": "star",
+            "title": "商标注册",
+            "description": "为在墨西哥保护商业身份提供商标检索、申请和跟进。",
+            "href": "/registro-de-marca",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "音似与概念检索",
+              "类别与使用策略"
+            ]
+          },
+          {
+            "icon": "auto_awesome",
+            "title": "专利申请",
+            "description": "为保护发明、整理技术文件并准备主管机关申请提供法律架构。",
+            "href": "/registro-de-patentes",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "发明与实用新型",
+              "技术文件"
+            ]
+          },
+          {
+            "icon": "security",
+            "title": "政府罚款防御与追回",
+            "description": "分析并防御主管部门作出的罚款、处罚和不当收费。",
+            "href": "/defensa-multas-gobierno",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "行政罚款",
+              "不当收费"
+            ]
+          },
+          {
+            "icon": "history",
+            "title": "不当解雇与劳动索赔",
+            "description": "在可能存在不当解雇时，评估劳动权利、证据和索赔路径。",
+            "href": "/despido-injustificado",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "通知、付款与合同",
+              "劳动调解"
+            ]
+          },
+          {
+            "icon": "gavel",
+            "title": "政府法律咨询",
+            "description": "为公共项目、程序、采购和机构风险预防提供法律支持。",
+            "href": "/consultoria-legal-gobiernos",
+            "linkLabel": "查看服务",
+            "benefits": [
+              "行政程序",
+              "采购与项目"
+            ]
+          }
+        ]
+      },
+      "about": {
+        "eyebrow": "信任与方法",
+        "title": "Astra Legal 面向具有法律、商业和人文背景的复杂问题。",
+        "description": "Astra Legal 结合法律判断、清晰沟通和多语言服务，帮助企业、政府和个人在行动前理解自己的选择。",
+        "linkLabel": "了解 Astra Legal"
+      },
+      "method": {
+        "eyebrow": "工作方式",
+        "title": "诊断、设计、执行。",
+        "description": "该方法帮助减少噪音、保护期限，并让下一步法律行动更容易理解。",
+        "steps": [
+          {
+            "icon": "saved_search",
+            "title": "诊断",
+            "description": "事实、相关方、文件、风险和紧急性。"
+          },
+          {
+            "icon": "trending_up",
+            "title": "策略",
+            "description": "按成本、时间、证据和后果比较路径。"
+          },
+          {
+            "icon": "check_circle",
+            "title": "执行",
+            "description": "文件、沟通、跟进和明确责任。"
+          }
+        ]
+      },
+      "contact": {
+        "eyebrow": "联系",
+        "title": "有用的初次信息应简短而准确。",
+        "description": "请分享一般背景、重要日期和后续偏好。敏感文件应在确认范围和渠道后再发送。",
+        "calendly": "预约 30 分钟通话",
+        "whatsapp": "发送 WhatsApp",
+        "email": "发送邮件"
+      }
+    }
+  }
+}

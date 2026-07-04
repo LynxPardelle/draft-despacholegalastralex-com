@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "contacto",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Contacto | Astra Legal",
+      "en": "Contact | Astra Legal",
+      "zh": "联系 | Astra Legal"
+    },
+    "description": {
+      "es": "Agenda una valoración inicial o envía un mensaje con el contexto esencial de tu asunto.",
+      "en": "Schedule an initial assessment or send a message with the essential context of your matter.",
+      "zh": "预约初步评估，或发送包含事项核心背景的信息。"
+    },
+    "canonical": "https://grupoastralegal.com/contacto",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Contacto | Astra Legal",
+        "en": "Contact | Astra Legal",
+        "zh": "联系 | Astra Legal"
+      },
+      "description": {
+        "es": "Agenda una valoración inicial o envía un mensaje con el contexto esencial de tu asunto.",
+        "en": "Schedule an initial assessment or send a message with the essential context of your matter.",
+        "zh": "预约初步评估，或发送包含事项核心背景的信息。"
+      },
+      "url": "https://grupoastralegal.com/contacto",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Contacto | Astra Legal",
+        "en": "Contact | Astra Legal",
+        "zh": "联系 | Astra Legal"
+      },
+      "description": {
+        "es": "Agenda una valoración inicial o envía un mensaje con el contexto esencial de tu asunto.",
+        "en": "Schedule an initial assessment or send a message with the essential context of your matter.",
+        "zh": "预约初步评估，或发送包含事项核心背景的信息。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Contacto | Astra Legal",
+        "description": "Agenda una valoración inicial o envía un mensaje con el contexto esencial de tu asunto.",
+        "url": "https://grupoastralegal.com/contacto",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

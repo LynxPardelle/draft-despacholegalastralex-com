@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "recursos-legales",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Recursos legales",
+      "summary": "Guías breves para preparar una conversación legal con mejor información y menos ruido.",
+      "intro": "Antes de pedir apoyo legal, conviene reunir documentos, fechas, importes, comunicaciones y objetivos. Esta página funciona como checklist inicial.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Checklist documental",
+        "Preguntas frecuentes",
+        "Avisos legales básicos"
+      ],
+      "cards": [
+        {
+          "icon": "assignment",
+          "title": "Qué preparar",
+          "description": "Identificación, contratos, comunicaciones, comprobantes y resoluciones disponibles.",
+          "benefits": [
+            "Fechas clave",
+            "Documentos originales o copias"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "help_outline",
+          "title": "Qué preguntar",
+          "description": "Tiempo, costo, riesgo, evidencia necesaria y alternativas razonables.",
+          "benefits": [
+            "Objetivo concreto",
+            "Límites aceptables"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Confidencialidad",
+          "description": "No envíes información sensible por canales inseguros antes de confirmar el alcance de atención.",
+          "benefits": [
+            "Contacto inicial prudente",
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}
