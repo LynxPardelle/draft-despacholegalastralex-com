@@ -204,6 +204,11 @@
       },
       "robots": "index,follow,max-image-preview:large"
     },
+    "icons": {
+      "favicon": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png",
+      "appleTouchIcon": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png",
+      "themeColor": "#FCFEFF"
+    },
     "i18n": {
       "defaultLanguage": "es",
       "supportedLanguages": [
