@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "despido-injustificado",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Despido injustificado y reclamaciones laborales",
+      "summary": "Acompañamiento para valorar derechos laborales, pruebas y ruta de reclamación cuando exista despido injustificado.",
+      "intro": "El primer paso es ordenar hechos y documentos. Con eso se define una ruta realista de conciliación, reclamación o defensa.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Cartas, pagos y contratos",
+        "Conciliación laboral",
+        "Reclamación o defensa"
+      ],
+      "cards": [
+        {
+          "icon": "assignment",
+          "title": "Orden del caso",
+          "description": "Fechas, salario, documentos y comunicaciones se integran en una línea de tiempo.",
+          "benefits": [
+            "Hechos verificables",
+            "Pruebas disponibles"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Conciliación preparada",
+          "description": "Llegamos a conversaciones con cálculo, soporte y límites claros.",
+          "benefits": [
+            "Cálculo de conceptos",
+            "Condiciones de acuerdo"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Ruta formal",
+          "description": "Si no hay acuerdo, preparamos el expediente para la instancia correspondiente.",
+          "benefits": [
+            "Escritos y anexos",
+            "Seguimiento procesal"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Módulo laboral",
+      "moduleTitle": "Hechos, cálculo y conciliación con evidencia.",
+      "moduleDescription": "La ruta laboral empieza con fechas, pagos, documentos y comunicaciones para decidir si conviene conciliar o reclamar.",
+      "moduleItems": [
+        {
+          "icon": "history",
+          "title": "Línea de tiempo",
+          "description": "Se ordenan ingreso, salida, pagos, avisos y conversaciones relevantes.",
+          "benefits": [
+            "Fechas verificables",
+            "Documentos clave"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Cálculo inicial",
+          "description": "Los conceptos reclamables se separan de expectativas o información incompleta.",
+          "benefits": [
+            "Conceptos laborales",
+            "Límites de negociación"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Conciliación o reclamación",
+          "description": "La siguiente acción se define según evidencia, urgencia y disposición de las partes.",
+          "benefits": [
+            "Acuerdo posible",
+            "Expediente formal"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

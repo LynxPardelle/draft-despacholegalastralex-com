@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "casos-de-uso",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Casos de uso | Astra Legal",
+      "en": "Use cases | Astra Legal",
+      "zh": "使用场景 | Astra Legal"
+    },
+    "description": {
+      "es": "Situaciones donde Astra Legal puede ordenar la estrategia antes de que el problema escale.",
+      "en": "Situations where Astra Legal can organize strategy before the problem escalates.",
+      "zh": "Astra Legal 可在问题升级前整理策略的典型场景。"
+    },
+    "canonical": "https://grupoastralegal.com/casos-de-uso",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Casos de uso | Astra Legal",
+        "en": "Use cases | Astra Legal",
+        "zh": "使用场景 | Astra Legal"
+      },
+      "description": {
+        "es": "Situaciones donde Astra Legal puede ordenar la estrategia antes de que el problema escale.",
+        "en": "Situations where Astra Legal can organize strategy before the problem escalates.",
+        "zh": "Astra Legal 可在问题升级前整理策略的典型场景。"
+      },
+      "url": "https://grupoastralegal.com/casos-de-uso",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Casos de uso | Astra Legal",
+        "en": "Use cases | Astra Legal",
+        "zh": "使用场景 | Astra Legal"
+      },
+      "description": {
+        "es": "Situaciones donde Astra Legal puede ordenar la estrategia antes de que el problema escale.",
+        "en": "Situations where Astra Legal can organize strategy before the problem escalates.",
+        "zh": "Astra Legal 可在问题升级前整理策略的典型场景。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Casos de uso | Astra Legal",
+        "description": "Situaciones donde Astra Legal puede ordenar la estrategia antes de que el problema escale.",
+        "url": "https://grupoastralegal.com/casos-de-uso",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

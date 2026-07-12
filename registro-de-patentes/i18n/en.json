@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "registro-de-patentes",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Patent registration",
+      "summary": "Legal structure to protect inventions, organize technical documentation, and prepare authority filings.",
+      "intro": "Patent registration needs technical and legal coordination. We help organize evidence, define scope, and prepare the protection route.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Inventions and utility models",
+        "Technical documentation",
+        "Protection strategy"
+      ],
+      "cards": [
+        {
+          "icon": "auto_awesome",
+          "title": "Initial viability",
+          "description": "We review novelty, application, and evident risks before preparing the file.",
+          "benefits": [
+            "Patentability criteria",
+            "Route recommendation"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Technical-legal file",
+          "description": "We organize description, claims, exhibits, and supporting documentation.",
+          "benefits": [
+            "Version control",
+            "Scope structure"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "autorenew",
+          "title": "Authority follow-up",
+          "description": "We address requirements and decisions with clear client-facing interpretation.",
+          "benefits": [
+            "Office actions and responses",
+            "Filing status"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Technical-legal module",
+      "moduleTitle": "Turn an invention into a protectable file.",
+      "moduleDescription": "A patent requires translating technical information into a legal route with scope, evidence, and follow-up.",
+      "moduleItems": [
+        {
+          "icon": "auto_awesome",
+          "title": "Novelty read",
+          "description": "We review whether the invention appears to have differentiable and applicable elements.",
+          "benefits": [
+            "Preliminary viability",
+            "Protection type"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Technical documentation",
+          "description": "Information is organized for description, claims, exhibits, and support.",
+          "benefits": [
+            "Version control",
+            "Defensible scope"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "autorenew",
+          "title": "Authority follow-up",
+          "description": "Requirements are addressed with coordination between technical and legal teams.",
+          "benefits": [
+            "Prepared responses",
+            "Filing status"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

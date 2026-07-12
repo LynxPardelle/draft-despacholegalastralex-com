@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "not-found",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "title": "页面未找到",
+      "description": "Astra Legal 上没有该路径。请使用菜单继续。",
+      "primaryLabel": "返回首页",
+      "secondaryLabel": "查看服务"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "registro-de-marca",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Registro de marca | Astra Legal",
+      "en": "Trademark registration | Astra Legal",
+      "zh": "商标注册 | Astra Legal"
+    },
+    "description": {
+      "es": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
+      "en": "Search, filing, and follow-up for trademarks that protect commercial identity in Mexico.",
+      "zh": "为在墨西哥保护商业身份提供商标检索、申请和跟进。"
+    },
+    "canonical": "https://grupoastralegal.com/registro-de-marca",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Registro de marca | Astra Legal",
+        "en": "Trademark registration | Astra Legal",
+        "zh": "商标注册 | Astra Legal"
+      },
+      "description": {
+        "es": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
+        "en": "Search, filing, and follow-up for trademarks that protect commercial identity in Mexico.",
+        "zh": "为在墨西哥保护商业身份提供商标检索、申请和跟进。"
+      },
+      "url": "https://grupoastralegal.com/registro-de-marca",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Registro de marca | Astra Legal",
+        "en": "Trademark registration | Astra Legal",
+        "zh": "商标注册 | Astra Legal"
+      },
+      "description": {
+        "es": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
+        "en": "Search, filing, and follow-up for trademarks that protect commercial identity in Mexico.",
+        "zh": "为在墨西哥保护商业身份提供商标检索、申请和跟进。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Registro de marca | Astra Legal",
+        "description": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
+        "url": "https://grupoastralegal.com/registro-de-marca",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "consultoria-legal-gobiernos",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Consultoría legal para gobiernos",
+      "summary": "Apoyo jurídico para proyectos públicos, procedimientos, contratación y prevención de riesgos institucionales.",
+      "intro": "La operación pública requiere decisiones defendibles, procesos documentados y comunicación institucional clara. Astra Legal apoya en diagnóstico, diseño y seguimiento jurídico.",
+      "asideTitle": "Útil cuando el asunto involucra",
+      "asideItems": [
+        "Procedimientos administrativos",
+        "Contratación y proyectos",
+        "Prevención de responsabilidad"
+      ],
+      "cards": [
+        {
+          "icon": "account_tree",
+          "title": "Diseño de proceso",
+          "description": "Alineamos actos, competencias, responsables y evidencia documental.",
+          "benefits": [
+            "Flujos de decisión",
+            "Control documental"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Revisión jurídica",
+          "description": "Evaluamos reglas, contratos, convocatorias o expedientes antes de su ejecución.",
+          "benefits": [
+            "Criterios de cumplimiento",
+            "Observaciones accionables"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "analytics",
+          "title": "Seguimiento institucional",
+          "description": "Acompañamos cambios, aclaraciones y respuestas con lenguaje técnico y público.",
+          "benefits": [
+            "Minutas y evidencia",
+            "Gestión de riesgos"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Confianza práctica",
+      "trustTitle": "Antes de actuar, el caso se ordena.",
+      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Método claro",
+          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "benefits": [
+            "Criterio verificable"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Cuidado de información",
+          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "benefits": [
+            "Sin adjuntos innecesarios"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Atención multilingüe",
+          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "benefits": [
+            "Contexto nacional e internacional"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Módulo institucional",
+      "moduleTitle": "Decisiones públicas con soporte documental.",
+      "moduleDescription": "La consultoría para gobiernos se enfoca en procedimientos, contratación, riesgos y trazabilidad institucional.",
+      "moduleItems": [
+        {
+          "icon": "account_tree",
+          "title": "Diseño de proceso",
+          "description": "Se alinean competencias, actos, responsables y evidencias desde el inicio.",
+          "benefits": [
+            "Flujo defendible",
+            "Roles claros"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Revisión de contratación",
+          "description": "Convocatorias, contratos y expedientes se revisan antes de decisiones sensibles.",
+          "benefits": [
+            "Criterios aplicables",
+            "Observaciones accionables"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "analytics",
+          "title": "Seguimiento público",
+          "description": "Las aclaraciones y respuestas se preparan con lenguaje técnico e institucional.",
+          "benefits": [
+            "Minutas y evidencia",
+            "Prevención de responsabilidad"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
+      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
+      "primaryLabel": "Agendar valoración",
+      "secondaryLabel": "Ir a contacto"
+    }
+  }
+}

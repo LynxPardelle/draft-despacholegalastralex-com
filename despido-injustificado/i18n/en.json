@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "despido-injustificado",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Wrongful dismissal and labor claims",
+      "summary": "Guidance to assess labor rights, evidence, and claim path when wrongful dismissal may exist.",
+      "intro": "The first step is organizing facts and documents. That defines a realistic route for conciliation, claim, or defense.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Letters, payments, and contracts",
+        "Labor conciliation",
+        "Claim or defense"
+      ],
+      "cards": [
+        {
+          "icon": "assignment",
+          "title": "Case organization",
+          "description": "Dates, salary, documents, and communications are integrated into a timeline.",
+          "benefits": [
+            "Verifiable facts",
+            "Available evidence"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Prepared conciliation",
+          "description": "We enter conversations with calculation, support, and clear limits.",
+          "benefits": [
+            "Concept calculation",
+            "Agreement terms"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Formal path",
+          "description": "If there is no agreement, we prepare the file for the relevant forum.",
+          "benefits": [
+            "Filings and exhibits",
+            "Procedural follow-up"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Labor module",
+      "moduleTitle": "Facts, calculation, and conciliation with evidence.",
+      "moduleDescription": "The labor route starts with dates, payments, documents, and communications to decide whether to conciliate or claim.",
+      "moduleItems": [
+        {
+          "icon": "history",
+          "title": "Timeline",
+          "description": "Start date, exit, payments, notices, and relevant conversations are organized.",
+          "benefits": [
+            "Verifiable dates",
+            "Key documents"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Initial calculation",
+          "description": "Claimable concepts are separated from expectations or incomplete information.",
+          "benefits": [
+            "Labor concepts",
+            "Negotiation limits"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Conciliation or claim",
+          "description": "The next action is defined by evidence, urgency, and party disposition.",
+          "benefits": [
+            "Possible agreement",
+            "Formal file"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

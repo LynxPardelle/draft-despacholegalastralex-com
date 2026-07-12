@@ -1,431 +1,163 @@
 {
   "version": 1,
+  "domain": "grupoastralegal.com",
   "pageId": "default",
-  "domain": "despacholegalastralex.com",
   "lang": "en",
   "dictionary": {
-    "brand": {
-      "name": "DESPACHO LEGAL ASTRALEX"
-    },
-    "nav": {
-      "home": "Home",
-      "benefits": "Approach",
-      "process": "Process",
-      "offers": "Services",
-      "faq": "Questions",
-      "contact": "Contact"
-    },
-    "ui": {
-      "skipToMain": "Skip to main content",
-      "toggleTheme": "Toggle theme",
-      "toggleLanguage": "Change language",
-      "selectLanguage": "Select language",
-      "controls": {
-        "languageToggle": "Change language"
+    "page": {
+      "hero": {
+        "eyebrow": "Legal strategy with international reach",
+        "title": "Astra Legal",
+        "subtitle": "Legal clarity for decisions that cannot be handled by improvisation.",
+        "description": "Astra Legal supports companies, governments, and individuals in preventive strategy, defense, intellectual property, soft landing, and asset protection in Mexico.",
+        "quote": "Problems are meant to be solved. The impossible just takes a little more time.",
+        "primary": "Schedule assessment",
+        "secondary": "Explore services",
+        "portraitTitle": "Legal direction",
+        "portraitDescription": "A professional front door for matters that need method, discretion, and precise execution.",
+        "portraitAlt": "Astra Legal professional portrait"
       },
-      "accessibility": {
-        "analyticsConsentDialog": "Analytics consent dialog",
-        "dialog": "Dialog",
-        "dialogOpened": "Dialog opened",
-        "dialogClosed": "Dialog closed"
+      "services": {
+        "eyebrow": "Solutions",
+        "title": "Legal work organized by the decision you need to make.",
+        "description": "Each service page explains scope, useful documents, and the type of support Astra Legal can provide.",
+        "cards": [
+          {
+            "icon": "translate",
+            "title": "Soft landing for Chinese companies",
+            "description": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
+            "href": "/soft-landing-empresas-chinas",
+            "linkLabel": "View service",
+            "benefits": [
+              "Mexican market entry",
+              "Government coordination"
+            ]
+          },
+          {
+            "icon": "security",
+            "title": "Asset protection, marriage, and divorce",
+            "description": "Strategy to protect assets, organize obligations, and reduce uncertainty in complex family decisions.",
+            "href": "/proteccion-patrimonial-matrimonio-divorcio",
+            "linkLabel": "View service",
+            "benefits": [
+              "Family agreements",
+              "Divorce and asset protection"
+            ]
+          },
+          {
+            "icon": "assignment",
+            "title": "Real estate tax recovery",
+            "description": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
+            "href": "/recuperacion-impuestos-inmobiliarios",
+            "linkLabel": "View service",
+            "benefits": [
+              "Payments and contributions",
+              "Authority acts"
+            ]
+          },
+          {
+            "icon": "gavel",
+            "title": "Tax, administrative, and amparo defense",
+            "description": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
+            "href": "/defensa-fiscal-administrativa-amparo",
+            "linkLabel": "View service",
+            "benefits": [
+              "Fines, tax credits, and resolutions",
+              "Administrative remedies"
+            ]
+          },
+          {
+            "icon": "star",
+            "title": "Trademark registration",
+            "description": "Search, filing, and follow-up for trademarks that protect commercial identity in Mexico.",
+            "href": "/registro-de-marca",
+            "linkLabel": "View service",
+            "benefits": [
+              "Phonetic and conceptual search",
+              "Classes and use strategy"
+            ]
+          },
+          {
+            "icon": "auto_awesome",
+            "title": "Patent registration",
+            "description": "Legal structure to protect inventions, organize technical documentation, and prepare authority filings.",
+            "href": "/registro-de-patentes",
+            "linkLabel": "View service",
+            "benefits": [
+              "Inventions and utility models",
+              "Technical documentation"
+            ]
+          },
+          {
+            "icon": "security",
+            "title": "Government fine defense and recovery",
+            "description": "Analysis and defense against fines, sanctions, and improper charges issued by authorities.",
+            "href": "/defensa-multas-gobierno",
+            "linkLabel": "View service",
+            "benefits": [
+              "Administrative fines",
+              "Improper charges"
+            ]
+          },
+          {
+            "icon": "history",
+            "title": "Wrongful dismissal and labor claims",
+            "description": "Guidance to assess labor rights, evidence, and claim path when wrongful dismissal may exist.",
+            "href": "/despido-injustificado",
+            "linkLabel": "View service",
+            "benefits": [
+              "Letters, payments, and contracts",
+              "Labor conciliation"
+            ]
+          },
+          {
+            "icon": "gavel",
+            "title": "Legal consulting for governments",
+            "description": "Legal support for public projects, procedures, procurement, and institutional risk prevention.",
+            "href": "/consultoria-legal-gobiernos",
+            "linkLabel": "View service",
+            "benefits": [
+              "Administrative procedures",
+              "Procurement and projects"
+            ]
+          }
+        ]
       },
-      "debugPanel": {
-        "downloadDraftPayloads": "Download draft payloads",
-        "writeDraftsToDisk": "Write drafts to disk",
-        "configIssues": "Config issues",
-        "analyticsLatest": "Latest analytics events",
-        "unknownComponentPrefix": "Unknown component"
+      "about": {
+        "eyebrow": "Trust and method",
+        "title": "Astra Legal is built for problems with legal, commercial, and human context.",
+        "description": "Astra Legal combines legal judgment, clear communication, and multilingual attention so companies, governments, and people can understand their options before acting.",
+        "linkLabel": "About Astra Legal"
       },
-      "heroMediaHeading": "Initial service overview",
-      "heroMediaCaption": "Editorial view of the opening file and the suggested follow-through.",
-      "heroMediaChecklist": [
-        "Preliminary diagnosis with legal priority and urgency level.",
-        "A work route showing documents, dependencies, and responsible parties.",
-        "Communication focused on decisions rather than operational ambiguity."
-      ],
-      "statsEyebrow": "Service indicators",
-      "statsSubtitle": "The proposal communicates a practice that organizes the matter, responds with judgment, and sustains follow-through without over-selling the promise.",
-      "stats": {
-        "response": {
-          "label": "Initial response",
-          "caption": "Contact objective for confirming context, urgency, and the first useful next step."
-        },
-        "practice": {
-          "label": "Active lines",
-          "caption": "Coverage focused on corporate advisory, document review, and related civil matters."
-        },
-        "languages": {
-          "label": "Bilingual support",
-          "caption": "Communication prepared for Spanish and English when the matter or counterpart requires it."
-        }
-      }
-    },
-    "hero": {
-      "eyebrow": "CORPORATE AND CIVIL ADVISORY",
-      "title": "Clear legal support for decisions that cannot be improvised.",
-      "subtitle": "Astralex is presented as an advisory practice that structures the issue, organizes the documents, and defines a work route that is understandable for both individuals and companies.",
-      "description": "The site prioritizes sober language, executive visual hierarchy, and visible process signals so the experience feels closer to a real legal operation than to a generic demo template.",
-      "highlight": "The first conversation is oriented around context, urgency, and the next action.",
-      "badgesLabel": "The initial conversation focuses on:",
-      "badges": [
-        "Priority facts and risks",
-        "Documents that actually matter",
-        "Initial scope definition",
-        "Suggested follow-through route"
-      ],
-      "primary": {
-        "label": "Request an assessment"
+      "method": {
+        "eyebrow": "How we work",
+        "title": "Diagnose, design, execute.",
+        "description": "The method helps reduce noise, protect deadlines, and make the next legal step understandable.",
+        "steps": [
+          {
+            "icon": "saved_search",
+            "title": "Diagnosis",
+            "description": "Facts, parties, documents, risk, and urgency."
+          },
+          {
+            "icon": "trending_up",
+            "title": "Strategy",
+            "description": "Routes compared by cost, time, evidence, and consequence."
+          },
+          {
+            "icon": "check_circle",
+            "title": "Execution",
+            "description": "Filings, conversations, follow-up, and clear ownership."
+          }
+        ]
       },
-      "secondary": {
-        "label": "Explore services"
-      }
-    },
-    "featuresSection": {
-      "title": "An approach for clients who need judgment, structure, and response",
-      "subtitle": "The landing leaves the demo tone behind and prioritizes concrete signals of method, prevention, and operational order."
-    },
-    "features": [
-      {
-        "icon": "verified_user",
-        "title": "Diagnosis with executive clarity",
-        "description": "Each matter is translated into an understandable picture so decisions can be made with legal grounding and less noise.",
-        "benefits": ["Context and scope explained", "Risks prioritized", "Defined next step"]
-      },
-      {
-        "icon": "description",
-        "title": "Document order from the start",
-        "description": "Documentation stops being passive archive material and becomes a working base for review, evidence, and control.",
-        "benefits": ["Contracts and support reviewed", "Findings summarized", "Information gaps identified"]
-      },
-      {
-        "icon": "gavel",
-        "title": "Prevention before reaction",
-        "description": "The site positions Astralex as an ally for anticipating scenarios before they become costly contingencies.",
-        "benefits": ["Preventive reading of the matter", "Position preparation", "Decision scenarios"]
-      },
-      {
-        "icon": "support_agent",
-        "title": "Professional and measurable follow-through",
-        "description": "The experience projects a service with milestones, useful communication, and responsibility around response times.",
-        "benefits": ["Progress confirmation", "Visible dependencies", "Sustained communication"]
-      }
-    ],
-    "processSection": {
-      "title": "How the engagement is structured",
-      "sidebarTitle": "Each matter moves through diagnosis, an initial route, and verifiable follow-through."
-    },
-    "processCards": [
-      {
-        "icon": "assignment",
-        "title": "1. Context intake",
-        "description": "Facts, urgency, parties involved, and the client's practical objective are identified before any course of action is suggested.",
-        "benefits": ["Matter overview", "Urgency visibility", "Preliminary scope"]
-      },
-      {
-        "icon": "find_in_page",
-        "title": "2. Initial document review",
-        "description": "Documents are organized, missing information is detected, and points with possible legal or operational impact are flagged.",
-        "benefits": ["Key documents", "Risks detected", "Review priorities"]
-      },
-      {
-        "icon": "alt_route",
-        "title": "3. Suggested route",
-        "description": "An initial action scheme is proposed with priorities, dependencies, and scenarios to support informed decisions.",
-        "benefits": ["Immediate steps", "Possible scenarios", "Decision criteria"]
-      },
-      {
-        "icon": "task_alt",
-        "title": "4. Follow-through and adjustments",
-        "description": "Support continues through useful communication, ongoing review, and adjustments when the matter changes direction.",
-        "benefits": ["Pending items updated", "Changes documented", "Formal follow-through"]
-      }
-    ],
-    "servicesSection": {
-      "title": "Services prioritized for corporate advisory",
-      "subtitle": "The proposal concentrates on service lines that feel plausible for a sober legal practice focused on prevention."
-    },
-    "services": [
-      {
-        "icon": "description",
-        "title": "Contracts and document review",
-        "description": "Support for drafting, analyzing, and adjusting civil or commercial instruments with a preventive lens and clear scope.",
-        "benefits": ["Critical clauses surfaced", "Compliance risks highlighted", "Actionable observations"],
-        "buttonLabel": "Request review"
-      },
-      {
-        "icon": "account_balance",
-        "title": "Preventive corporate advisory",
-        "description": "Support for reviewing internal documentation, corporate decisions, and organizational acts through a consistent legal and operational lens.",
-        "benefits": ["Suggested internal order", "Normative priorities", "Implementation route"],
-        "buttonLabel": "Ask for guidance"
-      },
-      {
-        "icon": "groups",
-        "title": "Negotiation and dispute handling",
-        "description": "Legal preparation for notices, breaches, sensitive conversations, or conflicts where the opening position matters.",
-        "benefits": ["Position preparation", "Document support", "Scenario reading"],
-        "buttonLabel": "Discuss a matter"
-      },
-      {
-        "icon": "fact_check",
-        "title": "Initial legal assessment",
-        "description": "A first evaluation to detect urgency, feasibility, risk areas, and the advisable level of support.",
-        "benefits": ["Matter priorities", "Preliminary risk map", "Defined next step"],
-        "buttonLabel": "Start assessment"
-      }
-    ],
-    "trustSection": {
-      "title": "Signals of professional work from the first contact",
-      "subtitle": "Without relying on fictional testimonials, the draft builds trust through method, tone, and operational clarity."
-    },
-    "trustSignals": [
-      {
-        "icon": "security",
-        "title": "Contained and credible promise",
-        "description": "The communication avoids exaggeration and focuses on service scope that feels verifiable for legal work.",
-        "benefits": ["Sober language", "No absolute promises", "Clear expectations"]
-      },
-      {
-        "icon": "fact_check",
-        "title": "Visible method",
-        "description": "The site shows a sequence of work that reduces the sense of improvisation and improves the feeling of control.",
-        "benefits": ["Recognizable stages", "Attention order", "Understandable follow-through"]
-      },
-      {
-        "icon": "forum",
-        "title": "Useful communication",
-        "description": "The experience reinforces contact dynamics oriented around decisions rather than generic or evasive replies.",
-        "benefits": ["Context first", "Concrete responses", "Clear next steps"]
-      }
-    ],
-    "faqSection": {
-      "title": "Frequently asked questions",
-      "subtitle": "General answers to orient the visitor before requesting an initial assessment."
-    },
-    "faq": [
-      {
-        "id": "faq-1",
-        "title": "Does the first conversation replace full legal advice?",
-        "content": "No. The first assessment is meant to understand the context, identify urgency, and define whether document review, preventive advisory, or a broader strategy is appropriate."
-      },
-      {
-        "id": "faq-2",
-        "title": "What should be prepared before reaching out?",
-        "content": "It is best to gather agreements, communications, IDs, corporate records, and any documents that help explain the issue accurately."
-      },
-      {
-        "id": "faq-3",
-        "title": "Can the practice assist both companies and individuals?",
-        "content": "Yes. The draft is framed for corporate advisory and related civil matters, always subject to the actual scope of the case."
-      },
-      {
-        "id": "faq-4",
-        "title": "What happens after the first contact?",
-        "content": "An initial route is suggested with priorities, required documents, and possible next steps so the client can make better-informed decisions."
-      }
-    ],
-    "finalCtaSection": {
-      "title": "Request an initial assessment to organize your legal situation.",
-      "subtitle": "The experience is designed to open a professional conversation, identify urgency, and define a reasonable scope for the engagement.",
-      "primaryLabel": "Request assessment",
-      "secondaryLabel": "View contact"
-    },
-    "playgroundSection": {
-      "title": "Contact form playground for the shared interaction scope",
-      "subtitle": "This block is included to validate the new reusable form runtime on Astralex. Fill the fields, submit or reset the form, and inspect the payload preview beside it.",
-      "form": {
-        "eyebrow": "Scoped contact form",
-        "title": "Draft a contact request",
-        "description": "The form stays fully local to this wrapper subtree so field state, validation, and submission remain reusable and isolated.",
-        "ariaLabel": "Astralex contact form playground",
-        "fullName": {
-          "label": "Full name",
-          "placeholder": "Jane Doe",
-          "validation": [
-            {
-              "type": "required",
-              "message": "Please enter the client's name."
-            }
-          ]
-        },
-        "email": {
-          "label": "Email",
-          "placeholder": "jane@company.com",
-          "validation": [
-            {
-              "type": "required",
-              "message": "Please enter an email address."
-            },
-            {
-              "type": "email",
-              "message": "Please enter a valid email address."
-            }
-          ]
-        },
-        "phone": {
-          "label": "Phone",
-          "placeholder": "+52 55 0000 0000",
-          "helperText": "Optional, but useful when the matter requires a callback."
-        },
-        "matterType": {
-          "label": "Matter type",
-          "ariaLabel": "Select the matter type for this contact request",
-          "helperText": "Choose the closest service line for this initial contact.",
-          "options": [
-            {
-              "value": "contract-review",
-              "label": "Contract review"
-            },
-            {
-              "value": "corporate-advisory",
-              "label": "Corporate advisory"
-            },
-            {
-              "value": "dispute-strategy",
-              "label": "Dispute or negotiation strategy"
-            },
-            {
-              "value": "general-assessment",
-              "label": "General assessment"
-            }
-          ]
-        },
-        "message": {
-          "label": "Matter summary",
-          "placeholder": "Briefly describe the context, urgency, and any relevant documents.",
-          "helperText": "Use this field to validate multiline input, touched state, and payload updates.",
-          "validation": [
-            {
-              "type": "required",
-              "message": "Please describe the matter."
-            },
-            {
-              "type": "minLength",
-              "value": 20,
-              "message": "Add at least 20 characters so the summary is useful."
-            }
-          ]
-        },
-        "urgent": {
-          "helperText": "This matter needs priority review."
-        },
-        "submitLabel": "Submit scoped payload",
-        "resetLabel": "Reset form"
-      },
-      "preview": {
-        "eyebrow": "Payload preview",
-        "title": "Live scope payload",
-        "description": "This panel reads the same local interaction scope and updates as the form changes, so it is easy to verify the generic runtime without adding temporary code.",
-        "submittedLabel": "Submitted:",
-        "validLabel": "Valid:",
-        "valuesLabel": "Current values",
-        "hint": "Use Submit to mark all fields as touched. Use Reset to restore the initial state."
-      }
-    },
-    "footer": {
-      "brandDescription": "Astralex communicates a practice focused on prevention, document order, and clear follow-through for corporate and civil matters.",
-      "copyright": "Copyright Despacho Legal Astralex. All rights reserved.",
       "contact": {
-        "assessment": {
-          "title": "Initial assessment",
-          "description": "A channel designed to open the matter with context, priority, and a useful first step.",
-          "label": "Write now"
-        },
-        "email": {
-          "title": "Contact email",
-          "description": "Use it to share background details, base documents, or request an initial conversation.",
-          "label": "contacto@despacholegalastralex.com"
-        },
-        "process": {
-          "title": "Service process",
-          "description": "Review how the matter is organized before moving forward with decisions or sensitive documents.",
-          "label": "View the process"
-        }
-      },
-      "social": {
-        "email": {
-          "label": "Email",
-          "ariaLabel": "Send email to Astralex"
-        },
-        "website": {
-          "label": "Website",
-          "ariaLabel": "Visit Astralex website"
-        }
-      },
-      "actions": {
-        "close": "Close"
-      },
-      "legal": {
-        "title": "Legal notices:",
-        "terms": {
-          "icon": "LG",
-          "link": "Terms",
-          "title": "Terms of service",
-          "intro": "This site is for informational purposes and does not replace individualized legal advice.",
-          "sections": [
-            {
-              "title": "Professional scope",
-              "text": "Published information describes services and process at a general level."
-            },
-            {
-              "title": "Professional relationship",
-              "text": "Sending a message or browsing the site does not by itself create an attorney-client relationship."
-            },
-            {
-              "title": "Permitted use",
-              "text": "Content may not be copied, reused, or presented as case-specific legal advice without authorization."
-            }
-          ]
-        },
-        "data": {
-          "icon": "PR",
-          "link": "Privacy notice",
-          "title": "Privacy notice",
-          "intro": "Contact and navigation data are processed to answer inquiries and improve site performance.",
-          "points": [
-            "Contact data is used to address inquiries and follow-up.",
-            "Analytics may be collected in aggregate form to improve experience and content quality.",
-            "Personal data is not sold to third parties.",
-            "Final processing terms must be reviewed under applicable law."
-          ],
-          "consentNote": "Use of non-essential analytics should remain subject to the active consent mechanism."
-        }
-      }
-    },
-    "consent": {
-      "title": "Analytics consent",
-      "intro": "You can allow non-essential measurement to improve content, performance, and site experience.",
-      "bullets": {
-        "0": "Navigation and reading events are used to detect improvement opportunities.",
-        "1": "This decision can be changed later.",
-        "2": "Information is handled for experience analysis purposes."
-      },
-      "actions": {
-        "allow": "Allow",
-        "decline": "Decline",
-        "later": "Later",
-        "remove": "Remove consent",
-        "confirm": "Yes",
-        "cancel": "No"
-      },
-      "feedback": {
-        "confirmRemove": "Are you sure you want to remove consent?"
-      }
-    },
-    "demo": {
-      "modal": {
-        "title": "System demo",
-        "button": {
-          "open": "Open demo"
-        },
-        "header": "Example component view",
-        "desc": "This modal belongs to the development environment and helps validate generic system interactions.",
-        "features": {
-          "0": "Configuration-driven rendering",
-          "1": "Centralized events and state",
-          "2": "Theme and i18n compatibility"
-        },
-        "close": "Close demo"
+        "eyebrow": "Contact",
+        "title": "A useful first message is brief and precise.",
+        "description": "Share general context, important dates, and preferred follow-up. Sensitive documents should wait until the scope and channel are confirmed.",
+        "calendly": "Schedule 30-minute call",
+        "whatsapp": "Send WhatsApp",
+        "email": "Send email"
       }
     }
   }

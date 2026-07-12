@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "recuperacion-impuestos-inmobiliarios",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Real estate tax recovery",
+      "summary": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
+      "intro": "We analyze real estate transactions, payments, and resolutions to determine whether refund, offset, or defense paths exist.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Payments and contributions",
+        "Authority acts",
+        "Recovery file"
+      ],
+      "cards": [
+        {
+          "icon": "saved_search",
+          "title": "Technical review",
+          "description": "Contracts, receipts, valuations, and communications are reviewed against applicable law.",
+          "benefits": [
+            "Documentary basis",
+            "Deadline risk"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Opportunity calculation",
+          "description": "We separate disputable amounts, management costs, and legal probability before moving forward.",
+          "benefits": [
+            "Cost-benefit criterion",
+            "Administrative or judicial route"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Case file management",
+          "description": "We organize filings, exhibits, and follow-up with traceability for the client.",
+          "benefits": [
+            "Deliverable control",
+            "Status communication"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Recovery module",
+      "moduleTitle": "Viability first, then the file.",
+      "moduleDescription": "Recovery requires separating payments, authority acts, deadlines, and support before starting a process.",
+      "moduleItems": [
+        {
+          "icon": "assignment",
+          "title": "Payment origin",
+          "description": "We identify what was paid, under which concept, and which document proves it.",
+          "benefits": [
+            "Receipts and contracts",
+            "Separable amounts"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "schedule",
+          "title": "Deadline and route",
+          "description": "Opportunity is reviewed against dates, applicable law, and authority criteria.",
+          "benefits": [
+            "Refund or defense",
+            "Procedural risk"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "Traceable file",
+          "description": "Filings, exhibits, and follow-up are organized for clear client reading.",
+          "benefits": [
+            "Controlled exhibits",
+            "Visible status"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "defensa-fiscal-administrativa-amparo",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+      "en": "Tax, administrative, and amparo defense | Astra Legal",
+      "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
+    },
+    "description": {
+      "es": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+      "en": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
+      "zh": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。"
+    },
+    "canonical": "https://grupoastralegal.com/defensa-fiscal-administrativa-amparo",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "en": "Tax, administrative, and amparo defense | Astra Legal",
+        "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
+      },
+      "description": {
+        "es": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+        "en": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
+        "zh": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。"
+      },
+      "url": "https://grupoastralegal.com/defensa-fiscal-administrativa-amparo",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "en": "Tax, administrative, and amparo defense | Astra Legal",
+        "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
+      },
+      "description": {
+        "es": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+        "en": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
+        "zh": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "description": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+        "url": "https://grupoastralegal.com/defensa-fiscal-administrativa-amparo",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

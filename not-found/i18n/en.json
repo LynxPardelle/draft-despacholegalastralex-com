@@ -1,33 +1,14 @@
 {
   "version": 1,
-  "domain": "despacholegalastralex.com",
+  "domain": "grupoastralegal.com",
   "pageId": "not-found",
   "lang": "en",
   "dictionary": {
-    "hero": {
-      "eyebrow": "Page not found",
-      "title": "This route is not published.",
-      "lead": "We could not find an active page for this address on Despacho Legal Astralex. You can return home and continue from a published route.",
-      "primaryLabel": "Back to home"
-    },
-    "signal": {
-      "code": "404",
-      "title": "The page is not available.",
-      "lead": "The site is still active. This response is rendered at the original URL to avoid unnecessary redirects."
-    },
-    "routes": {
-      "title": "Useful paths to continue.",
-      "lead": "These are published draft routes so navigation can recover without falling back to the home page by mistake.",
-      "items": [
-        {
-          "label": "Open Home"
-        }
-      ]
-    },
-    "ui": {
-      "accessibility": {
-        "skipToContent": "Skip to main content"
-      }
+    "page": {
+      "title": "Page not found",
+      "description": "The route is not available on Astra Legal. Use the menu to continue.",
+      "primaryLabel": "Return home",
+      "secondaryLabel": "View services"
     }
   }
 }

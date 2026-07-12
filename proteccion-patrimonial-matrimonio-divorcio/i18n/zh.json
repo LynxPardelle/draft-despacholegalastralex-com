@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "proteccion-patrimonial-matrimonio-divorcio",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "婚姻、离婚与资产保护",
+      "summary": "在复杂家庭决策中保护资产、梳理义务并降低不确定性。",
+      "intro": "资产保护需要秩序、敏感度和严谨文件。我们支持预防性和争议性事项，让每项决定都有明确法律框架。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "家庭协议",
+        "离婚与资产保护",
+        "预防未来争议"
+      ],
+      "cards": [
+        {
+          "icon": "gavel",
+          "title": "资产地图",
+          "description": "在提出路径前识别资产、义务、风险和关键文件。",
+          "benefits": [
+            "法律清单",
+            "保护优先级"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "谈判或防御路径",
+          "description": "判断何时谈判、正式化或诉讼，不承诺取决于第三方的结果。",
+          "benefits": [
+            "按情景制定策略",
+            "支持性文件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "有序收尾",
+          "description": "追求清晰、可执行并尊重家庭背景的协议。",
+          "benefits": [
+            "可验证条件",
+            "后续跟进"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "资产模块",
+      "moduleTitle": "决策、谈判或诉讼前先建立秩序。",
+      "moduleDescription": "资产策略结合清单、文件、家庭情景和法律效果，以降低不确定性。",
+      "moduleItems": [
+        {
+          "icon": "home",
+          "title": "资产与义务地图",
+          "description": "区分资产、债务、协议、风险和支持每项决策的文件。",
+          "benefits": [
+            "法律清单",
+            "争议点"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "家庭情景",
+          "description": "路径考虑相关人员、可能协议和合理谈判边界。",
+          "benefits": [
+            "清晰协议",
+            "Lenguaje cuidadoso"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "正式路径",
+          "description": "当谈判不足时，为有序防御准备档案。",
+          "benefits": [
+            "可用证据",
+            "可验证下一步"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

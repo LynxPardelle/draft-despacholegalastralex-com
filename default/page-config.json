@@ -1,81 +1,124 @@
 {
   "version": 1,
   "pageId": "default",
-  "domain": "despacholegalastralex.com",
-  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
-  "modalRootIds": ["modalAnalyticsConsentRoot", "modalTermsRoot", "modalDataUseRoot"],
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "homePage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
   "metadata": {
-    "status": "draft_generated",
-    "source": "assistant-generated from generic legal questionnaire baseline",
-    "versionTag": "v1.0.0",
-    "owner": "Astralex"
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
   },
   "seo": {
-    "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
-    "description": "Despacho Legal Astralex offers practical legal guidance in civil, family, labor, contract, and business matters. Request a first legal assessment with clear next steps.",
+    "title": {
+      "es": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+      "en": "Astra Legal | Legal strategy in Mexico | Astra Legal",
+      "zh": "Astra Legal | 墨西哥法律策略 | Astra Legal"
+    },
+    "description": {
+      "es": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+      "en": "Legal strategy for companies, governments, and individuals in Mexico, with service prepared in Spanish, English, and Chinese.",
+      "zh": "面向墨西哥企业、政府和个人的法律策略服务，支持西班牙语、英语和中文。"
+    },
+    "canonical": "https://grupoastralegal.com",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
     "openGraph": {
-      "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
-      "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
-      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
-      "url": "https://despacholegalastralex.com",
-      "type": "website"
+      "title": {
+        "es": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+        "en": "Astra Legal | Legal strategy in Mexico | Astra Legal",
+        "zh": "Astra Legal | 墨西哥法律策略 | Astra Legal"
+      },
+      "description": {
+        "es": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+        "en": "Legal strategy for companies, governments, and individuals in Mexico, with service prepared in Spanish, English, and Chinese.",
+        "zh": "面向墨西哥企业、政府和个人的法律策略服务，支持西班牙语、英语和中文。"
+      },
+      "url": "https://grupoastralegal.com",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
     },
     "twitter": {
-      "title": "Despacho Legal Astralex | Strategic Legal Guidance for Individuals and Businesses",
-      "description": "Clear, professional, and practical legal guidance for individuals, families, and businesses.",
-      "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
-      "card": "summary_large_image"
-    },
-    "canonical": "https://despacholegalastralex.com"
+      "title": {
+        "es": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+        "en": "Astra Legal | Legal strategy in Mexico | Astra Legal",
+        "zh": "Astra Legal | 墨西哥法律策略 | Astra Legal"
+      },
+      "description": {
+        "es": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+        "en": "Legal strategy for companies, governments, and individuals in Mexico, with service prepared in Spanish, English, and Chinese.",
+        "zh": "面向墨西哥企业、政府和个人的法律策略服务，支持西班牙语、英语和中文。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
   },
   "structuredData": {
     "entries": [
       {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "Despacho Legal Astralex",
-        "url": "https://despacholegalastralex.com",
-        "image": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-og.svg",
-        "description": "General-practice legal guidance for individuals, families, entrepreneurs, and businesses in civil, family, labor, contract, and commercial matters.",
-        "areaServed": "Mexico",
-        "availableLanguage": ["es", "en"],
-        "email": "contacto@despacholegalastralex.com",
-        "sameAs": ["https://despacholegalastralex.com"]
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Despacho Legal Astralex",
-        "url": "https://despacholegalastralex.com",
-        "logo": "https://assets.zoolandingpage.com.mx/despacholegalastralex.com/default/astralex-logo.svg",
-        "email": "contacto@despacholegalastralex.com"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What types of legal matters does Despacho Legal Astralex handle?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "This draft positions the firm as a general-practice office focused on civil, family, labor, contract, commercial, and selected real-estate-related matters. Final scope must be confirmed before publication."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does sending a message create an attorney-client relationship?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. First contact only requests information. An attorney-client relationship begins only after formal acceptance and confirmation by the firm."
-            }
-          }
-        ]
+        "name": "Astra Legal | Estrategia jurídica en México | Astra Legal",
+        "description": "Estrategia jurídica para empresas, gobiernos y personas en México, con atención preparada en español, inglés y chino.",
+        "url": "https://grupoastralegal.com",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
       }
     ]
   },
   "analytics": {
-    "sectionIds": ["home", "benefits", "process", "offers", "social-proof", "faq", "final-cta", "contact-section"],
-    "scrollMilestones": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
   }
 }

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pageId": "registro-de-patentes",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "contentPage",
+    "siteFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive intake docs reviewed for Astra Legal"
+  },
+  "seo": {
+    "title": {
+      "es": "Registro de patentes | Astra Legal",
+      "en": "Patent registration | Astra Legal",
+      "zh": "专利申请 | Astra Legal"
+    },
+    "description": {
+      "es": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
+      "en": "Legal structure to protect inventions, organize technical documentation, and prepare authority filings.",
+      "zh": "为保护发明、整理技术文件并准备主管机关申请提供法律架构。"
+    },
+    "canonical": "https://grupoastralegal.com/registro-de-patentes",
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": [
+        "Astra Legal",
+        "estrategia jurídica",
+        "soft landing México",
+        "defensa administrativa",
+        "protección patrimonial"
+      ],
+      "en": [
+        "Astra Legal",
+        "legal strategy Mexico",
+        "soft landing Mexico",
+        "administrative defense",
+        "asset protection"
+      ],
+      "zh": [
+        "Astra Legal",
+        "墨西哥法律策略",
+        "企业落地",
+        "行政防御",
+        "资产保护"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Registro de patentes | Astra Legal",
+        "en": "Patent registration | Astra Legal",
+        "zh": "专利申请 | Astra Legal"
+      },
+      "description": {
+        "es": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
+        "en": "Legal structure to protect inventions, organize technical documentation, and prepare authority filings.",
+        "zh": "为保护发明、整理技术文件并准备主管机关申请提供法律架构。"
+      },
+      "url": "https://grupoastralegal.com/registro-de-patentes",
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Registro de patentes | Astra Legal",
+        "en": "Patent registration | Astra Legal",
+        "zh": "专利申请 | Astra Legal"
+      },
+      "description": {
+        "es": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
+        "en": "Legal structure to protect inventions, organize technical documentation, and prepare authority filings.",
+        "zh": "为保护发明、整理技术文件并准备主管机关申请提供法律架构。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Registro de patentes | Astra Legal",
+        "description": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
+        "url": "https://grupoastralegal.com/registro-de-patentes",
+        "inLanguage": [
+          "es",
+          "en",
+          "zh"
+        ],
+        "provider": {
+          "@type": "LegalService",
+          "name": "Astra Legal",
+          "url": "https://grupoastralegal.com",
+          "telephone": "+52 33 1993 7983",
+          "email": "grupoastralegal@gmail.com",
+          "areaServed": "Mexico",
+          "availableLanguage": [
+            "Spanish",
+            "English",
+            "Chinese"
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "main-content",
+      "site-footer"
+    ],
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "metodo",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Astra 方法",
+      "summary": "把法律不确定性转化为有序、可执行决策的工作方法。",
+      "intro": "该方法避免冲动行动。先理解事实，再整理证据，评估路径，然后按明确优先级执行。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "诊断",
+        "策略",
+        "执行与跟进"
+      ],
+      "cards": [
+        {
+          "icon": "saved_search",
+          "title": "1. 理解",
+          "description": "背景、相关方、文件、紧急性和真实后果。",
+          "benefits": [
+            "初步简报",
+            "相关方地图"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "trending_up",
+          "title": "2. 设计",
+          "description": "比较成本、时间、风险和所需证据的路径。",
+          "benefits": [
+            "情景",
+            "优先级"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "check_circle",
+          "title": "3. 执行",
+          "description": "行动、文件、沟通和可追踪跟进。",
+          "benefits": [
+            "明确负责人",
+            "进展证据"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "terminos",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Terms of use",
+      "summary": "Basic terms for viewing this informational Astra Legal site.",
+      "intro": "Site content is informational. It is not legal advice, does not promise outcomes, and does not create a professional relationship without express acceptance by Astra Legal and the client.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Informational use",
+        "No outcome promises",
+        "Professional relationship by agreement"
+      ],
+      "cards": [
+        {
+          "icon": "help_outline",
+          "title": "Content",
+          "description": "Texts help explain services and general criteria, but do not replace case analysis.",
+          "benefits": [
+            "General context",
+            "Specific review required"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Professional relationship",
+          "description": "It exists only with express acceptance, defined scope, and agreed terms.",
+          "benefits": [
+            "Written scope",
+            "Clear terms"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "Responsibility",
+          "description": "Each matter depends on facts, evidence, deadlines, authorities, and applicable criteria.",
+          "benefits": [
+            "No absolute guarantees",
+            "Responsible strategy"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

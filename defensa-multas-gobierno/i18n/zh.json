@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "defensa-multas-gobierno",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "政府罚款防御与追回",
+      "summary": "分析并防御主管部门作出的罚款、处罚和不当收费。",
+      "intro": "罚款不应临时处理。我们审查权限、理由、证据、期限以及防御或追回机会。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "行政罚款",
+        "不当收费",
+        "无效、救济或宪法保护"
+      ],
+      "cards": [
+        {
+          "icon": "security",
+          "title": "合法性审查",
+          "description": "识别权限、法律依据、理由或程序问题。",
+          "benefits": [
+            "可挑战行为",
+            "风险与期限"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "gavel",
+          "title": "防御策略",
+          "description": "基于证据、成本和运营后果选择路径。",
+          "benefits": [
+            "救济或诉讼",
+            "机构沟通"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "可能追回",
+          "description": "如存在不当付款，评估退还或抵扣并准备文件支持。",
+          "benefits": [
+            "退款档案",
+            "可追踪跟进"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "罚款模块",
+      "moduleTitle": "区分合法收费和可防御行为。",
+      "moduleDescription": "罚款按权限、理由、程序、证据和运营影响审查。",
+      "moduleItems": [
+        {
+          "icon": "security",
+          "title": "行为审查",
+          "description": "识别罚款发布主体、依据和要求。",
+          "benefits": [
+            "权限与理由",
+            "可能缺陷"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "经济影响",
+          "description": "推进前比较支付、防御或追回成本。",
+          "benefits": [
+            "可争议金额",
+            "运营风险"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "assignment",
+          "title": "追回路径",
+          "description": "若存在不当付款，准备退还或抵扣支持材料。",
+          "benefits": [
+            "附件与申请",
+            "可追踪跟进"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}

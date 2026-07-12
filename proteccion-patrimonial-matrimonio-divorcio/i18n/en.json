@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "proteccion-patrimonial-matrimonio-divorcio",
+  "lang": "en",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "Asset protection, marriage, and divorce",
+      "summary": "Strategy to protect assets, organize obligations, and reduce uncertainty in complex family decisions.",
+      "intro": "Asset protection requires order, sensitivity, and carefully designed documents. We support preventive and disputed matters so each decision has a clear legal frame.",
+      "asideTitle": "Useful when the matter involves",
+      "asideItems": [
+        "Family agreements",
+        "Divorce and asset protection",
+        "Future conflict prevention"
+      ],
+      "cards": [
+        {
+          "icon": "gavel",
+          "title": "Asset map",
+          "description": "We identify assets, obligations, risks, and key documents before proposing a path.",
+          "benefits": [
+            "Legal inventory",
+            "Protection priorities"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Negotiation or defense path",
+          "description": "We define when to negotiate, formalize, or litigate, without promising outcomes that depend on third parties.",
+          "benefits": [
+            "Scenario-based strategy",
+            "Supporting documentation"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Orderly closure",
+          "description": "We aim for clear, enforceable agreements that respect the family context.",
+          "benefits": [
+            "Verifiable conditions",
+            "Follow-up"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "Practical trust",
+      "trustTitle": "Before acting, the matter is organized.",
+      "trustDescription": "Each service starts with context, scope, and a responsible route. Sensitive information is requested only when the channel and objective are clear.",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "Clear method",
+          "description": "Facts, documents, deadlines, and risks are separated before recommending an action.",
+          "benefits": [
+            "Verifiable judgment"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "Information care",
+          "description": "The first contact stays general until scope and channel are confirmed.",
+          "benefits": [
+            "No unnecessary attachments"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "Multilingual attention",
+          "description": "The first approach can be prepared in Spanish, English, or Chinese depending on the matter.",
+          "benefits": [
+            "National and international context"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "Asset module",
+      "moduleTitle": "Order before deciding, negotiating, or litigating.",
+      "moduleDescription": "Asset strategy combines inventory, documents, family scenarios, and legal effects to reduce uncertainty.",
+      "moduleItems": [
+        {
+          "icon": "home",
+          "title": "Assets and obligations map",
+          "description": "Assets, debts, agreements, risks, and documents supporting each decision are separated.",
+          "benefits": [
+            "Legal inventory",
+            "Tension points"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "groups",
+          "title": "Family scenario",
+          "description": "The route considers involved people, possible agreements, and reasonable negotiation limits.",
+          "benefits": [
+            "Clear agreements",
+            "谨慎表达"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "fact_check",
+          "title": "Formal route",
+          "description": "When negotiation is not enough, the file is prepared for an orderly defense.",
+          "benefits": [
+            "Available evidence",
+            "Verifiable next step"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "ctaTitle": "Share the context before deciding the route.",
+      "ctaDescription": "Astra Legal can review general context and identify a responsible next step. Do not send sensitive documents until the channel and scope are confirmed.",
+      "primaryLabel": "Schedule assessment",
+      "secondaryLabel": "Go to contact"
+    }
+  }
+}

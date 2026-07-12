@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "servicios",
+  "components": [
+    {
+      "id": "serviceIndexPage",
+      "type": "container",
+      "config": {
+        "id": "main-content",
+        "tag": "main",
+        "tabindex": -1,
+        "classes": "ank-width-100per ank-overflowX-hidden",
+        "components": [
+          "serviceIndexHero",
+          "serviceIndexGridSection",
+          "serviceIndexCta"
+        ]
+      }
+    },
+    {
+      "id": "serviceIndexHero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "sectionBase",
+        "components": [
+          "serviceIndexHeroContent"
+        ]
+      }
+    },
+    {
+      "id": "serviceIndexHeroContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "sectionContent",
+        "components": [
+          "serviceIndexEyebrow",
+          "serviceIndexTitle",
+          "serviceIndexDescription"
+        ]
+      }
+    },
+    {
+      "id": "serviceIndexEyebrow",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.eyebrow",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionEyebrow"
+      }
+    },
+    {
+      "id": "serviceIndexTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.title",
+      "config": {
+        "tag": "h1",
+        "text": "",
+        "classes": "sectionTitle ank-maxWidth-18ch"
+      }
+    },
+    {
+      "id": "serviceIndexDescription",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.description",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle"
+      }
+    },
+    {
+      "id": "serviceIndexGridSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "sectionBase ank-bg-secondaryBgColor ank-paddingBlock-36px ank-paddingBlock-md-64px",
+        "components": [
+          "serviceIndexGrid"
+        ]
+      }
+    },
+    {
+      "id": "serviceIndexGrid",
+      "type": "container",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.services",
+        "templateId": "serviceIndexCardTemplate",
+        "idPrefix": "serviceIndexCard",
+        "bindings": [
+          {
+            "to": "config.icon",
+            "sources": [
+              "icon"
+            ]
+          },
+          {
+            "to": "config.title",
+            "sources": [
+              "title"
+            ]
+          },
+          {
+            "to": "config.description",
+            "sources": [
+              "description"
+            ]
+          },
+          {
+            "to": "config.benefits",
+            "sources": [
+              "benefits"
+            ]
+          },
+          {
+            "to": "config.href",
+            "sources": [
+              "href"
+            ]
+          },
+          {
+            "to": "config.linkLabel",
+            "sources": [
+              "linkLabel"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gap-16px",
+        "styles": {
+          "gridTemplateColumns": "repeat(auto-fit, minmax(250px, 1fr))",
+          "alignItems": "stretch"
+        },
+        "components": []
+      }
+    },
+    {
+      "id": "serviceIndexCardTemplate",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "",
+        "title": "",
+        "description": "",
+        "benefits": [],
+        "href": "",
+        "linkLabel": "",
+        "target": "_self",
+        "rel": "",
+        "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-12px ank-height-100per",
+        "featureIconContainerClasses": "ank-display-flex",
+        "featureIconClasses": "ank-fontSize-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-linkColor",
+        "featureTitleClasses": "cardTitle",
+        "featureDescriptionClasses": "cardDescription",
+        "benefitsListClasses": "benefitList",
+        "benefitItemClasses": "benefitItem",
+        "benefitIconClasses": "ank-fontSize-1rem ank-color-accentColor ank-marginTop-2px",
+        "benefitTextClasses": "ank-color-secondaryTitleColor",
+        "linkClasses": "cardLink"
+      }
+    },
+    {
+      "id": "serviceIndexCta",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "sectionBase",
+        "components": [
+          "serviceIndexCtaPanel"
+        ]
+      }
+    },
+    {
+      "id": "serviceIndexCtaPanel",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "sectionContent panel",
+        "components": [
+          "serviceIndexCtaTitle",
+          "serviceIndexCtaDescription",
+          "serviceIndexCtaLink"
+        ]
+      }
+    },
+    {
+      "id": "serviceIndexCtaTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.contactTitle",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "sectionTitle"
+      }
+    },
+    {
+      "id": "serviceIndexCtaDescription",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.contactDescription",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle"
+      }
+    },
+    {
+      "id": "serviceIndexCtaLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,page.contactLabel;set:config.href,var,ctaTargets.calendlyUrl",
+      "config": {
+        "href": "#",
+        "text": "",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "primaryAction ank-color-bgColor ank-width-fitContent"
+      }
+    }
+  ]
+}

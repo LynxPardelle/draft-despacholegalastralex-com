@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "casos-de-uso",
+  "lang": "zh",
+  "dictionary": {
+    "page": {
+      "eyebrow": "Astra Legal",
+      "title": "使用场景",
+      "summary": "Astra Legal 可在问题升级前整理策略的典型场景。",
+      "intro": "这些场景不能替代个案审查，但有助于判断何时需要初步评估和准备文件。",
+      "asideTitle": "适用于涉及以下事项",
+      "asideItems": [
+        "进入墨西哥的企业",
+        "做资产决策的个人",
+        "行政行为或劳动争议"
+      ],
+      "cards": [
+        {
+          "icon": "account_tree",
+          "title": "在墨西哥新运营",
+          "description": "签署、用工或投资前，应审查许可、合同和风险。",
+          "benefits": [
+            "落地支持",
+            "政府协调"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "home",
+          "title": "资产变动",
+          "description": "购买、分居、继承或家庭冲突需要整理文件。",
+          "benefits": [
+            "资产地图",
+            "可辩护协议"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "罚款、要求或解雇",
+          "description": "存在期限时，首要任务是保全证据并选择正确路径。",
+          "benefits": [
+            "期限控制",
+            "回应策略"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "trustEyebrow": "实用信任",
+      "trustTitle": "行动前先整理事项。",
+      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustItems": [
+        {
+          "icon": "fact_check",
+          "title": "清晰方法",
+          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "benefits": [
+            "可验证判断"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "security",
+          "title": "信息保护",
+          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "benefits": [
+            "避免不必要附件"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        },
+        {
+          "icon": "translate",
+          "title": "多语言支持",
+          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "benefits": [
+            "本地与国际背景"
+          ],
+          "href": "",
+          "linkLabel": "",
+          "target": "_self",
+          "rel": ""
+        }
+      ],
+      "moduleEyebrow": "",
+      "moduleTitle": "",
+      "moduleDescription": "",
+      "moduleItems": [],
+      "ctaTitle": "在决定路径前先分享背景。",
+      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
+      "primaryLabel": "预约评估",
+      "secondaryLabel": "前往联系"
+    }
+  }
+}
