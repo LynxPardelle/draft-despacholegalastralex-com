@@ -1,9 +1,9 @@
-# Draft: grupoastralegal.com
+# Repository Agent Workflow
 
 <!-- zoolanding-hub-routing:start -->
 ## Zoolanding Knowledge Router
 
-Shared procedures are routed through the Zoolandingpage hub. Start with [AGENTS.md](AGENTS.md) and open only the document needed for the current task.
+Read only the row needed for the current task, then inspect the local executable configuration or workflow that owns the behavior.
 
 | Task | Read |
 | --- | --- |
@@ -16,9 +16,3 @@ Shared procedures are routed through the Zoolandingpage hub. Start with [AGENTS.
 
 Critical repository-specific safety, deployment, and rollback rules remain local.
 <!-- zoolanding-hub-routing:end -->
-
-Sanitized GitHub copy of the Zoolanding draft at `drafts/grupoastralegal.com`.
-
-Visible brand: Astra Legal. The domain `grupoastralegal.com` is the public domain selected for the brand.
-
-Local-only notes, findings, logs, environment files, private keys, databases, PDFs, and CV/photo folders are intentionally ignored before publishing.
