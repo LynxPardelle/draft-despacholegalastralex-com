@@ -3,6 +3,9 @@ import { existsSync } from 'node:fs';
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { validateDraftFeatureReadiness } from './draft-feature-readiness.mjs';
+import { inferServerDescriptorKind, isLocalOnlyDraftDirectoryName } from './lib/server-descriptor-kinds.mjs';
+import { assertValidRuntimeDataSourceConditionReferences } from './runtime-data-source-condition-guard.mjs';
 
 const IGNORED_DIRS = new Set([
   '.git',
@@ -18,7 +21,7 @@ const IGNORED_DIRS = new Set([
   'devonly',
 ]);
 
-const IGNORED_FILE_NAMES = new Set(['.DS_Store']);
+const IGNORED_FILE_NAMES = new Set(['.DS_Store', 'draft-repo.config.json']);
 const JSON_SUFFIX = '.json';
 
 function parseArgs(rawArgs) {
@@ -56,6 +59,10 @@ function normalizeEnvironment(value) {
   throw new Error(`Invalid environment '${value}'. Expected production or test.`);
 }
 
+function normalizeBoolean(value) {
+  return String(value ?? '').trim().toLowerCase() === 'true';
+}
+
 function sanitizeVersionSegment(value) {
   return String(value ?? '')
     .trim()
@@ -64,6 +71,9 @@ function sanitizeVersionSegment(value) {
 }
 
 function inferKind(relativePath) {
+  const parts = relativePath.split('/');
+  const serverKind = inferServerDescriptorKind(parts[0], relativePath);
+  if (serverKind) return serverKind;
   if (relativePath.endsWith('site-config.json')) return 'site-config';
   if (relativePath.endsWith('/components.json') && relativePath.split('/').length === 2) return 'shared-components';
   if (relativePath.endsWith('/variables.json') && relativePath.split('/').length === 2) return 'shared-variables';
@@ -81,7 +91,7 @@ function inferKind(relativePath) {
 
 function inferPageId(domain, relativePath) {
   const parts = relativePath.split('/');
-  if (parts.length < 3 || parts[0] !== domain || parts[1] === 'i18n') return undefined;
+  if (parts.length < 3 || parts[0] !== domain || parts[1] === 'i18n' || parts[1] === 'server') return undefined;
   return parts[1];
 }
 
@@ -97,7 +107,7 @@ async function collectJsonFiles(root, domain, current = root) {
 
   for (const entry of entries) {
     if (entry.isDirectory()) {
-      if (IGNORED_DIRS.has(entry.name)) continue;
+      if (IGNORED_DIRS.has(entry.name) || isLocalOnlyDraftDirectoryName(entry.name)) continue;
       files.push(...(await collectJsonFiles(root, domain, path.join(current, entry.name))));
       continue;
     }
@@ -199,8 +209,7 @@ async function main() {
   const args = parseArgs(process.argv.slice(2));
   const domain = normalizeDomain(required(args.domain ?? process.env.DRAFT_DOMAIN, 'DRAFT_DOMAIN'));
   const environment = normalizeEnvironment(args.environment ?? process.env.DRAFT_ENVIRONMENT);
-  const endpoint = required(args.endpoint ?? process.env.AUTHORING_ENDPOINT, 'AUTHORING_ENDPOINT');
-  const region = required(args.region ?? process.env.AWS_REGION ?? process.env.AWS_DEFAULT_REGION ?? 'us-east-1', 'AWS_REGION');
+  const validateOnly = normalizeBoolean(args['validate-only'] ?? process.env.VALIDATE_ONLY);
   const draftRoot = path.resolve(args['draft-root'] ?? process.env.DRAFT_ROOT ?? '.');
   if (!existsSync(draftRoot)) {
     throw new Error(`Draft root does not exist: ${draftRoot}`);
@@ -210,6 +219,18 @@ async function main() {
   if (files.length === 0) {
     throw new Error(`No JSON draft files found under ${draftRoot}`);
   }
+  assertValidRuntimeDataSourceConditionReferences({ version: 1, domain, stage: 'draft', files });
+  const readiness = await validateDraftFeatureReadiness({ domain, environment, mode: environment, files });
+  if (!readiness.ok) {
+    throw new Error(`draft_feature_readiness_failed:${readiness.blockingCount}`);
+  }
+  if (validateOnly) {
+    console.log(JSON.stringify({ ok: true, domain, environment, fileCount: files.length, validatedOnly: true }, null, 2));
+    return;
+  }
+
+  const endpoint = required(args.endpoint ?? process.env.AUTHORING_ENDPOINT, 'AUTHORING_ENDPOINT');
+  const region = required(args.region ?? process.env.AWS_REGION ?? process.env.AWS_DEFAULT_REGION ?? 'us-east-1', 'AWS_REGION');
 
   const gitSha = sanitizeVersionSegment(process.env.GITHUB_SHA?.slice(0, 12) ?? 'local');
   const stamp = new Date().toISOString().replace(/[:-]|\.\d{3}/g, '').slice(0, 15);
@@ -234,7 +255,10 @@ async function main() {
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch(error => {
-    console.error(error instanceof Error ? error.message : String(error));
+    const safeCode = error instanceof Error && /^draft_feature_readiness_failed:\d+$/.test(error.message)
+      ? error.message
+      : 'draft_deploy_failed';
+    console.error(JSON.stringify({ ok: false, error: { code: safeCode } }));
     process.exitCode = 1;
   });
 }
