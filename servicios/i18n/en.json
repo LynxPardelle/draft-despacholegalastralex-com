@@ -10,7 +10,7 @@
       "description": "The Astra Legal menu is organized by real use cases: business entry, authority defense, intellectual property, labor claims, government consulting, and asset protection.",
       "services": [
         {
-          "icon": "translate",
+            "icon": "flight_land",
           "title": "Soft landing for Chinese companies",
           "description": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
           "href": "/soft-landing-empresas-chinas",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "icon": "assignment",
+            "icon": "account_balance_wallet",
           "title": "Real estate tax recovery",
           "description": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
           "href": "/recuperacion-impuestos-inmobiliarios",
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "icon": "star",
+            "icon": "verified",
           "title": "Trademark registration",
           "description": "Search, filing, and follow-up for trademarks that protect commercial identity in Mexico.",
           "href": "/registro-de-marca",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "icon": "auto_awesome",
+            "icon": "lightbulb",
           "title": "Patent registration",
           "description": "Legal structure to protect inventions, organize technical documentation, and prepare authority filings.",
           "href": "/registro-de-patentes",
@@ -76,18 +76,7 @@
           ]
         },
         {
-          "icon": "security",
-          "title": "Government fine defense and recovery",
-          "description": "Analysis and defense against fines, sanctions, and improper charges issued by authorities.",
-          "href": "/defensa-multas-gobierno",
-          "linkLabel": "View service",
-          "benefits": [
-            "Administrative fines",
-            "Improper charges"
-          ]
-        },
-        {
-          "icon": "history",
+            "icon": "work_off",
           "title": "Wrongful dismissal and labor claims",
           "description": "Guidance to assess labor rights, evidence, and claim path when wrongful dismissal may exist.",
           "href": "/despido-injustificado",
@@ -98,8 +87,8 @@
           ]
         },
         {
-          "icon": "gavel",
-          "title": "Legal consulting for governments",
+            "icon": "account_balance",
+            "title": "Legal consulting for governments",
           "description": "Legal support for public projects, procedures, procurement, and institutional risk prevention.",
           "href": "/consultoria-legal-gobiernos",
           "linkLabel": "View service",

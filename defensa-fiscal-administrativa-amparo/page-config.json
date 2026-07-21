@@ -16,12 +16,12 @@
   },
   "seo": {
     "title": {
-      "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+      "es": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
       "en": "Tax, administrative, and amparo defense | Astra Legal",
       "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
     },
     "description": {
-      "es": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+      "es": "Si el SAT o cualquier otra Secretaría de gobierno quieren frenarte o multarte a ti o a tu empresa cuentas con nuestro escudo para protegerte.",
       "en": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
       "zh": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。"
     },
@@ -52,12 +52,12 @@
     },
     "openGraph": {
       "title": {
-        "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "es": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
         "en": "Tax, administrative, and amparo defense | Astra Legal",
         "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
       },
       "description": {
-        "es": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+        "es": "Si el SAT o cualquier otra Secretaría de gobierno quieren frenarte o multarte a ti o a tu empresa cuentas con nuestro escudo para protegerte.",
         "en": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
         "zh": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。"
       },
@@ -67,12 +67,12 @@
     },
     "twitter": {
       "title": {
-        "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "es": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
         "en": "Tax, administrative, and amparo defense | Astra Legal",
         "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
       },
       "description": {
-        "es": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+        "es": "Si el SAT o cualquier otra Secretaría de gobierno quieren frenarte o multarte a ti o a tu empresa cuentas con nuestro escudo para protegerte.",
         "en": "Defense against authority acts with analysis of deadlines, evidence, remedies, and amparo when applicable.",
         "zh": "面对行政机关行为，分析期限、证据、救济和适用时的宪法保护程序。"
       },
@@ -85,8 +85,8 @@
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Defensa fiscal, administrativa y amparo | Astra Legal",
-        "description": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+        "name": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
+        "description": "Si el SAT o cualquier otra Secretaría de gobierno quieren frenarte o multarte a ti o a tu empresa cuentas con nuestro escudo para protegerte.",
         "url": "https://grupoastralegal.com/defensa-fiscal-administrativa-amparo",
         "inLanguage": [
           "es",

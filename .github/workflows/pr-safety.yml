@@ -10,4 +10,4 @@ permissions:
 
 jobs:
   pr-safety:
-    uses: LynxPardelle/zoolandingpage/.github/workflows/reusable-pr-safety.yml@1c8be59b7d1dcb88c1a590bba69eaf48388705b9
+    uses: LynxPardelle/zoolandingpage/.github/workflows/reusable-pr-safety.yml@c8b04670b5cca800ccf0f723815813897e596600

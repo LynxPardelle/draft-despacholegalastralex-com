@@ -50,6 +50,7 @@
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-maxWidth-700px",
         "components": [
+          "heroBrandLogo",
           "heroEyebrow",
           "heroTitle",
           "heroSubtitle",
@@ -57,6 +58,29 @@
           "heroQuote",
           "heroActions"
         ]
+      }
+    },
+    {
+      "id": "heroBrandLogo",
+      "type": "media",
+      "valueInstructions": "set:config.src,var,brand.logoUrl;set:config.alt,i18n,ui.logoAlt",
+      "config": {
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "width": 360,
+        "height": 120,
+        "loading": "eager",
+        "decoding": "async",
+        "fetchPriority": "high",
+        "styles": {
+          "display": "block",
+          "width": "min(360px, 78vw)",
+          "height": "auto",
+          "maxWidth": "100%",
+          "objectFit": "contain"
+        },
+        "classes": "ank-display-block ank-width-auto ank-height-auto ank-maxWidth-100per ank-objectFit-contain"
       }
     },
     {

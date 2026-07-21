@@ -13,9 +13,7 @@
         "classes": "ank-width-100per ank-overflowX-hidden",
         "components": [
           "detailHero",
-          "detailTrust",
           "detailBody",
-          "detailServiceModule",
           "detailCta"
         ]
       }
@@ -36,12 +34,48 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "sectionContent",
+        "classes": "sectionContent ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1_05fr__0_95fr ank-gap-28px ank-alignItems-center",
+        "components": [
+          "detailHeroCopy",
+          "detailHeroImage"
+        ]
+      }
+    },
+    {
+      "id": "detailHeroCopy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px",
         "components": [
           "detailEyebrow",
           "detailTitle",
           "detailSummary"
         ]
+      }
+    },
+    {
+      "id": "detailHeroImage",
+      "type": "media",
+      "valueInstructions": "set:config.src,var,pageAssets.heroImageUrl;set:config.alt,i18n,page.heroImageAlt",
+      "config": {
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "width": 1672,
+        "height": 940,
+        "loading": "eager",
+        "decoding": "async",
+        "fetchPriority": "high",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "height": "auto",
+          "aspectRatio": "16 / 9",
+          "objectFit": "cover",
+          "borderRadius": "24px"
+        },
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-objectFit-cover"
       }
     },
     {

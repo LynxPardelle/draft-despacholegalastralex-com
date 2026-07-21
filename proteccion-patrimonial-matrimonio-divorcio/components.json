@@ -13,9 +13,7 @@
         "classes": "ank-width-100per ank-overflowX-hidden",
         "components": [
           "detailHero",
-          "detailTrust",
           "detailBody",
-          "detailServiceModule",
           "detailCta"
         ]
       }

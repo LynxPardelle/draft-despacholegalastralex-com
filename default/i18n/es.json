@@ -8,7 +8,7 @@
       "hero": {
         "eyebrow": "Estrategia jurídica con alcance internacional",
         "title": "Astra Legal",
-        "subtitle": "Claridad legal para decisiones que no conviene resolver con improvisación.",
+        "subtitle": "Claridad legal para mejorar tu vida",
         "description": "Astra Legal acompaña a empresas, gobiernos y personas en estrategia preventiva, defensa, propiedad intelectual, soft landing y protección patrimonial en México.",
         "quote": "Los problemas son para resolverse. Lo imposible solo toma un poco más de tiempo.",
         "primary": "Agendar valoración",
@@ -23,9 +23,9 @@
         "description": "Cada página de servicio explica alcance, documentos útiles y tipo de acompañamiento que puede aportar Astra Legal.",
         "cards": [
           {
-            "icon": "translate",
-            "title": "Soft landing para empresas chinas",
-            "description": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+            "icon": "flight_land",
+            "title": "Soft landing para empresas internacionales",
+            "description": "Te ayudamos a traer tu empresa a México. Nosotros nos encargamos de la creación, permisos y establecimiento desde 0 para que tú solo te enfoques en la operación y crecimiento.",
             "href": "/soft-landing-empresas-chinas",
             "linkLabel": "Ver servicio",
             "benefits": [
@@ -45,9 +45,9 @@
             ]
           },
           {
-            "icon": "assignment",
+            "icon": "account_balance_wallet",
             "title": "Recuperación de impuestos inmobiliarios",
-            "description": "Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.",
+            "description": "Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.",
             "href": "/recuperacion-impuestos-inmobiliarios",
             "linkLabel": "Ver servicio",
             "benefits": [
@@ -57,8 +57,8 @@
           },
           {
             "icon": "gavel",
-            "title": "Defensa fiscal, administrativa y amparo",
-            "description": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
+            "title": "Escudo vs SAT y Secretarías de Gobierno",
+            "description": "Si el SAT o cualquier otra Secretaría de gobierno quieren frenarte o multarte a ti o a tu empresa cuentas con nuestro escudo para protegerte.",
             "href": "/defensa-fiscal-administrativa-amparo",
             "linkLabel": "Ver servicio",
             "benefits": [
@@ -67,7 +67,7 @@
             ]
           },
           {
-            "icon": "star",
+            "icon": "verified",
             "title": "Registro de marca",
             "description": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
             "href": "/registro-de-marca",
@@ -78,7 +78,7 @@
             ]
           },
           {
-            "icon": "auto_awesome",
+            "icon": "lightbulb",
             "title": "Registro de patentes",
             "description": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
             "href": "/registro-de-patentes",
@@ -89,18 +89,7 @@
             ]
           },
           {
-            "icon": "security",
-            "title": "Defensa y recuperación por multas de gobierno",
-            "description": "Análisis y defensa frente a multas, sanciones y cobros indebidos emitidos por autoridades.",
-            "href": "/defensa-multas-gobierno",
-            "linkLabel": "Ver servicio",
-            "benefits": [
-              "Multas administrativas",
-              "Cobros indebidos"
-            ]
-          },
-          {
-            "icon": "history",
+            "icon": "work_off",
             "title": "Despido injustificado y reclamaciones laborales",
             "description": "Acompañamiento para valorar derechos laborales, pruebas y ruta de reclamación cuando exista despido injustificado.",
             "href": "/despido-injustificado",
@@ -111,7 +100,7 @@
             ]
           },
           {
-            "icon": "gavel",
+            "icon": "account_balance",
             "title": "Consultoría legal para gobiernos",
             "description": "Apoyo jurídico para proyectos públicos, procedimientos, contratación y prevención de riesgos institucionales.",
             "href": "/consultoria-legal-gobiernos",
