@@ -76,17 +76,6 @@
           ]
         },
         {
-          "icon": "security",
-          "title": "政府罚款防御与追回",
-          "description": "分析并防御主管部门作出的罚款、处罚和不当收费。",
-          "href": "/defensa-multas-gobierno",
-          "linkLabel": "查看服务",
-          "benefits": [
-            "行政罚款",
-            "不当收费"
-          ]
-        },
-        {
           "icon": "history",
           "title": "不当解雇与劳动索赔",
           "description": "在可能存在不当解雇时，评估劳动权利、证据和索赔路径。",

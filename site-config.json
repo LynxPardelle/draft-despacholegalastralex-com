@@ -46,11 +46,6 @@
       "label": "Registro de patentes"
     },
     {
-      "path": "/defensa-multas-gobierno",
-      "pageId": "defensa-multas-gobierno",
-      "label": "Defensa y recuperación por multas de gobierno"
-    },
-    {
       "path": "/despido-injustificado",
       "pageId": "despido-injustificado",
       "label": "Despido injustificado y reclamaciones laborales"

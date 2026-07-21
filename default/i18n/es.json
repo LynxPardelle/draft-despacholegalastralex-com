@@ -89,17 +89,6 @@
             ]
           },
           {
-            "icon": "security",
-            "title": "Defensa y recuperación por multas de gobierno",
-            "description": "Análisis y defensa frente a multas, sanciones y cobros indebidos emitidos por autoridades.",
-            "href": "/defensa-multas-gobierno",
-            "linkLabel": "Ver servicio",
-            "benefits": [
-              "Multas administrativas",
-              "Cobros indebidos"
-            ]
-          },
-          {
             "icon": "history",
             "title": "Despido injustificado y reclamaciones laborales",
             "description": "Acompañamiento para valorar derechos laborales, pruebas y ruta de reclamación cuando exista despido injustificado.",

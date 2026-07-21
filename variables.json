@@ -132,21 +132,6 @@
           }
         },
         {
-          "id": "multas-gobierno",
-          "label": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          },
-          "href": "/defensa-multas-gobierno",
-          "value": "/defensa-multas-gobierno",
-          "ariaLabel": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          }
-        },
-        {
           "id": "grupo-propiedad-intelectual",
           "label": {
             "es": "Propiedad intelectual",
@@ -429,21 +414,6 @@
           }
         },
         {
-          "id": "multas-gobierno",
-          "label": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          },
-          "href": "/defensa-multas-gobierno",
-          "value": "/defensa-multas-gobierno",
-          "ariaLabel": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          }
-        },
-        {
           "id": "despido-injustificado",
           "label": {
             "es": "Despido injustificado y reclamaciones laborales",
@@ -623,21 +593,6 @@
             "es": "Registro de patentes",
             "en": "Patent registration",
             "zh": "专利申请"
-          }
-        },
-        {
-          "id": "multas-gobierno",
-          "label": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          },
-          "href": "/defensa-multas-gobierno",
-          "value": "/defensa-multas-gobierno",
-          "ariaLabel": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
           }
         },
         {
