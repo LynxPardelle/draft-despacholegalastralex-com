@@ -171,3 +171,16 @@ test('QA-011 gives every service a distinct semantic icon in every locale', () =
     assert.equal(new Set(approvedIcons).size, approvedIcons.length);
   }
 });
+
+test('QA-012 renames legal resources without changing its public route', () => {
+  const approved = 'Materiales de Trabajo';
+  const content = [
+    'site-config.json',
+    'recursos-legales/i18n/es.json',
+    'recursos-legales/page-config.json',
+  ].map(readText).join('\n');
+
+  assert.equal(content.split(approved).length - 1, 6);
+  assert.equal(/recursos legales/i.test(content), false);
+  assert.equal(content.includes('/recursos-legales'), true);
+});
