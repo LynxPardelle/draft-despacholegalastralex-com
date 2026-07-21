@@ -16,7 +16,7 @@
   },
   "seo": {
     "title": {
-      "es": "Recursos legales | Astra Legal",
+      "es": "Materiales de Trabajo | Astra Legal",
       "en": "Legal resources | Astra Legal",
       "zh": "法律资源 | Astra Legal"
     },
@@ -52,7 +52,7 @@
     },
     "openGraph": {
       "title": {
-        "es": "Recursos legales | Astra Legal",
+        "es": "Materiales de Trabajo | Astra Legal",
         "en": "Legal resources | Astra Legal",
         "zh": "法律资源 | Astra Legal"
       },
@@ -67,7 +67,7 @@
     },
     "twitter": {
       "title": {
-        "es": "Recursos legales | Astra Legal",
+        "es": "Materiales de Trabajo | Astra Legal",
         "en": "Legal resources | Astra Legal",
         "zh": "法律资源 | Astra Legal"
       },
@@ -85,7 +85,7 @@
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Recursos legales | Astra Legal",
+        "name": "Materiales de Trabajo | Astra Legal",
         "description": "Guías breves para preparar una conversación legal con mejor información y menos ruido.",
         "url": "https://grupoastralegal.com/recursos-legales",
         "inLanguage": [
