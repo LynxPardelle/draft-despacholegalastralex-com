@@ -32,3 +32,21 @@ test('QA-003 uses the approved Spanish service categories', () => {
     assert.equal(content.includes(oldLabel), false);
   }
 });
+
+test('QA-004 positions soft landing for international companies', () => {
+  const title = 'Soft landing para empresas internacionales';
+  const summary = 'Te ayudamos a traer tu empresa a México. Nosotros nos encargamos de la creación, permisos y establecimiento desde 0 para que tú solo te enfoques en la operación y crecimiento.';
+  const content = [
+    'variables.json',
+    'site-config.json',
+    'default/i18n/es.json',
+    'servicios/i18n/es.json',
+    'soft-landing-empresas-chinas/i18n/es.json',
+    'soft-landing-empresas-chinas/page-config.json',
+  ].map(readText).join('\n');
+
+  assert.equal(content.split(title).length - 1, 14);
+  assert.equal(content.split(summary).length - 1, 7);
+  assert.equal(content.includes('Soft landing para empresas chinas'), false);
+  assert.equal(content.includes('Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.'), false);
+});
