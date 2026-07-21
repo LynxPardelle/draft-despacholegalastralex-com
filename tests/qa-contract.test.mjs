@@ -96,3 +96,22 @@ test('QA-007 uses the approved fiscal-defense description', () => {
   assert.equal(content.split(approved).length - 1, 7);
   assert.equal(content.includes('Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.'), false);
 });
+
+test('QA-008 removes the trust block from every service route', () => {
+  const services = [
+    'soft-landing-empresas-chinas',
+    'proteccion-patrimonial-matrimonio-divorcio',
+    'recuperacion-impuestos-inmobiliarios',
+    'defensa-fiscal-administrativa-amparo',
+    'registro-de-marca',
+    'registro-de-patentes',
+    'despido-injustificado',
+    'consultoria-legal-gobiernos',
+  ];
+
+  for (const service of services) {
+    const page = readJson(`${service}/components.json`);
+    const roots = page.components.find(({ id }) => id === 'contentPage').config.components;
+    assert.equal(roots.includes('detailTrust'), false, service);
+  }
+});
