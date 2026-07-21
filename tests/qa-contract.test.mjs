@@ -131,3 +131,22 @@ test('QA-009 uses the A mark in the header and the full logo atop the home hero'
   assert.equal(heroCopy.config.components[0], 'heroBrandLogo');
   assert.equal(heroBrandLogo.valueInstructions.includes('brand.logoUrl'), true);
 });
+
+test('QA-010 removes the redundant service module from every service route', () => {
+  const services = [
+    'soft-landing-empresas-chinas',
+    'proteccion-patrimonial-matrimonio-divorcio',
+    'recuperacion-impuestos-inmobiliarios',
+    'defensa-fiscal-administrativa-amparo',
+    'registro-de-marca',
+    'registro-de-patentes',
+    'despido-injustificado',
+    'consultoria-legal-gobiernos',
+  ];
+
+  for (const service of services) {
+    const page = readJson(`${service}/components.json`);
+    const roots = page.components.find(({ id }) => id === 'contentPage').config.components;
+    assert.equal(roots.includes('detailServiceModule'), false, service);
+  }
+});

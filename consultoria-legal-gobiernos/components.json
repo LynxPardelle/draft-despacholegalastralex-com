@@ -14,7 +14,6 @@
         "components": [
           "detailHero",
           "detailBody",
-          "detailServiceModule",
           "detailCta"
         ]
       }
