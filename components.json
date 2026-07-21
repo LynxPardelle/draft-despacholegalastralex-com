@@ -60,24 +60,24 @@
     {
       "id": "brandLogo",
       "type": "media",
-      "valueInstructions": "set:config.src,var,brand.logoUrl;set:config.alt,i18n,ui.logoAlt",
+      "valueInstructions": "set:config.src,var,brand.headerIconUrl;set:config.alt,i18n,ui.logoAlt",
       "config": {
         "tag": "image",
         "src": "",
         "alt": "",
-        "width": 156,
-        "height": 48,
+        "width": 44,
+        "height": 44,
         "loading": "eager",
         "decoding": "async",
         "fetchPriority": "high",
         "styles": {
           "display": "block",
-          "width": "auto",
-          "height": "34px",
-          "maxWidth": "150px",
+          "width": "44px",
+          "height": "44px",
+          "maxWidth": "44px",
           "objectFit": "contain"
         },
-        "classes": "ank-display-block ank-width-auto ank-height-34px ank-maxWidth-150px ank-objectFit-contain"
+        "classes": "ank-display-block ank-width-44px ank-height-44px ank-maxWidth-44px ank-objectFit-contain"
       }
     },
     {

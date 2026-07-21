@@ -115,3 +115,19 @@ test('QA-008 removes the trust block from every service route', () => {
     assert.equal(roots.includes('detailTrust'), false, service);
   }
 });
+
+test('QA-009 uses the A mark in the header and the full logo atop the home hero', () => {
+  const variables = readJson('variables.json').variables;
+  const shared = readJson('components.json').components;
+  const home = readJson('default/components.json').components;
+  const brandLogo = shared.find(({ id }) => id === 'brandLogo');
+  const heroCopy = home.find(({ id }) => id === 'heroCopy');
+  const heroBrandLogo = home.find(({ id }) => id === 'heroBrandLogo');
+
+  assert.equal(variables.brand.headerIconUrl, 'https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-mark-a.png');
+  assert.notEqual(variables.brand.headerIconUrl, variables.brand.logoUrl);
+  assert.equal(brandLogo.valueInstructions.includes('brand.headerIconUrl'), true);
+  assert.equal(brandLogo.config.width, brandLogo.config.height);
+  assert.equal(heroCopy.config.components[0], 'heroBrandLogo');
+  assert.equal(heroBrandLogo.valueInstructions.includes('brand.logoUrl'), true);
+});
