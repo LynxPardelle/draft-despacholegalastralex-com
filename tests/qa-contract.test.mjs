@@ -150,3 +150,24 @@ test('QA-010 removes the redundant service module from every service route', () 
     assert.equal(roots.includes('detailServiceModule'), false, service);
   }
 });
+
+test('QA-011 gives every service a distinct semantic icon in every locale', () => {
+  const approvedIcons = [
+    'flight_land',
+    'security',
+    'account_balance_wallet',
+    'gavel',
+    'verified',
+    'lightbulb',
+    'work_off',
+    'account_balance',
+  ];
+
+  for (const locale of ['es', 'en', 'zh']) {
+    const homeCards = readJson(`default/i18n/${locale}.json`).dictionary.page.services.cards;
+    const serviceCards = readJson(`servicios/i18n/${locale}.json`).dictionary.page.services;
+    assert.deepEqual(homeCards.map(({ icon }) => icon), approvedIcons, `home ${locale}`);
+    assert.deepEqual(serviceCards.map(({ icon }) => icon), approvedIcons, `services ${locale}`);
+    assert.equal(new Set(approvedIcons).size, approvedIcons.length);
+  }
+});
