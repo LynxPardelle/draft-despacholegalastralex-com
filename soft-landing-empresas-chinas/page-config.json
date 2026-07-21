@@ -16,12 +16,12 @@
   },
   "seo": {
     "title": {
-      "es": "Soft landing para empresas chinas | Astra Legal",
+      "es": "Soft landing para empresas internacionales | Astra Legal",
       "en": "Soft landing for Chinese companies | Astra Legal",
       "zh": "中国企业在墨西哥落地 | Astra Legal"
     },
     "description": {
-      "es": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+      "es": "Te ayudamos a traer tu empresa a México. Nosotros nos encargamos de la creación, permisos y establecimiento desde 0 para que tú solo te enfoques en la operación y crecimiento.",
       "en": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
       "zh": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。"
     },
@@ -52,12 +52,12 @@
     },
     "openGraph": {
       "title": {
-        "es": "Soft landing para empresas chinas | Astra Legal",
+        "es": "Soft landing para empresas internacionales | Astra Legal",
         "en": "Soft landing for Chinese companies | Astra Legal",
         "zh": "中国企业在墨西哥落地 | Astra Legal"
       },
       "description": {
-        "es": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+        "es": "Te ayudamos a traer tu empresa a México. Nosotros nos encargamos de la creación, permisos y establecimiento desde 0 para que tú solo te enfoques en la operación y crecimiento.",
         "en": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
         "zh": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。"
       },
@@ -67,12 +67,12 @@
     },
     "twitter": {
       "title": {
-        "es": "Soft landing para empresas chinas | Astra Legal",
+        "es": "Soft landing para empresas internacionales | Astra Legal",
         "en": "Soft landing for Chinese companies | Astra Legal",
         "zh": "中国企业在墨西哥落地 | Astra Legal"
       },
       "description": {
-        "es": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+        "es": "Te ayudamos a traer tu empresa a México. Nosotros nos encargamos de la creación, permisos y establecimiento desde 0 para que tú solo te enfoques en la operación y crecimiento.",
         "en": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
         "zh": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。"
       },
@@ -85,8 +85,8 @@
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Soft landing para empresas chinas | Astra Legal",
-        "description": "Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.",
+        "name": "Soft landing para empresas internacionales | Astra Legal",
+        "description": "Te ayudamos a traer tu empresa a México. Nosotros nos encargamos de la creación, permisos y establecimiento desde 0 para que tú solo te enfoques en la operación y crecimiento.",
         "url": "https://grupoastralegal.com/soft-landing-empresas-chinas",
         "inLanguage": [
           "es",

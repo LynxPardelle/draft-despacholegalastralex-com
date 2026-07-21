@@ -2,5 +2,9 @@
   "version": 1,
   "pageId": "soft-landing-empresas-chinas",
   "domain": "grupoastralegal.com",
-  "variables": {}
+  "variables": {
+    "pageAssets": {
+      "heroImageUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-empresas-chinas/hero-images/international-soft-landing.png"
+    }
+  }
 }

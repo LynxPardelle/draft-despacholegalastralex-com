@@ -18,7 +18,7 @@
     {
       "path": "/soft-landing-empresas-chinas",
       "pageId": "soft-landing-empresas-chinas",
-      "label": "Soft landing para empresas chinas"
+      "label": "Soft landing para empresas internacionales"
     },
     {
       "path": "/proteccion-patrimonial-matrimonio-divorcio",
@@ -33,7 +33,7 @@
     {
       "path": "/defensa-fiscal-administrativa-amparo",
       "pageId": "defensa-fiscal-administrativa-amparo",
-      "label": "Defensa fiscal, administrativa y amparo"
+      "label": "Escudo vs SAT y Secretarías de Gobierno"
     },
     {
       "path": "/registro-de-marca",
@@ -44,11 +44,6 @@
       "path": "/registro-de-patentes",
       "pageId": "registro-de-patentes",
       "label": "Registro de patentes"
-    },
-    {
-      "path": "/defensa-multas-gobierno",
-      "pageId": "defensa-multas-gobierno",
-      "label": "Defensa y recuperación por multas de gobierno"
     },
     {
       "path": "/despido-injustificado",
@@ -78,7 +73,7 @@
     {
       "path": "/recursos-legales",
       "pageId": "recursos-legales",
-      "label": "Recursos legales"
+      "label": "Materiales de Trabajo"
     },
     {
       "path": "/preguntas-frecuentes",

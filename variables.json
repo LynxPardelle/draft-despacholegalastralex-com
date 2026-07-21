@@ -6,7 +6,8 @@
     "brand": {
       "displayName": "Astra Legal",
       "tagline": "Los problemas son para resolverse. Lo imposible solo toma un poco más de tiempo.",
-      "logoUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png"
+      "logoUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png",
+      "headerIconUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-mark-a.png"
     },
     "heroAssets": {
       "heroImageUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg",
@@ -78,14 +79,14 @@
         {
           "id": "soft-landing-china",
           "label": {
-            "es": "Soft landing para empresas chinas",
+            "es": "Soft landing para empresas internacionales",
             "en": "Soft landing for Chinese companies",
             "zh": "中国企业在墨西哥落地"
           },
           "href": "/soft-landing-empresas-chinas",
           "value": "/soft-landing-empresas-chinas",
           "ariaLabel": {
-            "es": "Soft landing para empresas chinas",
+            "es": "Soft landing para empresas internacionales",
             "en": "Soft landing for Chinese companies",
             "zh": "中国企业在墨西哥落地"
           }
@@ -93,7 +94,7 @@
         {
           "id": "grupo-autoridad",
           "label": {
-            "es": "Autoridad, impuestos y defensa",
+            "es": "Derecho Fiscal y Administrativo",
             "en": "Authorities, tax, and defense",
             "zh": "主管机关、税务与防御"
           },
@@ -119,31 +120,16 @@
         {
           "id": "defensa-fiscal",
           "label": {
-            "es": "Defensa fiscal, administrativa y amparo",
+            "es": "Escudo vs SAT y Secretarías de Gobierno",
             "en": "Tax, administrative, and amparo defense",
             "zh": "税务、行政与宪法保护诉讼防御"
           },
           "href": "/defensa-fiscal-administrativa-amparo",
           "value": "/defensa-fiscal-administrativa-amparo",
           "ariaLabel": {
-            "es": "Defensa fiscal, administrativa y amparo",
+            "es": "Escudo vs SAT y Secretarías de Gobierno",
             "en": "Tax, administrative, and amparo defense",
             "zh": "税务、行政与宪法保护诉讼防御"
-          }
-        },
-        {
-          "id": "multas-gobierno",
-          "label": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          },
-          "href": "/defensa-multas-gobierno",
-          "value": "/defensa-multas-gobierno",
-          "ariaLabel": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
           }
         },
         {
@@ -190,7 +176,7 @@
         {
           "id": "grupo-patrimonio-trabajo",
           "label": {
-            "es": "Patrimonio y trabajo",
+            "es": "Derecho Civil y Laboral",
             "en": "Assets and labor",
             "zh": "资产与劳动"
           },
@@ -231,7 +217,7 @@
         {
           "id": "grupo-gobierno",
           "label": {
-            "es": "Gobierno y proyectos públicos",
+            "es": "Gobierno y Política Pública",
             "en": "Government and public projects",
             "zh": "政府与公共项目"
           },
@@ -341,14 +327,14 @@
         {
           "id": "soft-landing-china",
           "label": {
-            "es": "Soft landing para empresas chinas",
+            "es": "Soft landing para empresas internacionales",
             "en": "Soft landing for Chinese companies",
             "zh": "中国企业在墨西哥落地"
           },
           "href": "/soft-landing-empresas-chinas",
           "value": "/soft-landing-empresas-chinas",
           "ariaLabel": {
-            "es": "Soft landing para empresas chinas",
+            "es": "Soft landing para empresas internacionales",
             "en": "Soft landing for Chinese companies",
             "zh": "中国企业在墨西哥落地"
           }
@@ -386,14 +372,14 @@
         {
           "id": "defensa-fiscal",
           "label": {
-            "es": "Defensa fiscal, administrativa y amparo",
+            "es": "Escudo vs SAT y Secretarías de Gobierno",
             "en": "Tax, administrative, and amparo defense",
             "zh": "税务、行政与宪法保护诉讼防御"
           },
           "href": "/defensa-fiscal-administrativa-amparo",
           "value": "/defensa-fiscal-administrativa-amparo",
           "ariaLabel": {
-            "es": "Defensa fiscal, administrativa y amparo",
+            "es": "Escudo vs SAT y Secretarías de Gobierno",
             "en": "Tax, administrative, and amparo defense",
             "zh": "税务、行政与宪法保护诉讼防御"
           }
@@ -426,21 +412,6 @@
             "es": "Registro de patentes",
             "en": "Patent registration",
             "zh": "专利申请"
-          }
-        },
-        {
-          "id": "multas-gobierno",
-          "label": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          },
-          "href": "/defensa-multas-gobierno",
-          "value": "/defensa-multas-gobierno",
-          "ariaLabel": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
           }
         },
         {
@@ -538,14 +509,14 @@
         {
           "id": "soft-landing-china",
           "label": {
-            "es": "Soft landing para empresas chinas",
+            "es": "Soft landing para empresas internacionales",
             "en": "Soft landing for Chinese companies",
             "zh": "中国企业在墨西哥落地"
           },
           "href": "/soft-landing-empresas-chinas",
           "value": "/soft-landing-empresas-chinas",
           "ariaLabel": {
-            "es": "Soft landing para empresas chinas",
+            "es": "Soft landing para empresas internacionales",
             "en": "Soft landing for Chinese companies",
             "zh": "中国企业在墨西哥落地"
           }
@@ -583,14 +554,14 @@
         {
           "id": "defensa-fiscal",
           "label": {
-            "es": "Defensa fiscal, administrativa y amparo",
+            "es": "Escudo vs SAT y Secretarías de Gobierno",
             "en": "Tax, administrative, and amparo defense",
             "zh": "税务、行政与宪法保护诉讼防御"
           },
           "href": "/defensa-fiscal-administrativa-amparo",
           "value": "/defensa-fiscal-administrativa-amparo",
           "ariaLabel": {
-            "es": "Defensa fiscal, administrativa y amparo",
+            "es": "Escudo vs SAT y Secretarías de Gobierno",
             "en": "Tax, administrative, and amparo defense",
             "zh": "税务、行政与宪法保护诉讼防御"
           }
@@ -623,21 +594,6 @@
             "es": "Registro de patentes",
             "en": "Patent registration",
             "zh": "专利申请"
-          }
-        },
-        {
-          "id": "multas-gobierno",
-          "label": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
-          },
-          "href": "/defensa-multas-gobierno",
-          "value": "/defensa-multas-gobierno",
-          "ariaLabel": {
-            "es": "Defensa y recuperación por multas de gobierno",
-            "en": "Government fine defense and recovery",
-            "zh": "政府罚款防御与追回"
           }
         },
         {
