@@ -199,3 +199,9 @@ test('QA-013 adds an accessible international soft-landing hero image', () => {
     assert.equal(typeof alt === 'string' && alt.length > 0, true, locale);
   }
 });
+
+test('QA-014 allows the approved www production alias', () => {
+  const site = readJson('site-config.json');
+
+  assert.deepEqual(site.aliases, ['www.grupoastralegal.com']);
+});
