@@ -1,7 +1,9 @@
 {
   "version": 1,
   "domain": "grupoastralegal.com",
-  "aliases": [],
+  "aliases": [
+    "www.grupoastralegal.com"
+  ],
   "defaultPageId": "default",
   "notFoundPageId": "not-found",
   "routes": [
