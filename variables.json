@@ -93,7 +93,7 @@
         {
           "id": "grupo-autoridad",
           "label": {
-            "es": "Autoridad, impuestos y defensa",
+            "es": "Derecho Fiscal y Administrativo",
             "en": "Authorities, tax, and defense",
             "zh": "主管机关、税务与防御"
           },
@@ -190,7 +190,7 @@
         {
           "id": "grupo-patrimonio-trabajo",
           "label": {
-            "es": "Patrimonio y trabajo",
+            "es": "Derecho Civil y Laboral",
             "en": "Assets and labor",
             "zh": "资产与劳动"
           },
@@ -231,7 +231,7 @@
         {
           "id": "grupo-gobierno",
           "label": {
-            "es": "Gobierno y proyectos públicos",
+            "es": "Gobierno y Política Pública",
             "en": "Government and public projects",
             "zh": "政府与公共项目"
           },
