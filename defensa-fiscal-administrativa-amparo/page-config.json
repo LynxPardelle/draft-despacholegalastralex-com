@@ -16,7 +16,7 @@
   },
   "seo": {
     "title": {
-      "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+      "es": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
       "en": "Tax, administrative, and amparo defense | Astra Legal",
       "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
     },
@@ -52,7 +52,7 @@
     },
     "openGraph": {
       "title": {
-        "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "es": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
         "en": "Tax, administrative, and amparo defense | Astra Legal",
         "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
       },
@@ -67,7 +67,7 @@
     },
     "twitter": {
       "title": {
-        "es": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "es": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
         "en": "Tax, administrative, and amparo defense | Astra Legal",
         "zh": "税务、行政与宪法保护诉讼防御 | Astra Legal"
       },
@@ -85,7 +85,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Defensa fiscal, administrativa y amparo | Astra Legal",
+        "name": "Escudo vs SAT y Secretarías de Gobierno | Astra Legal",
         "description": "Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.",
         "url": "https://grupoastralegal.com/defensa-fiscal-administrativa-amparo",
         "inLanguage": [

@@ -50,3 +50,19 @@ test('QA-004 positions soft landing for international companies', () => {
   assert.equal(content.includes('Soft landing para empresas chinas'), false);
   assert.equal(content.includes('Acompañamiento legal para entrar, operar y relacionarse con autoridades mexicanas con menos fricción.'), false);
 });
+
+test('QA-005 renames fiscal defense without changing its route', () => {
+  const approved = 'Escudo vs SAT y Secretarías de Gobierno';
+  const content = [
+    'variables.json',
+    'site-config.json',
+    'default/i18n/es.json',
+    'servicios/i18n/es.json',
+    'defensa-fiscal-administrativa-amparo/i18n/es.json',
+    'defensa-fiscal-administrativa-amparo/page-config.json',
+  ].map(readText).join('\n');
+
+  assert.equal(content.split(approved).length - 1, 14);
+  assert.equal(content.includes('Defensa fiscal, administrativa y amparo'), false);
+  assert.equal(content.includes('/defensa-fiscal-administrativa-amparo'), true);
+});
