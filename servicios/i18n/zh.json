@@ -10,7 +10,7 @@
       "description": "Astra Legal 的菜单按真实使用场景组织：企业进入、行政防御、知识产权、劳动索赔、政府咨询和资产保护。",
       "services": [
         {
-          "icon": "translate",
+            "icon": "flight_land",
           "title": "中国企业在墨西哥落地",
           "description": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。",
           "href": "/soft-landing-empresas-chinas",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "icon": "assignment",
+            "icon": "account_balance_wallet",
           "title": "不动产税费追回",
           "description": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。",
           "href": "/recuperacion-impuestos-inmobiliarios",
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "icon": "star",
+            "icon": "verified",
           "title": "商标注册",
           "description": "为在墨西哥保护商业身份提供商标检索、申请和跟进。",
           "href": "/registro-de-marca",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "icon": "auto_awesome",
+            "icon": "lightbulb",
           "title": "专利申请",
           "description": "为保护发明、整理技术文件并准备主管机关申请提供法律架构。",
           "href": "/registro-de-patentes",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "icon": "history",
+            "icon": "work_off",
           "title": "不当解雇与劳动索赔",
           "description": "在可能存在不当解雇时，评估劳动权利、证据和索赔路径。",
           "href": "/despido-injustificado",
@@ -87,8 +87,8 @@
           ]
         },
         {
-          "icon": "gavel",
-          "title": "政府法律咨询",
+            "icon": "account_balance",
+            "title": "政府法律咨询",
           "description": "为公共项目、程序、采购和机构风险预防提供法律支持。",
           "href": "/consultoria-legal-gobiernos",
           "linkLabel": "查看服务",

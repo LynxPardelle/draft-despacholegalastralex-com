@@ -23,7 +23,7 @@
         "description": "Cada página de servicio explica alcance, documentos útiles y tipo de acompañamiento que puede aportar Astra Legal.",
         "cards": [
           {
-            "icon": "translate",
+            "icon": "flight_land",
             "title": "Soft landing para empresas internacionales",
             "description": "Te ayudamos a traer tu empresa a México. Nosotros nos encargamos de la creación, permisos y establecimiento desde 0 para que tú solo te enfoques en la operación y crecimiento.",
             "href": "/soft-landing-empresas-chinas",
@@ -45,7 +45,7 @@
             ]
           },
           {
-            "icon": "assignment",
+            "icon": "account_balance_wallet",
             "title": "Recuperación de impuestos inmobiliarios",
             "description": "Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.",
             "href": "/recuperacion-impuestos-inmobiliarios",
@@ -67,7 +67,7 @@
             ]
           },
           {
-            "icon": "star",
+            "icon": "verified",
             "title": "Registro de marca",
             "description": "Búsqueda, presentación y seguimiento de marcas para proteger identidad comercial en México.",
             "href": "/registro-de-marca",
@@ -78,7 +78,7 @@
             ]
           },
           {
-            "icon": "auto_awesome",
+            "icon": "lightbulb",
             "title": "Registro de patentes",
             "description": "Estructura legal para proteger invenciones, ordenar documentación técnica y preparar presentación ante autoridad.",
             "href": "/registro-de-patentes",
@@ -89,7 +89,7 @@
             ]
           },
           {
-            "icon": "history",
+            "icon": "work_off",
             "title": "Despido injustificado y reclamaciones laborales",
             "description": "Acompañamiento para valorar derechos laborales, pruebas y ruta de reclamación cuando exista despido injustificado.",
             "href": "/despido-injustificado",
@@ -100,7 +100,7 @@
             ]
           },
           {
-            "icon": "gavel",
+            "icon": "account_balance",
             "title": "Consultoría legal para gobiernos",
             "description": "Apoyo jurídico para proyectos públicos, procedimientos, contratación y prevención de riesgos institucionales.",
             "href": "/consultoria-legal-gobiernos",
