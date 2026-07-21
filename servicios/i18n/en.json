@@ -76,17 +76,6 @@
           ]
         },
         {
-          "icon": "security",
-          "title": "Government fine defense and recovery",
-          "description": "Analysis and defense against fines, sanctions, and improper charges issued by authorities.",
-          "href": "/defensa-multas-gobierno",
-          "linkLabel": "View service",
-          "benefits": [
-            "Administrative fines",
-            "Improper charges"
-          ]
-        },
-        {
           "icon": "history",
           "title": "Wrongful dismissal and labor claims",
           "description": "Guidance to assess labor rights, evidence, and claim path when wrongful dismissal may exist.",

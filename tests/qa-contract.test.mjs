@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const readJson = (path) => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'));
@@ -65,4 +65,21 @@ test('QA-005 renames fiscal defense without changing its route', () => {
   assert.equal(content.split(approved).length - 1, 14);
   assert.equal(content.includes('Defensa fiscal, administrativa y amparo'), false);
   assert.equal(content.includes('/defensa-fiscal-administrativa-amparo'), true);
+});
+
+test('QA-006 removes the government-fines service from every public surface', () => {
+  const content = [
+    'variables.json',
+    'site-config.json',
+    'default/i18n/es.json',
+    'default/i18n/en.json',
+    'default/i18n/zh.json',
+    'servicios/i18n/es.json',
+    'servicios/i18n/en.json',
+    'servicios/i18n/zh.json',
+  ].map(readText).join('\n');
+
+  assert.equal(content.includes('/defensa-multas-gobierno'), false);
+  assert.equal(content.includes('multas-gobierno'), false);
+  assert.equal(existsSync(new URL('../defensa-multas-gobierno/page-config.json', import.meta.url)), false);
 });
