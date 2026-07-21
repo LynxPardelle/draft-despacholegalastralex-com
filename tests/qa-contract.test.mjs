@@ -83,3 +83,16 @@ test('QA-006 removes the government-fines service from every public surface', ()
   assert.equal(content.includes('multas-gobierno'), false);
   assert.equal(existsSync(new URL('../defensa-multas-gobierno/page-config.json', import.meta.url)), false);
 });
+
+test('QA-007 uses the approved fiscal-defense description', () => {
+  const approved = 'Si el SAT o cualquier otra Secretaría de gobierno quieren frenarte o multarte a ti o a tu empresa cuentas con nuestro escudo para protegerte.';
+  const content = [
+    'default/i18n/es.json',
+    'servicios/i18n/es.json',
+    'defensa-fiscal-administrativa-amparo/i18n/es.json',
+    'defensa-fiscal-administrativa-amparo/page-config.json',
+  ].map(readText).join('\n');
+
+  assert.equal(content.split(approved).length - 1, 7);
+  assert.equal(content.includes('Defensa frente a actos de autoridad con análisis de plazos, pruebas, recursos y amparo cuando corresponda.'), false);
+});
