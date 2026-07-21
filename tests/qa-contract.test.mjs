@@ -22,3 +22,13 @@ test('QA-002 uses the qualified ISAI wording on every Spanish surface', () => {
   assert.equal(content.includes('Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.'), false);
   assert.equal(content.split(approved).length - 1, 7);
 });
+
+test('QA-003 uses the approved Spanish service categories', () => {
+  const content = readText('variables.json');
+  for (const label of ['Derecho Fiscal y Administrativo', 'Derecho Civil y Laboral', 'Gobierno y Política Pública']) {
+    assert.equal(content.split(label).length - 1, 1);
+  }
+  for (const oldLabel of ['Autoridad, impuestos y defensa', 'Patrimonio y trabajo', 'Gobierno y proyectos públicos']) {
+    assert.equal(content.includes(oldLabel), false);
+  }
+});
