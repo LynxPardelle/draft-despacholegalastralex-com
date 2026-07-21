@@ -184,3 +184,18 @@ test('QA-012 renames legal resources without changing its public route', () => {
   assert.equal(/recursos legales/i.test(content), false);
   assert.equal(content.includes('/recursos-legales'), true);
 });
+
+test('QA-013 adds an accessible international soft-landing hero image', () => {
+  const pageVariables = readJson('soft-landing-empresas-chinas/variables.json').variables;
+  const components = readJson('soft-landing-empresas-chinas/components.json').components;
+  const heroContent = components.find(({ id }) => id === 'detailHeroContent');
+  const heroImage = components.find(({ id }) => id === 'detailHeroImage');
+
+  assert.equal(pageVariables.pageAssets.heroImageUrl, 'https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-empresas-chinas/hero-images/international-soft-landing.png');
+  assert.deepEqual(heroContent.config.components, ['detailHeroCopy', 'detailHeroImage']);
+  assert.equal(heroImage.valueInstructions.includes('pageAssets.heroImageUrl'), true);
+  for (const locale of ['es', 'en', 'zh']) {
+    const alt = readJson(`soft-landing-empresas-chinas/i18n/${locale}.json`).dictionary.page.heroImageAlt;
+    assert.equal(typeof alt === 'string' && alt.length > 0, true, locale);
+  }
+});
