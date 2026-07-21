@@ -6,7 +6,8 @@
     "brand": {
       "displayName": "Astra Legal",
       "tagline": "Los problemas son para resolverse. Lo imposible solo toma un poco más de tiempo.",
-      "logoUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png"
+      "logoUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png",
+      "headerIconUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-mark-a.png"
     },
     "heroAssets": {
       "heroImageUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg",
