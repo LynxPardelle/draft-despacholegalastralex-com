@@ -5,24 +5,24 @@
   "lang": "zh",
   "dictionary": {
     "page": {
-      "eyebrow": "Astra Legal",
-      "title": "不动产税费追回",
-      "summary": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。",
-      "intro": "分析不动产交易、付款和决定，判断是否存在退还、抵扣或防御路径。",
-      "asideTitle": "适用于涉及以下事项",
+      "eyebrow": "Astra Legal | ISAI 追回",
+      "title": "追回多达 700,000 比索的不动产购置税",
+      "summary": "如果您在墨西哥城、洛斯卡沃斯或图卢姆购买过房屋或公寓，可能有权申请退还。30 秒了解初步估算。",
+      "intro": "我们审查购房合同、ISAI 缴款和适用期限，确认是否存在清晰路径。计算结果仅为一般估算，不是保证。",
+      "asideTitle": "开始前请了解",
       "asideItems": [
-        "付款与税费",
-        "行政机关行为",
-        "追回档案"
+        "三个问题",
+        "免费估算",
+        "正式法律程序"
       ],
       "cards": [
         {
           "icon": "saved_search",
-          "title": "技术审查",
-          "description": "依据适用法律审查合同、收据、估值和沟通记录。",
+          "title": "评估您的案件",
+          "description": "审查购房合同、ISAI 缴款和适用期限，确认是否可能申请退还。",
           "benefits": [
-            "文件依据",
-            "期限风险"
+            "关键文件",
+            "适用期限"
           ],
           "href": "",
           "linkLabel": "",
@@ -31,11 +31,11 @@
         },
         {
           "icon": "assignment",
-          "title": "机会测算",
-          "description": "推进前区分可争议金额、管理成本和法律可能性。",
+          "title": "提出法律策略",
+          "description": "如果案件可行，我们将向相应机关启动程序并整理完整档案。",
           "benefits": [
-            "成本效益判断",
-            "行政或司法路径"
+            "清晰法律路径",
+            "完整案件档案"
           ],
           "href": "",
           "linkLabel": "",
@@ -44,11 +44,11 @@
         },
         {
           "icon": "assignment",
-          "title": "案件文件管理",
-          "description": "整理申请、附件和跟进记录，便于客户追踪。",
+          "title": "追回您的款项",
+          "description": "跟进至最终决定，并在每个阶段向您通报进展。",
           "benefits": [
-            "交付物控制",
-            "状态沟通"
+            "持续跟进",
+            "清晰沟通"
           ],
           "href": "",
           "linkLabel": "",
@@ -56,16 +56,16 @@
           "rel": ""
         }
       ],
-      "trustEyebrow": "实用信任",
-      "trustTitle": "行动前先整理事项。",
-      "trustDescription": "每项服务都从背景、范围和负责任路径开始。只有在渠道和目标明确后才请求敏感信息。",
+      "trustEyebrow": "透明说明",
+      "trustTitle": "这不是税务欺诈，而是法律已经规定的权利。",
+      "trustDescription": "ISAI 有相应的计算基础和标准，某些情况下可能被错误适用。墨西哥法律在存在法律依据时提供正式的退款申请机制。",
       "trustItems": [
         {
           "icon": "fact_check",
-          "title": "清晰方法",
-          "description": "在建议行动前区分事实、文件、期限和风险。",
+          "title": "范围而非承诺",
+          "description": "计算器只提供一般估算，最终金额取决于对具体案件的审查。",
           "benefits": [
-            "可验证判断"
+            "不保证金额"
           ],
           "href": "",
           "linkLabel": "",
@@ -74,10 +74,10 @@
         },
         {
           "icon": "security",
-          "title": "信息保护",
-          "description": "在确认范围和渠道前，初次联系保持一般信息。",
+          "title": "正式程序",
+          "description": "这是技术性的法律程序，不是即时办理。初步评估将确认是否存在清晰路径。",
           "benefits": [
-            "避免不必要附件"
+            "保护令和档案"
           ],
           "href": "",
           "linkLabel": "",
@@ -86,10 +86,10 @@
         },
         {
           "icon": "translate",
-          "title": "多语言支持",
-          "description": "初步沟通可根据事项以西班牙语、英语或中文准备。",
+          "title": "负责任评估",
+          "description": "如果无法确认清晰的法律路径，我们不会推进或收费。",
           "benefits": [
-            "本地与国际背景"
+            "免费初步审查"
           ],
           "href": "",
           "linkLabel": "",
@@ -97,17 +97,17 @@
           "rel": ""
         }
       ],
-      "moduleEyebrow": "追回模块",
-      "moduleTitle": "先判断可行性，再整理档案。",
-      "moduleDescription": "追回款项前需要区分付款、行政行为、期限和支持材料。",
+      "moduleEyebrow": "流程",
+      "moduleTitle": "流程就是这么简单",
+      "moduleDescription": "清晰的法律策略从整理文件、期限和预期开始。",
       "moduleItems": [
         {
           "icon": "assignment",
-          "title": "付款来源",
-          "description": "识别付款内容、对应项目和证明文件。",
+          "title": "评估您的案件",
+          "description": "审查购房合同、ISAI 缴款和适用期限。",
           "benefits": [
-            "收据与合同",
-            "可区分金额"
+            "关键文件",
+            "当前期限"
           ],
           "href": "",
           "linkLabel": "",
@@ -116,11 +116,11 @@
         },
         {
           "icon": "schedule",
-          "title": "期限与路径",
-          "description": "根据日期、适用法律和主管机关标准审查机会。",
+          "title": "提出法律策略",
+          "description": "如果案件可行，我们将向相应机关启动程序并整理案件档案。",
           "benefits": [
-            "退还或防御",
-            "程序风险"
+            "正式路径",
+            "完整档案"
           ],
           "href": "",
           "linkLabel": "",
@@ -129,11 +129,11 @@
         },
         {
           "icon": "assignment",
-          "title": "可追踪档案",
-          "description": "整理申请、附件和跟进记录，便于客户理解。",
+          "title": "追回您的款项",
+          "description": "跟进至最终决定，并在每个阶段向您通报进展。",
           "benefits": [
-            "受控附件",
-            "可见状态"
+            "跟进",
+            "状态可见"
           ],
           "href": "",
           "linkLabel": "",
@@ -141,10 +141,46 @@
           "rel": ""
         }
       ],
-      "ctaTitle": "在决定路径前先分享背景。",
-      "ctaDescription": "Astra Legal 可以审查一般背景并识别负责任的下一步。在确认渠道和范围前，不要发送敏感文件。",
-      "primaryLabel": "预约评估",
-      "secondaryLabel": "前往联系"
+      "calculator": {
+        "eyebrow": "ISAI 追回计算器",
+        "title": "估算您可能追回的金额",
+        "description": "回答三个问题。您将看到一个参考范围，而不是精确金额或结果承诺。",
+        "cityLabel": "您在哪里购买了房产？",
+        "cities": {
+          "cdmx": "墨西哥城",
+          "losCabos": "洛斯卡沃斯",
+          "tulum": "图卢姆"
+        },
+        "propertyLabel": "购买时房产的价值是多少？",
+        "propertyHelper": "请输入墨西哥比索金额。计算器从 1,000,000 MXN 起算。",
+        "propertyPlaceholder": "例如：5,000,000",
+        "yearLabel": "您在哪一年购买？",
+        "yearHelper": "年份有助于审查适用期限；它本身不能决定案件是否可行。",
+        "years": [
+          { "value": "2021", "label": "2021" },
+          { "value": "2022", "label": "2022" },
+          { "value": "2023", "label": "2023" },
+          { "value": "2024", "label": "2024" }
+        ],
+        "timingNote": "最终金额取决于合同、付款凭证、主管机关和适用期限。本结果仅为一般估算。",
+        "resultTitle": "预计可追回范围：",
+        "resultDescription": "我们显示一个范围，以避免产生保证性预期。团队将免费确认最终金额。",
+        "resultMinLabel": "最低",
+        "resultMaxLabel": "最高",
+        "investmentTitle": "服务预计投入",
+        "investmentBasis": "档位按照追回范围的下限计算，并需在评估中确认。",
+        "investmentTiers": {
+          "low": "预计追回低于 185,000 MXN：初始投入 12,500 MXN。",
+          "midLow": "预计追回 185,000 至低于 200,000 MXN：初始投入 15,000 MXN。",
+          "midHigh": "预计追回 200,000 至低于 250,000 MXN：初始投入 20,000 MXN。",
+          "high": "预计追回 250,000 MXN 或以上：初始投入 25,000 MXN。"
+        },
+        "contactLabel": "咨询您的案件"
+      },
+      "ctaTitle": "您是否在墨西哥城、洛斯卡沃斯或图卢姆购买过房产？",
+      "ctaDescription": "您可能有应退的款项。在期限届满前了解情况。",
+      "primaryLabel": "估算您可能追回的金额",
+      "secondaryLabel": "联系我们"
     }
   }
 }

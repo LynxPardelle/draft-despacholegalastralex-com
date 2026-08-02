@@ -13,7 +13,10 @@
         "classes": "ank-width-100per ank-overflowX-hidden",
         "components": [
           "detailHero",
+          "calculatorSection",
+          "detailTrust",
           "detailBody",
+          "detailServiceModule",
           "detailCta"
         ]
       }
@@ -70,6 +73,448 @@
         "tag": "p",
         "text": "",
         "classes": "sectionSubtitle"
+      }
+    },
+    {
+      "id": "calculatorSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "sectionBase ank-bg-secondaryBgColor ank-paddingBlock-36px ank-paddingBlock-md-64px",
+        "components": [
+          "calculatorScope"
+        ]
+      }
+    },
+    {
+      "id": "calculatorScope",
+      "type": "interaction-scope",
+      "config": {
+        "scopeId": "isaiCalculator",
+        "id": "isai-calculator",
+        "tag": "section",
+        "classes": "sectionContent panel ank-display-flex ank-flexDirection-column ank-gap-18px",
+        "initialValues": {
+          "city": "CDMX",
+          "rateMin": 0.08,
+          "rateMax": 0.09,
+          "purchaseYear": ""
+        },
+        "computations": [
+          {
+            "resultId": "recoveryMin",
+            "initial": {
+              "source": "field",
+              "fieldId": "propertyValue"
+            },
+            "steps": [
+              {
+                "op": "multiply",
+                "value": {
+                  "source": "field",
+                  "fieldId": "rateMin"
+                }
+              },
+              {
+                "op": "round",
+                "precision": 0
+              }
+            ]
+          },
+          {
+            "resultId": "recoveryMax",
+            "initial": {
+              "source": "field",
+              "fieldId": "propertyValue"
+            },
+            "steps": [
+              {
+                "op": "multiply",
+                "value": {
+                  "source": "field",
+                  "fieldId": "rateMax"
+                }
+              },
+              {
+                "op": "round",
+                "precision": 0
+              }
+            ]
+          }
+        ],
+        "components": [
+          "calculatorHeader",
+          "calculatorCityLabel",
+          "calculatorCityActions",
+          "calculatorFields",
+          "calculatorTimingNote",
+          "calculatorResult"
+        ]
+      }
+    },
+    {
+      "id": "calculatorHeader",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
+        "components": [
+          "calculatorEyebrow",
+          "calculatorTitle",
+          "calculatorDescription"
+        ]
+      }
+    },
+    {
+      "id": "calculatorEyebrow",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.eyebrow",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionEyebrow"
+      }
+    },
+    {
+      "id": "calculatorTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "sectionTitle ank-fontSize-md-2_35rem"
+      }
+    },
+    {
+      "id": "calculatorDescription",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.description",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle"
+      }
+    },
+    {
+      "id": "calculatorCityLabel",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.cityLabel",
+      "config": {
+        "tag": "h3",
+        "text": "",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_1rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "calculatorCityActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-gap-8px ank-flexWrap-wrap",
+        "components": [
+          "calculatorCityCdmx",
+          "calculatorCityLosCabos",
+          "calculatorCityTulum"
+        ]
+      }
+    },
+    {
+      "id": "calculatorCityCdmx",
+      "type": "button",
+      "eventInstructions": "setScopeValue:city,CDMX;setScopeValue:rateMin,0.08;setScopeValue:rateMax,0.09",
+      "valueInstructions": "set:config.label,i18n,page.calculator.cities.cdmx;set:config.ariaSelected,when,\"all:scopeEq,values.city,CDMX\",true,false;set:config.classes,when,\"all:scopeEq,values.city,CDMX\",\"primaryAction ank-color-bgColor\",\"secondaryAction\"",
+      "config": {
+        "type": "button",
+        "label": "",
+        "ariaSelected": false,
+        "classes": "secondaryAction"
+      }
+    },
+    {
+      "id": "calculatorCityLosCabos",
+      "type": "button",
+      "eventInstructions": "setScopeValue:city,LOS_CABOS;setScopeValue:rateMin,0.03;setScopeValue:rateMax,0.05",
+      "valueInstructions": "set:config.label,i18n,page.calculator.cities.losCabos;set:config.ariaSelected,when,\"all:scopeEq,values.city,LOS_CABOS\",true,false;set:config.classes,when,\"all:scopeEq,values.city,LOS_CABOS\",\"primaryAction ank-color-bgColor\",\"secondaryAction\"",
+      "config": {
+        "type": "button",
+        "label": "",
+        "ariaSelected": false,
+        "classes": "secondaryAction"
+      }
+    },
+    {
+      "id": "calculatorCityTulum",
+      "type": "button",
+      "eventInstructions": "setScopeValue:city,TULUM;setScopeValue:rateMin,0.03;setScopeValue:rateMax,0.05",
+      "valueInstructions": "set:config.label,i18n,page.calculator.cities.tulum;set:config.ariaSelected,when,\"all:scopeEq,values.city,TULUM\",true,false;set:config.classes,when,\"all:scopeEq,values.city,TULUM\",\"primaryAction ank-color-bgColor\",\"secondaryAction\"",
+      "config": {
+        "type": "button",
+        "label": "",
+        "ariaSelected": false,
+        "classes": "secondaryAction"
+      }
+    },
+    {
+      "id": "calculatorFields",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-14px",
+        "components": [
+          "calculatorPropertyValue",
+          "calculatorPurchaseYear"
+        ]
+      }
+    },
+    {
+      "id": "calculatorPropertyValue",
+      "type": "input",
+      "valueInstructions": "set:config.label,i18n,page.calculator.propertyLabel;set:config.helperText,i18n,page.calculator.propertyHelper;set:config.placeholder,i18n,page.calculator.propertyPlaceholder",
+      "config": {
+        "fieldId": "propertyValue",
+        "controlType": "number",
+        "label": "",
+        "helperText": "",
+        "placeholder": "",
+        "value": "",
+        "min": 1000000,
+        "step": 10000,
+        "required": true,
+        "valuePrefix": "$",
+        "valueSuffix": " MXN",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px",
+        "fieldClasses": "ank-width-100per",
+        "inputClasses": "ank-width-100per"
+      }
+    },
+    {
+      "id": "calculatorPurchaseYear",
+      "type": "input",
+      "valueInstructions": "set:config.label,i18n,page.calculator.yearLabel;set:config.helperText,i18n,page.calculator.yearHelper;set:config.options,i18n,page.calculator.years",
+      "config": {
+        "fieldId": "purchaseYear",
+        "controlType": "select",
+        "label": "",
+        "helperText": "",
+        "options": [],
+        "required": true,
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px",
+        "fieldClasses": "ank-width-100per",
+        "inputClasses": "ank-width-100per"
+      }
+    },
+    {
+      "id": "calculatorTimingNote",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.timingNote",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorResult",
+      "type": "container",
+      "condition": "all:scopeGt,values.propertyValue,0;all:scope,values.purchaseYear",
+      "config": {
+        "tag": "div",
+        "classes": "mutedPanel ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "components": [
+          "calculatorResultTitle",
+          "calculatorResultDescription",
+          "calculatorRange",
+          "calculatorInvestment",
+          "calculatorContactLink"
+        ]
+      }
+    },
+    {
+      "id": "calculatorResultTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.resultTitle",
+      "config": {
+        "tag": "h3",
+        "text": "",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_35rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "calculatorResultDescription",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.resultDescription",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorRange",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-repeatSD2COM1frED ank-gap-12px",
+        "components": [
+          "calculatorRangeMin",
+          "calculatorRangeMax"
+        ]
+      }
+    },
+    {
+      "id": "calculatorRangeMin",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-4px",
+        "components": [
+          "calculatorRangeMinLabel",
+          "calculatorRangeMinValue"
+        ]
+      }
+    },
+    {
+      "id": "calculatorRangeMinLabel",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.resultMinLabel",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorRangeMinValue",
+      "type": "generic-cell",
+      "valueInstructions": "set:config.value,scope,computed.recoveryMin",
+      "config": {
+        "value": 0,
+        "format": "number",
+        "classes": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900",
+        "valueClasses": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "calculatorRangeMax",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-4px",
+        "components": [
+          "calculatorRangeMaxLabel",
+          "calculatorRangeMaxValue"
+        ]
+      }
+    },
+    {
+      "id": "calculatorRangeMaxLabel",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.resultMaxLabel",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorRangeMaxValue",
+      "type": "generic-cell",
+      "valueInstructions": "set:config.value,scope,computed.recoveryMax",
+      "config": {
+        "value": 0,
+        "format": "number",
+        "classes": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900",
+        "valueClasses": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "calculatorInvestment",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px",
+        "components": [
+          "calculatorInvestmentTitle",
+          "calculatorInvestmentDescription",
+          "calculatorInvestmentTierLow",
+          "calculatorInvestmentTierMidLow",
+          "calculatorInvestmentTierMidHigh",
+          "calculatorInvestmentTierHigh"
+        ]
+      }
+    },
+    {
+      "id": "calculatorInvestmentTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTitle",
+      "config": {
+        "tag": "h4",
+        "text": "",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "calculatorInvestmentDescription",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.investmentBasis",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorInvestmentTierLow",
+      "type": "text",
+      "condition": "all:scopeGt,computed.recoveryMin,0;all:scopeLt,computed.recoveryMin,185000",
+      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.low",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorInvestmentTierMidLow",
+      "type": "text",
+      "condition": "all:scopeGte,computed.recoveryMin,185000;all:scopeLt,computed.recoveryMin,200000",
+      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.midLow",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorInvestmentTierMidHigh",
+      "type": "text",
+      "condition": "all:scopeGte,computed.recoveryMin,200000;all:scopeLt,computed.recoveryMin,250000",
+      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.midHigh",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorInvestmentTierHigh",
+      "type": "text",
+      "condition": "all:scopeGte,computed.recoveryMin,250000",
+      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.high",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "cardDescription ank-m-0"
+      }
+    },
+    {
+      "id": "calculatorContactLink",
+      "type": "link",
+      "valueInstructions": "set:config.text,i18n,page.calculator.contactLabel",
+      "config": {
+        "href": "/contacto",
+        "text": "",
+        "classes": "primaryAction ank-color-bgColor ank-width-fitContent"
       }
     },
     {
