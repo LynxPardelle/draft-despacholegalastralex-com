@@ -5,24 +5,24 @@
   "lang": "es",
   "dictionary": {
     "page": {
-      "eyebrow": "Astra Legal",
-      "title": "Recuperación de impuestos inmobiliarios",
-      "summary": "Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.",
-      "intro": "Analizamos operaciones inmobiliarias, pagos y resoluciones para determinar si existe una vía de devolución, compensación o defensa.",
-      "asideTitle": "Útil cuando el asunto involucra",
+      "eyebrow": "Astra Legal | Recupera ISAI",
+      "title": "Recupera hasta $700,000 pesos del Impuesto sobre Adquisición de Inmuebles que pagaste de más",
+      "summary": "Si compraste una casa o departamento en Ciudad de México, Los Cabos o Tulum, es probable que tengas derecho a una devolución. Descúbrelo en 30 segundos.",
+      "intro": "Revisamos tu contrato de compraventa, el pago de ISAI y los plazos vigentes para confirmar si existe una vía clara. El cálculo es una estimación general, no una garantía.",
+      "asideTitle": "Antes de avanzar",
       "asideItems": [
-        "Pagos y contribuciones",
-        "Actos de autoridad",
-        "Expediente de recuperación"
+        "Tres preguntas",
+        "Estimación sin costo",
+        "Proceso legal formal"
       ],
       "cards": [
         {
           "icon": "saved_search",
-          "title": "Revisión técnica",
-          "description": "Contratos, recibos, avalúos y comunicaciones se revisan contra la norma aplicable.",
+          "title": "Evaluamos tu caso",
+          "description": "Revisamos tu contrato, el pago de ISAI y los plazos vigentes para confirmar si procede la devolución.",
           "benefits": [
-            "Base documental",
-            "Riesgos de plazo"
+            "Contrato y comprobantes",
+            "Plazos aplicables"
           ],
           "href": "",
           "linkLabel": "",
@@ -31,11 +31,11 @@
         },
         {
           "icon": "assignment",
-          "title": "Cálculo de oportunidad",
-          "description": "Separamos montos discutibles, costos de gestión y probabilidad jurídica antes de avanzar.",
+          "title": "Presentamos la estrategia legal",
+          "description": "Si tu caso procede, iniciamos el trámite ante la autoridad correspondiente con el expediente documentado.",
           "benefits": [
-            "Criterio costo-beneficio",
-            "Ruta administrativa o judicial"
+            "Ruta jurídica clara",
+            "Expediente completo"
           ],
           "href": "",
           "linkLabel": "",
@@ -44,11 +44,11 @@
         },
         {
           "icon": "assignment",
-          "title": "Gestión del expediente",
-          "description": "Integramos escritos, anexos y seguimiento con trazabilidad para el cliente.",
+          "title": "Recuperas tu dinero",
+          "description": "Damos seguimiento hasta la resolución y te mantenemos informado en cada etapa.",
           "benefits": [
-            "Control de entregables",
-            "Comunicación de estado"
+            "Seguimiento continuo",
+            "Comunicación clara"
           ],
           "href": "",
           "linkLabel": "",
@@ -56,16 +56,16 @@
           "rel": ""
         }
       ],
-      "trustEyebrow": "Confianza práctica",
-      "trustTitle": "Antes de actuar, el caso se ordena.",
-      "trustDescription": "Cada servicio inicia con contexto, alcance y una ruta responsable. La información sensible se pide solo cuando el canal y el objetivo están claros.",
+      "trustEyebrow": "Transparencia",
+      "trustTitle": "Esto no es un fraude fiscal. Es un derecho que la ley ya contempla.",
+      "trustDescription": "El ISAI tiene bases de cálculo y criterios que pueden haberse aplicado de forma incorrecta. La legislación contempla mecanismos formales para solicitar una devolución cuando existe base legal.",
       "trustItems": [
         {
           "icon": "fact_check",
-          "title": "Método claro",
-          "description": "Hechos, documentos, plazos y riesgos se separan antes de recomendar una acción.",
+          "title": "Rangos, no promesas",
+          "description": "La calculadora muestra una estimación general. El monto final depende de la revisión de tu caso.",
           "benefits": [
-            "Criterio verificable"
+            "Sin cifras garantizadas"
           ],
           "href": "",
           "linkLabel": "",
@@ -74,10 +74,10 @@
         },
         {
           "icon": "security",
-          "title": "Cuidado de información",
-          "description": "El primer contacto se mantiene general hasta confirmar alcance y canal adecuado.",
+          "title": "Proceso formal",
+          "description": "Es un proceso legal técnico y no inmediato. La evaluación inicial confirma si existe una vía clara.",
           "benefits": [
-            "Sin adjuntos innecesarios"
+            "Amparo y expediente"
           ],
           "href": "",
           "linkLabel": "",
@@ -86,10 +86,10 @@
         },
         {
           "icon": "translate",
-          "title": "Atención multilingüe",
-          "description": "El primer acercamiento puede prepararse en español, inglés o chino según el asunto.",
+          "title": "Evaluación responsable",
+          "description": "No avanzamos ni cobramos si no identificamos una ruta jurídica clara para tu caso.",
           "benefits": [
-            "Contexto nacional e internacional"
+            "Revisión inicial sin costo"
           ],
           "href": "",
           "linkLabel": "",
@@ -97,17 +97,17 @@
           "rel": ""
         }
       ],
-      "moduleEyebrow": "Módulo de recuperación",
-      "moduleTitle": "Primero viabilidad, después expediente.",
-      "moduleDescription": "La recuperación de importes exige separar pagos, autoridad, plazos y soporte antes de iniciar una gestión.",
+      "moduleEyebrow": "Proceso",
+      "moduleTitle": "Así de simple",
+      "moduleDescription": "Una estrategia legal clara empieza por ordenar documentos, plazos y expectativas.",
       "moduleItems": [
         {
           "icon": "assignment",
-          "title": "Origen del pago",
-          "description": "Se ubica qué se pagó, por qué concepto y con qué documento se acredita.",
+          "title": "Evaluamos tu caso",
+          "description": "Revisamos tu contrato de compraventa, el pago de ISAI y los plazos vigentes.",
           "benefits": [
-            "Recibos y contratos",
-            "Montos separables"
+            "Documentos clave",
+            "Plazos vigentes"
           ],
           "href": "",
           "linkLabel": "",
@@ -116,11 +116,11 @@
         },
         {
           "icon": "schedule",
-          "title": "Plazo y vía",
-          "description": "La oportunidad se revisa contra fechas, norma aplicable y criterio de autoridad.",
+          "title": "Presentamos la estrategia legal",
+          "description": "Si procede, iniciamos el trámite ante la autoridad correspondiente con el expediente documentado.",
           "benefits": [
-            "Devolución o defensa",
-            "Riesgo procesal"
+            "Ruta formal",
+            "Expediente integrado"
           ],
           "href": "",
           "linkLabel": "",
@@ -129,10 +129,10 @@
         },
         {
           "icon": "assignment",
-          "title": "Expediente trazable",
-          "description": "Los escritos, anexos y seguimientos se organizan para lectura clara del cliente.",
+          "title": "Recuperas tu dinero",
+          "description": "Damos seguimiento hasta la resolución y te mantenemos informado en cada etapa.",
           "benefits": [
-            "Anexos controlados",
+            "Seguimiento",
             "Estado visible"
           ],
           "href": "",
@@ -141,10 +141,46 @@
           "rel": ""
         }
       ],
-      "ctaTitle": "Comparte el contexto antes de decidir la ruta.",
-      "ctaDescription": "Astra Legal puede revisar contexto general e identificar un siguiente paso responsable. No envíes documentos sensibles hasta confirmar canal y alcance.",
-      "primaryLabel": "Agendar valoración",
-      "secondaryLabel": "Ir a contacto"
+      "calculator": {
+        "eyebrow": "Calculadora de Recupera ISAI",
+        "title": "Calcula cuánto te podrían devolver",
+        "description": "Responde tres preguntas. Verás un rango orientativo, no una cifra exacta ni una promesa de resultado.",
+        "cityLabel": "¿Dónde compraste tu propiedad?",
+        "cities": {
+          "cdmx": "Ciudad de México",
+          "losCabos": "Los Cabos",
+          "tulum": "Tulum"
+        },
+        "propertyLabel": "¿Cuál fue el valor de la propiedad al momento de la compra?",
+        "propertyHelper": "Escribe un valor en pesos mexicanos. La calculadora parte de $1,000,000 MXN.",
+        "propertyPlaceholder": "Ej. 5,000,000",
+        "yearLabel": "¿En qué año compraste?",
+        "yearHelper": "El año ayuda a revisar el plazo vigente; no determina por sí solo si tu caso procede.",
+        "years": [
+          { "value": "2021", "label": "2021" },
+          { "value": "2022", "label": "2022" },
+          { "value": "2023", "label": "2023" },
+          { "value": "2024", "label": "2024" }
+        ],
+        "timingNote": "La cifra final depende de tu contrato, comprobantes, autoridad y plazos aplicables. Este resultado es una estimación general.",
+        "resultTitle": "Podrías recuperar un rango estimado de:",
+        "resultDescription": "Mostramos un rango para evitar expectativas de garantía. Nuestro equipo confirma el monto final sin costo.",
+        "resultMinLabel": "Desde",
+        "resultMaxLabel": "Hasta",
+        "investmentTitle": "Inversión estimada del servicio",
+        "investmentBasis": "El tramo se calcula con el límite inferior del rango de recuperación y debe confirmarse en la evaluación.",
+        "investmentTiers": {
+          "low": "Recuperación estimada menor a $185,000 MXN: inversión inicial de $12,500 MXN.",
+          "midLow": "Recuperación estimada de $185,000 a menos de $200,000 MXN: inversión inicial de $15,000 MXN.",
+          "midHigh": "Recuperación estimada de $200,000 a menos de $250,000 MXN: inversión inicial de $20,000 MXN.",
+          "high": "Recuperación estimada de $250,000 MXN en adelante: inversión inicial de $25,000 MXN."
+        },
+        "contactLabel": "Habla con nosotros sobre tu caso"
+      },
+      "ctaTitle": "¿Compraste una propiedad en CDMX, Los Cabos o Tulum?",
+      "ctaDescription": "Podrían deberte dinero. Averígualo antes de que se venza el plazo.",
+      "primaryLabel": "Calcula cuánto te pueden devolver",
+      "secondaryLabel": "Habla con nosotros"
     }
   }
 }

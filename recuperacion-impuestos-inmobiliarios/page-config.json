@@ -16,14 +16,14 @@
   },
   "seo": {
     "title": {
-      "es": "Recuperación de impuestos inmobiliarios | Astra Legal",
-      "en": "Real estate tax recovery | Astra Legal",
-      "zh": "不动产税费追回 | Astra Legal"
+      "es": "Recupera ISAI hasta $700,000 | Astra Legal",
+      "en": "Recover ISAI up to $700,000 | Astra Legal",
+      "zh": "追回 ISAI 最高 700,000 比索 | Astra Legal"
     },
     "description": {
-      "es": "Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.",
-      "en": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
-      "zh": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。"
+      "es": "Calcula cuánto podrías recuperar de ISAI en CDMX, Los Cabos o Tulum. Estimación general, no garantía.",
+      "en": "Estimate ISAI recovery in Mexico City, Los Cabos, or Tulum. General estimate, not a guarantee.",
+      "zh": "估算在墨西哥城、洛斯卡沃斯或图卢姆可能追回的 ISAI。仅为一般估算。"
     },
     "canonical": "https://grupoastralegal.com/recuperacion-impuestos-inmobiliarios",
     "robots": "index,follow,max-image-preview:large",
@@ -52,14 +52,14 @@
     },
     "openGraph": {
       "title": {
-        "es": "Recuperación de impuestos inmobiliarios | Astra Legal",
-        "en": "Real estate tax recovery | Astra Legal",
-        "zh": "不动产税费追回 | Astra Legal"
+        "es": "Recupera ISAI hasta $700,000 | Astra Legal",
+        "en": "Recover ISAI up to $700,000 | Astra Legal",
+        "zh": "追回 ISAI 最高 700,000 比索 | Astra Legal"
       },
       "description": {
-        "es": "Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.",
-        "en": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
-        "zh": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。"
+        "es": "Calcula cuánto podrías recuperar de ISAI en CDMX, Los Cabos o Tulum. Estimación general, no garantía.",
+        "en": "Estimate ISAI recovery in Mexico City, Los Cabos, or Tulum. General estimate, not a guarantee.",
+        "zh": "估算在墨西哥城、洛斯卡沃斯或图卢姆可能追回的 ISAI。仅为一般估算。"
       },
       "url": "https://grupoastralegal.com/recuperacion-impuestos-inmobiliarios",
       "type": "website",
@@ -67,14 +67,14 @@
     },
     "twitter": {
       "title": {
-        "es": "Recuperación de impuestos inmobiliarios | Astra Legal",
-        "en": "Real estate tax recovery | Astra Legal",
-        "zh": "不动产税费追回 | Astra Legal"
+        "es": "Recupera ISAI hasta $700,000 | Astra Legal",
+        "en": "Recover ISAI up to $700,000 | Astra Legal",
+        "zh": "追回 ISAI 最高 700,000 比索 | Astra Legal"
       },
       "description": {
-        "es": "Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.",
-        "en": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
-        "zh": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。"
+        "es": "Calcula cuánto podrías recuperar de ISAI en CDMX, Los Cabos o Tulum. Estimación general, no garantía.",
+        "en": "Estimate ISAI recovery in Mexico City, Los Cabos, or Tulum. General estimate, not a guarantee.",
+        "zh": "估算在墨西哥城、洛斯卡沃斯或图卢姆可能追回的 ISAI。仅为一般估算。"
       },
       "card": "summary_large_image",
       "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
@@ -85,8 +85,8 @@
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Recuperación de impuestos inmobiliarios | Astra Legal",
-        "description": "Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.",
+        "name": "Recupera ISAI hasta $700,000 | Astra Legal",
+        "description": "Calcula cuánto podrías recuperar de ISAI en CDMX, Los Cabos o Tulum. Estimación general, no garantía.",
         "url": "https://grupoastralegal.com/recuperacion-impuestos-inmobiliarios",
         "inLanguage": [
           "es",
