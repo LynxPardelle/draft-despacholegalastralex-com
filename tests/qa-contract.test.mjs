@@ -10,17 +10,23 @@ test('QA-001 uses the approved home proposition', () => {
   assert.equal(page.dictionary.page.hero.subtitle, 'Claridad legal para mejorar tu vida');
 });
 
-test('QA-002 uses the qualified ISAI wording on every Spanish surface', () => {
-  const approved = 'Si compraste una casa en Ciudad de México, Tulum o Los Cabos, revisamos si existe base legal y plazo vigente para solicitar la devolución del Impuesto sobre Adquisición de Inmuebles. Si el caso procede, te acompañamos durante el trámite.';
-  const content = [
-    'default/i18n/es.json',
-    'servicios/i18n/es.json',
-    'recuperacion-impuestos-inmobiliarios/i18n/es.json',
-    'recuperacion-impuestos-inmobiliarios/page-config.json',
-  ].map(readText).join('\n');
+test('QA-002 keeps the superseding Recupera ISAI claims qualified', () => {
+  const page = readJson('recuperacion-impuestos-inmobiliarios/i18n/es.json').dictionary.page;
+  const pageConfig = readJson('recuperacion-impuestos-inmobiliarios/page-config.json');
+  const seoDescriptions = [
+    pageConfig.seo.description.es,
+    pageConfig.seo.openGraph.description.es,
+    pageConfig.seo.twitter.description.es,
+    pageConfig.structuredData.entries[0].description,
+  ];
 
-  assert.equal(content.includes('Revisión de pagos, contribuciones y actos de autoridad para recuperar importes cuando exista base legal.'), false);
-  assert.equal(content.split(approved).length - 1, 7);
+  assert.match(page.intro, /plazos vigentes/);
+  assert.match(page.intro, /estimación general, no una garantía/i);
+  assert.match(page.calculator.description, /rango orientativo, no una cifra exacta ni una promesa de resultado/i);
+  assert.match(page.calculator.resultDescription, /evitar expectativas de garantía/i);
+  for (const description of seoDescriptions) {
+    assert.match(description, /Estimación general, no garantía/i);
+  }
 });
 
 test('QA-003 uses the approved Spanish service categories', () => {

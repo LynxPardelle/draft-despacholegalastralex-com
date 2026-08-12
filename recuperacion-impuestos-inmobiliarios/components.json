@@ -14,9 +14,7 @@
         "components": [
           "detailHero",
           "calculatorSection",
-          "detailTrust",
           "detailBody",
-          "detailServiceModule",
           "detailCta"
         ]
       }
