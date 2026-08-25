@@ -25,9 +25,7 @@
       "config": {
         "tag": "section",
         "classes": "sectionBase",
-        "components": [
-          "detailHeroContent"
-        ]
+        "components": ["detailHeroContent"]
       }
     },
     {
@@ -36,52 +34,34 @@
       "config": {
         "tag": "div",
         "classes": "sectionContent",
-        "components": [
-          "detailEyebrow",
-          "detailTitle",
-          "detailSummary"
-        ]
+        "components": ["detailEyebrow", "detailTitle", "detailSummary"]
       }
     },
     {
       "id": "detailEyebrow",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.eyebrow",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionEyebrow"
-      }
+      "config": { "tag": "p", "text": "", "classes": "sectionEyebrow" }
     },
     {
       "id": "detailTitle",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.title",
-      "config": {
-        "tag": "h1",
-        "text": "",
-        "classes": "sectionTitle ank-maxWidth-18ch"
-      }
+      "config": { "tag": "h1", "text": "", "classes": "sectionTitle ank-maxWidth-22ch" }
     },
     {
       "id": "detailSummary",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.summary",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionSubtitle"
-      }
+      "config": { "tag": "p", "text": "", "classes": "sectionSubtitle" }
     },
     {
       "id": "calculatorSection",
       "type": "container",
       "config": {
         "tag": "section",
-        "classes": "sectionBase ank-bg-secondaryBgColor ank-paddingBlock-36px ank-paddingBlock-md-64px",
-        "components": [
-          "calculatorScope"
-        ]
+        "classes": "calculatorSection",
+        "components": ["calculatorScope"]
       }
     },
     {
@@ -90,64 +70,58 @@
       "config": {
         "scopeId": "isaiCalculator",
         "id": "isai-calculator",
-        "tag": "section",
-        "classes": "sectionContent panel ank-display-flex ank-flexDirection-column ank-gap-18px",
+        "tag": "form",
+        "classes": "calculatorCard",
         "initialValues": {
-          "city": "CDMX",
-          "rateMin": 0.08,
-          "rateMax": 0.09,
-          "purchaseYear": ""
+          "cityRateCode": 8,
+          "propertyValue": null,
+          "purchaseYear": null,
+          "hasCalculated": false
         },
         "computations": [
           {
             "resultId": "recoveryMin",
-            "initial": {
-              "source": "field",
-              "fieldId": "propertyValue"
-            },
+            "initial": { "source": "field", "fieldId": "cityRateCode" },
             "steps": [
-              {
-                "op": "multiply",
-                "value": {
-                  "source": "field",
-                  "fieldId": "rateMin"
-                }
-              },
-              {
-                "op": "round",
-                "precision": 0
-              }
+              { "op": "abs" },
+              { "op": "divide", "value": { "source": "literal", "value": 100 } },
+              { "op": "multiply", "value": { "source": "field", "fieldId": "propertyValue" } },
+              { "op": "round", "precision": 0 }
             ]
           },
           {
             "resultId": "recoveryMax",
-            "initial": {
-              "source": "field",
-              "fieldId": "propertyValue"
-            },
+            "initial": { "source": "field", "fieldId": "cityRateCode" },
             "steps": [
-              {
-                "op": "multiply",
-                "value": {
-                  "source": "field",
-                  "fieldId": "rateMax"
-                }
-              },
-              {
-                "op": "round",
-                "precision": 0
-              }
+              { "op": "abs" },
+              { "op": "divide", "value": { "source": "literal", "value": 5 } },
+              { "op": "ceil" },
+              { "op": "multiply", "value": { "source": "literal", "value": 0.04 } },
+              { "op": "add", "value": { "source": "literal", "value": 0.01 } },
+              { "op": "multiply", "value": { "source": "field", "fieldId": "propertyValue" } },
+              { "op": "round", "precision": 0 }
             ]
           }
         ],
+        "submitEventInstructions": "setScopeValue:hasCalculated,event.eventData.valid;focusElementById:propertyValue,event.eventData.fields.propertyValue.valid,false;focusElementById:purchaseYear-option-0,event.eventData.fields.propertyValue.valid,true,event.eventData.fields.purchaseYear.valid,false;focusElementById:isai-calculator-result,event.eventData.valid,true",
         "components": [
+          "calculatorAccent",
           "calculatorHeader",
-          "calculatorCityLabel",
-          "calculatorCityActions",
-          "calculatorFields",
-          "calculatorTimingNote",
+          "calculatorCity",
+          "calculatorPropertyValue",
+          "calculatorPurchaseYear",
+          "calculatorSubmit",
           "calculatorResult"
         ]
+      }
+    },
+    {
+      "id": "calculatorAccent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "calculatorAccent",
+        "components": []
       }
     },
     {
@@ -156,174 +130,118 @@
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
-        "components": [
-          "calculatorEyebrow",
-          "calculatorTitle",
-          "calculatorDescription"
-        ]
+        "components": ["calculatorEyebrow", "calculatorTitle", "calculatorDescription"]
       }
     },
     {
       "id": "calculatorEyebrow",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.calculator.eyebrow",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionEyebrow"
-      }
+      "config": { "tag": "p", "text": "", "classes": "sectionEyebrow" }
     },
     {
       "id": "calculatorTitle",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.calculator.title",
-      "config": {
-        "tag": "h2",
-        "text": "",
-        "classes": "sectionTitle ank-fontSize-md-2_35rem"
-      }
+      "config": { "tag": "h2", "text": "", "classes": "calculatorTitle" }
     },
     {
       "id": "calculatorDescription",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.calculator.description",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionSubtitle"
-      }
+      "config": { "tag": "p", "text": "", "classes": "calculatorDescription" }
     },
     {
-      "id": "calculatorCityLabel",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.calculator.cityLabel",
+      "id": "calculatorCity",
+      "type": "input",
+      "eventInstructions": "setScopeValue:hasCalculated,false",
+      "valueInstructions": "set:config.label,i18n,page.calculator.cityLabel",
       "config": {
-        "tag": "h3",
-        "text": "",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_1rem ank-fontWeight-900"
-      }
-    },
-    {
-      "id": "calculatorCityActions",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-gap-8px ank-flexWrap-wrap",
-        "components": [
-          "calculatorCityCdmx",
-          "calculatorCityLosCabos",
-          "calculatorCityTulum"
-        ]
-      }
-    },
-    {
-      "id": "calculatorCityCdmx",
-      "type": "button",
-      "eventInstructions": "setScopeValue:city,CDMX;setScopeValue:rateMin,0.08;setScopeValue:rateMax,0.09",
-      "valueInstructions": "set:config.label,i18n,page.calculator.cities.cdmx;set:config.ariaSelected,when,\"all:scopeEq,values.city,CDMX\",true,false;set:config.classes,when,\"all:scopeEq,values.city,CDMX\",\"primaryAction ank-color-bgColor\",\"secondaryAction\"",
-      "config": {
-        "type": "button",
+        "fieldId": "cityRateCode",
+        "controlType": "button-group",
         "label": "",
-        "ariaSelected": false,
-        "classes": "secondaryAction"
-      }
-    },
-    {
-      "id": "calculatorCityLosCabos",
-      "type": "button",
-      "eventInstructions": "setScopeValue:city,LOS_CABOS;setScopeValue:rateMin,0.03;setScopeValue:rateMax,0.05",
-      "valueInstructions": "set:config.label,i18n,page.calculator.cities.losCabos;set:config.ariaSelected,when,\"all:scopeEq,values.city,LOS_CABOS\",true,false;set:config.classes,when,\"all:scopeEq,values.city,LOS_CABOS\",\"primaryAction ank-color-bgColor\",\"secondaryAction\"",
-      "config": {
-        "type": "button",
-        "label": "",
-        "ariaSelected": false,
-        "classes": "secondaryAction"
-      }
-    },
-    {
-      "id": "calculatorCityTulum",
-      "type": "button",
-      "eventInstructions": "setScopeValue:city,TULUM;setScopeValue:rateMin,0.03;setScopeValue:rateMax,0.05",
-      "valueInstructions": "set:config.label,i18n,page.calculator.cities.tulum;set:config.ariaSelected,when,\"all:scopeEq,values.city,TULUM\",true,false;set:config.classes,when,\"all:scopeEq,values.city,TULUM\",\"primaryAction ank-color-bgColor\",\"secondaryAction\"",
-      "config": {
-        "type": "button",
-        "label": "",
-        "ariaSelected": false,
-        "classes": "secondaryAction"
-      }
-    },
-    {
-      "id": "calculatorFields",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-14px",
-        "components": [
-          "calculatorPropertyValue",
-          "calculatorPurchaseYear"
-        ]
+        "value": 8,
+        "multiple": false,
+        "required": true,
+        "options": { "source": "i18n", "path": "page.calculator.cityOptions" },
+        "classes": "calculatorQuestion",
+        "labelClasses": "calculatorQuestionLabel",
+        "optionContainerClasses": "calculatorChoices calculatorChoicesThree",
+        "optionClasses": "calculatorChoice",
+        "activeOptionClasses": "calculatorChoiceActive"
       }
     },
     {
       "id": "calculatorPropertyValue",
       "type": "input",
-      "valueInstructions": "set:config.label,i18n,page.calculator.propertyLabel;set:config.helperText,i18n,page.calculator.propertyHelper;set:config.placeholder,i18n,page.calculator.propertyPlaceholder",
+      "eventInstructions": "setScopeValue:hasCalculated,false",
+      "valueInstructions": "set:config.label,i18n,page.calculator.propertyLabel;set:config.placeholder,i18n,page.calculator.propertyPlaceholder;set:config.validation,i18n,page.calculator.propertyValidation",
       "config": {
         "fieldId": "propertyValue",
         "controlType": "number",
         "label": "",
-        "helperText": "",
         "placeholder": "",
-        "value": "",
+        "value": null,
         "min": 1000000,
-        "step": 10000,
+        "step": 1,
         "required": true,
-        "valuePrefix": "$",
-        "valueSuffix": " MXN",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px",
-        "fieldClasses": "ank-width-100per",
-        "inputClasses": "ank-width-100per"
+        "validation": [],
+        "classes": "calculatorQuestion",
+        "labelClasses": "calculatorQuestionLabel",
+        "fieldClasses": "calculatorNumberInput",
+        "inputClasses": "calculatorNumberInput",
+        "errorClasses": "calculatorError"
       }
     },
     {
       "id": "calculatorPurchaseYear",
       "type": "input",
-      "valueInstructions": "set:config.label,i18n,page.calculator.yearLabel;set:config.helperText,i18n,page.calculator.yearHelper;set:config.options,i18n,page.calculator.years",
+      "eventInstructions": "setScopeValue:hasCalculated,false",
+      "valueInstructions": "set:config.label,i18n,page.calculator.yearLabel;set:config.validation,i18n,page.calculator.yearValidation",
       "config": {
         "fieldId": "purchaseYear",
-        "controlType": "select",
+        "controlType": "button-group",
         "label": "",
-        "helperText": "",
-        "options": [],
+        "value": null,
+        "multiple": false,
         "required": true,
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px",
-        "fieldClasses": "ank-width-100per",
-        "inputClasses": "ank-width-100per"
+        "validation": [],
+        "options": { "source": "i18n", "path": "page.calculator.yearOptions" },
+        "classes": "calculatorQuestion",
+        "labelClasses": "calculatorQuestionLabel",
+        "optionContainerClasses": "calculatorChoices calculatorChoicesFour",
+        "optionClasses": "calculatorChoice",
+        "activeOptionClasses": "calculatorChoiceActive",
+        "errorClasses": "calculatorError"
       }
     },
     {
-      "id": "calculatorTimingNote",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.calculator.timingNote",
+      "id": "calculatorSubmit",
+      "type": "button",
+      "valueInstructions": "set:config.label,i18n,page.calculator.action",
       "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
+        "type": "submit",
+        "label": "",
+        "classes": "calculatorPrimaryAction"
       }
     },
     {
       "id": "calculatorResult",
       "type": "container",
-      "condition": "all:scopeGt,values.propertyValue,0;all:scope,values.purchaseYear",
+      "condition": "all:scopeEq,meta.submitted,true;all:scopeEq,meta.valid,true;all:scopeEq,values.hasCalculated,true",
       "config": {
+        "id": "isai-calculator-result",
         "tag": "div",
-        "classes": "mutedPanel ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "role": "status",
+        "ariaLive": "polite",
+        "tabindex": -1,
+        "classes": "calculatorResult",
         "components": [
           "calculatorResultTitle",
-          "calculatorResultDescription",
           "calculatorRange",
           "calculatorInvestment",
-          "calculatorContactLink"
+          "calculatorDisclaimer",
+          "calculatorResultActions"
         ]
       }
     },
@@ -331,32 +249,15 @@
       "id": "calculatorResultTitle",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.calculator.resultTitle",
-      "config": {
-        "tag": "h3",
-        "text": "",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_35rem ank-fontWeight-900"
-      }
-    },
-    {
-      "id": "calculatorResultDescription",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.calculator.resultDescription",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
-      }
+      "config": { "tag": "h3", "text": "", "classes": "calculatorResultTitle" }
     },
     {
       "id": "calculatorRange",
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-repeatSD2COM1frED ank-gap-12px",
-        "components": [
-          "calculatorRangeMin",
-          "calculatorRangeMax"
-        ]
+        "classes": "calculatorRange",
+        "components": ["calculatorRangeMin", "calculatorRangeMax"]
       }
     },
     {
@@ -364,32 +265,29 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-4px",
-        "components": [
-          "calculatorRangeMinLabel",
-          "calculatorRangeMinValue"
-        ]
+        "classes": "calculatorAmount",
+        "components": ["calculatorRangeMinLabel", "calculatorRangeMinValue"]
       }
     },
     {
       "id": "calculatorRangeMinLabel",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.calculator.resultMinLabel",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
-      }
+      "config": { "tag": "span", "text": "", "classes": "calculatorAmountLabel" }
     },
     {
       "id": "calculatorRangeMinValue",
       "type": "generic-cell",
       "valueInstructions": "set:config.value,scope,computed.recoveryMin",
       "config": {
-        "value": 0,
-        "format": "number",
-        "classes": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900",
-        "valueClasses": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900"
+        "value": null,
+        "format": "currency",
+        "currency": "MXN",
+        "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0,
+        "showCurrencyCode": true,
+        "emptyText": "",
+        "classes": "calculatorAmountValue"
       }
     },
     {
@@ -397,32 +295,29 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-4px",
-        "components": [
-          "calculatorRangeMaxLabel",
-          "calculatorRangeMaxValue"
-        ]
+        "classes": "calculatorAmount",
+        "components": ["calculatorRangeMaxLabel", "calculatorRangeMaxValue"]
       }
     },
     {
       "id": "calculatorRangeMaxLabel",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.calculator.resultMaxLabel",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
-      }
+      "config": { "tag": "span", "text": "", "classes": "calculatorAmountLabel" }
     },
     {
       "id": "calculatorRangeMaxValue",
       "type": "generic-cell",
       "valueInstructions": "set:config.value,scope,computed.recoveryMax",
       "config": {
-        "value": 0,
-        "format": "number",
-        "classes": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900",
-        "valueClasses": "ank-color-titleColor ank-fontSize-1_5rem ank-fontWeight-900"
+        "value": null,
+        "format": "currency",
+        "currency": "MXN",
+        "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0,
+        "showCurrencyCode": true,
+        "emptyText": "",
+        "classes": "calculatorAmountValue"
       }
     },
     {
@@ -430,233 +325,118 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px",
+        "classes": "calculatorInvestment",
         "components": [
-          "calculatorInvestmentTitle",
-          "calculatorInvestmentDescription",
-          "calculatorInvestmentTierLow",
-          "calculatorInvestmentTierMidLow",
-          "calculatorInvestmentTierMidHigh",
-          "calculatorInvestmentTierHigh"
+          "calculatorInvestmentLabel",
+          "calculatorInvestmentLowValue",
+          "calculatorInvestmentMidLowValue",
+          "calculatorInvestmentMidHighValue",
+          "calculatorInvestmentHighValue"
         ]
       }
     },
     {
-      "id": "calculatorInvestmentTitle",
+      "id": "calculatorInvestmentLabel",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTitle",
+      "valueInstructions": "set:config.text,i18n,page.calculator.investmentLabel",
+      "config": { "tag": "span", "text": "", "classes": "calculatorInvestmentLabel" }
+    },
+    {
+      "id": "calculatorInvestmentLowValue",
+      "type": "generic-cell",
+      "condition": "all:scopeLt,computed.recoveryMin,185000",
       "config": {
-        "tag": "h4",
-        "text": "",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontWeight-900"
+        "value": 12500,
+        "format": "currency",
+        "currency": "MXN",
+        "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0,
+        "showCurrencyCode": true,
+        "emptyText": "",
+        "classes": "calculatorInvestmentValue"
       }
     },
     {
-      "id": "calculatorInvestmentDescription",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.calculator.investmentBasis",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
-      }
-    },
-    {
-      "id": "calculatorInvestmentTierLow",
-      "type": "text",
-      "condition": "all:scopeGt,computed.recoveryMin,0;all:scopeLt,computed.recoveryMin,185000",
-      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.low",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
-      }
-    },
-    {
-      "id": "calculatorInvestmentTierMidLow",
-      "type": "text",
+      "id": "calculatorInvestmentMidLowValue",
+      "type": "generic-cell",
       "condition": "all:scopeGte,computed.recoveryMin,185000;all:scopeLt,computed.recoveryMin,200000",
-      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.midLow",
       "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
+        "value": 15000,
+        "format": "currency",
+        "currency": "MXN",
+        "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0,
+        "showCurrencyCode": true,
+        "emptyText": "",
+        "classes": "calculatorInvestmentValue"
       }
     },
     {
-      "id": "calculatorInvestmentTierMidHigh",
-      "type": "text",
+      "id": "calculatorInvestmentMidHighValue",
+      "type": "generic-cell",
       "condition": "all:scopeGte,computed.recoveryMin,200000;all:scopeLt,computed.recoveryMin,250000",
-      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.midHigh",
       "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
+        "value": 20000,
+        "format": "currency",
+        "currency": "MXN",
+        "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0,
+        "showCurrencyCode": true,
+        "emptyText": "",
+        "classes": "calculatorInvestmentValue"
       }
     },
     {
-      "id": "calculatorInvestmentTierHigh",
-      "type": "text",
+      "id": "calculatorInvestmentHighValue",
+      "type": "generic-cell",
       "condition": "all:scopeGte,computed.recoveryMin,250000",
-      "valueInstructions": "set:config.text,i18n,page.calculator.investmentTiers.high",
       "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "cardDescription ank-m-0"
+        "value": 25000,
+        "format": "currency",
+        "currency": "MXN",
+        "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0,
+        "showCurrencyCode": true,
+        "emptyText": "",
+        "classes": "calculatorInvestmentValue"
+      }
+    },
+    {
+      "id": "calculatorDisclaimer",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.disclaimer",
+      "config": { "tag": "p", "text": "", "classes": "calculatorDisclaimer" }
+    },
+    {
+      "id": "calculatorResultActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "calculatorResultActions",
+        "components": ["calculatorContactLink", "calculatorReset"]
       }
     },
     {
       "id": "calculatorContactLink",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.calculator.contactLabel",
+      "valueInstructions": "set:config.text,i18n,page.calculator.resultCta;set:config.href,var,ctaTargets.whatsappUrl",
       "config": {
-        "href": "/contacto",
+        "href": "#",
         "text": "",
-        "classes": "primaryAction ank-color-bgColor ank-width-fitContent"
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "calculatorPrimaryAction"
       }
     },
     {
-      "id": "detailTrust",
-      "type": "container",
+      "id": "calculatorReset",
+      "type": "button",
+      "eventInstructions": "resetScope;focusElementById:propertyValue",
+      "valueInstructions": "set:config.label,i18n,page.calculator.reset",
       "config": {
-        "tag": "section",
-        "classes": "sectionBase ank-paddingBlock-30px ank-paddingBlock-md-46px",
-        "components": [
-          "detailTrustContent"
-        ]
-      }
-    },
-    {
-      "id": "detailTrustContent",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "sectionContent",
-        "components": [
-          "detailTrustHeader",
-          "detailTrustGrid"
-        ]
-      }
-    },
-    {
-      "id": "detailTrustHeader",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "detailTrustEyebrow",
-          "detailTrustTitle",
-          "detailTrustDescription"
-        ]
-      }
-    },
-    {
-      "id": "detailTrustEyebrow",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.trustEyebrow",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionEyebrow"
-      }
-    },
-    {
-      "id": "detailTrustTitle",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.trustTitle",
-      "config": {
-        "tag": "h2",
-        "text": "",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_35rem ank-fontSize-md-1_8rem ank-fontWeight-900 ank-lineHeight-1_12 ank-maxWidth-22ch"
-      }
-    },
-    {
-      "id": "detailTrustDescription",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.trustDescription",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionSubtitle ank-maxWidth-62rem"
-      }
-    },
-    {
-      "id": "detailTrustGrid",
-      "type": "container",
-      "loopConfig": {
-        "source": "i18n",
-        "path": "page.trustItems",
-        "templateId": "detailTrustCardTemplate",
-        "idPrefix": "detailTrustCard",
-        "bindings": [
-          {
-            "to": "config.icon",
-            "sources": [
-              "icon"
-            ]
-          },
-          {
-            "to": "config.title",
-            "sources": [
-              "title"
-            ]
-          },
-          {
-            "to": "config.description",
-            "sources": [
-              "description"
-            ]
-          },
-          {
-            "to": "config.benefits",
-            "sources": [
-              "benefits"
-            ]
-          },
-          {
-            "to": "config.href",
-            "sources": [
-              "href"
-            ]
-          },
-          {
-            "to": "config.linkLabel",
-            "sources": [
-              "linkLabel"
-            ]
-          }
-        ]
-      },
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-14px",
-        "components": []
-      }
-    },
-    {
-      "id": "detailTrustCardTemplate",
-      "type": "generic-card",
-      "config": {
-        "variant": "feature",
-        "icon": "",
-        "title": "",
-        "description": "",
-        "benefits": [],
-        "href": "",
-        "linkLabel": "",
-        "target": "_self",
-        "rel": "",
-        "classes": "mutedPanel ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "featureIconContainerClasses": "ank-display-flex",
-        "featureIconClasses": "ank-fontSize-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-linkColor",
-        "featureTitleClasses": "cardTitle",
-        "featureDescriptionClasses": "cardDescription",
-        "benefitsListClasses": "benefitList",
-        "benefitItemClasses": "benefitItem",
-        "benefitIconClasses": "ank-fontSize-1rem ank-color-accentColor ank-marginTop-2px",
-        "benefitTextClasses": "ank-color-secondaryTitleColor",
-        "linkClasses": "cardLink"
+        "type": "button",
+        "label": "",
+        "classes": "calculatorSecondaryAction"
       }
     },
     {
@@ -665,9 +445,7 @@
       "config": {
         "tag": "section",
         "classes": "sectionBase ank-bg-secondaryBgColor ank-paddingBlock-36px ank-paddingBlock-md-64px",
-        "components": [
-          "detailBodyGrid"
-        ]
+        "components": ["detailBodyGrid"]
       }
     },
     {
@@ -676,10 +454,7 @@
       "config": {
         "tag": "div",
         "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-0_95fr__1_05fr ank-gap-18px ank-alignItems-start",
-        "components": [
-          "detailIntroPanel",
-          "detailCardsGrid"
-        ]
+        "components": ["detailIntroPanel", "detailCardsGrid"]
       }
     },
     {
@@ -688,32 +463,20 @@
       "config": {
         "tag": "aside",
         "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-16px ank-position-md-sticky ank-top-md-96px",
-        "components": [
-          "detailIntro",
-          "detailAsideTitle",
-          "detailAsideList"
-        ]
+        "components": ["detailIntro", "detailAsideTitle", "detailAsideList"]
       }
     },
     {
       "id": "detailIntro",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.intro",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "ank-m-0 ank-lineHeight-1_72 ank-color-secondaryTitleColor"
-      }
+      "config": { "tag": "p", "text": "", "classes": "ank-m-0 ank-lineHeight-1_72 ank-color-secondaryTitleColor" }
     },
     {
       "id": "detailAsideTitle",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.asideTitle",
-      "config": {
-        "tag": "h2",
-        "text": "",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_05rem ank-fontWeight-900"
-      }
+      "config": { "tag": "h2", "text": "", "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_05rem ank-fontWeight-900" }
     },
     {
       "id": "detailAsideList",
@@ -723,29 +486,14 @@
         "path": "page.asideItems",
         "templateId": "detailAsideItemTemplate",
         "idPrefix": "detailAsideItem",
-        "bindings": [
-          {
-            "to": "config.text",
-            "sources": [
-              "$item"
-            ]
-          }
-        ]
+        "bindings": [{ "to": "config.text", "sources": ["$item"] }]
       },
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
-        "components": []
-      }
+      "config": { "tag": "div", "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px", "components": [] }
     },
     {
       "id": "detailAsideItemTemplate",
       "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "mutedPanel ank-m-0 ank-fontWeight-800 ank-lineHeight-1_4"
-      }
+      "config": { "tag": "p", "text": "", "classes": "mutedPanel ank-m-0 ank-fontWeight-800 ank-lineHeight-1_4" }
     },
     {
       "id": "detailCardsGrid",
@@ -756,61 +504,13 @@
         "templateId": "detailCardTemplate",
         "idPrefix": "detailCard",
         "bindings": [
-          {
-            "to": "config.icon",
-            "sources": [
-              "icon"
-            ]
-          },
-          {
-            "to": "config.title",
-            "sources": [
-              "title"
-            ]
-          },
-          {
-            "to": "config.description",
-            "sources": [
-              "description"
-            ]
-          },
-          {
-            "to": "config.benefits",
-            "sources": [
-              "benefits"
-            ]
-          },
-          {
-            "to": "config.href",
-            "sources": [
-              "href"
-            ]
-          },
-          {
-            "to": "config.linkLabel",
-            "sources": [
-              "linkLabel"
-            ]
-          },
-          {
-            "to": "config.target",
-            "sources": [
-              "target"
-            ]
-          },
-          {
-            "to": "config.rel",
-            "sources": [
-              "rel"
-            ]
-          }
+          { "to": "config.icon", "sources": ["icon"] },
+          { "to": "config.title", "sources": ["title"] },
+          { "to": "config.description", "sources": ["description"] },
+          { "to": "config.benefits", "sources": ["benefits"] }
         ]
       },
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gap-16px",
-        "components": []
-      }
+      "config": { "tag": "div", "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gap-16px", "components": [] }
     },
     {
       "id": "detailCardTemplate",
@@ -838,170 +538,9 @@
       }
     },
     {
-      "id": "detailServiceModule",
-      "type": "container",
-      "config": {
-        "tag": "section",
-        "classes": "sectionBase ank-paddingBlock-46px ank-paddingBlock-md-78px",
-        "components": [
-          "detailServiceModuleContent"
-        ]
-      }
-    },
-    {
-      "id": "detailServiceModuleContent",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-0_9fr__1_1fr ank-gap-20px ank-alignItems-start",
-        "components": [
-          "detailServiceModuleIntro",
-          "detailServiceModuleGrid"
-        ]
-      }
-    },
-    {
-      "id": "detailServiceModuleIntro",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-12px ank-position-md-sticky ank-top-md-96px",
-        "components": [
-          "detailServiceModuleEyebrow",
-          "detailServiceModuleTitle",
-          "detailServiceModuleDescription",
-          "detailServiceModuleLink"
-        ]
-      }
-    },
-    {
-      "id": "detailServiceModuleEyebrow",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.moduleEyebrow",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionEyebrow"
-      }
-    },
-    {
-      "id": "detailServiceModuleTitle",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.moduleTitle",
-      "config": {
-        "tag": "h2",
-        "text": "",
-        "classes": "sectionTitle ank-fontSize-md-2_35rem"
-      }
-    },
-    {
-      "id": "detailServiceModuleDescription",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.moduleDescription",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionSubtitle"
-      }
-    },
-    {
-      "id": "detailServiceModuleLink",
-      "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.primaryLabel",
-      "config": {
-        "href": "/contacto",
-        "text": "",
-        "classes": "secondaryAction ank-width-fitContent"
-      }
-    },
-    {
-      "id": "detailServiceModuleGrid",
-      "type": "container",
-      "loopConfig": {
-        "source": "i18n",
-        "path": "page.moduleItems",
-        "templateId": "detailServiceModuleCardTemplate",
-        "idPrefix": "detailServiceModuleCard",
-        "bindings": [
-          {
-            "to": "config.icon",
-            "sources": [
-              "icon"
-            ]
-          },
-          {
-            "to": "config.title",
-            "sources": [
-              "title"
-            ]
-          },
-          {
-            "to": "config.description",
-            "sources": [
-              "description"
-            ]
-          },
-          {
-            "to": "config.benefits",
-            "sources": [
-              "benefits"
-            ]
-          },
-          {
-            "to": "config.href",
-            "sources": [
-              "href"
-            ]
-          },
-          {
-            "to": "config.linkLabel",
-            "sources": [
-              "linkLabel"
-            ]
-          }
-        ]
-      },
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gap-14px",
-        "components": []
-      }
-    },
-    {
-      "id": "detailServiceModuleCardTemplate",
-      "type": "generic-card",
-      "config": {
-        "variant": "feature",
-        "icon": "",
-        "title": "",
-        "description": "",
-        "benefits": [],
-        "href": "",
-        "linkLabel": "",
-        "target": "_self",
-        "rel": "",
-        "classes": "panel ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "featureIconContainerClasses": "ank-display-flex",
-        "featureIconClasses": "ank-fontSize-1_45rem ank-width-1_45rem ank-height-1_45rem ank-color-linkColor",
-        "featureTitleClasses": "cardTitle",
-        "featureDescriptionClasses": "cardDescription",
-        "benefitsListClasses": "benefitList",
-        "benefitItemClasses": "benefitItem",
-        "benefitIconClasses": "ank-fontSize-1rem ank-color-accentColor ank-marginTop-2px",
-        "benefitTextClasses": "ank-color-secondaryTitleColor",
-        "linkClasses": "cardLink"
-      }
-    },
-    {
       "id": "detailCta",
       "type": "container",
-      "config": {
-        "tag": "section",
-        "classes": "sectionBase",
-        "components": [
-          "detailCtaPanel"
-        ]
-      }
+      "config": { "tag": "section", "classes": "sectionBase", "components": ["detailCtaPanel"] }
     },
     {
       "id": "detailCtaPanel",
@@ -1009,66 +548,37 @@
       "config": {
         "tag": "div",
         "classes": "sectionContent panel",
-        "components": [
-          "detailCtaTitle",
-          "detailCtaDescription",
-          "detailCtaActions"
-        ]
+        "components": ["detailCtaTitle", "detailCtaDescription", "detailCtaActions"]
       }
     },
     {
       "id": "detailCtaTitle",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.ctaTitle",
-      "config": {
-        "tag": "h2",
-        "text": "",
-        "classes": "sectionTitle"
-      }
+      "config": { "tag": "h2", "text": "", "classes": "sectionTitle" }
     },
     {
       "id": "detailCtaDescription",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.ctaDescription",
-      "config": {
-        "tag": "p",
-        "text": "",
-        "classes": "sectionSubtitle"
-      }
+      "config": { "tag": "p", "text": "", "classes": "sectionSubtitle" }
     },
     {
       "id": "detailCtaActions",
       "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-gap-12px ank-flexWrap-wrap",
-        "components": [
-          "detailCtaPrimary",
-          "detailCtaSecondary"
-        ]
-      }
+      "config": { "tag": "div", "classes": "ank-display-flex ank-gap-12px ank-flexWrap-wrap", "components": ["detailCtaPrimary", "detailCtaSecondary"] }
     },
     {
       "id": "detailCtaPrimary",
       "type": "link",
       "valueInstructions": "set:config.text,i18n,page.primaryLabel;set:config.href,var,ctaTargets.calendlyUrl",
-      "config": {
-        "href": "#",
-        "text": "",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "classes": "primaryAction ank-color-bgColor"
-      }
+      "config": { "href": "#", "text": "", "target": "_blank", "rel": "noopener noreferrer", "classes": "primaryAction ank-color-bgColor" }
     },
     {
       "id": "detailCtaSecondary",
       "type": "link",
       "valueInstructions": "set:config.text,i18n,page.secondaryLabel",
-      "config": {
-        "href": "/contacto",
-        "text": "",
-        "classes": "secondaryAction"
-      }
+      "config": { "href": "/contacto", "text": "", "classes": "secondaryAction" }
     }
   ]
 }

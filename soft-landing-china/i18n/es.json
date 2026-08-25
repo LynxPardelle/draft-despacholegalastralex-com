@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "domain": "grupoastralegal.com",
+  "pageId": "soft-landing-china",
+  "lang": "es",
+  "dictionary": {
+    "page": {
+      "nav": {
+        "skip": "Saltar al contenido de la campaña",
+        "brandAria": "Astra Legal soft landing China–México",
+        "services": "Servicios",
+        "process": "Proceso",
+        "faq": "Preguntas frecuentes",
+        "languageLabel": "Idioma",
+        "enClasses": "astraChinaLanguageLink astraChinaLanguageLinkActive ank-color-HASH231B16",
+        "enAriaCurrent": "page",
+        "zhClasses": "astraChinaLanguageLink ank-color-HASH231B16",
+        "zhAriaCurrent": "false",
+        "consultation": "Reservar una consulta"
+      },
+      "hero": {
+        "eyebrow": "Soft Landing · China → México",
+        "title": "Lleva tu negocio a México con documentación completa y sin vacíos.",
+        "lead": "Astra Legal ayuda a empresas chinas de comercio electrónico y manufactura a establecer una operación mexicana en cumplimiento: constitución, registro fiscal, permisos y documentación para plataformas, con un solo equipo legal de principio a fin.",
+        "primaryCta": "Reservar una consulta de 30 minutos",
+        "secondaryCta": "Escanear WeChat para contactarnos",
+        "trustItems": [
+          "Abogado mexicano con cédula profesional",
+          "Documentación disponible en inglés y chino",
+          "Experiencia con TikTok Shop · Amazon MX · Mercado Libre",
+          "Apoyo en búsqueda, adquisición y establecimiento de instalaciones productivas",
+          "Contabilidad, nómina, IMSS, impuestos y permisos con un solo equipo"
+        ],
+        "sealTitle": "Certificado · En cumplimiento",
+        "sealSubtitle": "RFC · SAT · IMPI · IMMEX"
+      },
+      "audience": {
+        "eyebrow": "Para quién es",
+        "items": [
+          { "number": "01", "description": "Vendedores de comercio electrónico que lanzarán operaciones en TikTok Shop, Amazon México o Mercado Libre" },
+          { "number": "02", "description": "Fabricantes o importadores que evalúan programas IMMEX o esquemas shelter para producir en México" },
+          { "number": "03", "description": "Empresas que necesitan una entidad mexicana en cumplimiento y representación local adecuada" },
+          { "number": "04", "description": "Negocios que requieren orientación de un abogado con cédula, no solo un gestor de constitución" }
+        ]
+      },
+      "services": {
+        "eyebrow": "Lo que atendemos",
+        "title": "Ocho entregables. Un equipo legal.",
+        "description": "Todo lo necesario para pasar de querer vender en México a operar en cumplimiento y con documentación lista para revisión de plataformas, en el orden en que realmente se requiere.",
+        "items": [
+          { "number": "01", "label": "Entidad", "indexLabel": "01 · Entidad", "title": "Constitución de empresa mexicana para propietarios extranjeros", "description": "Diseñamos y constituimos la entidad mexicana (SA o SAS de CV) con la estructura correcta de inversión extranjera, accionistas, representante legal y capital mínimo." },
+          { "number": "02", "label": "RFC", "indexLabel": "02 · RFC", "title": "Registro del RFC", "description": "Obtenemos el RFC de la empresa ante el SAT, necesario para facturar, abrir una cuenta bancaria empresarial y registrarse en plataformas." },
+          { "number": "03", "label": "Domicilio", "indexLabel": "03 · Domicilio", "title": "Domicilio fiscal", "description": "Establecemos un domicilio empresarial registrado en México que cumpla los requisitos del SAT y la verificación de plataformas." },
+          { "number": "04", "label": "Marca", "indexLabel": "04 · Marca", "title": "Clasificación y registro de marca ante el IMPI", "description": "Presentamos la marca en la clase correcta ante el IMPI para protegerla antes del lanzamiento y cumplir, cuando corresponda, los requisitos de registro de marca de las plataformas." },
+          { "number": "05", "label": "Permisos", "indexLabel": "05 · Permisos", "title": "Permisos gubernamentales por industria", "description": "Identificamos y tramitamos los permisos de la categoría de producto o servicio; cosméticos, electrónicos y productos relacionados con alimentos tienen requisitos distintos en México." },
+          { "number": "06", "label": "Certificación", "indexLabel": "06 · Certificación", "title": "Documentación certificada y lista para verificación", "description": "Cada documento lleva los sellos, firmas, hologramas, certificaciones electrónicas y códigos de verificación que correspondan para una revisión del SAT, un banco o una plataforma." },
+          { "number": "07", "label": "Plataforma", "indexLabel": "07 · Plataforma", "title": "Documentación para aprobación en plataformas", "description": "Preparamos documentación legal y fiscal para aprobación de categorías y verificación de vendedores en Amazon México, Mercado Libre y TikTok Shop, en el formato solicitado por cada equipo de cumplimiento." },
+          { "number": "08", "label": "Operación", "indexLabel": "08 · Operación", "title": "Orientación legal para importación, ventas y producción", "description": "Brindamos orientación continua para importar y vender productos físicos o establecer una planta de producción o ensamble, incluida la evaluación de IMMEX y esquemas shelter cuando sean relevantes." }
+        ]
+      },
+      "process": {
+        "banner": "Tu ruta al mercado mexicano comienza aquí.",
+        "eyebrow": "Cómo funciona",
+        "title": "Un calendario previsible, no una caja negra.",
+        "description": "Cuatro etapas, varias en paralelo, para que sepas qué sucede y cuándo estará lista la operación.",
+        "items": [
+          { "number": "1", "when": "Semana 1", "indexLabel": "1 · Semana 1", "title": "Diagnóstico", "description": "Revisamos el modelo de negocio, la categoría del producto y las plataformas objetivo para confirmar la estructura y los permisos aplicables." },
+          { "number": "2", "when": "Semanas 2–4", "indexLabel": "2 · Semanas 2–4", "title": "Constitución y RFC", "description": "Constitución de la empresa, documentación de representante legal y accionistas, y registro del RFC ante el SAT." },
+          { "number": "3", "when": "Semanas 3–6, en paralelo", "indexLabel": "3 · Semanas 3–6, en paralelo", "title": "Implementación de cumplimiento", "description": "Domicilio empresarial, solicitud de marca, permisos de industria y paquete de documentación certificada." },
+          { "number": "4", "when": "Continuo", "indexLabel": "4 · Continuo", "title": "Plataformas y operación listas", "description": "Documentación final para aprobación de plataformas e inicio del cumplimiento contable y legal continuo." }
+        ]
+      },
+      "why": {
+        "eyebrow": "Por qué Astra Legal",
+        "title": "Hazlo correctamente desde el principio."
+      },
+      "attorney": {
+        "name": "Lic. José Luis Ortega Ochoa",
+        "title": "Abogado fundador, Astra Legal",
+        "description": "Abogado mexicano con experiencia directa representando a inversionistas chinos en el mercado mexicano. Supervisa personalmente cada asunto, desde el diagnóstico inicial hasta la constitución, el cumplimiento y el soporte legal continuo.",
+        "alt": "Lic. José Luis Ortega Ochoa, abogado fundador de Astra Legal"
+      },
+      "proofs": [
+        { "icon": "verified", "title": "Un equipo legal de principio a fin", "description": "Sin transferencias entre un gestor de constitución, un contador independiente y un agente de marcas." },
+        { "icon": "fact_check", "title": "Respondemos por la estructura que implementamos", "description": "KYC adecuado y titularidad real documentada en cada caso para protegerte de problemas de cumplimiento posteriores." },
+        { "icon": "translate", "title": "Comunicación clara, sin vacíos", "description": "La documentación, los contratos y esta página están disponibles en chino. Las consultas se realizan en inglés y puede organizarse interpretación cuando se solicite." }
+      ],
+      "faq": {
+        "eyebrow": "Preguntas más frecuentes",
+        "title": "Respuestas claras antes de reservar una llamada.",
+        "items": [
+          { "id": "astra-china-faq-1", "indexLabel": "P1", "title": "¿Cuánto tarda el inicio legal de ventas en Amazon México, Mercado Libre o TikTok Shop?", "content": "La constitución y el RFC suelen tomar de 2 a 4 semanas. Al ejecutar el cumplimiento en paralelo, la mayoría de los clientes puede presentar documentación a plataformas entre 4 y 6 semanas después del inicio; el plazo depende de la categoría y los permisos." },
+          { "id": "astra-china-faq-2", "indexLabel": "P2", "title": "¿Necesito a una persona mexicana como accionista o representante legal?", "content": "No necesariamente como accionista, pero las entidades extranjeras sí necesitan representación legal mexicana para ciertos trámites. Explicamos la estructura acorde con tus preferencias de propiedad y riesgo y la documentación requerida." },
+          { "id": "astra-china-faq-3", "indexLabel": "P3", "title": "¿Qué es el RFC y por qué se necesita antes de operar?", "content": "El RFC es la identificación fiscal de la empresa ante el SAT. Se necesita para facturar, abrir una cuenta bancaria empresarial y registrarse como vendedor en plataformas mexicanas." },
+          { "id": "astra-china-faq-4", "indexLabel": "P4", "title": "¿Puedo calificar para IMMEX o un esquema shelter si produciré o ensamblaré en México?", "content": "Depende del producto, el volumen de importación y el modelo operativo. Evaluamos la elegibilidad durante el diagnóstico y explicamos cómo funcionaría un esquema shelter en el caso concreto." },
+          { "id": "astra-china-faq-5", "indexLabel": "P5", "title": "¿Qué documentos exigirán Amazon, Mercado Libre o TikTok para aprobar la cuenta?", "content": "Normalmente se requieren documentos de constitución, RFC, comprobante de domicilio y, para ciertas categorías, permisos o certificaciones específicos. Preparamos el paquete en el formato solicitado por cada plataforma." },
+          { "id": "astra-china-faq-6", "indexLabel": "P6", "title": "¿Cada producto o tienda requiere una empresa mexicana distinta?", "content": "En general, una entidad puede operar varias tiendas. Recomendamos la estructura adecuada para la situación sin añadir complejidad innecesaria." },
+          { "id": "astra-china-faq-7", "indexLabel": "P7", "title": "¿Qué cumplimiento continuo se requiere después de constituir la empresa?", "content": "Contabilidad mensual y declaraciones ante el SAT, reportes al IMSS si hay personal y declaraciones anuales. Lo explicamos antes de contratar para evitar sorpresas." },
+          { "id": "astra-china-faq-8", "indexLabel": "P8", "title": "¿En qué idioma se preparan los documentos y se realizan las consultas?", "content": "Los contratos, trámites y esta página están disponibles en chino e inglés. Las consultas en vivo se realizan en inglés y puede organizarse interpretación cuando se solicite." }
+        ]
+      },
+      "contact": {
+        "eyebrow": "Cuando estés listo",
+        "title": "¿Listo para llevar tu negocio a México de la manera correcta?",
+        "description": "Reserva una consulta para revisar la categoría del producto, las plataformas objetivo y el calendario, y obtener una ruta clara y honesta hacia una operación mexicana en cumplimiento.",
+        "wechatAlt": "Código QR de WeChat · Luis Ortega",
+        "wechatLabel": "Escanea para agregar en WeChat",
+        "emailLabel": "Correo electrónico"
+      },
+      "footer": {
+        "copyright": "© 2026 Astra Legal · Servicios de soft landing para empresas chinas que entran a México"
+      }
+    }
+  }
+}

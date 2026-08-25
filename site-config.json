@@ -23,6 +23,16 @@
       "label": "Soft landing para empresas internacionales"
     },
     {
+      "path": "/soft-landing-china/eng",
+      "pageId": "soft-landing-china",
+      "language": "en"
+    },
+    {
+      "path": "/soft-landing-china/zh",
+      "pageId": "soft-landing-china",
+      "language": "zh"
+    },
+    {
       "path": "/proteccion-patrimonial-matrimonio-divorcio",
       "pageId": "proteccion-patrimonial-matrimonio-divorcio",
       "label": "Protección patrimonial, matrimonio y divorcio"
