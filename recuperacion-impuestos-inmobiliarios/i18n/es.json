@@ -6,181 +6,76 @@
   "dictionary": {
     "page": {
       "eyebrow": "Astra Legal | Recupera ISAI",
-      "title": "Recupera hasta $700,000 pesos del Impuesto sobre Adquisición de Inmuebles que pagaste de más",
-      "summary": "Si compraste una casa o departamento en Ciudad de México, Los Cabos o Tulum, es probable que tengas derecho a una devolución. Descúbrelo en 30 segundos.",
+      "title": "Explora si puedes recuperar el ISAI que pagaste de más",
+      "summary": "Si compraste una casa o departamento en Ciudad de México, Los Cabos o Tulum, obtén una estimación orientativa en tres preguntas, sin registro y sin compromiso.",
       "intro": "Revisamos tu contrato de compraventa, el pago de ISAI y los plazos vigentes para confirmar si existe una vía clara. El cálculo es una estimación general, no una garantía.",
       "asideTitle": "Antes de avanzar",
-      "asideItems": [
-        "Tres preguntas",
-        "Estimación sin costo",
-        "Proceso legal formal"
-      ],
+      "asideItems": ["Tres preguntas", "Estimación sin costo", "Proceso legal formal"],
       "cards": [
         {
           "icon": "saved_search",
           "title": "Evaluamos tu caso",
           "description": "Revisamos tu contrato, el pago de ISAI y los plazos vigentes para confirmar si procede la devolución.",
-          "benefits": [
-            "Contrato y comprobantes",
-            "Plazos aplicables"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
+          "benefits": ["Contrato y comprobantes", "Plazos aplicables"]
         },
         {
           "icon": "assignment",
           "title": "Presentamos la estrategia legal",
           "description": "Si tu caso procede, iniciamos el trámite ante la autoridad correspondiente con el expediente documentado.",
-          "benefits": [
-            "Ruta jurídica clara",
-            "Expediente completo"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
+          "benefits": ["Ruta jurídica clara", "Expediente completo"]
         },
         {
-          "icon": "assignment",
-          "title": "Recuperas tu dinero",
-          "description": "Damos seguimiento hasta la resolución y te mantenemos informado en cada etapa.",
-          "benefits": [
-            "Seguimiento continuo",
-            "Comunicación clara"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        }
-      ],
-      "trustEyebrow": "Transparencia",
-      "trustTitle": "Esto no es un fraude fiscal. Es un derecho que la ley ya contempla.",
-      "trustDescription": "El ISAI tiene bases de cálculo y criterios que pueden haberse aplicado de forma incorrecta. La legislación contempla mecanismos formales para solicitar una devolución cuando existe base legal.",
-      "trustItems": [
-        {
-          "icon": "fact_check",
-          "title": "Rangos, no promesas",
-          "description": "La calculadora muestra una estimación general. El monto final depende de la revisión de tu caso.",
-          "benefits": [
-            "Sin cifras garantizadas"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "security",
-          "title": "Proceso formal",
-          "description": "Es un proceso legal técnico y no inmediato. La evaluación inicial confirma si existe una vía clara.",
-          "benefits": [
-            "Amparo y expediente"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "translate",
-          "title": "Evaluación responsable",
-          "description": "No avanzamos ni cobramos si no identificamos una ruta jurídica clara para tu caso.",
-          "benefits": [
-            "Revisión inicial sin costo"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        }
-      ],
-      "moduleEyebrow": "Proceso",
-      "moduleTitle": "Así de simple",
-      "moduleDescription": "Una estrategia legal clara empieza por ordenar documentos, plazos y expectativas.",
-      "moduleItems": [
-        {
-          "icon": "assignment",
-          "title": "Evaluamos tu caso",
-          "description": "Revisamos tu contrato de compraventa, el pago de ISAI y los plazos vigentes.",
-          "benefits": [
-            "Documentos clave",
-            "Plazos vigentes"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "schedule",
-          "title": "Presentamos la estrategia legal",
-          "description": "Si procede, iniciamos el trámite ante la autoridad correspondiente con el expediente documentado.",
-          "benefits": [
-            "Ruta formal",
-            "Expediente integrado"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "assignment",
-          "title": "Recuperas tu dinero",
-          "description": "Damos seguimiento hasta la resolución y te mantenemos informado en cada etapa.",
-          "benefits": [
-            "Seguimiento",
-            "Estado visible"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
+          "icon": "account_balance_wallet",
+          "title": "Damos seguimiento",
+          "description": "Acompañamos el procedimiento hasta su resolución y te mantenemos informado en cada etapa.",
+          "benefits": ["Seguimiento continuo", "Comunicación clara"]
         }
       ],
       "calculator": {
         "eyebrow": "Calculadora de Recupera ISAI",
-        "title": "Calcula cuánto te podrían devolver",
-        "description": "Responde tres preguntas. Verás un rango orientativo, no una cifra exacta ni una promesa de resultado.",
+        "title": "Estima cuánto podrías recuperar",
+        "description": "Tres preguntas. Sin registrarte, sin compromiso.",
         "cityLabel": "¿Dónde compraste tu propiedad?",
-        "cities": {
-          "cdmx": "Ciudad de México",
-          "losCabos": "Los Cabos",
-          "tulum": "Tulum"
-        },
-        "propertyLabel": "¿Cuál fue el valor de la propiedad al momento de la compra?",
-        "propertyHelper": "Escribe un valor en pesos mexicanos. La calculadora parte de $1,000,000 MXN.",
-        "propertyPlaceholder": "Ej. 5,000,000",
-        "yearLabel": "¿En qué año compraste?",
-        "yearHelper": "El año ayuda a revisar el plazo vigente; no determina por sí solo si tu caso procede.",
-        "years": [
-          { "value": "2021", "label": "2021" },
-          { "value": "2022", "label": "2022" },
-          { "value": "2023", "label": "2023" },
-          { "value": "2024", "label": "2024" }
+        "cityOptions": [
+          { "value": 8, "label": "Ciudad de México" },
+          { "value": 3, "label": "Los Cabos" },
+          { "value": -3, "label": "Tulum" }
         ],
-        "timingNote": "La cifra final depende de tu contrato, comprobantes, autoridad y plazos aplicables. Este resultado es una estimación general.",
-        "resultTitle": "Podrías recuperar un rango estimado de:",
-        "resultDescription": "Mostramos un rango para evitar expectativas de garantía. Nuestro equipo confirma el monto final sin costo.",
+        "propertyLabel": "¿Cuál fue el valor de la propiedad al comprarla?",
+        "propertyPlaceholder": "Ej. 5,000,000",
+        "propertyValidation": [
+          { "type": "required", "message": "Ingresa el valor de la propiedad." },
+          { "type": "min", "value": 1000000, "message": "Ingresa un valor de al menos $1,000,000 MXN." }
+        ],
+        "yearLabel": "¿En qué año compraste la propiedad?",
+        "yearOptions": [
+          { "value": 2021, "label": "2021" },
+          { "value": 2022, "label": "2022" },
+          { "value": 2023, "label": "2023" },
+          { "value": 2024, "label": "2024" }
+        ],
+        "yearValidation": [
+          { "type": "required", "message": "Selecciona el año de compra." },
+          { "type": "pattern", "value": "^(2021|2022|2023|2024)$", "message": "Selecciona el año de compra." }
+        ],
+        "errors": {
+          "propertyRequired": "Ingresa el valor de la propiedad.",
+          "propertyMinimum": "Ingresa un valor de al menos $1,000,000 MXN.",
+          "yearRequired": "Selecciona el año de compra."
+        },
+        "action": "Ver resultado",
+        "resultTitle": "Podrías tener derecho a recuperar entre",
         "resultMinLabel": "Desde",
         "resultMaxLabel": "Hasta",
-        "investmentTitle": "Inversión estimada del servicio",
-        "investmentBasis": "El tramo se calcula con el límite inferior del rango de recuperación y debe confirmarse en la evaluación.",
-        "investmentTiers": {
-          "low": "Recuperación estimada menor a $185,000 MXN: inversión inicial de $12,500 MXN.",
-          "midLow": "Recuperación estimada de $185,000 a menos de $200,000 MXN: inversión inicial de $15,000 MXN.",
-          "midHigh": "Recuperación estimada de $200,000 a menos de $250,000 MXN: inversión inicial de $20,000 MXN.",
-          "high": "Recuperación estimada de $250,000 MXN en adelante: inversión inicial de $25,000 MXN."
-        },
-        "contactLabel": "Habla con nosotros sobre tu caso"
+        "investmentLabel": "Inversión inicial",
+        "disclaimer": "Estimación general con base en tu ciudad y el valor declarado. El monto final depende de tu caso específico.",
+        "resultCta": "Hablar por WhatsApp con Astra Legal",
+        "reset": "Calcular de nuevo"
       },
       "ctaTitle": "¿Compraste una propiedad en CDMX, Los Cabos o Tulum?",
-      "ctaDescription": "Podrían deberte dinero. Averígualo antes de que se venza el plazo.",
-      "primaryLabel": "Calcula cuánto te pueden devolver",
-      "secondaryLabel": "Habla con nosotros"
+      "ctaDescription": "Revisamos tu caso y los plazos aplicables para confirmar si existe una vía de recuperación.",
+      "primaryLabel": "Agenda una valoración inicial",
+      "secondaryLabel": "Ver opciones de contacto"
     }
   }
 }
