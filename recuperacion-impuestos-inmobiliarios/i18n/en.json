@@ -5,182 +5,77 @@
   "lang": "en",
   "dictionary": {
     "page": {
-      "eyebrow": "Astra Legal | Recover ISAI",
-      "title": "Recover up to $700,000 pesos of the Real Estate Acquisition Tax you overpaid",
-      "summary": "If you bought a house or apartment in Mexico City, Los Cabos, or Tulum, you may be entitled to a refund. Find out in 30 seconds.",
-      "intro": "We review your purchase agreement, ISAI payment, and applicable deadlines to confirm whether a clear path exists. The calculation is a general estimate, not a guarantee.",
-      "asideTitle": "Before you move forward",
-      "asideItems": [
-        "Three questions",
-        "Free estimate",
-        "Formal legal process"
-      ],
+      "eyebrow": "Astra Legal | Recupera ISAI",
+      "title": "Explore whether you could recover overpaid ISAI",
+      "summary": "If you purchased a house or apartment in Mexico City, Los Cabos, or Tulum, get an indicative estimate in three questions, with no registration or obligation.",
+      "intro": "We review your purchase agreement, ISAI payment, and applicable time limits to confirm whether a clear recovery path exists. The calculation is a general estimate, not a guarantee.",
+      "asideTitle": "Before moving forward",
+      "asideItems": ["Three questions", "No-cost estimate", "Formal legal process"],
       "cards": [
         {
           "icon": "saved_search",
-          "title": "We evaluate your case",
-          "description": "We review your agreement, ISAI payment, and applicable deadlines to confirm whether the refund may proceed.",
-          "benefits": [
-            "Key documents",
-            "Applicable deadlines"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
+          "title": "We assess your case",
+          "description": "We review your agreement, ISAI payment, and applicable time limits to confirm whether recovery may proceed.",
+          "benefits": ["Agreement and receipts", "Applicable time limits"]
         },
         {
           "icon": "assignment",
           "title": "We present the legal strategy",
-          "description": "If your case proceeds, we start the filing with the corresponding authority and a documented case file.",
-          "benefits": [
-            "Clear legal route",
-            "Complete case file"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
+          "description": "If your case qualifies, we begin the process before the appropriate authority with a documented file.",
+          "benefits": ["Clear legal path", "Complete file"]
         },
         {
-          "icon": "assignment",
-          "title": "You recover your money",
-          "description": "We follow the matter through resolution and keep you informed at every stage.",
-          "benefits": [
-            "Continuous follow-up",
-            "Clear communication"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        }
-      ],
-      "trustEyebrow": "Transparency",
-      "trustTitle": "This is not tax fraud. It is a right the law already provides.",
-      "trustDescription": "ISAI has calculation bases and criteria that may have been applied incorrectly. Mexican law provides formal mechanisms to request a refund when there is a legal basis.",
-      "trustItems": [
-        {
-          "icon": "fact_check",
-          "title": "Ranges, not promises",
-          "description": "The calculator shows a general estimate. The final amount depends on your specific case review.",
-          "benefits": [
-            "No guaranteed figures"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "security",
-          "title": "Formal process",
-          "description": "This is a technical legal process, not an immediate procedure. The initial assessment confirms whether a clear route exists.",
-          "benefits": [
-            "Amparo and case file"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "translate",
-          "title": "Responsible assessment",
-          "description": "We do not move forward or charge if we cannot identify a clear legal route for your case.",
-          "benefits": [
-            "Free initial review"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        }
-      ],
-      "moduleEyebrow": "Process",
-      "moduleTitle": "It is that simple",
-      "moduleDescription": "A clear legal strategy starts by organizing documents, deadlines, and expectations.",
-      "moduleItems": [
-        {
-          "icon": "assignment",
-          "title": "We evaluate your case",
-          "description": "We review your purchase agreement, ISAI payment, and applicable deadlines.",
-          "benefits": [
-            "Key documents",
-            "Current deadlines"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "schedule",
-          "title": "We present the legal strategy",
-          "description": "If it proceeds, we start the process with the corresponding authority and a documented case file.",
-          "benefits": [
-            "Formal route",
-            "Integrated case file"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
-        },
-        {
-          "icon": "assignment",
-          "title": "You recover your money",
-          "description": "We follow the matter through resolution and keep you informed at every stage.",
-          "benefits": [
-            "Follow-up",
-            "Visible status"
-          ],
-          "href": "",
-          "linkLabel": "",
-          "target": "_self",
-          "rel": ""
+          "icon": "account_balance_wallet",
+          "title": "We follow through",
+          "description": "We accompany the process through resolution and keep you informed at every stage.",
+          "benefits": ["Continuous follow-up", "Clear communication"]
         }
       ],
       "calculator": {
-        "eyebrow": "ISAI Recovery Calculator",
+        "eyebrow": "Recupera ISAI calculator",
         "title": "Estimate how much you could recover",
-        "description": "Answer three questions. You will see an indicative range, not an exact figure or promise of results.",
-        "cityLabel": "Where did you buy your property?",
-        "cities": {
-          "cdmx": "Mexico City",
-          "losCabos": "Los Cabos",
-          "tulum": "Tulum"
-        },
-        "propertyLabel": "What was the property value when you bought it?",
-        "propertyHelper": "Enter a value in Mexican pesos. The calculator starts at $1,000,000 MXN.",
-        "propertyPlaceholder": "Example: 5,000,000",
-        "yearLabel": "What year did you buy it?",
-        "yearHelper": "The year helps review the applicable deadline; it does not by itself determine eligibility.",
-        "years": [
-          { "value": "2021", "label": "2021" },
-          { "value": "2022", "label": "2022" },
-          { "value": "2023", "label": "2023" },
-          { "value": "2024", "label": "2024" }
+        "description": "Three questions. No registration, no obligation.",
+        "cityLabel": "Where did you purchase your property?",
+        "cityOptions": [
+          { "value": 8, "label": "Mexico City" },
+          { "value": 3, "label": "Los Cabos" },
+          { "value": -3, "label": "Tulum" }
         ],
-        "timingNote": "The final figure depends on your agreement, receipts, authority, and applicable deadlines. This result is a general estimate.",
-        "resultTitle": "Your estimated recovery range:",
-        "resultDescription": "We show a range to avoid guaranteed expectations. Our team confirms the final amount at no cost.",
-        "resultMinLabel": "From",
-        "resultMaxLabel": "Up to",
-        "investmentTitle": "Estimated service investment",
-        "investmentBasis": "The tier uses the lower end of the recovery range and must be confirmed during the assessment.",
-        "investmentTiers": {
-          "low": "Estimated recovery below $185,000 MXN: $12,500 MXN initial investment.",
-          "midLow": "Estimated recovery from $185,000 to under $200,000 MXN: $15,000 MXN initial investment.",
-          "midHigh": "Estimated recovery from $200,000 to under $250,000 MXN: $20,000 MXN initial investment.",
-          "high": "Estimated recovery of $250,000 MXN or more: $25,000 MXN initial investment."
+        "propertyLabel": "What was the property's purchase value?",
+        "propertyPlaceholder": "E.g. 5,000,000",
+        "propertyValidation": [
+          { "type": "required", "message": "Enter the property's purchase value." },
+          { "type": "min", "value": 1000000, "message": "Enter a value of at least $1,000,000 MXN." }
+        ],
+        "yearLabel": "In what year did you purchase the property?",
+        "yearOptions": [
+          { "value": 2021, "label": "2021" },
+          { "value": 2022, "label": "2022" },
+          { "value": 2023, "label": "2023" },
+          { "value": 2024, "label": "2024" }
+        ],
+        "yearValidation": [
+          { "type": "required", "message": "Select the purchase year." },
+          { "type": "pattern", "value": "^(2021|2022|2023|2024)$", "message": "Select the purchase year." }
+        ],
+        "errors": {
+          "propertyRequired": "Enter the property's purchase value.",
+          "propertyMinimum": "Enter a value of at least $1,000,000 MXN.",
+          "yearRequired": "Select the purchase year."
         },
-        "contactLabel": "Talk to us about your case"
+        "action": "View result",
+        "resultTitle": "You may be entitled to recover between",
+        "resultMinLabel": "From",
+        "resultMaxLabel": "To",
+        "investmentLabel": "Initial investment",
+        "disclaimer": "General estimate based on your city and the value provided. The final amount depends on your specific case.",
+        "resultCta": "Chat with Astra Legal on WhatsApp",
+        "reset": "Calculate again"
       },
-      "ctaTitle": "Did you buy property in Mexico City, Los Cabos, or Tulum?",
-      "ctaDescription": "You may be owed money. Find out before the deadline expires.",
-      "primaryLabel": "Estimate how much you could recover",
-      "secondaryLabel": "Talk to us"
+      "ctaTitle": "Did you purchase a property in Mexico City, Los Cabos, or Tulum?",
+      "ctaDescription": "We review your case and the applicable time limits to confirm whether a recovery path exists.",
+      "primaryLabel": "Schedule an initial assessment",
+      "secondaryLabel": "View contact options"
     }
   }
 }
