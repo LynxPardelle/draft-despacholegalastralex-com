@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "pageId": "soft-landing-china",
+  "domain": "grupoastralegal.com",
+  "rootIds": [
+    "astraChinaSkip",
+    "astraChinaHeader",
+    "astraChinaMain",
+    "astraChinaFooter"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "owner": "Astra Legal",
+    "source": "Google Drive QA-020 and QA-021 English and Chinese reference HTML translated into native components"
+  },
+  "seo": {
+    "title": {
+      "es": "Soft landing China–México | Astra Legal",
+      "en": "China–Mexico soft landing | Astra Legal",
+      "zh": "中国企业墨西哥落地 | Astra Legal"
+    },
+    "description": {
+      "es": "Astra Legal ayuda a empresas chinas de comercio electrónico y manufactura a establecer una operación mexicana en cumplimiento: constitución, registro fiscal, permisos y documentación para plataformas, con un solo equipo legal de principio a fin.",
+      "en": "Astra Legal helps Chinese e-commerce sellers and manufacturers set up a compliant Mexican operation — incorporation, tax registration, permits, and marketplace-ready documentation — handled by one legal team, start to finish.",
+      "zh": "Astra Legal 专注协助中国跨境电商企业及制造商在墨西哥建立合规运营体系——涵盖公司注册、税务登记、经营许可及电商平台入驻文件准备，由同一支专业法律团队全程负责，一站式完成。"
+    },
+    "canonical": {
+      "es": "https://grupoastralegal.com/soft-landing-china/eng",
+      "en": "https://grupoastralegal.com/soft-landing-china/eng",
+      "zh": "https://grupoastralegal.com/soft-landing-china/zh"
+    },
+    "robots": "index,follow,max-image-preview:large",
+    "keywords": {
+      "es": ["soft landing México", "empresas chinas en México", "constitución de empresa", "RFC", "Astra Legal"],
+      "en": ["China Mexico soft landing", "Mexican company formation", "RFC registration", "marketplace compliance", "Astra Legal"],
+      "zh": ["中国企业墨西哥落地", "墨西哥公司注册", "RFC 税务登记", "电商平台合规", "Astra Legal"]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Soft landing China–México | Astra Legal",
+        "en": "China–Mexico soft landing | Astra Legal",
+        "zh": "中国企业墨西哥落地 | Astra Legal"
+      },
+      "description": {
+        "es": "Astra Legal ayuda a empresas chinas de comercio electrónico y manufactura a establecer una operación mexicana en cumplimiento: constitución, registro fiscal, permisos y documentación para plataformas, con un solo equipo legal de principio a fin.",
+        "en": "Astra Legal helps Chinese e-commerce sellers and manufacturers set up a compliant Mexican operation — incorporation, tax registration, permits, and marketplace-ready documentation — handled by one legal team, start to finish.",
+        "zh": "Astra Legal 专注协助中国跨境电商企业及制造商在墨西哥建立合规运营体系——涵盖公司注册、税务登记、经营许可及电商平台入驻文件准备，由同一支专业法律团队全程负责，一站式完成。"
+      },
+      "url": {
+        "es": "https://grupoastralegal.com/soft-landing-china/eng",
+        "en": "https://grupoastralegal.com/soft-landing-china/eng",
+        "zh": "https://grupoastralegal.com/soft-landing-china/zh"
+      },
+      "type": "website",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    },
+    "twitter": {
+      "title": {
+        "es": "Soft landing China–México | Astra Legal",
+        "en": "China–Mexico soft landing | Astra Legal",
+        "zh": "中国企业墨西哥落地 | Astra Legal"
+      },
+      "description": {
+        "es": "Astra Legal ayuda a empresas chinas de comercio electrónico y manufactura a establecer una operación mexicana en cumplimiento: constitución, registro fiscal, permisos y documentación para plataformas, con un solo equipo legal de principio a fin.",
+        "en": "Astra Legal helps Chinese e-commerce sellers and manufacturers set up a compliant Mexican operation — incorporation, tax registration, permits, and marketplace-ready documentation — handled by one legal team, start to finish.",
+        "zh": "Astra Legal 专注协助中国跨境电商企业及制造商在墨西哥建立合规运营体系——涵盖公司注册、税务登记、经营许可及电商平台入驻文件准备，由同一支专业法律团队全程负责，一站式完成。"
+      },
+      "card": "summary_large_image",
+      "image": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg"
+    }
+  },
+  "analytics": {
+    "sectionIds": [
+      "astra-china-main",
+      "astra-china-services",
+      "astra-china-process",
+      "astra-china-faq",
+      "astra-china-book"
+    ],
+    "scrollMilestones": [25, 50, 75, 100]
+  }
+}
