@@ -5,6 +5,13 @@ const read = (path) => JSON.parse(readFileSync(new URL(`../${path}`, import.meta
 const components = read('soft-landing-china/components.json').components;
 const component = (id) => components.find((entry) => entry.id === id);
 
+test('campaign header shares free space between brand, navigation and CTA like the source', () => {
+  const combos = read('soft-landing-china/angora-combos.json').combos;
+  assert.match(combos.astraChinaHeaderInner.join(' '), /ank-justifyContent-spaceMINbetween/);
+  assert.doesNotMatch(combos.astraChinaNav.join(' '), /ank-margin(?:Left|InlineStart|Inline)-auto/);
+  assert.deepEqual(component('astraChinaHeaderInner').config.components, ['astraChinaBrandLink', 'astraChinaNav', 'astraChinaHeaderCta']);
+});
+
 test('campaign media dimensions beat the shared intrinsic-image selector', () => {
   assert.deepEqual(component('astraChinaLogo').config.styles, { height: '34px', width: 'auto' });
   assert.equal(component('astraChinaLogo').config.width, 1204);
