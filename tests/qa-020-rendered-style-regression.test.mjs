@@ -5,6 +5,23 @@ const read = (path) => JSON.parse(readFileSync(new URL(`../${path}`, import.meta
 const components = read('soft-landing-china/components.json').components;
 const component = (id) => components.find((entry) => entry.id === id);
 
+test('campaign FAQ inherits the localized body font instead of the button UA font', () => {
+  const combos = read('soft-landing-china/angora-combos.json').combos;
+  assert.match(combos.astraChinaFaqButton.join(' '), /(?:^|\s)ank-fontFamily-inherit(?:\s|$)/);
+});
+
+test('mobile header leaves no phantom gaps around hidden navigation links', () => {
+  const combos = read('soft-landing-china/angora-combos.json').combos;
+  assert.match(combos.astraChinaNav.join(' '), /(?:^|\s)ank-gap-0(?:\s|$)/);
+  assert.match(combos.astraChinaNav.join(' '), /(?:^|\s)ank-gap-px821-32px(?:\s|$)/);
+  assert.doesNotMatch(combos.astraChinaNav.join(' '), /(?:^|\s)ank-gap-32px(?:\s|$)/);
+  assert.match(combos.astraChinaHeaderInner.join(' '), /ank-flexWrap-wrap/);
+  // At 320/390px the 108px brand, 104px switch and 24px parent gap fit
+  // within the wrap's 28px gutters; the consultation action wraps below.
+  for (const viewport of [320, 390]) assert.ok(108 + 104 + 24 <= viewport - 56);
+  assert.deepEqual(component('astraChinaHeaderInner').config.components, ['astraChinaBrandLink', 'astraChinaNav', 'astraChinaHeaderCta']);
+});
+
 test('campaign header shares free space between brand, navigation and CTA like the source', () => {
   const combos = read('soft-landing-china/angora-combos.json').combos;
   assert.match(combos.astraChinaHeaderInner.join(' '), /ank-justifyContent-spaceMINbetween/);

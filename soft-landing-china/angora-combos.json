@@ -22,7 +22,7 @@
       "ank-display-block ank-width-auto ank-height-34px ank-objectFit-contain"
     ],
     "astraChinaNav": [
-      "ank-display-flex ank-alignItems-center ank-gap-32px"
+      "ank-display-flex ank-alignItems-center ank-gap-0 ank-gap-px821-32px"
     ],
     "astraChinaNavLink": [
       "ank-display-none ank-display-px821-flex ank-alignItems-center ank-minHeight-44px ank-color-HASH231B16 ank-fontSize-0_88rem ank-fontWeight-400 ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-minWidth-44px ank-boxSizing-borderMINbox"
@@ -163,7 +163,7 @@
       "ank-borderTop-1px__solid__HASHE3D6B0"
     ],
     "astraChinaFaqButton": [
-      "ank-width-100per ank-minHeight-52px ank-boxSizing-borderMINbox ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-20px ank-paddingInline-0 ank-paddingBlock-22px ank-border-0 ank-bg-transparent ank-color-HASH231B16 ank-textAlign-left ank-cursor-pointer ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-MIN3px"
+      "ank-width-100per ank-minHeight-52px ank-boxSizing-borderMINbox ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-20px ank-paddingInline-0 ank-paddingBlock-22px ank-border-0 ank-bg-transparent ank-color-HASH231B16 ank-textAlign-left ank-cursor-pointer ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-MIN3px ank-fontFamily-inherit"
     ],
     "astraChinaFaqPanel": [
       "ank-paddingBottom-22px ank-color-HASH6B6259"
