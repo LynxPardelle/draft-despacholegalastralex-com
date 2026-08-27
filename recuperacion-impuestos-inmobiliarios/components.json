@@ -75,6 +75,7 @@
         "initialValues": {
           "cityRateCode": 8,
           "propertyValue": null,
+          "propertyValueSlider": null,
           "purchaseYear": null,
           "hasCalculated": false
         },
@@ -108,7 +109,7 @@
           "calculatorAccent",
           "calculatorHeader",
           "calculatorCity",
-          "calculatorPropertyValue",
+          "calculatorPriceQuestion",
           "calculatorPurchaseYear",
           "calculatorSubmit",
           "calculatorResult"
@@ -129,7 +130,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px",
+        "classes": "calculatorHeader",
         "components": ["calculatorEyebrow", "calculatorTitle", "calculatorDescription"]
       }
     },
@@ -137,7 +138,7 @@
       "id": "calculatorEyebrow",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.calculator.eyebrow",
-      "config": { "tag": "p", "text": "", "classes": "sectionEyebrow" }
+      "config": { "tag": "p", "text": "", "classes": "calculatorEyebrow" }
     },
     {
       "id": "calculatorTitle",
@@ -154,7 +155,7 @@
     {
       "id": "calculatorCity",
       "type": "input",
-      "eventInstructions": "setScopeValue:hasCalculated,false",
+      "eventInstructions": "setScopeValue:hasCalculated,false,event.eventName,valueChanged",
       "valueInstructions": "set:config.label,i18n,page.calculator.cityLabel",
       "config": {
         "fieldId": "cityRateCode",
@@ -172,31 +173,119 @@
       }
     },
     {
+      "id": "calculatorPriceQuestion",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "calculatorQuestion",
+        "components": ["calculatorPriceLabel", "calculatorPriceRow", "calculatorPropertySlider", "calculatorSliderLabels", "calculatorSliderHint", "calculatorSliderOutOfScale"]
+      }
+    },
+    {
+      "id": "calculatorPriceLabel",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.propertyLabel",
+      "config": { "tag": "p", "text": "", "classes": "calculatorQuestionLabel" }
+    },
+    {
+      "id": "calculatorPriceRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "calculatorPriceRow",
+        "components": ["calculatorCurrencySymbol", "calculatorPropertyValue", "calculatorCurrencyCode"]
+      }
+    },
+    {
+      "id": "calculatorCurrencySymbol",
+      "type": "text",
+      "config": { "tag": "span", "text": "$", "classes": "calculatorCurrencySymbol" }
+    },
+    {
+      "id": "calculatorCurrencyCode",
+      "type": "text",
+      "config": { "tag": "span", "text": "MXN", "classes": "calculatorCurrencyCode" }
+    },
+    {
       "id": "calculatorPropertyValue",
       "type": "input",
-      "eventInstructions": "setScopeValue:hasCalculated,false",
-      "valueInstructions": "set:config.label,i18n,page.calculator.propertyLabel;set:config.placeholder,i18n,page.calculator.propertyPlaceholder;set:config.validation,i18n,page.calculator.propertyValidation",
+      "eventInstructions": "setScopeValue:propertyValueSlider,event.eventData.value,event.eventName,valueChanged;setScopeValue:hasCalculated,false,event.eventName,valueChanged",
+      "valueInstructions": "set:config.ariaLabel,i18n,page.calculator.propertyLabel;set:config.placeholder,i18n,page.calculator.propertyPlaceholder;set:config.validation,i18n,page.calculator.propertyValidation",
       "config": {
         "fieldId": "propertyValue",
         "controlType": "number",
-        "label": "",
+        "ariaLabel": "",
         "placeholder": "",
         "value": null,
         "min": 1000000,
         "step": 1,
         "required": true,
         "validation": [],
-        "classes": "calculatorQuestion",
-        "labelClasses": "calculatorQuestionLabel",
+        "classes": "calculatorNumericField",
         "fieldClasses": "calculatorNumberInput",
         "inputClasses": "calculatorNumberInput",
         "errorClasses": "calculatorError"
       }
     },
     {
+      "id": "calculatorPropertySlider",
+      "type": "input",
+      "eventInstructions": "setScopeValue:propertyValue,event.eventData.value,event.eventName,valueChanged;setScopeValue:hasCalculated,false,event.eventName,valueChanged",
+      "valueInstructions": "set:config.ariaLabel,i18n,page.calculator.sliderLabel",
+      "config": {
+        "fieldId": "propertyValueSlider",
+        "controlType": "range",
+        "ariaLabel": "",
+        "value": null,
+        "min": 1000000,
+        "max": 20000000,
+        "step": 100000,
+        "classes": "calculatorSliderField",
+        "inputClasses": "calculatorSlider"
+      }
+    },
+    {
+      "id": "calculatorSliderLabels",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "calculatorSliderLabels",
+        "components": ["calculatorSliderMin", "calculatorSliderMax"]
+      }
+    },
+    {
+      "id": "calculatorSliderMin",
+      "type": "generic-cell",
+      "config": {
+        "value": 1000000, "format": "currency", "currency": "MXN", "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0, "showCurrencyCode": false, "classes": "calculatorSliderLabel"
+      }
+    },
+    {
+      "id": "calculatorSliderMax",
+      "type": "generic-cell",
+      "config": {
+        "value": 20000000, "format": "currency", "currency": "MXN", "currencyDisplay": "narrowSymbol",
+        "maximumFractionDigits": 0, "showCurrencyCode": false, "classes": "calculatorSliderLabel"
+      }
+    },
+    {
+      "id": "calculatorSliderHint",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,page.calculator.sliderHint",
+      "config": { "tag": "p", "text": "", "classes": "calculatorSliderHint" }
+    },
+    {
+      "id": "calculatorSliderOutOfScale",
+      "type": "text",
+      "condition": "all:scopeGt,values.propertyValue,20000000",
+      "valueInstructions": "set:config.text,i18n,page.calculator.sliderOutOfScale",
+      "config": { "tag": "p", "text": "", "classes": "calculatorSliderHint" }
+    },
+    {
       "id": "calculatorPurchaseYear",
       "type": "input",
-      "eventInstructions": "setScopeValue:hasCalculated,false",
+      "eventInstructions": "setScopeValue:hasCalculated,false,event.eventName,valueChanged",
       "valueInstructions": "set:config.label,i18n,page.calculator.yearLabel;set:config.validation,i18n,page.calculator.yearValidation",
       "config": {
         "fieldId": "purchaseYear",

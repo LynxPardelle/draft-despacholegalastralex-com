@@ -39,46 +39,57 @@
       "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-12px ank-paddingBlock-40px ank-paddingBlock-md-64px ank-bg-secondaryBgColor"
     ],
     "calculatorCard": [
-      "ank-position-relative ank-width-100per ank-maxWidth-540px ank-overflow-hidden ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-gap-24px ank-paddingInline-20px ank-paddingInline-md-34px ank-paddingBlock-32px ank-paddingBlock-md-38px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-12px ank-bg-bgColor ank-color-textColor ank-boxShadow-0__22px__54px__titleColor__OPA__0_12"
+      "ank-position-relative ank-width-100per ank-maxWidth-500px ank-overflow-hidden ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-gap-20px ank-padding-24px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-20px ank-bg-bgColor ank-color-textColor ank-fontFamily-InterCOMNoto__Sans__SCCOMsansMINserif ank-boxShadow-0__10px__40px__titleColor__OPA__0_08"
     ],
     "calculatorAccent": [
-      "ank-position-absolute ank-top-0 ank-left-0 ank-width-100per ank-height-4px ank-bg-linearMINgradientSD90degCOM__accentColor__0perCOM__linkColor__100perED"
+      "ank-position-absolute ank-top-0 ank-left-0 ank-width-100per ank-height-4px ank-bg-linearMINgradientSD90degCOM__HASHD4A017__0perCOM__HASHE6005C__100perED"
     ],
+    "calculatorHeader": ["ank-display-flex ank-flexDirection-column ank-gap-8px ank-textAlign-center ank-alignItems-center"],
+    "calculatorEyebrow": ["ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_7rem ank-fontWeight-600 ank-letterSpacing-0_06em ank-textTransform-uppercase"],
     "calculatorTitle": [
-      "ank-m-0 ank-color-titleColor ank-fontSize-1_85rem ank-fontSize-md-2_2rem ank-fontWeight-900 ank-lineHeight-1_1 ank-overflowWrap-anywhere"
+      "ank-m-0 ank-color-titleColor ank-fontFamily-Playfair__DisplayCOMNoto__Serif__SCCOMserif ank-fontSize-1_5rem ank-fontWeight-600 ank-lineHeight-1_25 ank-overflowWrap-anywhere"
     ],
-    "calculatorDescription": ["ank-m-0 ank-color-secondaryTextColor ank-fontSize-1rem ank-lineHeight-1_55"],
-    "calculatorQuestion": ["ank-display-flex ank-flexDirection-column ank-gap-10px ank-minWidth-0"],
-    "calculatorQuestionLabel": ["ank-m-0 ank-color-titleColor ank-fontSize-1rem ank-fontWeight-900 ank-lineHeight-1_35"],
+    "calculatorDescription": ["ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_85rem ank-lineHeight-1_55"],
+    "calculatorQuestion": ["ank-display-flex ank-flexDirection-column ank-gap-8px ank-minWidth-0"],
+    "calculatorQuestionLabel": ["ank-m-0 ank-color-titleColor ank-fontSize-0_85rem ank-fontWeight-600 ank-lineHeight-1_4"],
     "calculatorChoices": ["ank-display-grid ank-gridTemplateColumns-1fr ank-gap-8px ank-width-100per"],
-    "calculatorChoicesThree": ["ank-gridTemplateColumns-sm-repeatSD3COM1frED"],
-    "calculatorChoicesFour": ["ank-gridTemplateColumns-repeatSD2COM1frED ank-gridTemplateColumns-sm-repeatSD4COM1frED"],
+    "calculatorChoicesThree": ["ank-gridTemplateColumns-repeatSD3COMminmaxSD0COM1frEDED"],
+    "calculatorChoicesFour": ["ank-gridTemplateColumns-repeatSD4COMminmaxSD0COM1frEDED"],
     "calculatorChoice": [
-      "ank-minWidth-0 ank-minHeight-44px ank-paddingInline-10px ank-paddingBlock-10px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-cursor-pointer ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
+      "ank-minWidth-0 ank-minHeight-44px ank-paddingInline-8px ank-paddingBlock-10px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-10px ank-bg-bgColor ank-color-titleColor ank-fontSize-0_85rem ank-fontWeight-600 ank-cursor-pointer ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
     ],
     "calculatorChoiceActive": ["ank-borderColor-HASHE6AE01 ank-bg-HASHE6AE01 ank-color-HASH231B16"],
     "calculatorNumberInput": [
-      "ank-width-100per ank-minWidth-0 ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-14px ank-paddingBlock-11px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontSize-1rem ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
+      "ank-width-100per ank-minWidth-0 ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-0 ank-paddingBlock-6px ank-border-0 ank-borderBottom-2px__solid__accentColor ank-borderRadius-0 ank-bg-transparent ank-color-titleColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-1_65rem ank-fontWeight-500 ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
     ],
-    "calculatorError": ["ank-color-errorColor ank-fontSize-0_9rem ank-fontWeight-800 ank-lineHeight-1_4"],
+    "calculatorPriceRow": ["ank-display-flex ank-alignItems-start ank-gap-8px ank-width-100per ank-minWidth-0"],
+    "calculatorNumericField": ["ank-width-100per ank-minWidth-0"],
+    "calculatorCurrencySymbol": ["ank-color-secondaryTextColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-1_4rem ank-paddingTop-10px"],
+    "calculatorCurrencyCode": ["ank-color-secondaryTextColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-0_75rem ank-paddingTop-18px"],
+    "calculatorSliderField": ["ank-width-100per ank-minWidth-0"],
+    "calculatorSlider": ["ank-width-100per ank-minHeight-44px ank-margin-0 ank-accentColor-linkColor ank-cursor-pointer ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"],
+    "calculatorSliderLabels": ["ank-display-flex ank-justifyContent-spaceMINbetween ank-gap-12px ank-marginTop-MIN10px"],
+    "calculatorSliderLabel": ["ank-color-secondaryTextColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-0_7rem"],
+    "calculatorSliderHint": ["ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_75rem ank-lineHeight-1_5"],
+    "calculatorError": ["ank-color-errorColor ank-fontSize-0_85rem ank-fontWeight-600 ank-lineHeight-1_4"],
     "calculatorPrimaryAction": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-18px ank-paddingBlock-12px ank-border-0 ank-borderRadius-8px ank-bg-linkColor ank-color-bgColor ank-fontWeight-900 ank-textDecoration-none ank-textAlign-center ank-cursor-pointer ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-18px ank-paddingBlock-13px ank-border-0 ank-borderRadius-10px ank-bg-linkColor ank-color-bgColor ank-fontWeight-600 ank-textDecoration-none ank-textAlign-center ank-cursor-pointer ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
     ],
     "calculatorSecondaryAction": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-18px ank-paddingBlock-11px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-color-titleColor ank-fontWeight-900 ank-textAlign-center ank-cursor-pointer ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-12px ank-paddingBlock-8px ank-border-0 ank-borderRadius-8px ank-bg-transparent ank-color-titleColor ank-fontWeight-500 ank-textDecoration-underline ank-textAlign-center ank-cursor-pointer ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
     ],
     "calculatorResult": [
-      "ank-display-flex ank-flexDirection-column ank-gap-16px ank-minWidth-0 ank-padding-20px ank-border-1px__solid__accentColor ank-borderRadius-10px ank-bg-secondaryBgColor"
+      "ank-display-flex ank-flexDirection-column ank-gap-16px ank-minWidth-0 ank-padding-16px ank-border-1px__solid__accentColor ank-borderRadius-12px ank-bg-secondaryBgColor"
     ],
-    "calculatorResultTitle": ["ank-m-0 ank-color-titleColor ank-fontSize-1_25rem ank-fontWeight-900 ank-lineHeight-1_3"],
+    "calculatorResultTitle": ["ank-m-0 ank-color-titleColor ank-fontFamily-Playfair__DisplayCOMNoto__Serif__SCCOMserif ank-fontSize-1_15rem ank-fontWeight-600 ank-lineHeight-1_35 ank-textAlign-center"],
     "calculatorRange": ["ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-sm-repeatSD2COM1frED ank-gap-10px ank-minWidth-0"],
-    "calculatorAmount": ["ank-display-flex ank-flexDirection-column ank-gap-4px ank-minWidth-0 ank-padding-14px ank-borderRadius-8px ank-bg-bgColor"],
-    "calculatorAmountLabel": ["ank-color-secondaryTextColor ank-fontSize-0_82rem ank-fontWeight-900 ank-textTransform-uppercase"],
-    "calculatorAmountValue": ["ank-color-titleColor ank-fontSize-1_35rem ank-fontWeight-900 ank-lineHeight-1_15 ank-overflowWrap-anywhere"],
-    "calculatorInvestment": ["ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-12px ank-flexWrap-wrap ank-paddingBlock-10px ank-borderBottom-1px__solid__secondaryAccentColor"],
-    "calculatorInvestmentLabel": ["ank-color-secondaryTextColor ank-fontWeight-800"],
-    "calculatorInvestmentValue": ["ank-color-titleColor ank-fontSize-1_15rem ank-fontWeight-900 ank-overflowWrap-anywhere"],
+    "calculatorAmount": ["ank-display-flex ank-flexDirection-column ank-gap-4px ank-minWidth-0 ank-paddingBlock-8px ank-textAlign-center"],
+    "calculatorAmountLabel": ["ank-color-secondaryTextColor ank-fontSize-0_72rem ank-fontWeight-500 ank-textTransform-uppercase"],
+    "calculatorAmountValue": ["ank-color-linkColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-1_5rem ank-fontWeight-600 ank-lineHeight-1_3 ank-overflowWrap-anywhere"],
+    "calculatorInvestment": ["ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-12px ank-flexWrap-wrap ank-padding-14px ank-border-1px__solid__accentColor ank-borderRadius-10px"],
+    "calculatorInvestmentLabel": ["ank-color-secondaryTextColor ank-fontSize-0_85rem ank-fontWeight-500"],
+    "calculatorInvestmentValue": ["ank-color-titleColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-1_25rem ank-fontWeight-600 ank-overflowWrap-anywhere"],
     "calculatorDisclaimer": ["ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_9rem ank-lineHeight-1_55"],
-    "calculatorResultActions": ["ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-sm-repeatSD2COM1frED ank-gap-10px"]
+    "calculatorResultActions": ["ank-display-grid ank-gridTemplateColumns-1fr ank-gap-8px"]
   }
 }

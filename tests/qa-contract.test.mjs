@@ -291,6 +291,7 @@ test('QA-018 implements the explicit, uncapped Recupera ISAI calculator contract
   assert.deepEqual(scope.config.initialValues, {
     cityRateCode: 8,
     propertyValue: null,
+    propertyValueSlider: null,
     purchaseYear: null,
     hasCalculated: false,
   });
