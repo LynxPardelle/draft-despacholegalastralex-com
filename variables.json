@@ -35,9 +35,9 @@
       {
         "id": "recursos",
         "label": {
-          "es": "Recursos",
-          "en": "Resources",
-          "zh": "资源"
+          "es": "Materiales de Trabajo",
+          "en": "Work Materials",
+          "zh": "工作资料"
         },
         "href": "/recursos-legales",
         "value": "/recursos-legales"
@@ -297,9 +297,9 @@
         {
           "id": "recursos",
           "label": {
-            "es": "Recursos",
-            "en": "Resources",
-            "zh": "资源"
+            "es": "Materiales de Trabajo",
+            "en": "Work Materials",
+            "zh": "工作资料"
           },
           "href": "/recursos-legales",
           "value": "/recursos-legales"
