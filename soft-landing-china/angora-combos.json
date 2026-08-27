@@ -7,178 +7,178 @@
       "ank-position-fixed ank-top-8px ank-left-8px ank-zIndex-1400 ank-transform-translateYSDMIN160perED ank-transformFocus-translateYSD0ED ank-display-flex ank-alignItems-center ank-justifyContent-center ank-minHeight-44px ank-paddingInline-16px ank-paddingBlock-10px ank-borderRadius-4px ank-bg-HASHE00322 ank-color-HASHFBF8F2 ank-fontWeight-900 ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
     ],
     "astraChinaHeader": [
-      "ank-position-sticky ank-top-0 ank-zIndex-1100 ank-width-100per ank-display-flex ank-justifyContent-center ank-boxSizing-borderMINbox ank-paddingInline-16px ank-bg-HASHFBF8F2 ank-color-HASH231B16 ank-borderBottom-1px__solid__HASHE3D6B0"
+      "ank-position-sticky ank-top-0 ank-zIndex-1100 ank-width-100per ank-bg-rgbaSD251COM248COM242COM0_92ED ank-backdropFilter-blurSD6pxED ank-color-HASH231B16 ank-borderBottom-1px__solid__HASHE3D6B0 ank-fontWeight-400"
     ],
     "astraChinaWrap": [
-      "ank-width-100per ank-maxWidth-1180px ank-marginInline-auto ank-boxSizing-borderMINbox"
+      "ank-width-100per ank-maxWidth-1120px ank-paddingInline-28px ank-marginInline-auto ank-boxSizing-borderMINbox"
     ],
     "astraChinaHeaderInner": [
-      "ank-minHeight-72px ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-flexWrap-wrap ank-gap-12px ank-paddingBlock-10px"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-24px ank-paddingBlock-18px ank-flexWrap-wrap"
     ],
     "astraChinaBrand": [
       "ank-display-flex ank-alignItems-center ank-minHeight-44px ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
     ],
     "astraChinaLogo": [
-      "ank-display-block ank-width-148px ank-height-auto ank-objectFit-contain"
+      "ank-display-block ank-width-auto ank-height-34px ank-objectFit-contain"
     ],
     "astraChinaNav": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-flexMINend ank-flexWrap-wrap ank-gap-4px ank-marginLeft-auto"
+      "ank-display-flex ank-alignItems-center ank-gap-0 ank-gap-px821-32px"
     ],
     "astraChinaNavLink": [
-      "ank-display-none ank-display-md-flex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-9px ank-paddingBlock-8px ank-color-HASH231B16 ank-fontSize-0_86rem ank-fontWeight-800 ank-textDecoration-none ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
+      "ank-display-none ank-display-px821-flex ank-alignItems-center ank-minHeight-44px ank-color-HASH231B16 ank-fontSize-0_88rem ank-fontWeight-400 ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-minWidth-44px ank-boxSizing-borderMINbox"
     ],
     "astraChinaLanguageSwitch": [
-      "ank-display-flex ank-alignItems-center ank-gap-2px ank-padding-3px ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-4px ank-bg-HASHF7EFDD"
+      "ank-display-flex ank-alignItems-center ank-gap-2px ank-padding-4px ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-28px"
     ],
     "astraChinaLanguageLink": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-9px ank-paddingBlock-8px ank-color-HASH231B16 ank-fontSize-0_84rem ank-fontWeight-900 ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-9px ank-borderRadius-22px ank-fontSize-0_72rem ank-fontWeight-400 ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-fontFamily-IBM__Plex__MonoCOMmonospace"
     ],
     "astraChinaLanguageLinkActive": [
-      "ank-bg-HASHE6AE01 ank-color-HASH231B16 ank-borderRadius-3px"
+      "ank-bg-HASH231B16 ank-color-HASHFBF8F2"
     ],
     "astraChinaPrimaryAction": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-20px ank-paddingBlock-12px ank-border-1px__solid__HASHA80119 ank-borderRadius-4px ank-bg-HASHA80119 ank-color-HASHFBF8F2 ank-fontWeight-900 ank-textAlign-center ank-textDecoration-none ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
+      "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-24px ank-paddingBlock-14px ank-borderRadius-3px ank-fontSize-0_84rem ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-border-1px__solid__HASH231B16 ank-bg-HASH231B16 ank-color-HASHFBF8F2"
     ],
     "astraChinaHeaderAction": [
-      "ank-display-none ank-display-md-flex ank-fontSize-0_88rem ank-paddingInline-16px"
+      "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-borderRadius-3px ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-bg-HASHE00322 ank-border-1px__solid__HASHE00322 ank-fontSize-0_78rem ank-paddingInline-18px ank-paddingBlock-10px"
     ],
     "astraChinaMain": [
-      "ank-width-100per ank-minHeight-100vh ank-bg-HASHFBF8F2 ank-color-HASH231B16"
+      "ank-width-100per ank-bg-HASHFBF8F2 ank-color-HASH231B16 ank-fontWeight-400"
     ],
     "astraChinaSection": [
-      "ank-width-100per ank-display-flex ank-justifyContent-center ank-boxSizing-borderMINbox ank-paddingInline-16px ank-paddingBlock-64px ank-paddingBlock-md-92px ank-bg-HASHFBF8F2 ank-color-HASH231B16"
+      "ank-width-100per ank-boxSizing-borderMINbox ank-paddingBlock-80px ank-color-HASH231B16 ank-scrollMarginTop-104px"
     ],
     "astraChinaHero": [
-      "ank-minHeight-620px ank-alignItems-center ank-paddingBlock-72px ank-paddingBlock-md-104px"
+      "ank-position-relative ank-overflow-hidden ank-paddingTop-56px ank-paddingBottom-48px ank-paddingTop-px901-88px ank-paddingBottom-px901-76px ank-borderBottom-1px__solid__HASHE3D6B0"
     ],
     "astraChinaHeroGrid": [
-      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-minmaxSD0COM1_55frED__minmaxSD240pxCOM0_65frED ank-alignItems-center ank-gap-48px ank-gap-md-72px"
+      "ank-position-relative ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-px901-minmaxSD0COM1_15frED__minmaxSD0COM0_85frED ank-alignItems-center ank-gap-48px ank-gap-px901-56px"
     ],
     "astraChinaStack": [
-      "ank-display-flex ank-flexDirection-column ank-gap-24px ank-minWidth-0"
+      "ank-display-flex ank-flexDirection-column ank-gap-0 ank-minWidth-0"
     ],
     "astraChinaStackSmall": [
-      "ank-display-flex ank-flexDirection-column ank-gap-12px ank-minWidth-0"
+      "ank-display-flex ank-flexDirection-column ank-gap-8px ank-minWidth-0"
     ],
     "astraChinaEyebrow": [
-      "ank-m-0 ank-width-fitContent ank-color-HASHA80119 ank-fontSize-0_78rem ank-fontWeight-900 ank-letterSpacing-0_08em ank-textTransform-uppercase ank-lineHeight-1_4"
+      "ank-m-0 ank-width-fitMINcontent ank-color-HASHA80119 ank-fontSize-0_72rem ank-fontWeight-400 ank-letterSpacing-0_12em ank-textTransform-uppercase"
     ],
     "astraChinaHeroTitle": [
-      "ank-m-0 ank-maxWidth-15ch ank-color-HASH231B16 ank-fontSize-2_55rem ank-fontSize-md-4_35rem ank-fontWeight-900 ank-lineHeight-1_02 ank-letterSpacing-MIN0_035em ank-overflowWrap-anywhere"
+      "ank-marginTop-18px ank-marginBottom-22px ank-color-HASH231B16 ank-fontSize-clampSD2_3remCOM4_6vwCOM3_6remED ank-fontWeight-600 ank-lineHeight-1_08 ank-letterSpacing-MIN0_01em"
     ],
     "astraChinaLead": [
-      "ank-m-0 ank-maxWidth-66ch ank-color-HASH6B6259 ank-fontSize-1_08rem ank-fontSize-md-1_2rem ank-lineHeight-1_7"
+      "ank-marginTop-0 ank-marginBottom-32px ank-maxWidth-46ch ank-color-HASH6B6259 ank-fontSize-1_12rem"
     ],
     "astraChinaActions": [
-      "ank-display-flex ank-alignItems-center ank-flexWrap-wrap ank-gap-12px"
+      "ank-display-flex ank-alignItems-center ank-flexWrap-wrap ank-gap-14px ank-marginBottom-28px"
     ],
     "astraChinaSecondaryAction": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-20px ank-paddingBlock-12px ank-border-1px__solid__HASHE00322 ank-borderRadius-4px ank-bg-transparent ank-color-HASHE00322 ank-fontWeight-900 ank-textAlign-center ank-textDecoration-none ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
+      "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-24px ank-paddingBlock-14px ank-borderRadius-3px ank-fontSize-0_84rem ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-border-1px__solid__HASH231B16 ank-bg-transparent ank-color-HASH231B16"
     ],
     "astraChinaTrustList": [
-      "ank-display-flex ank-alignItems-center ank-flexWrap-wrap ank-gap-8px ank-paddingTop-8px"
+      "ank-display-flex ank-alignItems-center ank-flexWrap-wrap ank-columnGap-18px ank-rowGap-8px"
     ],
     "astraChinaTrustItem": [
-      "ank-display-flex ank-alignItems-center ank-minHeight-32px ank-paddingInline-10px ank-paddingBlock-6px ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-4px ank-bg-HASHF7EFDD ank-color-HASH6B6259 ank-fontSize-0_78rem ank-fontWeight-800 ank-lineHeight-1_35"
+      "ank-display-inlineMINflex ank-alignItems-center ank-gap-7px"
     ],
     "astraChinaSeal": [
-      "ank-width-100per ank-maxWidth-330px ank-justifySelf-center ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-18px ank-paddingInline-28px ank-paddingBlock-42px ank-border-1px__solid__HASHE6AE01 ank-borderRadius-50per ank-bg-HASHF7EFDD ank-color-HASH231B16 ank-textAlign-center ank-boxShadow-0__24px__64px__rgbaSD62COM43COM30COM0_12ED"
+      "ank-width-100per ank-display-flex ank-justifyContent-center ank-alignItems-center"
     ],
     "astraChinaSealLogo": [
-      "ank-display-block ank-width-176px ank-height-auto ank-objectFit-contain"
+      "ank-display-block ank-width-minSD340pxCOM78vwED ank-maxWidth-100per ank-height-auto ank-transform-rotateSDMIN6degED"
     ],
     "astraChinaSealTitle": [
       "ank-color-HASHA80119 ank-fontSize-1_05rem ank-fontWeight-900 ank-letterSpacing-0_06em ank-textTransform-uppercase"
     ],
     "astraChinaSealSubtitle": [
-      "ank-maxWidth-24ch ank-color-HASH6B6259 ank-fontSize-0_92rem ank-fontWeight-700 ank-lineHeight-1_55"
+      "ank-maxWidth-24ch ank-color-HASH6B6259 ank-fontSize-0_92rem ank-fontWeight-700"
     ],
     "astraChinaRaisedSection": [
       "ank-bg-HASHF7EFDD ank-borderTop-1px__solid__HASHE3D6B0 ank-borderBottom-1px__solid__HASHE3D6B0"
     ],
     "astraChinaGridFour": [
-      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-sm-repeatSD2COMminmaxSD0COM1frEDED ank-gridTemplateColumns-lg-repeatSD4COMminmaxSD0COM1frEDED ank-gap-16px ank-minWidth-0"
+      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-px561-repeatSD2COMminmaxSD0COM1frEDED ank-gridTemplateColumns-px901-repeatSD4COMminmaxSD0COM1frEDED ank-gap-16px ank-minWidth-0"
     ],
     "astraChinaAudienceCard": [
-      "ank-minWidth-0 ank-height-100per ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-gap-16px ank-padding-22px ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-4px ank-bg-HASHFBF8F2 ank-color-HASH231B16"
+      "ank-minWidth-0 ank-height-100per ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-gap-12px ank-paddingBlock-30px ank-paddingInline-24px ank-bg-HASHF7EFDD ank-color-HASH231B16"
     ],
     "astraChinaCardNumber": [
-      "ank-order-MIN1 ank-m-0 ank-color-HASHA6800A ank-fontSize-2_25rem ank-fontWeight-900 ank-lineHeight-1"
+      "ank-order-MIN1 ank-m-0 ank-color-HASHA80119 ank-fontSize-0_75rem ank-fontWeight-400 ank-fontFamily-IBM__Plex__MonoCOMmonospace"
     ],
     "astraChinaCardDescription": [
-      "ank-m-0 ank-color-HASH6B6259 ank-fontSize-0_98rem ank-lineHeight-1_65 ank-overflowWrap-anywhere"
+      "ank-m-0 ank-color-HASH6B6259 ank-fontSize-0_98rem ank-fontWeight-400"
     ],
     "astraChinaSectionHeader": [
-      "ank-display-flex ank-flexDirection-column ank-gap-14px ank-maxWidth-760px"
+      "ank-display-flex ank-flexDirection-column ank-gap-14px ank-maxWidth-640px ank-marginBottom-48px"
     ],
     "astraChinaSectionTitle": [
-      "ank-m-0 ank-maxWidth-22ch ank-color-HASH231B16 ank-fontSize-2_1rem ank-fontSize-md-3_25rem ank-fontWeight-900 ank-lineHeight-1_08 ank-letterSpacing-MIN0_025em ank-overflowWrap-anywhere"
+      "ank-m-0 ank-color-HASH231B16 ank-fontSize-clampSD1_7remCOM3vwCOM2_3remED ank-fontWeight-600 ank-letterSpacing-MIN0_01em"
     ],
     "astraChinaSectionDescription": [
-      "ank-m-0 ank-maxWidth-70ch ank-color-HASH6B6259 ank-fontSize-1_03rem ank-lineHeight-1_7"
+      "ank-m-0 ank-color-HASH6B6259 ank-fontSize-1rem"
     ],
     "astraChinaGridTwo": [
-      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COMminmaxSD0COM1frEDED ank-gap-16px ank-minWidth-0"
+      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-px641-repeatSD2COMminmaxSD0COM1frEDED ank-gap-16px ank-minWidth-0"
     ],
     "astraChinaServiceCard": [
-      "ank-minWidth-0 ank-height-100per ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-gap-14px ank-padding-24px ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-4px ank-bg-HASHFBF8F2 ank-color-HASH231B16"
+      "ank-minWidth-0 ank-boxSizing-borderMINbox ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-px641-90px__minmaxSD0COM1frED ank-gap-8px ank-gap-px641-28px ank-paddingBlock-30px ank-paddingInline-28px ank-marginInline-MIN28px ank-borderTop-1px__solid__HASHE3D6B0 ank-borderRadius-4px ank-bgHover-HASHF7EFDD"
     ],
     "astraChinaCardTitle": [
-      "ank-m-0 ank-color-HASH231B16 ank-fontSize-1_14rem ank-fontSize-md-1_22rem ank-fontWeight-900 ank-lineHeight-1_32 ank-overflowWrap-anywhere"
+      "ank-m-0 ank-color-HASH231B16 ank-fontSize-1_15rem ank-fontWeight-600"
     ],
     "astraChinaServiceLabel": [
-      "ank-order-MIN1 ank-m-0 ank-display-flex ank-width-fitContent ank-color-HASHE00322 ank-fontSize-0_76rem ank-fontWeight-900 ank-letterSpacing-0_06em ank-textTransform-uppercase ank-textDecoration-none"
+      "ank-m-0 ank-color-HASH6B6259 ank-fontSize-0_62rem ank-letterSpacing-0_08em ank-textTransform-uppercase"
     ],
     "astraChinaProcessBanner": [
-      "ank-m-0 ank-width-100per ank-boxSizing-borderMINbox ank-paddingInline-18px ank-paddingBlock-14px ank-border-1px__solid__HASHE6AE01 ank-borderRadius-4px ank-bg-HASHFBF8F2 ank-color-HASH735600 ank-fontWeight-900 ank-lineHeight-1_5 ank-textAlign-center"
+      "ank-marginTop-0 ank-marginBottom-32px ank-maxWidth-640px ank-paddingLeft-18px ank-borderLeft-3px__solid__HASHE00322 ank-color-HASH231B16 ank-fontSize-1_35rem ank-fontStyle-italic ank-fontWeight-400 ank-bg-HASHF7EFDD"
     ],
     "astraChinaProcessCard": [
-      "ank-minWidth-0 ank-height-100per ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-gap-14px ank-padding-22px ank-borderTop-1px__solid__HASHE00322 ank-borderBottom-1px__solid__HASHE3D6B0 ank-bg-transparent ank-color-HASH231B16"
+      "ank-minWidth-0 ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-alignItems-flexMINstart ank-paddingRight-22px"
     ],
     "astraChinaProcessWhen": [
-      "ank-order-MIN1 ank-m-0 ank-display-flex ank-width-fitContent ank-color-HASHA80119 ank-fontSize-0_76rem ank-fontWeight-900 ank-letterSpacing-0_05em ank-textTransform-uppercase ank-textDecoration-none"
+      "ank-m-0 ank-color-HASH735600 ank-fontSize-0_72rem ank-letterSpacing-0_04em ank-textTransform-uppercase ank-marginBottom-8px"
     ],
     "astraChinaAttorney": [
-      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-260px__minmaxSD0COM1frED ank-alignItems-center ank-gap-28px ank-boxSizing-borderMINbox ank-padding-24px ank-border-1px__solid__HASHE6AE01 ank-borderRadius-4px ank-bg-HASHFBF8F2"
+      "ank-display-flex ank-flexDirection-column ank-flexDirection-px641-row ank-alignItems-center ank-gap-32px ank-boxSizing-borderMINbox ank-padding-28px ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-6px ank-bg-HASHF7EFDD ank-marginBottom-48px ank-textAlign-center ank-textAlign-px641-left"
     ],
     "astraChinaAttorneyImage": [
-      "ank-display-block ank-width-100per ank-maxWidth-260px ank-aspectRatio-1 ank-objectFit-cover ank-borderRadius-50per ank-justifySelf-center"
+      "ank-display-block ank-width-140px ank-height-140px ank-objectFit-cover ank-objectPosition-center__top ank-borderRadius-6px ank-border-2px__solid__HASHE00322 ank-flexShrink-0"
     ],
     "astraChinaAttorneyTitle": [
-      "ank-m-0 ank-color-HASHE00322 ank-fontSize-0_9rem ank-fontWeight-900 ank-lineHeight-1_5"
+      "ank-m-0 ank-color-HASHA80119 ank-fontSize-0_76rem ank-fontWeight-400 ank-letterSpacing-0_04em ank-textTransform-uppercase"
     ],
     "astraChinaGridThree": [
-      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD3COMminmaxSD0COM1frEDED ank-gap-16px ank-minWidth-0"
+      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-px821-repeatSD3COMminmaxSD0COM1frEDED ank-gap-40px ank-minWidth-0"
     ],
     "astraChinaProofCard": [
-      "ank-minWidth-0 ank-height-100per ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-gap-14px ank-padding-22px ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-4px ank-bg-HASHF7EFDD ank-color-HASH231B16"
+      "ank-minWidth-0 ank-display-flex ank-flexDirection-column ank-alignItems-flexMINstart ank-gap-0"
     ],
     "astraChinaProofIcon": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-44px ank-height-44px ank-borderRadius-50per ank-bg-HASHE00322 ank-color-HASHFBF8F2 ank-fontSize-1_15rem"
+      "ank-display-block ank-width-30px ank-height-30px ank-marginBottom-16px"
     ],
     "astraChinaFaqList": [
-      "ank-display-flex ank-flexDirection-column ank-gap-10px"
+      "ank-display-flex ank-flexDirection-column ank-borderBottom-1px__solid__HASHE3D6B0"
     ],
     "astraChinaFaqItem": [
-      "ank-overflow-hidden ank-border-1px__solid__HASHE3D6B0 ank-borderRadius-4px ank-bg-HASHFBF8F2"
+      "ank-borderTop-1px__solid__HASHE3D6B0"
     ],
     "astraChinaFaqButton": [
-      "ank-width-100per ank-minHeight-52px ank-boxSizing-borderMINbox ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-14px ank-paddingInline-18px ank-paddingBlock-14px ank-border-0 ank-bg-transparent ank-color-HASH231B16 ank-textAlign-left ank-cursor-pointer ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-MIN3px"
+      "ank-width-100per ank-minHeight-52px ank-boxSizing-borderMINbox ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-20px ank-paddingInline-0 ank-paddingBlock-22px ank-border-0 ank-bg-transparent ank-color-HASH231B16 ank-textAlign-left ank-cursor-pointer ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-MIN3px ank-fontFamily-inherit"
     ],
     "astraChinaFaqPanel": [
-      "ank-paddingInline-18px ank-paddingBottom-18px ank-color-HASH6B6259"
+      "ank-paddingBottom-22px ank-color-HASH6B6259"
     ],
     "astraChinaFaqButtonContent": [
-      "ank-display-flex ank-alignItems-start ank-gap-12px ank-minWidth-0"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-20px ank-minWidth-0 ank-flexGrow-1"
     ],
     "astraChinaFaqTextStack": [
       "ank-display-flex ank-flexDirection-column ank-gap-4px ank-minWidth-0"
     ],
     "astraChinaFaqIndex": [
-      "ank-flexShrink-0 ank-color-HASHE00322 ank-fontSize-0_78rem ank-fontWeight-900 ank-lineHeight-1_5"
+      "ank-order-1 ank-flexShrink-0 ank-color-HASHA80119 ank-fontSize-0_75rem ank-fontWeight-400 ank-fontFamily-IBM__Plex__MonoCOMmonospace"
     ],
     "astraChinaFaqQuestion": [
-      "ank-color-HASH231B16 ank-fontSize-1rem ank-fontWeight-900 ank-lineHeight-1_45 ank-overflowWrap-anywhere"
+      "ank-color-HASH231B16 ank-fontSize-1_02rem ank-fontWeight-600"
     ],
     "astraChinaFaqDetail": [
       "ank-display-flex ank-flexDirection-column ank-gap-8px"
@@ -187,52 +187,166 @@
       "ank-display-none"
     ],
     "astraChinaFaqAnswer": [
-      "ank-m-0 ank-maxWidth-72ch ank-color-HASH6B6259 ank-fontSize-0_98rem ank-lineHeight-1_7 ank-overflowWrap-anywhere"
+      "ank-m-0 ank-maxWidth-68ch ank-color-HASH6B6259 ank-fontSize-0_96rem"
     ],
     "astraChinaContactSection": [
-      "ank-width-100per ank-display-flex ank-justifyContent-center ank-boxSizing-borderMINbox ank-paddingInline-16px ank-paddingBlock-72px ank-paddingBlock-md-96px ank-bg-HASH231B16 ank-color-HASHFBF8F2"
+      "ank-position-relative ank-overflow-hidden ank-width-100per ank-boxSizing-borderMINbox ank-paddingBlock-100px ank-bg-HASH7A0510 ank-color-HASHFBF8F2 ank-scrollMarginTop-104px"
     ],
     "astraChinaContactInner": [
-      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-minmaxSD0COM1_2frED__minmaxSD280pxCOM0_8frED ank-alignItems-start ank-gap-24px ank-gap-md-48px"
+      "ank-position-relative ank-display-flex ank-flexDirection-column ank-alignItems-center ank-textAlign-center ank-zIndex-2"
     ],
     "astraChinaEyebrowOnDark": [
-      "ank-color-HASHE6AE01"
+      "ank-m-0 ank-width-fitMINcontent ank-color-HASHF0C34D ank-fontSize-0_72rem ank-fontWeight-400 ank-letterSpacing-0_12em ank-textTransform-uppercase"
     ],
     "astraChinaContactTitle": [
-      "ank-m-0 ank-maxWidth-18ch ank-color-HASHFBF8F2 ank-fontSize-2_2rem ank-fontSize-md-3_4rem ank-fontWeight-900 ank-lineHeight-1_08 ank-overflowWrap-anywhere"
+      "ank-marginTop-0 ank-marginBottom-18px ank-maxWidth-22ch ank-color-HASHFBF8F2 ank-fontSize-clampSD1_9remCOM3_6vwCOM2_6remED ank-fontWeight-600"
     ],
     "astraChinaContactDescription": [
-      "ank-m-0 ank-maxWidth-62ch ank-color-HASHEFE6CB ank-fontSize-1_02rem ank-lineHeight-1_72"
+      "ank-marginTop-0 ank-marginBottom-34px ank-maxWidth-52ch ank-color-HASHF1D9C9 ank-fontSize-1_02rem"
     ],
     "astraChinaContactActions": [
-      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-sm-repeatSD2COMminmaxSD0COM1frEDED ank-alignItems-start ank-gap-16px ank-gridColumn-md-2"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexWrap-wrap ank-gap-28px"
     ],
     "astraChinaWechatCard": [
-      "ank-minWidth-0 ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-12px ank-padding-16px ank-border-1px__solid__HASHE6AE01 ank-borderRadius-4px ank-bg-HASHFBF8F2 ank-color-HASH231B16 ank-textAlign-center"
+      "ank-boxSizing-borderMINbox ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-8px ank-padding-16px ank-paddingBottom-12px ank-borderRadius-8px ank-bg-HASHFBF8F2 ank-color-HASH231B16 ank-textAlign-center ank-boxShadow-0__8px__30px__rgbaSD0COM0COM0COM0_2ED"
     ],
     "astraChinaWechatImage": [
-      "ank-display-block ank-width-100per ank-maxWidth-190px ank-height-auto ank-objectFit-contain"
+      "ank-display-block ank-width-140px ank-height-auto ank-borderRadius-4px ank-objectFit-contain"
     ],
     "astraChinaWechatLabel": [
-      "ank-color-HASH231B16 ank-fontSize-0_88rem ank-fontWeight-900 ank-lineHeight-1_45 ank-overflowWrap-anywhere"
+      "ank-color-HASH6B6259 ank-fontSize-0_72rem ank-fontWeight-400"
     ],
     "astraChinaOnDarkAction": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-18px ank-paddingBlock-12px ank-border-1px__solid__HASHE6AE01 ank-borderRadius-4px ank-bg-transparent ank-color-HASHFBF8F2 ank-fontWeight-900 ank-textAlign-center ank-textDecoration-none ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__HASHE6AE01 ank-outlineOffsetFocus-2px"
+      "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-24px ank-paddingBlock-14px ank-borderRadius-3px ank-fontSize-0_84rem ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-border-1px__solid__rgbaSD255COM255COM255COM0_4ED ank-bg-transparent ank-color-HASHFBF8F2"
     ],
     "astraChinaFooter": [
-      "ank-width-100per ank-display-flex ank-justifyContent-center ank-boxSizing-borderMINbox ank-paddingInline-16px ank-paddingBlock-28px ank-bg-HASH231B16 ank-color-HASHEFE6CB ank-borderTop-1px__solid__HASHA80119"
+      "ank-width-100per ank-boxSizing-borderMINbox ank-paddingBlock-44px ank-bg-HASHFBF8F2 ank-color-HASH6B6259 ank-borderTop-1px__solid__HASHE3D6B0 ank-fontWeight-400"
     ],
     "astraChinaFooterInner": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-flexWrap-wrap ank-gap-14px"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-flexWrap-wrap ank-gap-16px"
     ],
     "astraChinaFooterText": [
-      "ank-color-HASHEFE6CB ank-fontSize-0_86rem ank-lineHeight-1_5"
+      "ank-color-HASH6B6259 ank-fontSize-0_84rem"
     ],
     "astraChinaFooterLinks": [
-      "ank-display-flex ank-alignItems-center ank-flexWrap-wrap ank-gap-8px ank-gap-sm-16px"
+      "ank-display-flex ank-alignItems-center ank-flexWrap-wrap ank-gap-20px"
     ],
     "astraChinaFooterLink": [
-      "ank-display-flex ank-alignItems-center ank-minHeight-44px ank-color-HASHFBF8F2 ank-fontSize-0_86rem ank-fontWeight-800 ank-textDecoration-none ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__HASHE6AE01 ank-outlineOffsetFocus-2px"
+      "ank-display-flex ank-alignItems-center ank-minHeight-44px ank-color-HASH6B6259 ank-fontSize-0_84rem ank-fontWeight-400 ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
+    ],
+    "astraChinaHeroCopy": [
+      "ank-minWidth-0"
+    ],
+    "astraChinaHeroEmphasis": [
+      "ank-color-HASHE00322 ank-fontStyle-normal"
+    ],
+    "astraChinaTrustText": [
+      "ank-color-HASH6B6259 ank-fontSize-0_82rem"
+    ],
+    "astraChinaTrustDot": [
+      "ank-display-inlineMINblock ank-width-5px ank-height-5px ank-flexShrink-0 ank-borderRadius-50per ank-bg-HASHA6800A"
+    ],
+    "astraChinaAudienceSection": [
+      "ank-paddingBlock-56px ank-scrollMarginTop-104px"
+    ],
+    "astraChinaAudienceGrid": [
+      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-px561-repeatSD2COMminmaxSD0COM1frEDED ank-gridTemplateColumns-px901-repeatSD4COMminmaxSD0COM1frEDED ank-gap-1px ank-bg-HASHEFE6CB ank-marginTop-22px ank-border-1px__solid__HASHEFE6CB"
+    ],
+    "astraChinaServicesList": [
+      "ank-display-grid ank-gridTemplateColumns-1fr ank-borderBottom-1px__solid__HASHE3D6B0"
+    ],
+    "astraChinaServiceIndex": [
+      "ank-display-flex ank-flexDirection-column ank-gap-4px"
+    ],
+    "astraChinaServiceNumber": [
+      "ank-color-HASHE00322 ank-fontSize-1_6rem ank-lineHeight-1_2"
+    ],
+    "astraChinaServiceBody": [
+      "ank-minWidth-0"
+    ],
+    "astraChinaServiceTitle": [
+      "ank-marginTop-0 ank-marginBottom-10px ank-color-HASH231B16 ank-fontSize-1_18rem ank-fontWeight-600"
+    ],
+    "astraChinaServiceDescription": [
+      "ank-m-0 ank-maxWidth-62ch ank-color-HASH6B6259 ank-fontSize-0_98rem"
+    ],
+    "astraChinaTimeline": [
+      "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-px821-repeatSD4COMminmaxSD0COM1frEDED ank-gap-36px ank-gap-px821-0 ank-marginTop-20px"
+    ],
+    "astraChinaProcessStamp": [
+      "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-width-34px ank-height-34px ank-boxSizing-borderMINbox ank-border-1_5px__solid__HASHE00322 ank-borderRadius-50per ank-color-HASHA80119 ank-fontSize-0_8rem ank-marginBottom-16px"
+    ],
+    "astraChinaProcessTitle": [
+      "ank-marginTop-0 ank-marginBottom-8px ank-color-HASH231B16 ank-fontSize-1_02rem ank-fontWeight-600"
+    ],
+    "astraChinaProcessDescription": [
+      "ank-m-0 ank-color-HASH6B6259 ank-fontSize-0_92rem"
+    ],
+    "astraChinaProofTitle": [
+      "ank-m-0 ank-color-HASH231B16 ank-fontSize-1_08rem ank-fontWeight-600 ank-marginBottom-10px"
+    ],
+    "astraChinaProofDescription": [
+      "ank-m-0 ank-color-HASH6B6259 ank-fontSize-0_96rem"
+    ],
+    "astraChinaFaqToggle": [
+      "ank-color-HASHA80119 ank-width-18px ank-height-18px ank-flexShrink-0 ank-transition-transform__0_2s"
+    ],
+    "astraChinaFaqToggleOpen": [
+      "ank-transform-rotateSD45degED"
+    ],
+    "astraChinaFaqToggleClosed": [
+      "ank-transform-rotateSD0degED"
+    ],
+    "astraChinaContactTexture": [
+      "ank-position-absolute ank-top-0 ank-left-0 ank-width-100per ank-height-100per ank-objectFit-cover ank-pointerEvents-none"
+    ],
+    "astraChinaContactOverlay": [
+      "ank-position-absolute ank-top-0 ank-left-0 ank-width-100per ank-height-100per ank-bg-linearMINgradientSDrgbaSD90COM3COM12COM0_15EDCOMrgbaSD60COM1COM8COM0_4EDED ank-pointerEvents-none ank-zIndex-1"
+    ],
+    "astraChinaContactWatermark": [
+      "ank-display-block ank-width-minSD300pxCOM60perED ank-height-auto ank-marginInline-auto ank-transform-translateXSD120pxED"
+    ],
+    "astraChinaContactCopy": [
+      "ank-display-flex ank-flexDirection-column ank-alignItems-center"
+    ],
+    "astraChinaFooterIdentity": [
+      "ank-display-flex ank-alignItems-center ank-gap-10px"
+    ],
+    "astraChinaFooterMark": [
+      "ank-display-block ank-height-16px ank-width-auto"
+    ],
+    "astraChinaLanguageLinkInactive": [
+      "ank-color-HASH231B16"
+    ],
+    "astraChinaAudienceDescription": [
+      "ank-m-0 ank-color-HASH231B16 ank-fontSize-0_98rem ank-fontWeight-400"
+    ],
+    "astraChinaProcessDivider": [
+      "ank-borderBottom-1px__dashed__HASHE3D6B0 ank-borderBottom-px821-0 ank-borderRight-px821-1px__dashed__HASHE3D6B0 ank-paddingBottom-28px ank-paddingBottom-px821-0"
+    ],
+    "astraChinaHeroGlow": [
+      "ank-position-absolute ank-width-420px ank-height-420px ank-top-MIN140px ank-left-MIN120px ank-borderRadius-50per ank-bg-radialMINgradientSDcircleCOMHASHE6AE01COMtransparent__70perED ank-opacity-0_08 ank-pointerEvents-none"
+    ],
+    "astraChinaContactWatermarkSlot": [
+      "ank-position-absolute ank-top-0 ank-right-0 ank-width-50per ank-height-100per ank-display-grid ank-gridTemplateColumns-1fr ank-alignItems-center ank-pointerEvents-none ank-zIndex-1"
+    ],
+    "astraChinaEyebrowLine": [
+      "ank-display-inlineMINblock ank-width-22px ank-height-1px ank-bg-HASHE00322 ank-flexShrink-0"
+    ],
+    "astraChinaEyebrowLineOnDark": [
+      "ank-display-inlineMINblock ank-width-22px ank-height-1px ank-bg-HASHF0C34D ank-flexShrink-0"
+    ],
+    "astraChinaEyebrowRow": [
+      "ank-display-flex ank-alignItems-center ank-gap-0_55em"
+    ],
+    "astraChinaEyebrowRowCentered": [
+      "ank-justifyContent-center"
+    ],
+    "astraChinaServiceCardZh": [
+      "ank-gridTemplateColumns-px641-96px__minmaxSD0COM1frED"
+    ],
+    "astraChinaFaqAnswerZh": [
+      "ank-maxWidth-36em"
     ]
   }
 }

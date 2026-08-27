@@ -32,9 +32,27 @@
     },
     "robots": "index,follow,max-image-preview:large",
     "keywords": {
-      "es": ["soft landing México", "empresas chinas en México", "constitución de empresa", "RFC", "Astra Legal"],
-      "en": ["China Mexico soft landing", "Mexican company formation", "RFC registration", "marketplace compliance", "Astra Legal"],
-      "zh": ["中国企业墨西哥落地", "墨西哥公司注册", "RFC 税务登记", "电商平台合规", "Astra Legal"]
+      "es": [
+        "soft landing México",
+        "empresas chinas en México",
+        "constitución de empresa",
+        "RFC",
+        "Astra Legal"
+      ],
+      "en": [
+        "China Mexico soft landing",
+        "Mexican company formation",
+        "RFC registration",
+        "marketplace compliance",
+        "Astra Legal"
+      ],
+      "zh": [
+        "中国企业墨西哥落地",
+        "墨西哥公司注册",
+        "RFC 税务登记",
+        "电商平台合规",
+        "Astra Legal"
+      ]
     },
     "openGraph": {
       "title": {
@@ -78,6 +96,17 @@
       "astra-china-faq",
       "astra-china-book"
     ],
-    "scrollMilestones": [25, 50, 75, 100]
+    "scrollMilestones": [
+      25,
+      50,
+      75,
+      100
+    ]
+  },
+  "googleFontsStylesheet": {
+    "en": "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+    "es": "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+    "default": "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+    "zh": "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Noto+Serif+SC:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
   }
 }

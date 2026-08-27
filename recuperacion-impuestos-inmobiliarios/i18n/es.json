@@ -43,6 +43,9 @@
         ],
         "propertyLabel": "¿Cuál fue el valor de la propiedad al comprarla?",
         "propertyPlaceholder": "Ej. 5,000,000",
+        "sliderLabel": "Desliza para elegir el valor de la propiedad en pesos mexicanos",
+        "sliderHint": "Desliza o escribe el precio exacto. Puedes escribir importes mayores a $20 millones.",
+        "sliderOutOfScale": "El importe escrito supera la escala del deslizador; calcularemos con el valor exacto que ingresaste.",
         "propertyValidation": [
           { "type": "required", "message": "Ingresa el valor de la propiedad." },
           { "type": "min", "value": 1000000, "message": "Ingresa un valor de al menos $1,000,000 MXN." }

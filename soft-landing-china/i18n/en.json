@@ -12,9 +12,9 @@
         "process": "Process",
         "faq": "FAQ",
         "languageLabel": "Language",
-        "enClasses": "astraChinaLanguageLink astraChinaLanguageLinkActive ank-color-HASH231B16",
+        "enClasses": "astraChinaLanguageLink astraChinaLanguageLinkActive ank-color-HASHFBF8F2",
         "enAriaCurrent": "page",
-        "zhClasses": "astraChinaLanguageLink ank-color-HASH231B16",
+        "zhClasses": "astraChinaLanguageLink astraChinaLanguageLinkInactive ank-color-HASH231B16",
         "zhAriaCurrent": "false",
         "consultation": "Book a consultation"
       },
@@ -32,15 +32,28 @@
           "Accounting, payroll, IMSS, tax & permits — all under one roof"
         ],
         "sealTitle": "Certified · Compliant",
-        "sealSubtitle": "RFC · SAT · IMPI · IMMEX"
+        "sealSubtitle": "RFC · SAT · IMPI · IMMEX",
+        "titleHtml": "Bring your business into Mexico — <em class=\"astraChinaHeroEmphasis\">fully documented</em>, no gaps left behind."
       },
       "audience": {
         "eyebrow": "Who this is for",
         "items": [
-          { "number": "01", "description": "E-commerce sellers launching on TikTok Shop, Amazon Mexico, or Mercado Libre" },
-          { "number": "02", "description": "Manufacturers or importers evaluating IMMEX / shelter-provider programs for production in Mexico" },
-          { "number": "03", "description": "Companies that need a fully compliant Mexican entity with proper local representation" },
-          { "number": "04", "description": "Businesses that need licensed legal guidance — not just a company-formation processor" }
+          {
+            "number": "01",
+            "description": "E-commerce sellers launching on TikTok Shop, Amazon Mexico, or Mercado Libre"
+          },
+          {
+            "number": "02",
+            "description": "Manufacturers or importers evaluating IMMEX / shelter-provider programs for production in Mexico"
+          },
+          {
+            "number": "03",
+            "description": "Companies that need a fully compliant Mexican entity with proper local representation"
+          },
+          {
+            "number": "04",
+            "description": "Businesses that need licensed legal guidance — not just a company-formation processor"
+          }
         ]
       },
       "services": {
@@ -48,14 +61,62 @@
         "title": "Eight deliverables. One legal team.",
         "description": "Everything required to move from \"we want to sell in Mexico\" to a fully compliant, marketplace-approved operation — in the order you'll actually need it.",
         "items": [
-          { "number": "01", "label": "Entity", "indexLabel": "01 · Entity", "title": "Mexican Company Formation for Foreign Owners", "description": "Structuring and incorporating your Mexican entity (SA or SAS de CV) with the correct foreign-ownership structure, shareholder / legal representative setup, and minimum capital compliance." },
-          { "number": "02", "label": "Tax ID", "indexLabel": "02 · Tax ID", "title": "RFC (Mexican Tax ID) Registration", "description": "Obtaining your company's RFC with SAT — the tax registration required before you can invoice, open a business bank account, or register on any marketplace." },
-          { "number": "03", "label": "Address", "indexLabel": "03 · Address", "title": "Legal Business Address (Domicilio Fiscal)", "description": "Establishing a compliant registered business address in Mexico, required for SAT registration and marketplace verification." },
-          { "number": "04", "label": "Brand", "indexLabel": "04 · Brand", "title": "Trademark Classification & Registration (IMPI)", "description": "Filing your brand under the correct trademark classification with Mexico's Industrial Property Institute — protecting your name before launch, and satisfying marketplace brand-registry requirements where applicable." },
-          { "number": "05", "label": "Permits", "indexLabel": "05 · Permits", "title": "Industry-Specific Government Permits", "description": "Identifying and obtaining the permits required for your specific product category or service line — cosmetics, electronics, food-adjacent products, and others each carry different regulatory requirements in Mexico." },
-          { "number": "06", "label": "Certified", "indexLabel": "06 · Certified", "title": "Fully Certified, Verification-Ready Documentation", "description": "Every document issued carries the correct official government stamps, signatures, holograms, electronic certification, and QR verification codes — built to pass scrutiny from SAT, a bank, or a marketplace's review team." },
-          { "number": "07", "label": "Platform", "indexLabel": "07 · Platform", "title": "Marketplace Approval Documentation", "description": "Preparing your legal and tax documentation specifically for category approval and seller verification on Amazon Mexico, Mercado Libre, and TikTok Shop — formatted the way each platform's compliance review actually expects to see it." },
-          { "number": "08", "label": "Operate", "indexLabel": "08 · Operate", "title": "Import, Sales & Production Legal Guidance", "description": "Ongoing legal guidance for importing and selling physical products in Mexico, or for establishing a production or assembly facility — including IMMEX program eligibility and shelter-provider arrangements where relevant." }
+          {
+            "number": "01",
+            "label": "Entity",
+            "indexLabel": "01 · Entity",
+            "title": "Mexican Company Formation for Foreign Owners",
+            "description": "Structuring and incorporating your Mexican entity (SA or SAS de CV) with the correct foreign-ownership structure, shareholder / legal representative setup, and minimum capital compliance."
+          },
+          {
+            "number": "02",
+            "label": "Tax ID",
+            "indexLabel": "02 · Tax ID",
+            "title": "RFC (Mexican Tax ID) Registration",
+            "description": "Obtaining your company's RFC with SAT — the tax registration required before you can invoice, open a business bank account, or register on any marketplace."
+          },
+          {
+            "number": "03",
+            "label": "Address",
+            "indexLabel": "03 · Address",
+            "title": "Legal Business Address (Domicilio Fiscal)",
+            "description": "Establishing a compliant registered business address in Mexico, required for SAT registration and marketplace verification."
+          },
+          {
+            "number": "04",
+            "label": "Brand",
+            "indexLabel": "04 · Brand",
+            "title": "Trademark Classification & Registration (IMPI)",
+            "description": "Filing your brand under the correct trademark classification with Mexico's Industrial Property Institute — protecting your name before launch, and satisfying marketplace brand-registry requirements where applicable."
+          },
+          {
+            "number": "05",
+            "label": "Permits",
+            "indexLabel": "05 · Permits",
+            "title": "Industry-Specific Government Permits",
+            "description": "Identifying and obtaining the permits required for your specific product category or service line — cosmetics, electronics, food-adjacent products, and others each carry different regulatory requirements in Mexico."
+          },
+          {
+            "number": "06",
+            "label": "Certified",
+            "indexLabel": "06 · Certified",
+            "title": "Fully Certified, Verification-Ready Documentation",
+            "description": "Every document issued carries the correct official government stamps, signatures, holograms, electronic certification, and QR verification codes — built to pass scrutiny from SAT, a bank, or a marketplace's review team."
+          },
+          {
+            "number": "07",
+            "label": "Platform",
+            "indexLabel": "07 · Platform",
+            "title": "Marketplace Approval Documentation",
+            "description": "Preparing your legal and tax documentation specifically for category approval and seller verification on Amazon Mexico, Mercado Libre, and TikTok Shop — formatted the way each platform's compliance review actually expects to see it."
+          },
+          {
+            "number": "08",
+            "label": "Operate",
+            "indexLabel": "08 · Operate",
+            "title": "Import, Sales & Production Legal Guidance",
+            "description": "Ongoing legal guidance for importing and selling physical products in Mexico, or for establishing a production or assembly facility — including IMMEX program eligibility and shelter-provider arrangements where relevant."
+          }
         ]
       },
       "process": {
@@ -64,10 +125,38 @@
         "title": "A predictable timeline, not a black box.",
         "description": "Four stages, several running in parallel — so you know what's happening and when you'll actually be ready to operate.",
         "items": [
-          { "number": "1", "when": "Week 1", "indexLabel": "1 · Week 1", "title": "Diagnosis", "description": "Review your business model, product category, and target platform(s). Confirm the right entity structure and permit requirements for your case." },
-          { "number": "2", "when": "Weeks 2–4", "indexLabel": "2 · Weeks 2–4", "title": "Incorporation & RFC", "description": "Company formation, legal representative / shareholder documentation, and RFC registration with SAT." },
-          { "number": "3", "when": "Weeks 3–6, parallel", "indexLabel": "3 · Weeks 3–6, parallel", "title": "Compliance Build-Out", "description": "Business address setup, trademark filing, industry permits, and your certified documentation package." },
-          { "number": "4", "when": "Ongoing", "indexLabel": "4 · Ongoing", "title": "Marketplace & Operations Ready", "description": "Final documentation prepared for platform approval; ongoing accounting and legal compliance begins." }
+          {
+            "number": "1",
+            "when": "Week 1",
+            "indexLabel": "1 · Week 1",
+            "title": "Diagnosis",
+            "description": "Review your business model, product category, and target platform(s). Confirm the right entity structure and permit requirements for your case.",
+            "classes": "astraChinaProcessCard astraChinaProcessDivider"
+          },
+          {
+            "number": "2",
+            "when": "Weeks 2–4",
+            "indexLabel": "2 · Weeks 2–4",
+            "title": "Incorporation & RFC",
+            "description": "Company formation, legal representative / shareholder documentation, and RFC registration with SAT.",
+            "classes": "astraChinaProcessCard astraChinaProcessDivider"
+          },
+          {
+            "number": "3",
+            "when": "Weeks 3–6, parallel",
+            "indexLabel": "3 · Weeks 3–6, parallel",
+            "title": "Compliance Build-Out",
+            "description": "Business address setup, trademark filing, industry permits, and your certified documentation package.",
+            "classes": "astraChinaProcessCard astraChinaProcessDivider"
+          },
+          {
+            "number": "4",
+            "when": "Ongoing",
+            "indexLabel": "4 · Ongoing",
+            "title": "Marketplace & Operations Ready",
+            "description": "Final documentation prepared for platform approval; ongoing accounting and legal compliance begins.",
+            "classes": "astraChinaProcessCard"
+          }
         ]
       },
       "why": {
@@ -81,22 +170,82 @@
         "alt": "Lic. José Luis Ortega Ochoa, founding attorney at Astra Legal"
       },
       "proofs": [
-        { "icon": "verified", "title": "One legal team, start to finish", "description": "No handoffs between a formation agent, a separate accountant, and a separate trademark filer." },
-        { "icon": "fact_check", "title": "We stand behind what we set up", "description": "Proper KYC and documented beneficial ownership on every case — protecting you from the compliance issues that surface later for structures that skip this step." },
-        { "icon": "translate", "title": "Clear communication, no gaps", "description": "All documentation, contracts, and this page itself are available in Chinese. Consultations are conducted in English, with interpretation support available on request — so nothing gets lost between your team and Mexican authorities or platforms." }
+        {
+          "icon": "verified",
+          "title": "One legal team, start to finish",
+          "description": "No handoffs between a formation agent, a separate accountant, and a separate trademark filer."
+        },
+        {
+          "icon": "fact_check",
+          "title": "We stand behind what we set up",
+          "description": "Proper KYC and documented beneficial ownership on every case — protecting you from the compliance issues that surface later for structures that skip this step."
+        },
+        {
+          "icon": "translate",
+          "title": "Clear communication, no gaps",
+          "description": "All documentation, contracts, and this page itself are available in Chinese. Consultations are conducted in English, with interpretation support available on request — so nothing gets lost between your team and Mexican authorities or platforms."
+        }
       ],
       "faq": {
         "eyebrow": "Questions we hear most",
         "title": "Straight answers before you book a call.",
         "items": [
-          { "id": "astra-china-faq-1", "indexLabel": "Q1", "title": "How long does it take to legally start selling on Amazon Mexico, Mercado Libre, or TikTok Shop?", "content": "Incorporation and RFC typically take 2–4 weeks. Running compliance work in parallel, most clients are ready to submit marketplace documentation within 4–6 weeks of starting — timelines depend on your product category and any permits it requires." },
-          { "id": "astra-china-faq-2", "indexLabel": "Q2", "title": "Do I need a Mexican citizen as a shareholder or legal representative?", "content": "Not necessarily a shareholder, but foreign-owned entities do need a Mexican legal representative for certain filings. We'll walk you through the structure that fits your ownership and risk preferences, including what documentation we require before taking on that role." },
-          { "id": "astra-china-faq-3", "indexLabel": "Q3", "title": "What is the RFC and why do I need it before I can operate?", "content": "The RFC is your company's tax ID with SAT, Mexico's tax authority. You need it to invoice, open a business bank account, and register as a seller on any Mexican marketplace — it's the foundation everything else is built on." },
-          { "id": "astra-china-faq-4", "indexLabel": "Q4", "title": "Can I qualify for IMMEX or a shelter-provider program if I plan to manufacture or assemble in Mexico?", "content": "Depends on your product, import volume, and operating model. We review eligibility as part of the diagnosis stage and explain what a shelter-provider arrangement would look like in practice for your specific case." },
-          { "id": "astra-china-faq-5", "indexLabel": "Q5", "title": "What documentation will Amazon, Mercado Libre, or TikTok actually require to approve my account?", "content": "Typically your incorporation documents, RFC, proof of business address, and — for certain categories — specific permits or certifications. We prepare the package in the format each platform's review team expects." },
-          { "id": "astra-china-faq-6", "indexLabel": "Q6", "title": "Is a Mexican entity required for each product category or storefront, or can one entity operate multiple stores?", "content": "One entity can generally operate multiple storefronts. We'll advise on the structure that makes sense for your situation rather than defaulting to unnecessary complexity." },
-          { "id": "astra-china-faq-7", "indexLabel": "Q7", "title": "What ongoing compliance is required after incorporation?", "content": "Monthly accounting and SAT filings, IMSS reporting if you have employees, and annual filings. We outline this clearly before you commit, so there are no surprises after day one." },
-          { "id": "astra-china-faq-8", "indexLabel": "Q8", "title": "What language is used for documentation and consultations?", "content": "Contracts, filings, and this page are available in Chinese and English. Live consultations are conducted in English; interpretation support can be arranged on request so your team has full clarity at every stage." }
+          {
+            "id": "astra-china-faq-1",
+            "indexLabel": "Q1",
+            "title": "How long does it take to legally start selling on Amazon Mexico, Mercado Libre, or TikTok Shop?",
+            "content": "Incorporation and RFC typically take 2–4 weeks. Running compliance work in parallel, most clients are ready to submit marketplace documentation within 4–6 weeks of starting — timelines depend on your product category and any permits it requires.",
+            "panelClasses": "astraChinaFaqPanel"
+          },
+          {
+            "id": "astra-china-faq-2",
+            "indexLabel": "Q2",
+            "title": "Do I need a Mexican citizen as a shareholder or legal representative?",
+            "content": "Not necessarily a shareholder, but foreign-owned entities do need a Mexican legal representative for certain filings. We'll walk you through the structure that fits your ownership and risk preferences, including what documentation we require before taking on that role.",
+            "panelClasses": "astraChinaFaqPanel"
+          },
+          {
+            "id": "astra-china-faq-3",
+            "indexLabel": "Q3",
+            "title": "What is the RFC and why do I need it before I can operate?",
+            "content": "The RFC is your company's tax ID with SAT, Mexico's tax authority. You need it to invoice, open a business bank account, and register as a seller on any Mexican marketplace — it's the foundation everything else is built on.",
+            "panelClasses": "astraChinaFaqPanel"
+          },
+          {
+            "id": "astra-china-faq-4",
+            "indexLabel": "Q4",
+            "title": "Can I qualify for IMMEX or a shelter-provider program if I plan to manufacture or assemble in Mexico?",
+            "content": "Depends on your product, import volume, and operating model. We review eligibility as part of the diagnosis stage and explain what a shelter-provider arrangement would look like in practice for your specific case.",
+            "panelClasses": "astraChinaFaqPanel"
+          },
+          {
+            "id": "astra-china-faq-5",
+            "indexLabel": "Q5",
+            "title": "What documentation will Amazon, Mercado Libre, or TikTok actually require to approve my account?",
+            "content": "Typically your incorporation documents, RFC, proof of business address, and — for certain categories — specific permits or certifications. We prepare the package in the format each platform's review team expects.",
+            "panelClasses": "astraChinaFaqPanel"
+          },
+          {
+            "id": "astra-china-faq-6",
+            "indexLabel": "Q6",
+            "title": "Is a Mexican entity required for each product category or storefront, or can one entity operate multiple stores?",
+            "content": "One entity can generally operate multiple storefronts. We'll advise on the structure that makes sense for your situation rather than defaulting to unnecessary complexity.",
+            "panelClasses": "astraChinaFaqPanel"
+          },
+          {
+            "id": "astra-china-faq-7",
+            "indexLabel": "Q7",
+            "title": "What ongoing compliance is required after incorporation?",
+            "content": "Monthly accounting and SAT filings, IMSS reporting if you have employees, and annual filings. We outline this clearly before you commit, so there are no surprises after day one.",
+            "panelClasses": "astraChinaFaqPanel"
+          },
+          {
+            "id": "astra-china-faq-8",
+            "indexLabel": "Q8",
+            "title": "What language is used for documentation and consultations?",
+            "content": "Contracts, filings, and this page are available in Chinese and English. Live consultations are conducted in English; interpretation support can be arranged on request so your team has full clarity at every stage.",
+            "panelClasses": "astraChinaFaqPanel"
+          }
         ]
       },
       "contact": {
@@ -109,6 +258,173 @@
       },
       "footer": {
         "copyright": "© 2026 Astra Legal · Soft landing services for Chinese companies entering Mexico"
+      },
+      "presentation": {
+        "bodyFont": "\"IBM Plex Sans\", sans-serif",
+        "headingFont": "\"Source Serif 4\", serif",
+        "monoFont": "\"IBM Plex Mono\", monospace",
+        "labelFont": "\"IBM Plex Mono\", monospace",
+        "sealUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-source-seal-eng-fonts-v2.svg",
+        "styles": {
+          "heroTitle": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.08",
+            "letterSpacing": "-0.01em",
+            "fontSize": "clamp(2.3rem, 4.6vw, 3.6rem)"
+          },
+          "lead": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontSize": "1.12rem",
+            "maxWidth": "46ch"
+          },
+          "sectionTitle": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.55",
+            "letterSpacing": "-0.01em",
+            "fontSize": "clamp(1.7rem, 3vw, 2.3rem)"
+          },
+          "sectionDescription": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontSize": "1.02rem"
+          },
+          "serviceTitle": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.55",
+            "letterSpacing": "-0.01em",
+            "fontSize": "1.18rem"
+          },
+          "serviceDescription": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "maxWidth": "62ch"
+          },
+          "serviceLabel": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "lineHeight": "1.55",
+            "fontSize": "0.62rem"
+          },
+          "processBanner": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.4",
+            "letterSpacing": "-0.01em",
+            "fontSize": "1.35rem",
+            "fontStyle": "italic",
+            "fontWeight": "400",
+            "color": "#231B16",
+            "maxWidth": "640px"
+          },
+          "processWhen": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "lineHeight": "1.55",
+            "fontSize": "0.72rem"
+          },
+          "processTitle": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.55",
+            "letterSpacing": "-0.01em",
+            "fontSize": "1.02rem"
+          },
+          "processDescription": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55"
+          },
+          "attorneyDescription": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "maxWidth": "56ch",
+            "fontSize": "0.96rem"
+          },
+          "attorneyTitle": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "lineHeight": "1.55",
+            "fontSize": "0.76rem"
+          },
+          "attorneyName": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.55",
+            "letterSpacing": "-0.01em"
+          },
+          "trust": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontSize": "0.82rem"
+          },
+          "contactTitle": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.55",
+            "letterSpacing": "-0.01em",
+            "fontSize": "clamp(1.9rem, 3.6vw, 2.6rem)",
+            "maxWidth": "22ch"
+          },
+          "contactDescription": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "maxWidth": "52ch"
+          },
+          "wechatLabel": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "lineHeight": "1.55",
+            "fontSize": "0.72rem"
+          },
+          "navLink": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontSize": "0.88rem"
+          },
+          "headerAction": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "lineHeight": "1.55",
+            "fontSize": "0.78rem",
+            "fontWeight": "400"
+          },
+          "action": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "lineHeight": "1.55",
+            "fontSize": "0.84rem",
+            "fontWeight": "400"
+          },
+          "proofTitle": {
+            "fontFamily": "\"Source Serif 4\", serif",
+            "lineHeight": "1.55",
+            "letterSpacing": "-0.01em"
+          },
+          "proofDescription": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55"
+          },
+          "body": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontWeight": "400"
+          },
+          "mono": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "fontWeight": "400"
+          },
+          "label": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "fontWeight": "400"
+          },
+          "heading": {
+            "fontFamily": "\"Source Serif 4\", serif"
+          },
+          "footer": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "fontSize": "0.84rem",
+            "fontWeight": "400"
+          },
+          "faqButton": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontWeight": "600"
+          }
+        },
+        "bodyLineHeight": "1.55",
+        "serviceRowClasses": "astraChinaServiceCard",
+        "footerFontSize": "0.84rem",
+        "faqAnswerClasses": "astraChinaFaqAnswer"
       }
     }
   }
