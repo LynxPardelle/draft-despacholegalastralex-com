@@ -425,7 +425,7 @@
         "text": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "calculatorPrimaryAction"
+        "classes": "calculatorPrimaryAction ank-color-bgColor"
       }
     },
     {
