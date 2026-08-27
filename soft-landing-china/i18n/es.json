@@ -194,49 +194,57 @@
             "id": "astra-china-faq-1",
             "indexLabel": "P1",
             "title": "¿Cuánto tarda el inicio legal de ventas en Amazon México, Mercado Libre o TikTok Shop?",
-            "content": "La constitución y el RFC suelen tomar de 2 a 4 semanas. Al ejecutar el cumplimiento en paralelo, la mayoría de los clientes puede presentar documentación a plataformas entre 4 y 6 semanas después del inicio; el plazo depende de la categoría y los permisos."
+            "content": "La constitución y el RFC suelen tomar de 2 a 4 semanas. Al ejecutar el cumplimiento en paralelo, la mayoría de los clientes puede presentar documentación a plataformas entre 4 y 6 semanas después del inicio; el plazo depende de la categoría y los permisos.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-2",
             "indexLabel": "P2",
             "title": "¿Necesito a una persona mexicana como accionista o representante legal?",
-            "content": "No necesariamente como accionista, pero las entidades extranjeras sí necesitan representación legal mexicana para ciertos trámites. Explicamos la estructura acorde con tus preferencias de propiedad y riesgo y la documentación requerida."
+            "content": "No necesariamente como accionista, pero las entidades extranjeras sí necesitan representación legal mexicana para ciertos trámites. Explicamos la estructura acorde con tus preferencias de propiedad y riesgo y la documentación requerida.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-3",
             "indexLabel": "P3",
             "title": "¿Qué es el RFC y por qué se necesita antes de operar?",
-            "content": "El RFC es la identificación fiscal de la empresa ante el SAT. Se necesita para facturar, abrir una cuenta bancaria empresarial y registrarse como vendedor en plataformas mexicanas."
+            "content": "El RFC es la identificación fiscal de la empresa ante el SAT. Se necesita para facturar, abrir una cuenta bancaria empresarial y registrarse como vendedor en plataformas mexicanas.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-4",
             "indexLabel": "P4",
             "title": "¿Puedo calificar para IMMEX o un esquema shelter si produciré o ensamblaré en México?",
-            "content": "Depende del producto, el volumen de importación y el modelo operativo. Evaluamos la elegibilidad durante el diagnóstico y explicamos cómo funcionaría un esquema shelter en el caso concreto."
+            "content": "Depende del producto, el volumen de importación y el modelo operativo. Evaluamos la elegibilidad durante el diagnóstico y explicamos cómo funcionaría un esquema shelter en el caso concreto.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-5",
             "indexLabel": "P5",
             "title": "¿Qué documentos exigirán Amazon, Mercado Libre o TikTok para aprobar la cuenta?",
-            "content": "Normalmente se requieren documentos de constitución, RFC, comprobante de domicilio y, para ciertas categorías, permisos o certificaciones específicos. Preparamos el paquete en el formato solicitado por cada plataforma."
+            "content": "Normalmente se requieren documentos de constitución, RFC, comprobante de domicilio y, para ciertas categorías, permisos o certificaciones específicos. Preparamos el paquete en el formato solicitado por cada plataforma.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-6",
             "indexLabel": "P6",
             "title": "¿Cada producto o tienda requiere una empresa mexicana distinta?",
-            "content": "En general, una entidad puede operar varias tiendas. Recomendamos la estructura adecuada para la situación sin añadir complejidad innecesaria."
+            "content": "En general, una entidad puede operar varias tiendas. Recomendamos la estructura adecuada para la situación sin añadir complejidad innecesaria.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-7",
             "indexLabel": "P7",
             "title": "¿Qué cumplimiento continuo se requiere después de constituir la empresa?",
-            "content": "Contabilidad mensual y declaraciones ante el SAT, reportes al IMSS si hay personal y declaraciones anuales. Lo explicamos antes de contratar para evitar sorpresas."
+            "content": "Contabilidad mensual y declaraciones ante el SAT, reportes al IMSS si hay personal y declaraciones anuales. Lo explicamos antes de contratar para evitar sorpresas.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-8",
             "indexLabel": "P8",
             "title": "¿En qué idioma se preparan los documentos y se realizan las consultas?",
-            "content": "Los contratos, trámites y esta página están disponibles en chino e inglés. Las consultas en vivo se realizan en inglés y puede organizarse interpretación cuando se solicite."
+            "content": "Los contratos, trámites y esta página están disponibles en chino e inglés. Las consultas en vivo se realizan en inglés y puede organizarse interpretación cuando se solicite.",
+            "panelClasses": "astraChinaFaqPanel"
           }
         ]
       },

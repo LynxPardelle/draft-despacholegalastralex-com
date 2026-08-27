@@ -194,49 +194,57 @@
             "id": "astra-china-faq-1",
             "indexLabel": "Q1",
             "title": "How long does it take to legally start selling on Amazon Mexico, Mercado Libre, or TikTok Shop?",
-            "content": "Incorporation and RFC typically take 2–4 weeks. Running compliance work in parallel, most clients are ready to submit marketplace documentation within 4–6 weeks of starting — timelines depend on your product category and any permits it requires."
+            "content": "Incorporation and RFC typically take 2–4 weeks. Running compliance work in parallel, most clients are ready to submit marketplace documentation within 4–6 weeks of starting — timelines depend on your product category and any permits it requires.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-2",
             "indexLabel": "Q2",
             "title": "Do I need a Mexican citizen as a shareholder or legal representative?",
-            "content": "Not necessarily a shareholder, but foreign-owned entities do need a Mexican legal representative for certain filings. We'll walk you through the structure that fits your ownership and risk preferences, including what documentation we require before taking on that role."
+            "content": "Not necessarily a shareholder, but foreign-owned entities do need a Mexican legal representative for certain filings. We'll walk you through the structure that fits your ownership and risk preferences, including what documentation we require before taking on that role.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-3",
             "indexLabel": "Q3",
             "title": "What is the RFC and why do I need it before I can operate?",
-            "content": "The RFC is your company's tax ID with SAT, Mexico's tax authority. You need it to invoice, open a business bank account, and register as a seller on any Mexican marketplace — it's the foundation everything else is built on."
+            "content": "The RFC is your company's tax ID with SAT, Mexico's tax authority. You need it to invoice, open a business bank account, and register as a seller on any Mexican marketplace — it's the foundation everything else is built on.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-4",
             "indexLabel": "Q4",
             "title": "Can I qualify for IMMEX or a shelter-provider program if I plan to manufacture or assemble in Mexico?",
-            "content": "Depends on your product, import volume, and operating model. We review eligibility as part of the diagnosis stage and explain what a shelter-provider arrangement would look like in practice for your specific case."
+            "content": "Depends on your product, import volume, and operating model. We review eligibility as part of the diagnosis stage and explain what a shelter-provider arrangement would look like in practice for your specific case.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-5",
             "indexLabel": "Q5",
             "title": "What documentation will Amazon, Mercado Libre, or TikTok actually require to approve my account?",
-            "content": "Typically your incorporation documents, RFC, proof of business address, and — for certain categories — specific permits or certifications. We prepare the package in the format each platform's review team expects."
+            "content": "Typically your incorporation documents, RFC, proof of business address, and — for certain categories — specific permits or certifications. We prepare the package in the format each platform's review team expects.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-6",
             "indexLabel": "Q6",
             "title": "Is a Mexican entity required for each product category or storefront, or can one entity operate multiple stores?",
-            "content": "One entity can generally operate multiple storefronts. We'll advise on the structure that makes sense for your situation rather than defaulting to unnecessary complexity."
+            "content": "One entity can generally operate multiple storefronts. We'll advise on the structure that makes sense for your situation rather than defaulting to unnecessary complexity.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-7",
             "indexLabel": "Q7",
             "title": "What ongoing compliance is required after incorporation?",
-            "content": "Monthly accounting and SAT filings, IMSS reporting if you have employees, and annual filings. We outline this clearly before you commit, so there are no surprises after day one."
+            "content": "Monthly accounting and SAT filings, IMSS reporting if you have employees, and annual filings. We outline this clearly before you commit, so there are no surprises after day one.",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-8",
             "indexLabel": "Q8",
             "title": "What language is used for documentation and consultations?",
-            "content": "Contracts, filings, and this page are available in Chinese and English. Live consultations are conducted in English; interpretation support can be arranged on request so your team has full clarity at every stage."
+            "content": "Contracts, filings, and this page are available in Chinese and English. Live consultations are conducted in English; interpretation support can be arranged on request so your team has full clarity at every stage.",
+            "panelClasses": "astraChinaFaqPanel"
           }
         ]
       },

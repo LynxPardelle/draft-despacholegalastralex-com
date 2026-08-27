@@ -5,6 +5,17 @@ const read = (path) => JSON.parse(readFileSync(new URL(`../${path}`, import.meta
 const components = read('soft-landing-china/components.json').components;
 const component = (id) => components.find((entry) => entry.id === id);
 
+test('campaign FAQ uses static class fields accepted by the native accordion renderer', () => {
+  const faq = component('astraChinaFaqAccordion');
+  assert.doesNotMatch(faq.valueInstructions ?? '', /set:config\.(?:detailContentClasses|defaultItemButtonConfig\.styles),/);
+  assert.equal(faq.config.detailContentClasses, 'astraChinaFaqAnswer');
+  for (const locale of ['en', 'es', 'zh']) {
+    const items = read(`soft-landing-china/i18n/${locale}.json`).dictionary.page.faq.items;
+    const expected = locale === 'zh' ? 'astraChinaFaqPanel astraChinaFaqAnswerZh' : 'astraChinaFaqPanel';
+    assert.equal(items.every((item) => item.panelClasses === expected), true);
+  }
+});
+
 test('campaign FAQ inherits the localized body font instead of the button UA font', () => {
   const combos = read('soft-landing-china/angora-combos.json').combos;
   assert.match(combos.astraChinaFaqButton.join(' '), /(?:^|\s)ank-fontFamily-inherit(?:\s|$)/);

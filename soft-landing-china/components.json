@@ -958,8 +958,7 @@
         "toggleIconName": "add",
         "defaultItemIconIsExpandedClasses": "astraChinaFaqToggleOpen",
         "defaultItemIconIsNotExpandedClasses": "astraChinaFaqToggleClosed"
-      },
-      "valueInstructions": "set:config.detailContentClasses,i18n,page.presentation.faqAnswerClasses;set:config.defaultItemButtonConfig.styles,i18n,page.presentation.styles.faqButton"
+      }
     },
     {
       "id": "astraChinaBook",
