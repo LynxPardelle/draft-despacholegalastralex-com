@@ -29,8 +29,16 @@ test('QA-021 restores Chinese text measures and its distinct source seal', () =>
   assert.equal(page.presentation.styles.contactTitle.maxWidth, '16em');
   assert.equal(page.presentation.styles.processBanner.fontStyle, 'normal');
   assert.equal(page.presentation.styles.processBanner.fontWeight, '600');
-  assert.match(page.presentation.sealUrl, /astra-source-seal-zh\.svg$/);
+  assert.match(page.presentation.sealUrl, /astra-source-seal-zh-fonts-v2\.svg$/);
   assert.equal(page.nav.zhAriaCurrent, 'page');
+});
+
+test('campaign seals use the versioned font-embedded assets in every locale', () => {
+  const base = 'https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/';
+  for (const locale of ['en', 'es', 'zh']) {
+    const expected = locale === 'zh' ? 'zh' : 'eng';
+    assert.equal(json(`soft-landing-china/i18n/${locale}.json`).dictionary.page.presentation.sealUrl, `${base}astra-source-seal-${expected}-fonts-v2.svg`);
+  }
 });
 
 test('QA-021 lets auxiliary text inherit the localized source line height', () => {
