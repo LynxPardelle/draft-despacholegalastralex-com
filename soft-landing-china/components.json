@@ -181,7 +181,7 @@
         "id": "astra-china-header-cta",
         "href": "#astra-china-book",
         "text": "",
-        "classes": "astraChinaPrimaryAction astraChinaHeaderAction ank-color-HASHFBF8F2"
+        "classes": "astraChinaHeaderAction ank-color-HASHFBF8F2"
       }
     },
     {
@@ -1010,7 +1010,7 @@
         "id": "astra-china-contact-eyebrow",
         "tag": "p",
         "text": "",
-        "classes": "astraChinaEyebrow astraChinaEyebrowOnDark"
+        "classes": "astraChinaEyebrowOnDark"
       }
     },
     {
@@ -1592,7 +1592,7 @@
       "type": "container",
       "config": {
         "tag": "span",
-        "classes": "astraChinaEyebrowLine astraChinaEyebrowLineOnDark",
+        "classes": "astraChinaEyebrowLineOnDark",
         "ariaHidden": true
       }
     },

@@ -40,7 +40,7 @@
       "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-24px ank-paddingBlock-14px ank-borderRadius-3px ank-fontSize-0_84rem ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-border-1px__solid__HASH231B16 ank-bg-HASH231B16 ank-color-HASHFBF8F2"
     ],
     "astraChinaHeaderAction": [
-      "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-24px ank-paddingBlock-14px ank-borderRadius-3px ank-fontSize-0_84rem ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-bg-HASHE00322 ank-border-1px__solid__HASHE00322 ank-fontSize-0_78rem ank-paddingInline-18px ank-paddingBlock-10px"
+      "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-borderRadius-3px ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-bg-HASHE00322 ank-border-1px__solid__HASHE00322 ank-fontSize-0_78rem ank-paddingInline-18px ank-paddingBlock-10px"
     ],
     "astraChinaMain": [
       "ank-width-100per ank-bg-HASHFBF8F2 ank-color-HASH231B16 ank-fontWeight-400"
@@ -196,7 +196,7 @@
       "ank-position-relative ank-display-flex ank-flexDirection-column ank-alignItems-center ank-textAlign-center ank-zIndex-2"
     ],
     "astraChinaEyebrowOnDark": [
-      "ank-color-HASHF0C34D"
+      "ank-m-0 ank-width-fitMINcontent ank-color-HASHF0C34D ank-fontSize-0_72rem ank-fontWeight-400 ank-letterSpacing-0_12em ank-textTransform-uppercase"
     ],
     "astraChinaContactTitle": [
       "ank-marginTop-0 ank-marginBottom-18px ank-maxWidth-22ch ank-color-HASHFBF8F2 ank-fontSize-clampSD1_9remCOM3_6vwCOM2_6remED ank-fontWeight-600"
@@ -334,7 +334,7 @@
       "ank-display-inlineMINblock ank-width-22px ank-height-1px ank-bg-HASHE00322 ank-flexShrink-0"
     ],
     "astraChinaEyebrowLineOnDark": [
-      "ank-bg-HASHF0C34D"
+      "ank-display-inlineMINblock ank-width-22px ank-height-1px ank-bg-HASHF0C34D ank-flexShrink-0"
     ],
     "astraChinaEyebrowRow": [
       "ank-display-flex ank-alignItems-center ank-gap-0_55em"
