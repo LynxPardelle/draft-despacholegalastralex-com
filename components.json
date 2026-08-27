@@ -34,7 +34,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-12px ank-flexWrap-wrap",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-12px ank-flexWrap-wrap",
         "components": [
           "brandLink",
           "desktopNav",
@@ -51,7 +51,7 @@
         "href": "/",
         "text": "",
         "ariaLabel": "",
-        "classes": "ank-display-inlineFlex ank-alignItems-center ank-gap-10px ank-color-titleColor ank-fontSize-1_02rem ank-fontWeight-900 ank-textDecoration-none ank-letterSpacing-0 ank-lineHeight-1_1",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-gap-10px ank-color-titleColor ank-fontSize-1_02rem ank-fontWeight-900 ank-textDecoration-none ank-letterSpacing-0 ank-lineHeight-1_1",
         "components": [
           "brandLogo"
         ]
@@ -65,19 +65,21 @@
         "tag": "image",
         "src": "",
         "alt": "",
-        "width": 44,
-        "height": 44,
+        "width": 56,
+        "height": 56,
         "loading": "eager",
         "decoding": "async",
         "fetchPriority": "high",
         "styles": {
           "display": "block",
-          "width": "44px",
-          "height": "44px",
-          "maxWidth": "44px",
+          "width": "56px",
+          "height": "56px",
+          "maxWidth": "56px",
+          "backgroundColor": "#B90F35",
+          "borderRadius": "8px",
           "objectFit": "contain"
         },
-        "classes": "ank-display-block ank-width-44px ank-height-44px ank-maxWidth-44px ank-objectFit-contain"
+        "classes": "ank-display-block ank-width-56px ank-height-56px ank-maxWidth-56px ank-objectFit-contain"
       }
     },
     {
@@ -171,7 +173,7 @@
         "items": [],
         "dropdownConfig": {
           "ariaLabel": "",
-          "buttonClasses": "navDropdownButton",
+          "buttonClasses": "navDropdownButton ank-display-inlineMINflex",
           "itemLinkClasses": "dropdownItem",
           "disabledItemClasses": "ank-opacity-0_72 ank-textTransform-uppercase ank-fontSize-0_76rem ank-letterSpacing-0 ank-cursor-default ank-bg-transparent ank-color-secondaryTextColor",
           "menuContainerClasses": "dropdownMenu",
@@ -202,7 +204,7 @@
       "config": {
         "iconName": "expand_more",
         "ariaHidden": true,
-        "classes": "ank-display-inlineBlock ank-width-1em ank-height-1em ank-fontSize-1rem"
+        "classes": "ank-display-inlineMINblock ank-width-1em ank-height-1em ank-fontSize-1rem"
       }
     },
     {
@@ -214,7 +216,7 @@
         "items": [],
         "dropdownConfig": {
           "ariaLabel": "",
-          "buttonClasses": "navDropdownButton",
+          "buttonClasses": "navDropdownButton ank-display-inlineMINflex",
           "itemLinkClasses": "dropdownItem",
           "menuContainerClasses": "dropdownMenu",
           "menuNavClasses": "ank-display-block",
@@ -244,7 +246,7 @@
       "config": {
         "iconName": "expand_more",
         "ariaHidden": true,
-        "classes": "ank-display-inlineBlock ank-width-1em ank-height-1em ank-fontSize-1rem"
+        "classes": "ank-display-inlineMINblock ank-width-1em ank-height-1em ank-fontSize-1rem"
       }
     },
     {
@@ -254,10 +256,21 @@
         "tag": "div",
         "classes": "ank-display-flex ank-alignItems-center ank-gap-8px ank-flexWrap-wrap ank-marginInlineStart-auto",
         "components": [
-          "mobileNav",
+          "mobileNavVisibility",
           "languageMenu",
           "toggleThemeBtn",
-          "headerCtaLink"
+          "headerCtaVisibility"
+        ]
+      }
+    },
+    {
+      "id": "mobileNavVisibility",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-md-none",
+        "components": [
+          "mobileNav"
         ]
       }
     },
@@ -280,7 +293,7 @@
         "items": [],
         "dropdownConfig": {
           "ariaLabel": "",
-          "buttonClasses": "utilityButton ank-display-md-none ank-width-42px ank-height-42px ank-padding-0",
+          "buttonClasses": "utilityButton ank-display-inlineMINflex ank-width-42px ank-height-42px ank-padding-0",
           "itemLinkClasses": "dropdownItem",
           "menuContainerClasses": "ank-display-md-none ank-width-100per ank-marginTop-10px ank-padding-12px ank-bg-bgColor ank-borderTop-1px__solid__secondaryAccentColor",
           "menuNavClasses": "ank-width-100per ank-maxWidth-1180px ank-marginInline-auto",
@@ -315,7 +328,7 @@
         "items": [],
         "dropdownConfig": {
           "ariaLabel": "",
-          "buttonClasses": "utilityButton",
+          "buttonClasses": "utilityButton ank-display-inlineMINflex",
           "itemLinkClasses": "dropdownItem",
           "menuContainerClasses": "dropdownMenu ank-minWidth-150px",
           "menuNavClasses": "ank-display-block",
@@ -346,7 +359,7 @@
       "config": {
         "iconName": "expand_more",
         "ariaHidden": true,
-        "classes": "ank-display-inlineBlock ank-width-1em ank-height-1em ank-fontSize-1rem"
+        "classes": "ank-display-inlineMINblock ank-width-1em ank-height-1em ank-fontSize-1rem"
       }
     },
     {
@@ -359,15 +372,26 @@
         "type": "button",
         "label": "",
         "ariaLabel": "",
-        "classes": "utilityButton ank-width-42px ank-height-42px ank-padding-0",
+        "classes": "utilityButton ank-display-inlineMINflex ank-width-42px ank-height-42px ank-padding-0",
         "icon": "light_mode",
-        "iconClasses": "ank-display-inlineBlock ank-width-1_1rem ank-height-1_1rem",
+        "iconClasses": "ank-display-inlineMINblock ank-width-1_1rem ank-height-1_1rem",
         "iconPosition": "before",
         "styles": {
           "backgroundColor": "var(--ank-bgColor)",
           "color": "var(--ank-titleColor)",
           "borderColor": "var(--ank-secondaryAccentColor)"
         }
+      }
+    },
+    {
+      "id": "headerCtaVisibility",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-none ank-display-sm-flex",
+        "components": [
+          "headerCtaLink"
+        ]
       }
     },
     {
@@ -381,7 +405,7 @@
         "ariaLabel": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "primaryAction ank-color-bgColor ank-display-none ank-display-sm-inlineFlex"
+        "classes": "primaryAction ank-color-bgColor ank-display-inlineMINflex"
       }
     },
     {
@@ -697,7 +721,7 @@
         "href": "#",
         "text": "",
         "ariaLabel": "",
-        "classes": "secondaryAction ank-width-fitContent ank-minWidth-44px ank-minHeight-44px",
+        "classes": "secondaryAction ank-display-inlineMINflex ank-width-fitMINcontent ank-minWidth-44px ank-minHeight-44px",
         "components": [
           "footerPhoneIcon"
         ]
@@ -709,7 +733,7 @@
       "config": {
         "iconName": "phone_android",
         "ariaHidden": true,
-        "classes": "ank-display-inlineBlock ank-width-1_1rem ank-height-1_1rem"
+        "classes": "ank-display-inlineMINblock ank-width-1_1rem ank-height-1_1rem"
       }
     },
     {
@@ -720,7 +744,7 @@
         "href": "#",
         "text": "",
         "ariaLabel": "",
-        "classes": "secondaryAction ank-width-fitContent",
+        "classes": "secondaryAction ank-display-inlineMINflex ank-width-fitMINcontent",
         "components": [
           "footerEmailIcon",
           "footerEmailText"
@@ -733,7 +757,7 @@
       "config": {
         "iconName": "mail",
         "ariaHidden": true,
-        "classes": "ank-display-inlineBlock ank-width-1_1rem ank-height-1_1rem"
+        "classes": "ank-display-inlineMINblock ank-width-1_1rem ank-height-1_1rem"
       }
     },
     {
@@ -756,7 +780,7 @@
         "ariaLabel": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "primaryAction ank-color-bgColor ank-width-fitContent"
+        "classes": "primaryAction ank-color-bgColor ank-display-inlineMINflex ank-width-fitMINcontent"
       }
     },
     {
@@ -769,7 +793,7 @@
         "ariaLabel": "",
         "target": "_blank",
         "rel": "noopener noreferrer",
-        "classes": "secondaryAction ank-width-fitContent"
+        "classes": "secondaryAction ank-display-inlineMINflex ank-width-fitMINcontent"
       }
     }
   ]

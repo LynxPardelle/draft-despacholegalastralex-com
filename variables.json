@@ -35,9 +35,9 @@
       {
         "id": "recursos",
         "label": {
-          "es": "Recursos",
-          "en": "Resources",
-          "zh": "资源"
+          "es": "Materiales de Trabajo",
+          "en": "Work Materials",
+          "zh": "工作资料"
         },
         "href": "/recursos-legales",
         "value": "/recursos-legales"
@@ -80,23 +80,23 @@
           "id": "soft-landing-china",
           "label": {
             "es": "Soft landing para empresas internacionales",
-            "en": "Soft landing for Chinese companies",
-            "zh": "中国企业在墨西哥落地"
+            "en": "Soft landing for international companies",
+            "zh": "国际企业在墨西哥落地"
           },
           "href": "/soft-landing-empresas-chinas",
           "value": "/soft-landing-empresas-chinas",
           "ariaLabel": {
             "es": "Soft landing para empresas internacionales",
-            "en": "Soft landing for Chinese companies",
-            "zh": "中国企业在墨西哥落地"
+            "en": "Soft landing for international companies",
+            "zh": "国际企业在墨西哥落地"
           }
         },
         {
           "id": "grupo-autoridad",
           "label": {
             "es": "Derecho Fiscal y Administrativo",
-            "en": "Authorities, tax, and defense",
-            "zh": "主管机关、税务与防御"
+            "en": "Tax and Administrative Law",
+            "zh": "税务与行政法"
           },
           "href": "#",
           "value": "grupo-autoridad",
@@ -121,15 +121,15 @@
           "id": "defensa-fiscal",
           "label": {
             "es": "Escudo vs SAT y Secretarías de Gobierno",
-            "en": "Tax, administrative, and amparo defense",
-            "zh": "税务、行政与宪法保护诉讼防御"
+            "en": "Shield against SAT and government ministries",
+            "zh": "应对 SAT 及政府部门的法律护盾"
           },
           "href": "/defensa-fiscal-administrativa-amparo",
           "value": "/defensa-fiscal-administrativa-amparo",
           "ariaLabel": {
             "es": "Escudo vs SAT y Secretarías de Gobierno",
-            "en": "Tax, administrative, and amparo defense",
-            "zh": "税务、行政与宪法保护诉讼防御"
+            "en": "Shield against SAT and government ministries",
+            "zh": "应对 SAT 及政府部门的法律护盾"
           }
         },
         {
@@ -177,8 +177,8 @@
           "id": "grupo-patrimonio-trabajo",
           "label": {
             "es": "Derecho Civil y Laboral",
-            "en": "Assets and labor",
-            "zh": "资产与劳动"
+            "en": "Civil and Labor Law",
+            "zh": "民法与劳动法"
           },
           "href": "#",
           "value": "grupo-patrimonio-trabajo",
@@ -218,8 +218,8 @@
           "id": "grupo-gobierno",
           "label": {
             "es": "Gobierno y Política Pública",
-            "en": "Government and public projects",
-            "zh": "政府与公共项目"
+            "en": "Government and Public Policy",
+            "zh": "政府与公共政策"
           },
           "href": "#",
           "value": "grupo-gobierno",
@@ -297,9 +297,9 @@
         {
           "id": "recursos",
           "label": {
-            "es": "Recursos",
-            "en": "Resources",
-            "zh": "资源"
+            "es": "Materiales de Trabajo",
+            "en": "Work Materials",
+            "zh": "工作资料"
           },
           "href": "/recursos-legales",
           "value": "/recursos-legales"
@@ -328,15 +328,15 @@
           "id": "soft-landing-china",
           "label": {
             "es": "Soft landing para empresas internacionales",
-            "en": "Soft landing for Chinese companies",
-            "zh": "中国企业在墨西哥落地"
+            "en": "Soft landing for international companies",
+            "zh": "国际企业在墨西哥落地"
           },
           "href": "/soft-landing-empresas-chinas",
           "value": "/soft-landing-empresas-chinas",
           "ariaLabel": {
             "es": "Soft landing para empresas internacionales",
-            "en": "Soft landing for Chinese companies",
-            "zh": "中国企业在墨西哥落地"
+            "en": "Soft landing for international companies",
+            "zh": "国际企业在墨西哥落地"
           }
         },
         {
@@ -373,15 +373,15 @@
           "id": "defensa-fiscal",
           "label": {
             "es": "Escudo vs SAT y Secretarías de Gobierno",
-            "en": "Tax, administrative, and amparo defense",
-            "zh": "税务、行政与宪法保护诉讼防御"
+            "en": "Shield against SAT and government ministries",
+            "zh": "应对 SAT 及政府部门的法律护盾"
           },
           "href": "/defensa-fiscal-administrativa-amparo",
           "value": "/defensa-fiscal-administrativa-amparo",
           "ariaLabel": {
             "es": "Escudo vs SAT y Secretarías de Gobierno",
-            "en": "Tax, administrative, and amparo defense",
-            "zh": "税务、行政与宪法保护诉讼防御"
+            "en": "Shield against SAT and government ministries",
+            "zh": "应对 SAT 及政府部门的法律护盾"
           }
         },
         {
@@ -510,15 +510,15 @@
           "id": "soft-landing-china",
           "label": {
             "es": "Soft landing para empresas internacionales",
-            "en": "Soft landing for Chinese companies",
-            "zh": "中国企业在墨西哥落地"
+            "en": "Soft landing for international companies",
+            "zh": "国际企业在墨西哥落地"
           },
           "href": "/soft-landing-empresas-chinas",
           "value": "/soft-landing-empresas-chinas",
           "ariaLabel": {
             "es": "Soft landing para empresas internacionales",
-            "en": "Soft landing for Chinese companies",
-            "zh": "中国企业在墨西哥落地"
+            "en": "Soft landing for international companies",
+            "zh": "国际企业在墨西哥落地"
           }
         },
         {
@@ -555,15 +555,15 @@
           "id": "defensa-fiscal",
           "label": {
             "es": "Escudo vs SAT y Secretarías de Gobierno",
-            "en": "Tax, administrative, and amparo defense",
-            "zh": "税务、行政与宪法保护诉讼防御"
+            "en": "Shield against SAT and government ministries",
+            "zh": "应对 SAT 及政府部门的法律护盾"
           },
           "href": "/defensa-fiscal-administrativa-amparo",
           "value": "/defensa-fiscal-administrativa-amparo",
           "ariaLabel": {
             "es": "Escudo vs SAT y Secretarías de Gobierno",
-            "en": "Tax, administrative, and amparo defense",
-            "zh": "税务、行政与宪法保护诉讼防御"
+            "en": "Shield against SAT and government ministries",
+            "zh": "应对 SAT 及政府部门的法律护盾"
           }
         },
         {

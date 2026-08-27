@@ -6,6 +6,8 @@ import test from 'node:test';
 const readJson = (path) => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'));
 const readText = (path) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 const componentById = (payload, id) => payload.components.find((component) => component.id === id);
+// Canonical CRLF preserves the recorded baselines across Windows and LF checkouts.
+const baselineHash = (text) => createHash('sha256').update(text.replace(/\r?\n/g, '\r\n')).digest('hex');
 
 const evaluateComputation = (definition, values) => {
   const sourceValue = (source) => source.source === 'field' ? Number(values[source.fieldId]) : Number(source.value);
@@ -672,6 +674,11 @@ test('QA-020 and QA-021 retain complete EN/ZH reference content and contact pari
   assert.match(componentById(payload, 'astraChinaFooterEmail').valueInstructions, /astraChinaContact\.emailHref/);
 });
 
+test('landing baselines ignore platform line endings but still detect content changes', () => {
+  assert.equal(baselineHash('first\nsecond\n'), baselineHash('first\r\nsecond\r\n'));
+  assert.notEqual(baselineHash('first\nsecond\n'), baselineHash('first\nchanged\n'));
+});
+
 test('QA-020 and QA-021 stay absent from every pre-existing site surface and preserve the old landing bytes', () => {
   const newPaths = ['/soft-landing-china/eng', '/soft-landing-china/zh'];
   const existingSurfaceFiles = [
@@ -691,18 +698,18 @@ test('QA-020 and QA-021 stay absent from every pre-existing site surface and pre
     for (const campaignPath of newPaths) assert.equal(content.includes(campaignPath), false, `${path}: ${campaignPath}`);
   }
 
+  // QA-004's approved international-company translations supersede only EN, ZH, and SEO baselines.
   const expectedHashes = {
     'soft-landing-empresas-chinas/angora-combos.json': '4eb85d2a78e09c7f5e9ca2d884df5d2027e00e1215593454a0c4b48680af9282',
     'soft-landing-empresas-chinas/components.json': 'f9f582e879c156b4ee82673087abe86fb16a59714cb1bfca476894e9caddd830',
-    'soft-landing-empresas-chinas/i18n/en.json': '5fe2ab0f87c385f15e34254a82149f9b194bb29d749b37473570191c231ddaf1',
+    'soft-landing-empresas-chinas/i18n/en.json': '95c2287c678f284a1ba6c9afa4440ff95bf024ca1c50b35109cce067460708cd',
     'soft-landing-empresas-chinas/i18n/es.json': '3046749be6b1241ddf9e62137028743fb6f9b6b6d2ae7316e09e63c6aac5771e',
-    'soft-landing-empresas-chinas/i18n/zh.json': 'fd1b656155bd124e0d79d5a68421775eb86b1ea14fea6894df4b731f764c0b49',
-    'soft-landing-empresas-chinas/page-config.json': 'a38e9d7052c80f2b16870ebab7175c47d0c74e1f8acfeb07c248c4e24aee56e3',
+    'soft-landing-empresas-chinas/i18n/zh.json': 'fa024237465c4b4c2ac48110a949a39f1bb2715348752ffa3324f941d7b703ef',
+    'soft-landing-empresas-chinas/page-config.json': 'a42e8fc92b4b05c12f89801fdca9282d7e406174cd9309a2f4ec5c29b8bbaf56',
     'soft-landing-empresas-chinas/variables.json': '53e83983035e65d617c7e255d2975b30ca1cb1903d86a6982c0aa32301fde4ff',
   };
   for (const [path, hash] of Object.entries(expectedHashes)) {
-    const bytes = readFileSync(new URL(`../${path}`, import.meta.url));
-    assert.equal(createHash('sha256').update(bytes).digest('hex'), hash, path);
+    assert.equal(baselineHash(readText(path)), hash, path);
   }
 });
 
