@@ -194,49 +194,57 @@
             "id": "astra-china-faq-1",
             "indexLabel": "Q1",
             "title": "需要多长时间才能合规地在亚马逊墨西哥、Mercado Libre或TikTok Shop开始销售？",
-            "content": "公司注册及RFC税号申请通常需要2至4周。由于合规相关工作可同步推进，大多数客户在启动后4至6周内即可完成电商平台入驻文件的提交——具体时间视产品类别及所需许可而定。"
+            "content": "公司注册及RFC税号申请通常需要2至4周。由于合规相关工作可同步推进，大多数客户在启动后4至6周内即可完成电商平台入驻文件的提交——具体时间视产品类别及所需许可而定。",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-2",
             "indexLabel": "Q2",
             "title": "是否需要由墨西哥籍公民担任股东或法定代表人？",
-            "content": "股东方面并非必须由墨西哥籍公民担任，但外资企业在办理部分手续时确需一名墨西哥法定代表人。我们会根据您对股权结构及风险承担的具体考量，为您详细说明可行方案，并说明我们在担任该角色前所需的相关文件。"
+            "content": "股东方面并非必须由墨西哥籍公民担任，但外资企业在办理部分手续时确需一名墨西哥法定代表人。我们会根据您对股权结构及风险承担的具体考量，为您详细说明可行方案，并说明我们在担任该角色前所需的相关文件。",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-3",
             "indexLabel": "Q3",
             "title": "什么是RFC税号？为何在正式运营前必须取得？",
-            "content": "RFC是企业在墨西哥税务局（SAT）登记的税务识别号。企业需凭此开具发票、开立对公银行账户，并在各大墨西哥电商平台完成卖家注册——它是后续一切经营活动的基础。"
+            "content": "RFC是企业在墨西哥税务局（SAT）登记的税务识别号。企业需凭此开具发票、开立对公银行账户，并在各大墨西哥电商平台完成卖家注册——它是后续一切经营活动的基础。",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-4",
             "indexLabel": "Q4",
             "title": "若计划在墨西哥设厂生产或组装，是否符合IMMEX或Shelter委托生产计划的申请条件？",
-            "content": "这取决于您的产品类型、进口规模及运营模式。我们会在初期需求评估阶段为您评估申请资格，并结合您的具体情况说明Shelter委托生产模式在实际操作中的具体安排。"
+            "content": "这取决于您的产品类型、进口规模及运营模式。我们会在初期需求评估阶段为您评估申请资格，并结合您的具体情况说明Shelter委托生产模式在实际操作中的具体安排。",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-5",
             "indexLabel": "Q5",
             "title": "亚马逊、Mercado Libre或TikTok平台在账户审核时究竟需要哪些文件？",
-            "content": "通常包括公司注册文件、RFC税号证明、经营地址证明，部分品类还需提供特定许可或认证文件。我们会按照各平台审核团队的具体要求，为您准备完整的文件资料包。"
+            "content": "通常包括公司注册文件、RFC税号证明、经营地址证明，部分品类还需提供特定许可或认证文件。我们会按照各平台审核团队的具体要求，为您准备完整的文件资料包。",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-6",
             "indexLabel": "Q6",
             "title": "是否每个产品类别或店铺都需要单独设立一家墨西哥公司，还是一家公司可以同时运营多个店铺？",
-            "content": "一般而言，一家公司即可同时运营多个店铺。我们会根据您的实际情况提供最合适的架构建议，避免不必要的复杂设置。"
+            "content": "一般而言，一家公司即可同时运营多个店铺。我们会根据您的实际情况提供最合适的架构建议，避免不必要的复杂设置。",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-7",
             "indexLabel": "Q7",
             "title": "公司注册完成后，还需持续履行哪些合规义务？",
-            "content": "包括每月的会计做账及税务局申报、如有雇员则需进行社保（IMSS）申报，以及年度申报。我们会在您正式委托前清楚说明相关事项，确保后续运营不会出现意外。"
+            "content": "包括每月的会计做账及税务局申报、如有雇员则需进行社保（IMSS）申报，以及年度申报。我们会在您正式委托前清楚说明相关事项，确保后续运营不会出现意外。",
+            "panelClasses": "astraChinaFaqPanel"
           },
           {
             "id": "astra-china-faq-8",
             "indexLabel": "Q8",
             "title": "文件资料及咨询会议使用何种语言？",
-            "content": "合同、申报文件及本页面均提供中文及英文版本。线上咨询会议以英文进行，如有需要可为您安排传译支持，确保您的团队在每个环节都能获得清晰、准确的信息。"
+            "content": "合同、申报文件及本页面均提供中文及英文版本。线上咨询会议以英文进行，如有需要可为您安排传译支持，确保您的团队在每个环节都能获得清晰、准确的信息。",
+            "panelClasses": "astraChinaFaqPanel"
           }
         ]
       },
@@ -256,7 +264,7 @@
         "headingFont": "\"Source Serif 4\", serif",
         "monoFont": "\"IBM Plex Mono\", monospace",
         "labelFont": "\"IBM Plex Mono\", monospace",
-        "sealUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-source-seal-eng.svg",
+        "sealUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-source-seal-zh-fonts-v2.svg",
         "styles": {
           "heroTitle": {
             "fontFamily": "\"Source Serif 4\", serif",
@@ -368,7 +376,8 @@
           "headerAction": {
             "fontFamily": "\"IBM Plex Mono\", monospace",
             "lineHeight": "1.55",
-            "fontSize": "0.78rem"
+            "fontSize": "0.78rem",
+            "fontWeight": "400"
           },
           "action": {
             "fontFamily": "\"IBM Plex Mono\", monospace",
@@ -384,8 +393,38 @@
           "proofDescription": {
             "fontFamily": "\"IBM Plex Sans\", sans-serif",
             "lineHeight": "1.55"
+          },
+          "body": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontWeight": "400"
+          },
+          "mono": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "fontWeight": "400"
+          },
+          "label": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "fontWeight": "400"
+          },
+          "heading": {
+            "fontFamily": "\"Source Serif 4\", serif"
+          },
+          "footer": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "fontSize": "0.84rem",
+            "fontWeight": "400"
+          },
+          "faqButton": {
+            "fontFamily": "\"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.55",
+            "fontWeight": "600"
           }
-        }
+        },
+        "bodyLineHeight": "1.55",
+        "serviceRowClasses": "astraChinaServiceCard",
+        "footerFontSize": "0.84rem",
+        "faqAnswerClasses": "astraChinaFaqAnswer"
       }
     }
   }

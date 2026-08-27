@@ -26,7 +26,7 @@
           "astraChinaHeaderInner"
         ]
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.body"
     },
     {
       "id": "astraChinaHeaderInner",
@@ -53,7 +53,11 @@
         "classes": "astraChinaBrand",
         "components": [
           "astraChinaLogo"
-        ]
+        ],
+        "styles": {
+          "width": "108px",
+          "flex": "0 0 108px"
+        }
       }
     },
     {
@@ -70,7 +74,11 @@
         "loading": "eager",
         "decoding": "async",
         "fetchPriority": "high",
-        "classes": "astraChinaLogo"
+        "classes": "astraChinaLogo",
+        "styles": {
+          "height": "34px",
+          "width": "auto"
+        }
       }
     },
     {
@@ -168,7 +176,7 @@
     {
       "id": "astraChinaHeaderCta",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.nav.consultation;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.headerAction",
+      "valueInstructions": "set:config.text,i18n,page.nav.consultation;set:config.styles,i18n,page.presentation.styles.headerAction",
       "config": {
         "id": "astra-china-header-cta",
         "href": "#astra-china-book",
@@ -194,7 +202,7 @@
           "astraChinaBook"
         ]
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.body"
     },
     {
       "id": "astraChinaHero",
@@ -241,7 +249,7 @@
     {
       "id": "astraChinaHeroEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.hero.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.hero.eyebrow;set:config.styles,i18n,page.presentation.styles.mono",
       "config": {
         "id": "astra-china-hero-eyebrow",
         "tag": "p",
@@ -252,7 +260,7 @@
     {
       "id": "astraChinaHeroTitle",
       "type": "text",
-      "valueInstructions": "set:config.html,i18n,page.hero.titleHtml;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.heroTitle",
+      "valueInstructions": "set:config.html,i18n,page.hero.titleHtml;set:config.styles,i18n,page.presentation.styles.heroTitle",
       "config": {
         "id": "astra-china-hero-title",
         "tag": "h1",
@@ -288,7 +296,7 @@
     {
       "id": "astraChinaHeroPrimary",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.hero.primaryCta;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.action",
+      "valueInstructions": "set:config.text,i18n,page.hero.primaryCta;set:config.styles,i18n,page.presentation.styles.action",
       "config": {
         "id": "astra-china-hero-primary",
         "href": "#astra-china-book",
@@ -300,7 +308,7 @@
       "id": "astraChinaHeroSecondary",
       "type": "link",
       "condition": "all:var,astraChinaAssets.wechatQrUrl",
-      "valueInstructions": "set:config.text,i18n,page.hero.secondaryCta;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.action",
+      "valueInstructions": "set:config.text,i18n,page.hero.secondaryCta;set:config.styles,i18n,page.presentation.styles.action",
       "config": {
         "id": "astra-china-hero-secondary",
         "href": "#astra-china-book",
@@ -415,7 +423,7 @@
     {
       "id": "astraChinaAudienceEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.audience.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.audience.eyebrow;set:config.styles,i18n,page.presentation.styles.mono",
       "config": {
         "id": "astra-china-audience-eyebrow",
         "tag": "h2",
@@ -508,7 +516,7 @@
     {
       "id": "astraChinaServicesEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.services.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.services.eyebrow;set:config.styles,i18n,page.presentation.styles.mono",
       "config": {
         "id": "astra-china-services-eyebrow",
         "tag": "p",
@@ -519,7 +527,7 @@
     {
       "id": "astraChinaServicesTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.services.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "valueInstructions": "set:config.text,i18n,page.services.title;set:config.styles,i18n,page.presentation.styles.sectionTitle",
       "config": {
         "id": "astra-china-services-title",
         "tag": "h2",
@@ -564,7 +572,8 @@
           "astraChinaServiceIndex__{{index}}",
           "astraChinaServiceBody__{{index}}"
         ]
-      }
+      },
+      "valueInstructions": "set:config.classes,i18n,page.presentation.serviceRowClasses"
     },
     {
       "id": "astraChinaProcess",
@@ -595,7 +604,7 @@
     {
       "id": "astraChinaProcessBanner",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.banner;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.processBanner",
+      "valueInstructions": "set:config.text,i18n,page.process.banner;set:config.styles,i18n,page.presentation.styles.processBanner",
       "config": {
         "id": "astra-china-process-banner",
         "tag": "p",
@@ -620,7 +629,7 @@
     {
       "id": "astraChinaProcessEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.process.eyebrow;set:config.styles,i18n,page.presentation.styles.mono",
       "config": {
         "id": "astra-china-process-eyebrow",
         "tag": "p",
@@ -631,7 +640,7 @@
     {
       "id": "astraChinaProcessTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "valueInstructions": "set:config.text,i18n,page.process.title;set:config.styles,i18n,page.presentation.styles.sectionTitle",
       "config": {
         "id": "astra-china-process-title",
         "tag": "h2",
@@ -730,7 +739,7 @@
     {
       "id": "astraChinaWhyEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.why.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.why.eyebrow;set:config.styles,i18n,page.presentation.styles.mono",
       "config": {
         "id": "astra-china-why-eyebrow",
         "tag": "p",
@@ -741,7 +750,7 @@
     {
       "id": "astraChinaWhyTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.why.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "valueInstructions": "set:config.text,i18n,page.why.title;set:config.styles,i18n,page.presentation.styles.sectionTitle",
       "config": {
         "id": "astra-china-why-title",
         "tag": "h2",
@@ -775,7 +784,13 @@
         "height": 800,
         "loading": "lazy",
         "decoding": "async",
-        "classes": "astraChinaAttorneyImage"
+        "classes": "astraChinaAttorneyImage",
+        "styles": {
+          "height": "140px",
+          "width": "140px",
+          "objectFit": "cover",
+          "objectPosition": "center top"
+        }
       }
     },
     {
@@ -795,7 +810,7 @@
     {
       "id": "astraChinaAttorneyName",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.attorney.name;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.attorneyName",
+      "valueInstructions": "set:config.text,i18n,page.attorney.name;set:config.styles,i18n,page.presentation.styles.attorneyName",
       "config": {
         "id": "astra-china-attorney-name",
         "tag": "h3",
@@ -806,7 +821,7 @@
     {
       "id": "astraChinaAttorneyTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.attorney.title;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.attorneyTitle",
+      "valueInstructions": "set:config.text,i18n,page.attorney.title;set:config.styles,i18n,page.presentation.styles.attorneyTitle",
       "config": {
         "id": "astra-china-attorney-title",
         "tag": "p",
@@ -895,7 +910,7 @@
     {
       "id": "astraChinaFaqEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.faq.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.faq.eyebrow;set:config.styles,i18n,page.presentation.styles.mono",
       "config": {
         "id": "astra-china-faq-eyebrow",
         "tag": "p",
@@ -906,7 +921,7 @@
     {
       "id": "astraChinaFaqTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.faq.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "valueInstructions": "set:config.text,i18n,page.faq.title;set:config.styles,i18n,page.presentation.styles.sectionTitle",
       "config": {
         "id": "astra-china-faq-title",
         "tag": "h2",
@@ -943,8 +958,7 @@
         "toggleIconName": "add",
         "defaultItemIconIsExpandedClasses": "astraChinaFaqToggleOpen",
         "defaultItemIconIsNotExpandedClasses": "astraChinaFaqToggleClosed"
-      },
-      "valueInstructions": "set:config.defaultItemButtonConfig.styles.fontFamily,i18n,page.presentation.bodyFont"
+      }
     },
     {
       "id": "astraChinaBook",
@@ -991,7 +1005,7 @@
     {
       "id": "astraChinaContactEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.contact.eyebrow;set:config.styles,i18n,page.presentation.styles.mono",
       "config": {
         "id": "astra-china-contact-eyebrow",
         "tag": "p",
@@ -1002,7 +1016,7 @@
     {
       "id": "astraChinaContactTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.contactTitle",
+      "valueInstructions": "set:config.text,i18n,page.contact.title;set:config.styles,i18n,page.presentation.styles.contactTitle",
       "config": {
         "id": "astra-china-contact-title",
         "tag": "h2",
@@ -1068,7 +1082,7 @@
     {
       "id": "astraChinaWechatLabel",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.wechatLabel;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.wechatLabel",
+      "valueInstructions": "set:config.text,i18n,page.contact.wechatLabel;set:config.styles,i18n,page.presentation.styles.wechatLabel",
       "config": {
         "id": "astra-china-wechat-label",
         "tag": "span",
@@ -1079,7 +1093,7 @@
     {
       "id": "astraChinaEmailLink",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.contact.emailLabel;set:config.href,var,astraChinaContact.emailHref;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.action",
+      "valueInstructions": "set:config.text,i18n,page.contact.emailLabel;set:config.href,var,astraChinaContact.emailHref;set:config.styles,i18n,page.presentation.styles.action",
       "config": {
         "id": "astra-china-email-link",
         "href": "#",
@@ -1098,7 +1112,7 @@
           "astraChinaFooterInner"
         ]
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.body"
     },
     {
       "id": "astraChinaFooterInner",
@@ -1116,7 +1130,7 @@
     {
       "id": "astraChinaFooterCopyright",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.footer.copyright",
+      "valueInstructions": "set:config.text,i18n,page.footer.copyright;set:config.styles,i18n,page.presentation.styles.footer",
       "config": {
         "id": "astra-china-footer-copyright",
         "tag": "span",
@@ -1140,7 +1154,7 @@
     {
       "id": "astraChinaFooterPhone",
       "type": "link",
-      "valueInstructions": "set:config.text,var,astraChinaContact.phoneDisplay;set:config.href,var,astraChinaContact.phoneHref",
+      "valueInstructions": "set:config.text,var,astraChinaContact.phoneDisplay;set:config.href,var,astraChinaContact.phoneHref;set:config.styles,i18n,page.presentation.styles.footer",
       "config": {
         "id": "astra-china-footer-phone",
         "href": "#",
@@ -1151,7 +1165,7 @@
     {
       "id": "astraChinaFooterEmail",
       "type": "link",
-      "valueInstructions": "set:config.text,var,astraChinaContact.email;set:config.href,var,astraChinaContact.emailHref",
+      "valueInstructions": "set:config.text,var,astraChinaContact.email;set:config.href,var,astraChinaContact.emailHref;set:config.styles,i18n,page.presentation.styles.footer",
       "config": {
         "id": "astra-china-footer-email",
         "href": "#",
@@ -1217,7 +1231,7 @@
         "text": "",
         "classes": "astraChinaServiceNumber"
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.monoFont"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.mono"
     },
     {
       "id": "astraChinaServiceLabelTemplate",
@@ -1241,7 +1255,7 @@
         "text": "",
         "classes": "astraChinaServiceLabel"
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.serviceLabel"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.serviceLabel"
     },
     {
       "id": "astraChinaServiceTitleTemplate",
@@ -1265,7 +1279,7 @@
         "text": "",
         "classes": "astraChinaServiceTitle"
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.serviceTitle"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.serviceTitle"
     },
     {
       "id": "astraChinaServiceDescriptionTemplate",
@@ -1313,7 +1327,7 @@
         "text": "",
         "classes": "astraChinaProcessStamp"
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.monoFont"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.mono"
     },
     {
       "id": "astraChinaProcessWhenTemplate",
@@ -1337,7 +1351,7 @@
         "text": "",
         "classes": "astraChinaProcessWhen"
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.processWhen"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.processWhen"
     },
     {
       "id": "astraChinaProcessTitleTemplate",
@@ -1361,7 +1375,7 @@
         "text": "",
         "classes": "astraChinaProcessTitle"
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.processTitle"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.processTitle"
     },
     {
       "id": "astraChinaProcessDescriptionTemplate",
@@ -1456,7 +1470,7 @@
         "text": "",
         "classes": "astraChinaProofTitle"
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.proofTitle"
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.proofTitle"
     },
     {
       "id": "astraChinaProofDescriptionTemplate",

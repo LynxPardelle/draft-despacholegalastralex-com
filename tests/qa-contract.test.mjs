@@ -649,6 +649,7 @@ test('QA-020 and QA-021 retain complete EN/ZH reference content and contact pari
     delete copy.presentation;
     delete copy.hero.titleHtml;
     copy.process.items.forEach((item) => { delete item.classes; });
+    copy.faq.items.forEach((item) => { delete item.panelClasses; });
     for (const language of ['en', 'zh']) {
       copy.nav[`${language}Classes`] = `astraChinaLanguageLink${copy.nav[`${language}AriaCurrent`] === 'page' ? ' astraChinaLanguageLinkActive' : ''} ank-color-HASH231B16`;
     }
