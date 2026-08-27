@@ -43,6 +43,9 @@
         ],
         "propertyLabel": "What was the property's purchase value?",
         "propertyPlaceholder": "E.g. 5,000,000",
+        "sliderLabel": "Slide to choose the property price in Mexican pesos",
+        "sliderHint": "Slide or enter the exact price. You can type amounts above MXN 20 million.",
+        "sliderOutOfScale": "The entered price exceeds the slider scale; the estimate will use your exact amount.",
         "propertyValidation": [
           { "type": "required", "message": "Enter the property's purchase value." },
           { "type": "min", "value": 1000000, "message": "Enter a value of at least $1,000,000 MXN." }
