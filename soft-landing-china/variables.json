@@ -4,10 +4,14 @@
   "domain": "grupoastralegal.com",
   "variables": {
     "astraChinaAssets": {
-      "logoUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/logos/astra-legal-logo.png",
+      "logoUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-legal-wordmark.png",
       "attorneyPortraitUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/shared/images/jose-luis-portrait.jpg",
       "wechatQrUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/wechat-qr.jpeg",
-      "wechatQrStatus": "verified-public-asset"
+      "wechatQrStatus": "verified-public-asset",
+      "redIconUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-icon-red.png",
+      "whiteIconUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-icon-white.png",
+      "textureUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-card-texture.png",
+      "checkUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-source-check.svg"
     },
     "astraChinaContact": {
       "phoneDisplay": "+52 33 1993 7983",

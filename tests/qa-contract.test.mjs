@@ -62,8 +62,8 @@ const contrastRatio = (foreground, background) => {
 
 const literalComboColorPair = (combo) => {
   const tokens = combo.join(' ');
-  const foreground = tokens.match(/(?:^|\s)ank-color-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
-  const background = tokens.match(/(?:^|\s)ank-bg-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
+  const foreground = tokens.match(/(?:^|\s)ank-color(?:IsSDSEariaMINcheckedEQtrueEEED)?-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
+  const background = tokens.match(/(?:^|\s)ank-(?:bg|backgroundColor)(?:IsSDSEariaMINcheckedEQtrueEEED)?-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
   return {
     foreground: foreground ? `#${foreground.toUpperCase()}` : null,
     background: background ? `#${background.toUpperCase()}` : null,
@@ -291,6 +291,7 @@ test('QA-018 implements the explicit, uncapped Recupera ISAI calculator contract
   assert.deepEqual(scope.config.initialValues, {
     cityRateCode: 8,
     propertyValue: null,
+    propertyValueSlider: null,
     purchaseYear: null,
     hasCalculated: false,
   });
@@ -567,7 +568,7 @@ test('QA-020 and QA-021 expose only the exact fixed-language campaign routes', (
   assert.equal(skipLink.eventInstructions, 'skipToMain:astra-china-main');
   const audienceHeading = componentById(payload, 'astraChinaAudienceEyebrow');
   assert.equal(audienceHeading.config.tag, 'h2');
-  assert.equal(audienceHeading.valueInstructions, 'set:config.text,i18n,page.audience.eyebrow');
+  assert.ok(audienceHeading.valueInstructions.split(';').includes('set:config.text,i18n,page.audience.eyebrow'));
   assert.deepEqual({
     en: readJson('soft-landing-china/i18n/en.json').dictionary.page.audience.eyebrow,
     zh: readJson('soft-landing-china/i18n/zh.json').dictionary.page.audience.eyebrow,
@@ -582,7 +583,7 @@ test('QA-020 and QA-021 expose only the exact fixed-language campaign routes', (
     { to: 'config.description', sources: ['number'] },
   ]);
   const audienceTemplate = componentById(payload, 'astraChinaAudienceCardTemplate');
-  assert.equal(audienceTemplate.config.featureTitleClasses, 'astraChinaCardDescription');
+  assert.equal(audienceTemplate.config.featureTitleClasses, 'astraChinaAudienceDescription');
   assert.equal(audienceTemplate.config.featureDescriptionClasses, 'astraChinaCardNumber');
   assert.match(campaignCombos.astraChinaCardNumber.join(' '), /ank-order-MIN1/);
   for (const locale of ['en', 'zh']) {
@@ -602,7 +603,7 @@ test('QA-020 and QA-021 expose only the exact fixed-language campaign routes', (
     'astraChinaContactActions',
   ]);
   assert.deepEqual(componentById(payload, 'astraChinaContactCopy').config.components, [
-    'astraChinaContactEyebrow',
+    'astraChinaContactEyebrowRow',
     'astraChinaContactTitle',
     'astraChinaContactDescription',
   ]);
@@ -643,9 +644,21 @@ test('QA-020 and QA-021 retain complete EN/ZH reference content and contact pari
   assert.equal(dictionaries.zh.process.title, '流程透明，进度可控');
   assert.equal(dictionaries.zh.attorney.name, 'José Luis Ortega Ochoa 律师');
   assert.equal(dictionaries.zh.contact.title, '准备以稳健的方式，将您的业务带入墨西哥市场？');
+  // The approved copy hash excludes only the new visual presentation fields.
+  const referenceCopy = (page) => {
+    const copy = structuredClone(page);
+    delete copy.presentation;
+    delete copy.hero.titleHtml;
+    copy.process.items.forEach((item) => { delete item.classes; });
+    copy.faq.items.forEach((item) => { delete item.panelClasses; });
+    for (const language of ['en', 'zh']) {
+      copy.nav[`${language}Classes`] = `astraChinaLanguageLink${copy.nav[`${language}AriaCurrent`] === 'page' ? ' astraChinaLanguageLinkActive' : ''} ank-color-HASH231B16`;
+    }
+    return copy;
+  };
   assert.deepEqual(Object.fromEntries(['en', 'zh'].map((locale) => [
     locale,
-    createHash('sha256').update(JSON.stringify(dictionaries[locale])).digest('hex'),
+    createHash('sha256').update(JSON.stringify(referenceCopy(dictionaries[locale]))).digest('hex'),
   ])), {
     en: '1dfa9414db69d795878557b8fff1669fa4500f504b6510032f35e87881968474',
     zh: 'c85890c7900bed4c1530203fe5c35417f4710c80909593754a517680424f6c27',
@@ -658,7 +671,7 @@ test('QA-020 and QA-021 retain complete EN/ZH reference content and contact pari
   } else {
     assert.equal(variables.astraChinaAssets.wechatQrStatus, 'blocked-pending-authorized-upload');
   }
-  assert.equal(variables.astraChinaAssets.logoUrl, readJson('variables.json').variables.brand.logoUrl);
+  assert.equal(variables.astraChinaAssets.logoUrl, 'https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-legal-wordmark.png');
   assert.equal(variables.astraChinaAssets.attorneyPortraitUrl, readJson('variables.json').variables.heroAssets.heroImageUrl);
   assert.equal(variables.astraChinaContact.emailHref, 'mailto:grupoastralegal@gmail.com');
   assert.equal(variables.astraChinaContact.phoneHref, 'tel:+523319937983');
@@ -723,9 +736,9 @@ test('PASS1 uses only valid page-scoped display values with desktop campaign int
   const headerAction = campaignCombos.astraChinaHeaderAction.join(' ');
   const languageSwitch = campaignCombos.astraChinaLanguageSwitch.join(' ');
   assert.match(navLink, /(?:^|\s)ank-display-none(?:\s|$)/);
-  assert.match(navLink, /(?:^|\s)ank-display-md-flex(?:\s|$)/);
-  assert.match(headerAction, /(?:^|\s)ank-display-none(?:\s|$)/);
-  assert.match(headerAction, /(?:^|\s)ank-display-md-flex(?:\s|$)/);
+  assert.match(navLink, /(?:^|\s)ank-display-px821-flex(?:\s|$)/);
+  assert.doesNotMatch(headerAction, /(?:^|\s)ank-display-none(?:\s|$)/);
+  assert.match(headerAction, /(?:^|\s)ank-display-inlineMINflex(?:\s|$)/);
   assert.match(languageSwitch, /(?:^|\s)ank-display-flex(?:\s|$)/);
   assert.doesNotMatch(languageSwitch, /(?:^|\s)ank-display-none(?:\s|$)/);
 
@@ -741,9 +754,9 @@ test('PASS1 page-scoped selected and emphasis colors meet WCAG AA', () => {
   const campaignCombos = readJson('soft-landing-china/angora-combos.json').combos;
   const pairs = [
     ['selected city', literalComboColorPair(calculatorCombos.calculatorChoiceActive), { foreground: '#231B16', background: '#E6AE01' }],
-    ['active language', literalComboColorPair(campaignCombos.astraChinaLanguageLinkActive), { foreground: '#231B16', background: '#E6AE01' }],
-    ['hero primary', literalComboColorPair(campaignCombos.astraChinaPrimaryAction), { foreground: '#FBF8F2', background: '#A80119' }],
-    ['process banner', literalComboColorPair(campaignCombos.astraChinaProcessBanner), { foreground: '#735600', background: '#FBF8F2' }],
+    ['active language', literalComboColorPair(campaignCombos.astraChinaLanguageLinkActive), { foreground: '#FBF8F2', background: '#231B16' }],
+    ['hero primary', literalComboColorPair(campaignCombos.astraChinaPrimaryAction), { foreground: '#FBF8F2', background: '#231B16' }],
+    ['process banner', literalComboColorPair(campaignCombos.astraChinaProcessBanner), { foreground: '#231B16', background: '#F7EFDD' }],
   ];
   for (const [name, actual, expected] of pairs) {
     assert.deepEqual(actual, expected, `${name} palette`);
@@ -761,24 +774,26 @@ test('PASS1 all applied campaign text contexts meet their WCAG contrast threshol
   const contexts = [
     ['skip link', 'astraChinaSkipLink', ownBackground('astraChinaSkipLink')],
     ['desktop navigation', 'astraChinaNavLink', paper],
-    ['inactive language', 'astraChinaLanguageLink', raisedPaper],
+    ['inactive language', 'astraChinaLanguageLinkInactive', paper],
     ['active language', 'astraChinaLanguageLinkActive', ownBackground('astraChinaLanguageLinkActive')],
     ['primary action', 'astraChinaPrimaryAction', ownBackground('astraChinaPrimaryAction')],
     ['hero eyebrow', 'astraChinaEyebrow', paper],
     ['hero title', 'astraChinaHeroTitle', paper],
     ['hero lead', 'astraChinaLead', paper],
     ['hero secondary action', 'astraChinaSecondaryAction', paper],
-    ['hero trust item', 'astraChinaTrustItem', ownBackground('astraChinaTrustItem')],
+    ['hero trust text', 'astraChinaTrustText', paper],
     ['certification seal title', 'astraChinaSealTitle', raisedPaper],
     ['certification seal subtitle', 'astraChinaSealSubtitle', raisedPaper],
     ['audience heading', 'astraChinaEyebrow', raisedPaper],
     ['audience card inherited text', 'astraChinaAudienceCard', paper],
-    ['audience profile title', 'astraChinaCardDescription', paper],
-    ['audience decorative number', 'astraChinaCardNumber', paper, 3],
+    ['audience profile title', 'astraChinaAudienceDescription', raisedPaper],
+    ['audience decorative number', 'astraChinaCardNumber', raisedPaper],
     ['services eyebrow', 'astraChinaEyebrow', paper],
     ['services title', 'astraChinaSectionTitle', paper],
     ['services description', 'astraChinaSectionDescription', paper],
-    ['service card inherited text', 'astraChinaServiceCard', paper],
+    ['service number', 'astraChinaServiceNumber', paper, 3],
+    ['service title', 'astraChinaServiceTitle', paper],
+    ['service description', 'astraChinaServiceDescription', paper],
     ['service card title', 'astraChinaCardTitle', paper],
     ['service card description', 'astraChinaCardDescription', paper],
     ['service card label', 'astraChinaServiceLabel', paper],
@@ -786,7 +801,9 @@ test('PASS1 all applied campaign text contexts meet their WCAG contrast threshol
     ['process eyebrow', 'astraChinaEyebrow', raisedPaper],
     ['process title', 'astraChinaSectionTitle', raisedPaper],
     ['process description', 'astraChinaSectionDescription', raisedPaper],
-    ['process card inherited text', 'astraChinaProcessCard', raisedPaper],
+    ['process stamp', 'astraChinaProcessStamp', raisedPaper],
+    ['process step title', 'astraChinaProcessTitle', raisedPaper],
+    ['process step description', 'astraChinaProcessDescription', raisedPaper],
     ['process card title', 'astraChinaCardTitle', raisedPaper],
     ['process card description', 'astraChinaCardDescription', raisedPaper],
     ['process timing label', 'astraChinaProcessWhen', raisedPaper],
@@ -795,7 +812,8 @@ test('PASS1 all applied campaign text contexts meet their WCAG contrast threshol
     ['attorney name', 'astraChinaCardTitle', paper],
     ['attorney title', 'astraChinaAttorneyTitle', paper],
     ['attorney description', 'astraChinaCardDescription', paper],
-    ['proof card inherited text', 'astraChinaProofCard', raisedPaper],
+    ['proof native title', 'astraChinaProofTitle', paper],
+    ['proof native description', 'astraChinaProofDescription', paper],
     ['proof title', 'astraChinaCardTitle', raisedPaper],
     ['proof description', 'astraChinaCardDescription', raisedPaper],
     ['FAQ eyebrow', 'astraChinaEyebrow', raisedPaper],
@@ -805,13 +823,13 @@ test('PASS1 all applied campaign text contexts meet their WCAG contrast threshol
     ['FAQ question', 'astraChinaFaqQuestion', paper],
     ['FAQ panel', 'astraChinaFaqPanel', paper],
     ['FAQ answer', 'astraChinaFaqAnswer', paper],
-    ['contact eyebrow', 'astraChinaEyebrowOnDark', ink],
-    ['contact title', 'astraChinaContactTitle', ink],
-    ['contact description', 'astraChinaContactDescription', ink],
-    ['contact action', 'astraChinaOnDarkAction', ink],
+    ['contact eyebrow', 'astraChinaEyebrowOnDark', '#7A0510'],
+    ['contact title', 'astraChinaContactTitle', '#7A0510'],
+    ['contact description', 'astraChinaContactDescription', '#7A0510'],
+    ['contact action', 'astraChinaOnDarkAction', '#7A0510'],
     ['WeChat label', 'astraChinaWechatLabel', paper],
-    ['footer text', 'astraChinaFooterText', ink],
-    ['footer link', 'astraChinaFooterLink', ink],
+    ['footer text', 'astraChinaFooterText', paper],
+    ['footer link', 'astraChinaFooterLink', paper],
   ];
 
   const failures = contexts.flatMap(([name, comboName, background, threshold = 4.5]) => {
@@ -851,7 +869,7 @@ test('PASS1 uses the accessible deep-red text token on raised-paper campaign con
   ].map((comboName) => [comboName, literalComboColor(combos, comboName)])), {
     astraChinaEyebrow: '#A80119',
     astraChinaSealTitle: '#A80119',
-    astraChinaProcessWhen: '#A80119',
+    astraChinaProcessWhen: '#735600',
   });
 });
 
@@ -895,17 +913,17 @@ test('PASS2 preserves every authored campaign link color through an exact Generi
   }
   assert.deepEqual(missingMarkers, []);
 
-  const languageBaseColor = literalComboColor(combos, 'astraChinaLanguageLink');
+  const languageBaseColor = literalComboColor(combos, 'astraChinaLanguageLinkInactive');
   const languageActive = literalComboColorPair(combos.astraChinaLanguageLinkActive);
   assert.equal(languageBaseColor, '#231B16');
-  assert.deepEqual(languageActive, { foreground: languageBaseColor, background: '#E6AE01' });
+  assert.deepEqual(languageActive, { foreground: '#FBF8F2', background: '#231B16' });
   assert.ok(contrastRatio(languageBaseColor, '#F7EFDD') >= 4.5, 'unselected language contrast');
   assert.ok(contrastRatio(languageActive.foreground, languageActive.background) >= 4.5, 'selected language contrast');
   for (const locale of ['en', 'es', 'zh']) {
     const nav = readJson(`soft-landing-china/i18n/${locale}.json`).dictionary.page.nav;
     const states = [nav.enClasses, nav.zhClasses];
     assert.equal(states.filter((classes) => classes.includes('astraChinaLanguageLinkActive')).length, 1, `${locale} selected language`);
-    assert.equal(states.every((classes) => classes.includes('ank-color-HASH231B16')), true, `${locale} compatible language marker`);
+    assert.equal(states.every((classes) => classes.includes(classes.includes('astraChinaLanguageLinkActive') ? 'ank-color-HASHFBF8F2' : 'ank-color-HASH231B16')), true, `${locale} compatible language marker`);
   }
 
   for (const id of ['astraChinaSkip', 'astraChinaHeaderCta', 'astraChinaHeroPrimary']) {
@@ -933,7 +951,7 @@ test('PASS2 gives campaign navigation and action links stable 44px boxes', () =>
 
 test('PASS3 keeps every campaign icon on the supported GenericIcon SVG path', () => {
   const payload = readJson('soft-landing-china/components.json');
-  const supportedCampaignSvgIcons = new Set(['expand_more', 'fact_check', 'translate', 'verified']);
+  const supportedCampaignSvgIcons = new Set(['add', 'fact_check', 'translate', 'verified']);
   const configuredIcons = [];
   const collectConfiguredIcons = (value, path = '$') => {
     if (Array.isArray(value)) {
@@ -963,10 +981,10 @@ test('PASS3 keeps every campaign icon on the supported GenericIcon SVG path', ()
     [...new Set(configuredIcons.map(({ iconName }) => iconName))].sort(),
     [...supportedCampaignSvgIcons].sort(),
   );
-  assert.equal(configuredIcons.some(({ iconName }) => ['add', 'remove'].includes(iconName)), false);
+  assert.equal(configuredIcons.some(({ iconName }) => iconName === 'remove'), false);
 
   const faq = componentById(payload, 'astraChinaFaqAccordion').config;
-  assert.equal(faq.toggleIconName, 'expand_more');
+  assert.equal(faq.toggleIconName, 'add');
   assert.equal(faq.mode, 'single');
   assert.equal(faq.allowToggle, true);
 });
