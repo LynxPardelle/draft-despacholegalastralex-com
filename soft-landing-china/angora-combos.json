@@ -304,7 +304,7 @@
       "ank-position-absolute ank-top-0 ank-left-0 ank-width-100per ank-height-100per ank-bg-linearMINgradientSDrgbaSD90COM3COM12COM0_15EDCOMrgbaSD60COM1COM8COM0_4EDED ank-pointerEvents-none ank-zIndex-1"
     ],
     "astraChinaContactWatermark": [
-      "ank-display-block ank-width-minSD300pxCOM60perED ank-height-auto ank-transform-translateXSD120pxED"
+      "ank-display-block ank-width-minSD300pxCOM60perED ank-height-auto ank-marginInline-auto ank-transform-translateXSD120pxED"
     ],
     "astraChinaContactCopy": [
       "ank-display-flex ank-flexDirection-column ank-alignItems-center"
@@ -328,7 +328,7 @@
       "ank-position-absolute ank-width-420px ank-height-420px ank-top-MIN140px ank-left-MIN120px ank-borderRadius-50per ank-bg-radialMINgradientSDcircleCOMHASHE6AE01COMtransparent__70perED ank-opacity-0_08 ank-pointerEvents-none"
     ],
     "astraChinaContactWatermarkSlot": [
-      "ank-position-absolute ank-top-0 ank-right-0 ank-width-50per ank-height-100per ank-display-flex ank-alignItems-center ank-justifyContent-center ank-pointerEvents-none ank-zIndex-1"
+      "ank-position-absolute ank-top-0 ank-right-0 ank-width-50per ank-height-100per ank-display-grid ank-gridTemplateColumns-1fr ank-alignItems-center ank-pointerEvents-none ank-zIndex-1"
     ],
     "astraChinaEyebrowLine": [
       "ank-display-inlineMINblock ank-width-22px ank-height-1px ank-bg-HASHE00322 ank-flexShrink-0"
