@@ -43,6 +43,9 @@
         ],
         "propertyLabel": "购买房产时的价格是多少？",
         "propertyPlaceholder": "例如 5,000,000",
+        "sliderLabel": "滑动选择房产购买价格，单位为墨西哥比索",
+        "sliderHint": "滑动或输入准确价格。也可手动输入超过两千万墨西哥比索的金额。",
+        "sliderOutOfScale": "输入的价格超出了滑块范围；估算将使用您输入的准确金额。",
         "propertyValidation": [
           { "type": "required", "message": "请输入房产购买价格。" },
           { "type": "min", "value": 1000000, "message": "请输入至少 $1,000,000 MXN 的金额。" }
