@@ -11,7 +11,7 @@ test('campaign FAQ uses static class fields accepted by the native accordion ren
   assert.equal(faq.config.detailContentClasses, 'astraChinaFaqAnswer');
   for (const locale of ['en', 'es', 'zh']) {
     const items = read(`soft-landing-china/i18n/${locale}.json`).dictionary.page.faq.items;
-    const expected = 'astraChinaFaqPanel';
+    const expected = locale === 'zh' ? 'astraChinaFaqPanel astraChinaFaqAnswerZh' : 'astraChinaFaqPanel';
     assert.equal(items.every((item) => item.panelClasses === expected), true);
   }
 });
@@ -54,7 +54,7 @@ test('campaign style bindings resolve whole records, not discarded nested thunks
   for (const locale of ['en', 'es', 'zh']) {
     const presentation = read(`soft-landing-china/i18n/${locale}.json`).dictionary.page.presentation;
     assert.equal(presentation.styles.body?.fontWeight, '400');
-    assert.equal(presentation.styles.body?.lineHeight, '1.55');
+    assert.equal(presentation.styles.body?.lineHeight, locale === 'zh' ? '1.7' : '1.55');
     assert.match(presentation.styles.mono?.fontFamily ?? '', /IBM Plex Mono/);
   }
 });

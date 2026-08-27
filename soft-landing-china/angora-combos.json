@@ -341,6 +341,12 @@
     ],
     "astraChinaEyebrowRowCentered": [
       "ank-justifyContent-center"
+    ],
+    "astraChinaServiceCardZh": [
+      "ank-gridTemplateColumns-px641-96px__minmaxSD0COM1frED"
+    ],
+    "astraChinaFaqAnswerZh": [
+      "ank-maxWidth-36em"
     ]
   }
 }
