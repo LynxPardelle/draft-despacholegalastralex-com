@@ -65,19 +65,21 @@
         "tag": "image",
         "src": "",
         "alt": "",
-        "width": 44,
-        "height": 44,
+        "width": 56,
+        "height": 56,
         "loading": "eager",
         "decoding": "async",
         "fetchPriority": "high",
         "styles": {
           "display": "block",
-          "width": "44px",
-          "height": "44px",
-          "maxWidth": "44px",
+          "width": "56px",
+          "height": "56px",
+          "maxWidth": "56px",
+          "backgroundColor": "#B90F35",
+          "borderRadius": "8px",
           "objectFit": "contain"
         },
-        "classes": "ank-display-block ank-width-44px ank-height-44px ank-maxWidth-44px ank-objectFit-contain"
+        "classes": "ank-display-block ank-width-56px ank-height-56px ank-maxWidth-56px ank-objectFit-contain"
       }
     },
     {

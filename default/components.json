@@ -53,7 +53,6 @@
           "heroBrandLogo",
           "heroEyebrow",
           "heroTitle",
-          "heroSubtitle",
           "heroDescription",
           "heroQuote",
           "heroActions"
@@ -96,19 +95,9 @@
     {
       "id": "heroTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.hero.title",
-      "config": {
-        "tag": "h1",
-        "text": "",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_75rem ank-fontSize-md-4_4rem ank-fontWeight-900 ank-lineHeight-1 ank-maxWidth-10ch"
-      }
-    },
-    {
-      "id": "heroSubtitle",
-      "type": "text",
       "valueInstructions": "set:config.text,i18n,page.hero.subtitle",
       "config": {
-        "tag": "p",
+        "tag": "h1",
         "text": "",
         "classes": "ank-m-0 ank-color-secondaryTitleColor ank-fontSize-1_18rem ank-fontSize-md-1_32rem ank-fontWeight-800 ank-lineHeight-1_4 ank-maxWidth-48rem"
       }

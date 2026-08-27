@@ -8,7 +8,7 @@
       "hero": {
         "eyebrow": "Legal strategy with international reach",
         "title": "Astra Legal",
-        "subtitle": "Legal clarity for decisions that cannot be handled by improvisation.",
+        "subtitle": "Legal clarity to improve your life",
         "description": "Astra Legal supports companies, governments, and individuals in preventive strategy, defense, intellectual property, soft landing, and asset protection in Mexico.",
         "quote": "Problems are meant to be solved. The impossible just takes a little more time.",
         "primary": "Schedule assessment",
@@ -24,8 +24,8 @@
         "cards": [
           {
             "icon": "flight_land",
-            "title": "Soft landing for Chinese companies",
-            "description": "Legal guidance for entering, operating, and coordinating with Mexican authorities with less friction.",
+            "title": "Soft landing for international companies",
+            "description": "We help you bring your company to Mexico. We handle incorporation, permits, and setup from the ground up so you can focus on operations and growth.",
             "href": "/soft-landing-empresas-chinas",
             "linkLabel": "View service",
             "benefits": [
@@ -47,7 +47,7 @@
           {
             "icon": "account_balance_wallet",
             "title": "Real estate tax recovery",
-            "description": "Review of payments, contributions, and authority acts to recover amounts when a legal basis exists.",
+            "description": "If you bought a home in Mexico City, Tulum, or Los Cabos, we review whether there is a legal basis and you are still within the time limit to request a refund of the Real Estate Acquisition Tax. If your case qualifies, we support you throughout the process.",
             "href": "/recuperacion-impuestos-inmobiliarios",
             "linkLabel": "View service",
             "benefits": [
@@ -57,7 +57,7 @@
           },
           {
             "icon": "gavel",
-            "title": "Tax, administrative, and amparo defense",
+            "title": "Shield against SAT and government ministries",
             "description": "If SAT or another government ministry seeks to stop or fine you or your company, you can count on our shield to protect you.",
             "href": "/defensa-fiscal-administrativa-amparo",
             "linkLabel": "View service",

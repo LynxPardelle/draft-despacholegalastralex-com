@@ -11,8 +11,8 @@
       "services": [
         {
             "icon": "flight_land",
-          "title": "中国企业在墨西哥落地",
-          "description": "为中国企业进入、运营并对接墨西哥主管部门提供法律路径支持。",
+          "title": "国际企业在墨西哥落地",
+          "description": "我们帮助您的企业进入墨西哥。从公司设立、许可办理到落地筹备，我们全程负责，让您专注于运营和发展。",
           "href": "/soft-landing-empresas-chinas",
           "linkLabel": "查看服务",
           "benefits": [
@@ -34,7 +34,7 @@
         {
             "icon": "account_balance_wallet",
           "title": "不动产税费追回",
-          "description": "审查付款、税费和行政行为，在存在法律依据时争取追回款项。",
+          "description": "如果您在墨西哥城、图卢姆或洛斯卡沃斯购买了住宅，我们会审查是否有法律依据且仍在适用期限内，以申请退还不动产购置税。如果您的情况符合条件，我们会全程协助办理。",
           "href": "/recuperacion-impuestos-inmobiliarios",
           "linkLabel": "查看服务",
           "benefits": [
@@ -44,7 +44,7 @@
         },
         {
           "icon": "gavel",
-          "title": "税务、行政与宪法保护诉讼防御",
+          "title": "应对 SAT 及政府部门的法律护盾",
           "description": "如果 SAT 或其他政府部门试图阻碍您或您的企业，或对您或企业处以罚款，您可以依靠我们的法律护盾获得保护。",
           "href": "/defensa-fiscal-administrativa-amparo",
           "linkLabel": "查看服务",
