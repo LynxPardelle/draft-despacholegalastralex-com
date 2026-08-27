@@ -26,7 +26,7 @@
           "astraChinaHeaderInner"
         ]
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont;set:config.styles.lineHeight,i18n,page.presentation.bodyLineHeight"
     },
     {
       "id": "astraChinaHeaderInner",
@@ -194,7 +194,7 @@
           "astraChinaBook"
         ]
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont;set:config.styles.lineHeight,i18n,page.presentation.bodyLineHeight"
     },
     {
       "id": "astraChinaHero",
@@ -241,7 +241,7 @@
     {
       "id": "astraChinaHeroEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.hero.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.hero.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.monoFont",
       "config": {
         "id": "astra-china-hero-eyebrow",
         "tag": "p",
@@ -415,7 +415,7 @@
     {
       "id": "astraChinaAudienceEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.audience.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.audience.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.monoFont",
       "config": {
         "id": "astra-china-audience-eyebrow",
         "tag": "h2",
@@ -508,7 +508,7 @@
     {
       "id": "astraChinaServicesEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.services.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.services.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.monoFont",
       "config": {
         "id": "astra-china-services-eyebrow",
         "tag": "p",
@@ -564,7 +564,8 @@
           "astraChinaServiceIndex__{{index}}",
           "astraChinaServiceBody__{{index}}"
         ]
-      }
+      },
+      "valueInstructions": "set:config.classes,i18n,page.presentation.serviceRowClasses"
     },
     {
       "id": "astraChinaProcess",
@@ -620,7 +621,7 @@
     {
       "id": "astraChinaProcessEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.process.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.monoFont",
       "config": {
         "id": "astra-china-process-eyebrow",
         "tag": "p",
@@ -730,7 +731,7 @@
     {
       "id": "astraChinaWhyEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.why.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.why.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.monoFont",
       "config": {
         "id": "astra-china-why-eyebrow",
         "tag": "p",
@@ -895,7 +896,7 @@
     {
       "id": "astraChinaFaqEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.faq.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.faq.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.monoFont",
       "config": {
         "id": "astra-china-faq-eyebrow",
         "tag": "p",
@@ -944,7 +945,7 @@
         "defaultItemIconIsExpandedClasses": "astraChinaFaqToggleOpen",
         "defaultItemIconIsNotExpandedClasses": "astraChinaFaqToggleClosed"
       },
-      "valueInstructions": "set:config.defaultItemButtonConfig.styles.fontFamily,i18n,page.presentation.bodyFont"
+      "valueInstructions": "set:config.defaultItemButtonConfig.styles.fontFamily,i18n,page.presentation.bodyFont;set:config.defaultItemButtonConfig.styles.lineHeight,i18n,page.presentation.bodyLineHeight;set:config.detailContentClasses,i18n,page.presentation.faqAnswerClasses"
     },
     {
       "id": "astraChinaBook",
@@ -991,7 +992,7 @@
     {
       "id": "astraChinaContactEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "valueInstructions": "set:config.text,i18n,page.contact.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.monoFont",
       "config": {
         "id": "astra-china-contact-eyebrow",
         "tag": "p",
@@ -1098,7 +1099,7 @@
           "astraChinaFooterInner"
         ]
       },
-      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont;set:config.styles.lineHeight,i18n,page.presentation.bodyLineHeight"
     },
     {
       "id": "astraChinaFooterInner",
@@ -1116,7 +1117,7 @@
     {
       "id": "astraChinaFooterCopyright",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.footer.copyright",
+      "valueInstructions": "set:config.text,i18n,page.footer.copyright;set:config.styles.fontSize,i18n,page.presentation.footerFontSize",
       "config": {
         "id": "astra-china-footer-copyright",
         "tag": "span",
@@ -1140,7 +1141,7 @@
     {
       "id": "astraChinaFooterPhone",
       "type": "link",
-      "valueInstructions": "set:config.text,var,astraChinaContact.phoneDisplay;set:config.href,var,astraChinaContact.phoneHref",
+      "valueInstructions": "set:config.text,var,astraChinaContact.phoneDisplay;set:config.href,var,astraChinaContact.phoneHref;set:config.styles.fontSize,i18n,page.presentation.footerFontSize",
       "config": {
         "id": "astra-china-footer-phone",
         "href": "#",
@@ -1151,7 +1152,7 @@
     {
       "id": "astraChinaFooterEmail",
       "type": "link",
-      "valueInstructions": "set:config.text,var,astraChinaContact.email;set:config.href,var,astraChinaContact.emailHref",
+      "valueInstructions": "set:config.text,var,astraChinaContact.email;set:config.href,var,astraChinaContact.emailHref;set:config.styles.fontSize,i18n,page.presentation.footerFontSize",
       "config": {
         "id": "astra-china-footer-email",
         "href": "#",

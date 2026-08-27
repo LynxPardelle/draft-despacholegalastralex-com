@@ -33,7 +33,7 @@
         ],
         "sealTitle": "认证 · 合规",
         "sealSubtitle": "RFC · SAT · IMPI · IMMEX",
-        "titleHtml": "助力企业稳健进入墨西哥市场——手续完备，滴水不漏。"
+        "titleHtml": "助力企业稳健进入墨西哥市场——<em class=\"astraChinaHeroEmphasis\">手续完备</em>，滴水不漏。"
       },
       "audience": {
         "eyebrow": "适合谁",
@@ -252,140 +252,145 @@
         "copyright": "© 2026 Astra Legal · 专注中国企业墨西哥市场合规落地法律服务"
       },
       "presentation": {
-        "bodyFont": "\"IBM Plex Sans\", sans-serif",
-        "headingFont": "\"Source Serif 4\", serif",
+        "bodyFont": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+        "headingFont": "\"Noto Serif SC\", \"Source Serif 4\", serif",
         "monoFont": "\"IBM Plex Mono\", monospace",
-        "labelFont": "\"IBM Plex Mono\", monospace",
-        "sealUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-source-seal-eng.svg",
+        "labelFont": "\"Noto Sans SC\", sans-serif",
+        "sealUrl": "https://assets.zoolandingpage.com.mx/grupoastralegal.com/soft-landing-china/images/astra-source-seal-zh.svg",
         "styles": {
           "heroTitle": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.08",
-            "letterSpacing": "-0.01em",
-            "fontSize": "clamp(2.3rem, 4.6vw, 3.6rem)"
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.35",
+            "letterSpacing": "0.01em",
+            "fontSize": "clamp(2.1rem, 4.2vw, 3.2rem)"
           },
           "lead": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55",
-            "fontSize": "1.12rem",
-            "maxWidth": "46ch"
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "fontSize": "1.08rem",
+            "maxWidth": "34em"
           },
           "sectionTitle": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.55",
-            "letterSpacing": "-0.01em",
-            "fontSize": "clamp(1.7rem, 3vw, 2.3rem)"
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.7",
+            "letterSpacing": "0.01em",
+            "fontSize": "clamp(1.6rem, 2.8vw, 2.1rem)"
           },
           "sectionDescription": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55",
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
             "fontSize": "1.02rem"
           },
           "serviceTitle": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.55",
-            "letterSpacing": "-0.01em",
-            "fontSize": "1.18rem"
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.7",
+            "letterSpacing": "0.01em",
+            "fontSize": "1.14rem"
           },
           "serviceDescription": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55",
-            "maxWidth": "62ch"
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "maxWidth": "34em"
           },
           "serviceLabel": {
-            "fontFamily": "\"IBM Plex Mono\", monospace",
-            "lineHeight": "1.55",
-            "fontSize": "0.62rem"
+            "fontFamily": "\"Noto Sans SC\", sans-serif",
+            "lineHeight": "1.7",
+            "fontSize": "0.68rem"
           },
           "processBanner": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.4",
-            "letterSpacing": "-0.01em",
-            "fontSize": "1.35rem",
-            "fontStyle": "italic",
-            "fontWeight": "400",
-            "color": "#231B16",
-            "maxWidth": "640px"
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.6",
+            "letterSpacing": "0.01em",
+            "fontSize": "1.3rem",
+            "fontStyle": "normal",
+            "fontWeight": "600",
+            "color": "#A80119",
+            "maxWidth": "34em"
           },
           "processWhen": {
-            "fontFamily": "\"IBM Plex Mono\", monospace",
-            "lineHeight": "1.55",
-            "fontSize": "0.72rem"
+            "fontFamily": "\"Noto Sans SC\", sans-serif",
+            "lineHeight": "1.7",
+            "fontSize": "0.78rem"
           },
           "processTitle": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.55",
-            "letterSpacing": "-0.01em",
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.7",
+            "letterSpacing": "0.01em",
             "fontSize": "1.02rem"
           },
           "processDescription": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55"
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7"
           },
           "attorneyDescription": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55",
-            "maxWidth": "56ch",
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "maxWidth": "34em",
             "fontSize": "0.96rem"
           },
           "attorneyTitle": {
-            "fontFamily": "\"IBM Plex Mono\", monospace",
-            "lineHeight": "1.55",
-            "fontSize": "0.76rem"
-          },
-          "attorneyName": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.55",
-            "letterSpacing": "-0.01em"
-          },
-          "trust": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55",
+            "fontFamily": "\"Noto Sans SC\", sans-serif",
+            "lineHeight": "1.7",
             "fontSize": "0.82rem"
           },
+          "attorneyName": {
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.7",
+            "letterSpacing": "0.01em"
+          },
+          "trust": {
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "fontSize": "0.86rem"
+          },
           "contactTitle": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.55",
-            "letterSpacing": "-0.01em",
-            "fontSize": "clamp(1.9rem, 3.6vw, 2.6rem)",
-            "maxWidth": "22ch"
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.7",
+            "letterSpacing": "0.01em",
+            "fontSize": "clamp(1.7rem, 3.2vw, 2.3rem)",
+            "maxWidth": "16em"
           },
           "contactDescription": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55",
-            "maxWidth": "52ch"
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "maxWidth": "34em"
           },
           "wechatLabel": {
-            "fontFamily": "\"IBM Plex Mono\", monospace",
-            "lineHeight": "1.55",
-            "fontSize": "0.72rem"
-          },
-          "navLink": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55",
-            "fontSize": "0.88rem"
-          },
-          "headerAction": {
-            "fontFamily": "\"IBM Plex Mono\", monospace",
-            "lineHeight": "1.55",
+            "fontFamily": "\"Noto Sans SC\", sans-serif",
+            "lineHeight": "1.7",
             "fontSize": "0.78rem"
           },
+          "navLink": {
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "fontSize": "0.92rem"
+          },
+          "headerAction": {
+            "fontFamily": "\"Noto Sans SC\", sans-serif",
+            "lineHeight": "1.7",
+            "fontSize": "0.86rem",
+            "fontWeight": "500"
+          },
           "action": {
-            "fontFamily": "\"IBM Plex Mono\", monospace",
-            "lineHeight": "1.55",
-            "fontSize": "0.84rem",
-            "fontWeight": "400"
+            "fontFamily": "\"Noto Sans SC\", sans-serif",
+            "lineHeight": "1.7",
+            "fontSize": "0.9rem",
+            "fontWeight": "500"
           },
           "proofTitle": {
-            "fontFamily": "\"Source Serif 4\", serif",
-            "lineHeight": "1.55",
-            "letterSpacing": "-0.01em"
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif",
+            "lineHeight": "1.7",
+            "letterSpacing": "0.01em"
           },
           "proofDescription": {
-            "fontFamily": "\"IBM Plex Sans\", sans-serif",
-            "lineHeight": "1.55"
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7"
           }
-        }
+        },
+        "bodyLineHeight": "1.7",
+        "serviceRowClasses": "astraChinaServiceCard astraChinaServiceCardZh",
+        "footerFontSize": "0.86rem",
+        "faqAnswerClasses": "astraChinaFaqAnswer astraChinaFaqAnswerZh"
       }
     }
   }

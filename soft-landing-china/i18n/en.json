@@ -368,7 +368,8 @@
           "headerAction": {
             "fontFamily": "\"IBM Plex Mono\", monospace",
             "lineHeight": "1.55",
-            "fontSize": "0.78rem"
+            "fontSize": "0.78rem",
+            "fontWeight": "400"
           },
           "action": {
             "fontFamily": "\"IBM Plex Mono\", monospace",
@@ -385,7 +386,11 @@
             "fontFamily": "\"IBM Plex Sans\", sans-serif",
             "lineHeight": "1.55"
           }
-        }
+        },
+        "bodyLineHeight": "1.55",
+        "serviceRowClasses": "astraChinaServiceCard",
+        "footerFontSize": "0.84rem",
+        "faqAnswerClasses": "astraChinaFaqAnswer"
       }
     }
   }
