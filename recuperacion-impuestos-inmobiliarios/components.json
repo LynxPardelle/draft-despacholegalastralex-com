@@ -71,6 +71,7 @@
         "scopeId": "isaiCalculator",
         "id": "isai-calculator",
         "tag": "form",
+        "noValidate": true,
         "classes": "calculatorCard",
         "initialValues": {
           "cityRateCode": 8,
@@ -178,7 +179,7 @@
       "config": {
         "tag": "div",
         "classes": "calculatorQuestion",
-        "components": ["calculatorPriceLabel", "calculatorPriceRow", "calculatorPropertySlider", "calculatorSliderLabels", "calculatorSliderHint", "calculatorSliderOutOfScale"]
+        "components": ["calculatorPriceLabel", "calculatorPriceRow", "calculatorSliderLabels", "calculatorPropertySlider", "calculatorSliderOutOfScale"]
       }
     },
     {
@@ -231,11 +232,13 @@
       "id": "calculatorPropertySlider",
       "type": "input",
       "eventInstructions": "setScopeValue:propertyValue,event.eventData.value,event.eventName,valueChanged;setScopeValue:hasCalculated,false,event.eventName,valueChanged",
-      "valueInstructions": "set:config.ariaLabel,i18n,page.calculator.sliderLabel",
+      "valueInstructions": "set:config.ariaLabel,i18n,page.calculator.sliderLabel;set:config.helperText,i18n,page.calculator.sliderHint",
       "config": {
         "fieldId": "propertyValueSlider",
         "controlType": "range",
         "ariaLabel": "",
+        "helperText": "",
+        "helperTextClasses": "calculatorSliderHint",
         "value": null,
         "min": 1000000,
         "max": 20000000,
@@ -268,12 +271,6 @@
         "value": 20000000, "format": "currency", "currency": "MXN", "currencyDisplay": "narrowSymbol",
         "maximumFractionDigits": 0, "showCurrencyCode": false, "classes": "calculatorSliderLabel"
       }
-    },
-    {
-      "id": "calculatorSliderHint",
-      "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.calculator.sliderHint",
-      "config": { "tag": "p", "text": "", "classes": "calculatorSliderHint" }
     },
     {
       "id": "calculatorSliderOutOfScale",

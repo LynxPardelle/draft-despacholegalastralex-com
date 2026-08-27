@@ -24,6 +24,7 @@ test('QA-018 reuses a native, separately identified price slider without limitin
 });
 
 test('QA-018 synchronizes only actual value changes and preserves the explicit calculation action', () => {
+  assert.equal(component('calculatorScope').config.noValidate, true, 'custom localized validation owns the form, including exact fractional prices');
   assert.equal(component('calculatorPropertySlider')?.eventInstructions,
     'setScopeValue:propertyValue,event.eventData.value,event.eventName,valueChanged;setScopeValue:hasCalculated,false,event.eventName,valueChanged');
   assert.equal(component('calculatorPropertyValue').eventInstructions,
@@ -55,6 +56,7 @@ test('QA-018 preserves the compact reference card and prominent editable monetar
 
 test('QA-018 gives every locale an accessible slider label and honest out-of-scale guidance', () => {
   assert.match(component('calculatorPropertySlider')?.valueInstructions ?? '', /set:config\.ariaLabel,i18n,page\.calculator\.sliderLabel/);
+  assert.match(component('calculatorPropertySlider')?.valueInstructions ?? '', /set:config\.helperText,i18n,page\.calculator\.sliderHint/);
   assert.equal(component('calculatorSliderOutOfScale')?.condition, 'all:scopeGt,values.propertyValue,20000000');
   for (const locale of ['es', 'en', 'zh']) {
     const copy = read(`i18n/${locale}.json`).dictionary.page.calculator;

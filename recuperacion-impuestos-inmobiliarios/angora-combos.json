@@ -68,7 +68,7 @@
     "calculatorCurrencyCode": ["ank-color-secondaryTextColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-0_75rem ank-paddingTop-18px"],
     "calculatorSliderField": ["ank-width-100per ank-minWidth-0"],
     "calculatorSlider": ["ank-width-100per ank-minHeight-44px ank-margin-0 ank-accentColor-linkColor ank-cursor-pointer ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"],
-    "calculatorSliderLabels": ["ank-display-flex ank-justifyContent-spaceMINbetween ank-gap-12px ank-marginTop-MIN10px"],
+    "calculatorSliderLabels": ["ank-display-flex ank-justifyContent-spaceMINbetween ank-gap-12px ank-marginTop-4px ank-marginBottom-MIN10px"],
     "calculatorSliderLabel": ["ank-color-secondaryTextColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-0_7rem"],
     "calculatorSliderHint": ["ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_75rem ank-lineHeight-1_5"],
     "calculatorError": ["ank-color-errorColor ank-fontSize-0_85rem ank-fontWeight-600 ank-lineHeight-1_4"],
