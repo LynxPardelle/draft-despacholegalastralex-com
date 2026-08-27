@@ -58,7 +58,7 @@
     "calculatorChoice": [
       "ank-minWidth-0 ank-minHeight-44px ank-paddingInline-8px ank-paddingBlock-10px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-10px ank-bg-bgColor ank-color-titleColor ank-fontSize-0_85rem ank-fontWeight-600 ank-cursor-pointer ank-overflowWrap-anywhere ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
     ],
-    "calculatorChoiceActive": ["ank-borderColor-HASHE6AE01 ank-bg-HASHE6AE01 ank-color-HASH231B16"],
+    "calculatorChoiceActive": ["ank-borderColorIsSDSEariaMINcheckedEQtrueEEED-HASHE6AE01 ank-backgroundColorIsSDSEariaMINcheckedEQtrueEEED-HASHE6AE01 ank-colorIsSDSEariaMINcheckedEQtrueEEED-HASH231B16"],
     "calculatorNumberInput": [
       "ank-width-100per ank-minWidth-0 ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-0 ank-paddingBlock-6px ank-border-0 ank-borderBottom-2px__solid__accentColor ank-borderRadius-0 ank-bg-transparent ank-color-titleColor ank-fontFamily-IBM__Plex__MonoCOMmonospace ank-fontSize-1_65rem ank-fontWeight-500 ank-outlineFocus-3px__solid__accentColor ank-outlineOffsetFocus-2px"
     ],

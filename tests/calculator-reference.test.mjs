@@ -8,6 +8,19 @@ const payload = read('components.json');
 const component = (id) => payload.components.find((item) => item.id === id);
 const combos = read('angora-combos.json').combos;
 
+test('QA-018 keeps selected city and year colors above theme-replayed base rules', () => {
+  for (const id of ['calculatorCity', 'calculatorPurchaseYear']) {
+    assert.equal(component(id).config.optionClasses, 'calculatorChoice');
+    assert.equal(component(id).config.activeOptionClasses, 'calculatorChoiceActive');
+  }
+  // :is([aria-checked=true]) adds state specificity without relying on insertion order.
+  assert.deepEqual(combos.calculatorChoiceActive.join(' ').split(/\s+/), [
+    'ank-borderColorIsSDSEariaMINcheckedEQtrueEEED-HASHE6AE01',
+    'ank-backgroundColorIsSDSEariaMINcheckedEQtrueEEED-HASHE6AE01',
+    'ank-colorIsSDSEariaMINcheckedEQtrueEEED-HASH231B16',
+  ]);
+});
+
 test('QA-018 reuses a native, separately identified price slider without limiting manual prices', () => {
   const slider = component('calculatorPropertySlider');
   assert.ok(slider, 'the reference price slider is present');

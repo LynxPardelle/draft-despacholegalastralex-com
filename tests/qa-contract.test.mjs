@@ -62,8 +62,8 @@ const contrastRatio = (foreground, background) => {
 
 const literalComboColorPair = (combo) => {
   const tokens = combo.join(' ');
-  const foreground = tokens.match(/(?:^|\s)ank-color-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
-  const background = tokens.match(/(?:^|\s)ank-bg-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
+  const foreground = tokens.match(/(?:^|\s)ank-color(?:IsSDSEariaMINcheckedEQtrueEEED)?-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
+  const background = tokens.match(/(?:^|\s)ank-(?:bg|backgroundColor)(?:IsSDSEariaMINcheckedEQtrueEEED)?-HASH([0-9a-f]{6})(?=\s|$)/i)?.[1];
   return {
     foreground: foreground ? `#${foreground.toUpperCase()}` : null,
     background: background ? `#${background.toUpperCase()}` : null,
