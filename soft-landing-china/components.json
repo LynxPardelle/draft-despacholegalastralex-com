@@ -22,8 +22,11 @@
         "id": "astra-china-header",
         "tag": "header",
         "classes": "astraChinaHeader",
-        "components": ["astraChinaHeaderInner"]
-      }
+        "components": [
+          "astraChinaHeaderInner"
+        ]
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
     },
     {
       "id": "astraChinaHeaderInner",
@@ -32,7 +35,11 @@
         "id": "astra-china-header-inner",
         "tag": "div",
         "classes": "astraChinaWrap astraChinaHeaderInner",
-        "components": ["astraChinaBrandLink", "astraChinaNav", "astraChinaHeaderCta"]
+        "components": [
+          "astraChinaBrandLink",
+          "astraChinaNav",
+          "astraChinaHeaderCta"
+        ]
       }
     },
     {
@@ -44,7 +51,9 @@
         "href": "#astra-china-main",
         "ariaLabel": "",
         "classes": "astraChinaBrand",
-        "components": ["astraChinaLogo"]
+        "components": [
+          "astraChinaLogo"
+        ]
       }
     },
     {
@@ -56,8 +65,8 @@
         "tag": "image",
         "src": "",
         "alt": "Astra Legal",
-        "width": 512,
-        "height": 162,
+        "width": 1204,
+        "height": 379,
         "loading": "eager",
         "decoding": "async",
         "fetchPriority": "high",
@@ -73,26 +82,46 @@
         "tag": "nav",
         "ariaLabel": "",
         "classes": "astraChinaNav",
-        "components": ["astraChinaNavServices", "astraChinaNavProcess", "astraChinaNavFaq", "astraChinaLanguageSwitch"]
+        "components": [
+          "astraChinaNavServices",
+          "astraChinaNavProcess",
+          "astraChinaNavFaq",
+          "astraChinaLanguageSwitch"
+        ]
       }
     },
     {
       "id": "astraChinaNavServices",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.nav.services",
-      "config": { "id": "astra-china-nav-services", "href": "#astra-china-services", "text": "", "classes": "astraChinaNavLink ank-color-HASH231B16" }
+      "valueInstructions": "set:config.text,i18n,page.nav.services;set:config.styles,i18n,page.presentation.styles.navLink",
+      "config": {
+        "id": "astra-china-nav-services",
+        "href": "#astra-china-services",
+        "text": "",
+        "classes": "astraChinaNavLink ank-color-HASH231B16"
+      }
     },
     {
       "id": "astraChinaNavProcess",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.nav.process",
-      "config": { "id": "astra-china-nav-process", "href": "#astra-china-process", "text": "", "classes": "astraChinaNavLink ank-color-HASH231B16" }
+      "valueInstructions": "set:config.text,i18n,page.nav.process;set:config.styles,i18n,page.presentation.styles.navLink",
+      "config": {
+        "id": "astra-china-nav-process",
+        "href": "#astra-china-process",
+        "text": "",
+        "classes": "astraChinaNavLink ank-color-HASH231B16"
+      }
     },
     {
       "id": "astraChinaNavFaq",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.nav.faq",
-      "config": { "id": "astra-china-nav-faq", "href": "#astra-china-faq", "text": "", "classes": "astraChinaNavLink ank-color-HASH231B16" }
+      "valueInstructions": "set:config.text,i18n,page.nav.faq;set:config.styles,i18n,page.presentation.styles.navLink",
+      "config": {
+        "id": "astra-china-nav-faq",
+        "href": "#astra-china-faq",
+        "text": "",
+        "classes": "astraChinaNavLink ank-color-HASH231B16"
+      }
     },
     {
       "id": "astraChinaLanguageSwitch",
@@ -104,7 +133,10 @@
         "role": "group",
         "ariaLabel": "",
         "classes": "astraChinaLanguageSwitch",
-        "components": ["astraChinaLanguageEn", "astraChinaLanguageZh"]
+        "components": [
+          "astraChinaLanguageEn",
+          "astraChinaLanguageZh"
+        ]
       }
     },
     {
@@ -117,7 +149,7 @@
         "text": "EN",
         "ariaCurrent": "false",
         "preserveLanguageQueryParam": false,
-        "classes": "astraChinaLanguageLink ank-color-HASH231B16"
+        "classes": "astraChinaLanguageLink astraChinaLanguageLinkInactive ank-color-HASH231B16"
       }
     },
     {
@@ -130,14 +162,19 @@
         "text": "中文",
         "ariaCurrent": "false",
         "preserveLanguageQueryParam": false,
-        "classes": "astraChinaLanguageLink ank-color-HASH231B16"
+        "classes": "astraChinaLanguageLink astraChinaLanguageLinkInactive ank-color-HASH231B16"
       }
     },
     {
       "id": "astraChinaHeaderCta",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.nav.consultation",
-      "config": { "id": "astra-china-header-cta", "href": "#astra-china-book", "text": "", "classes": "astraChinaPrimaryAction astraChinaHeaderAction ank-color-HASHFBF8F2" }
+      "valueInstructions": "set:config.text,i18n,page.nav.consultation;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.headerAction",
+      "config": {
+        "id": "astra-china-header-cta",
+        "href": "#astra-china-book",
+        "text": "",
+        "classes": "astraChinaPrimaryAction astraChinaHeaderAction ank-color-HASHFBF8F2"
+      }
     },
     {
       "id": "astraChinaMain",
@@ -147,8 +184,17 @@
         "tag": "main",
         "tabindex": -1,
         "classes": "astraChinaMain",
-        "components": ["astraChinaHero", "astraChinaAudience", "astraChinaServices", "astraChinaProcess", "astraChinaWhy", "astraChinaFaqSection", "astraChinaBook"]
-      }
+        "components": [
+          "astraChinaHero",
+          "astraChinaAudience",
+          "astraChinaServices",
+          "astraChinaProcess",
+          "astraChinaWhy",
+          "astraChinaFaqSection",
+          "astraChinaBook"
+        ]
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
     },
     {
       "id": "astraChinaHero",
@@ -157,7 +203,10 @@
         "id": "astra-china-hero",
         "tag": "section",
         "classes": "astraChinaSection astraChinaHero",
-        "components": ["astraChinaHeroInner"]
+        "components": [
+          "astraChinaHeroGlow",
+          "astraChinaHeroInner"
+        ]
       }
     },
     {
@@ -167,7 +216,10 @@
         "id": "astra-china-hero-inner",
         "tag": "div",
         "classes": "astraChinaWrap astraChinaHeroGrid",
-        "components": ["astraChinaHeroCopy", "astraChinaSeal"]
+        "components": [
+          "astraChinaHeroCopy",
+          "astraChinaSeal"
+        ]
       }
     },
     {
@@ -176,27 +228,49 @@
       "config": {
         "id": "astra-china-hero-copy",
         "tag": "div",
-        "classes": "astraChinaStack",
-        "components": ["astraChinaHeroEyebrow", "astraChinaHeroTitle", "astraChinaHeroLead", "astraChinaHeroActions", "astraChinaTrustList"]
+        "classes": "astraChinaHeroCopy",
+        "components": [
+          "astraChinaHeroEyebrowRow",
+          "astraChinaHeroTitle",
+          "astraChinaHeroLead",
+          "astraChinaHeroActions",
+          "astraChinaTrustList"
+        ]
       }
     },
     {
       "id": "astraChinaHeroEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.hero.eyebrow",
-      "config": { "id": "astra-china-hero-eyebrow", "tag": "p", "text": "", "classes": "astraChinaEyebrow" }
+      "valueInstructions": "set:config.text,i18n,page.hero.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "config": {
+        "id": "astra-china-hero-eyebrow",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaEyebrow"
+      }
     },
     {
       "id": "astraChinaHeroTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.hero.title",
-      "config": { "id": "astra-china-hero-title", "tag": "h1", "text": "", "classes": "astraChinaHeroTitle" }
+      "valueInstructions": "set:config.html,i18n,page.hero.titleHtml;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.heroTitle",
+      "config": {
+        "id": "astra-china-hero-title",
+        "tag": "h1",
+        "text": "",
+        "classes": "astraChinaHeroTitle",
+        "html": ""
+      }
     },
     {
       "id": "astraChinaHeroLead",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.hero.lead",
-      "config": { "id": "astra-china-hero-lead", "tag": "p", "text": "", "classes": "astraChinaLead" }
+      "valueInstructions": "set:config.text,i18n,page.hero.lead;set:config.styles,i18n,page.presentation.styles.lead",
+      "config": {
+        "id": "astra-china-hero-lead",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaLead"
+      }
     },
     {
       "id": "astraChinaHeroActions",
@@ -205,21 +279,34 @@
         "id": "astra-china-hero-actions",
         "tag": "div",
         "classes": "astraChinaActions",
-        "components": ["astraChinaHeroPrimary", "astraChinaHeroSecondary"]
+        "components": [
+          "astraChinaHeroPrimary",
+          "astraChinaHeroSecondary"
+        ]
       }
     },
     {
       "id": "astraChinaHeroPrimary",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.hero.primaryCta",
-      "config": { "id": "astra-china-hero-primary", "href": "#astra-china-book", "text": "", "classes": "astraChinaPrimaryAction ank-color-HASHFBF8F2" }
+      "valueInstructions": "set:config.text,i18n,page.hero.primaryCta;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.action",
+      "config": {
+        "id": "astra-china-hero-primary",
+        "href": "#astra-china-book",
+        "text": "",
+        "classes": "astraChinaPrimaryAction ank-color-HASHFBF8F2"
+      }
     },
     {
       "id": "astraChinaHeroSecondary",
       "type": "link",
       "condition": "all:var,astraChinaAssets.wechatQrUrl",
-      "valueInstructions": "set:config.text,i18n,page.hero.secondaryCta",
-      "config": { "id": "astra-china-hero-secondary", "href": "#astra-china-book", "text": "", "classes": "astraChinaSecondaryAction ank-color-HASHE00322" }
+      "valueInstructions": "set:config.text,i18n,page.hero.secondaryCta;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.action",
+      "config": {
+        "id": "astra-china-hero-secondary",
+        "href": "#astra-china-book",
+        "text": "",
+        "classes": "astraChinaSecondaryAction ank-color-HASH231B16"
+      }
     },
     {
       "id": "astraChinaTrustList",
@@ -228,15 +315,26 @@
         "source": "i18n",
         "path": "page.hero.trustItems",
         "templateId": "astraChinaTrustItemTemplate",
-        "idPrefix": "astraChinaTrustItem",
-        "bindings": [{ "to": "config.text", "sources": ["$item"] }]
+        "idPrefix": "astraChinaTrustItem"
       },
-      "config": { "id": "astra-china-trust-list", "tag": "div", "classes": "astraChinaTrustList", "components": [] }
+      "config": {
+        "id": "astra-china-trust-list",
+        "tag": "div",
+        "classes": "astraChinaTrustList",
+        "components": []
+      }
     },
     {
       "id": "astraChinaTrustItemTemplate",
-      "type": "text",
-      "config": { "id": "astra-china-trust-item-template", "tag": "span", "text": "", "classes": "astraChinaTrustItem" }
+      "type": "container",
+      "config": {
+        "tag": "span",
+        "classes": "astraChinaTrustItem",
+        "components": [
+          "astraChinaTrustDot",
+          "astraChinaTrustText__{{index}}"
+        ]
+      }
     },
     {
       "id": "astraChinaSeal",
@@ -246,26 +344,48 @@
         "tag": "aside",
         "ariaLabel": "Astra Legal",
         "classes": "astraChinaSeal",
-        "components": ["astraChinaSealLogo", "astraChinaSealTitle", "astraChinaSealSubtitle"]
+        "components": [
+          "astraChinaSealLogo"
+        ]
       }
     },
     {
       "id": "astraChinaSealLogo",
       "type": "media",
-      "valueInstructions": "set:config.src,var,astraChinaAssets.logoUrl",
-      "config": { "id": "astra-china-seal-logo", "tag": "image", "src": "", "alt": "", "width": 512, "height": 162, "loading": "eager", "decoding": "async", "classes": "astraChinaSealLogo" }
+      "valueInstructions": "set:config.src,i18n,page.presentation.sealUrl",
+      "config": {
+        "id": "astra-china-seal-logo",
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "width": 300,
+        "height": 300,
+        "loading": "eager",
+        "decoding": "async",
+        "classes": "astraChinaSealLogo"
+      }
     },
     {
       "id": "astraChinaSealTitle",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.hero.sealTitle",
-      "config": { "id": "astra-china-seal-title", "tag": "strong", "text": "", "classes": "astraChinaSealTitle" }
+      "config": {
+        "id": "astra-china-seal-title",
+        "tag": "strong",
+        "text": "",
+        "classes": "astraChinaSealTitle"
+      }
     },
     {
       "id": "astraChinaSealSubtitle",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.hero.sealSubtitle",
-      "config": { "id": "astra-china-seal-subtitle", "tag": "span", "text": "", "classes": "astraChinaSealSubtitle" }
+      "config": {
+        "id": "astra-china-seal-subtitle",
+        "tag": "span",
+        "text": "",
+        "classes": "astraChinaSealSubtitle"
+      }
     },
     {
       "id": "astraChinaAudience",
@@ -273,20 +393,35 @@
       "config": {
         "id": "astra-china-audience",
         "tag": "section",
-        "classes": "astraChinaSection astraChinaRaisedSection",
-        "components": ["astraChinaAudienceInner"]
+        "classes": "astraChinaAudienceSection astraChinaRaisedSection",
+        "components": [
+          "astraChinaAudienceInner"
+        ]
       }
     },
     {
       "id": "astraChinaAudienceInner",
       "type": "container",
-      "config": { "id": "astra-china-audience-inner", "tag": "div", "classes": "astraChinaWrap astraChinaStack", "components": ["astraChinaAudienceEyebrow", "astraChinaAudienceGrid"] }
+      "config": {
+        "id": "astra-china-audience-inner",
+        "tag": "div",
+        "classes": "astraChinaWrap astraChinaStack",
+        "components": [
+          "astraChinaAudienceEyebrowRow",
+          "astraChinaAudienceGrid"
+        ]
+      }
     },
     {
       "id": "astraChinaAudienceEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.audience.eyebrow",
-      "config": { "id": "astra-china-audience-eyebrow", "tag": "h2", "text": "", "classes": "astraChinaEyebrow" }
+      "valueInstructions": "set:config.text,i18n,page.audience.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "config": {
+        "id": "astra-china-audience-eyebrow",
+        "tag": "h2",
+        "text": "",
+        "classes": "astraChinaEyebrow"
+      }
     },
     {
       "id": "astraChinaAudienceGrid",
@@ -297,11 +432,26 @@
         "templateId": "astraChinaAudienceCardTemplate",
         "idPrefix": "astraChinaAudienceCard",
         "bindings": [
-          { "to": "config.title", "sources": ["description"] },
-          { "to": "config.description", "sources": ["number"] }
+          {
+            "to": "config.title",
+            "sources": [
+              "description"
+            ]
+          },
+          {
+            "to": "config.description",
+            "sources": [
+              "number"
+            ]
+          }
         ]
       },
-      "config": { "id": "astra-china-audience-grid", "tag": "div", "classes": "astraChinaGridFour", "components": [] }
+      "config": {
+        "id": "astra-china-audience-grid",
+        "tag": "div",
+        "classes": "astraChinaAudienceGrid",
+        "components": []
+      }
     },
     {
       "id": "astraChinaAudienceCardTemplate",
@@ -312,7 +462,7 @@
         "description": "",
         "benefits": [],
         "classes": "astraChinaAudienceCard",
-        "featureTitleClasses": "astraChinaCardDescription",
+        "featureTitleClasses": "astraChinaAudienceDescription",
         "featureDescriptionClasses": "astraChinaCardNumber"
       }
     },
@@ -323,36 +473,70 @@
         "id": "astra-china-services",
         "tag": "section",
         "classes": "astraChinaSection",
-        "components": ["astraChinaServicesInner"]
+        "components": [
+          "astraChinaServicesInner"
+        ]
       }
     },
     {
       "id": "astraChinaServicesInner",
       "type": "container",
-      "config": { "id": "astra-china-services-inner", "tag": "div", "classes": "astraChinaWrap astraChinaStack", "components": ["astraChinaServicesHeader", "astraChinaServicesGrid"] }
+      "config": {
+        "id": "astra-china-services-inner",
+        "tag": "div",
+        "classes": "astraChinaWrap astraChinaStack",
+        "components": [
+          "astraChinaServicesHeader",
+          "astraChinaServicesGrid"
+        ]
+      }
     },
     {
       "id": "astraChinaServicesHeader",
       "type": "container",
-      "config": { "id": "astra-china-services-header", "tag": "div", "classes": "astraChinaSectionHeader", "components": ["astraChinaServicesEyebrow", "astraChinaServicesTitle", "astraChinaServicesDescription"] }
+      "config": {
+        "id": "astra-china-services-header",
+        "tag": "div",
+        "classes": "astraChinaSectionHeader",
+        "components": [
+          "astraChinaServicesEyebrowRow",
+          "astraChinaServicesTitle",
+          "astraChinaServicesDescription"
+        ]
+      }
     },
     {
       "id": "astraChinaServicesEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.services.eyebrow",
-      "config": { "id": "astra-china-services-eyebrow", "tag": "p", "text": "", "classes": "astraChinaEyebrow" }
+      "valueInstructions": "set:config.text,i18n,page.services.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "config": {
+        "id": "astra-china-services-eyebrow",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaEyebrow"
+      }
     },
     {
       "id": "astraChinaServicesTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.services.title",
-      "config": { "id": "astra-china-services-title", "tag": "h2", "text": "", "classes": "astraChinaSectionTitle" }
+      "valueInstructions": "set:config.text,i18n,page.services.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "config": {
+        "id": "astra-china-services-title",
+        "tag": "h2",
+        "text": "",
+        "classes": "astraChinaSectionTitle"
+      }
     },
     {
       "id": "astraChinaServicesDescription",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.services.description",
-      "config": { "id": "astra-china-services-description", "tag": "p", "text": "", "classes": "astraChinaSectionDescription" }
+      "valueInstructions": "set:config.text,i18n,page.services.description;set:config.styles,i18n,page.presentation.styles.sectionDescription",
+      "config": {
+        "id": "astra-china-services-description",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaSectionDescription"
+      }
     },
     {
       "id": "astraChinaServicesGrid",
@@ -361,28 +545,25 @@
         "source": "i18n",
         "path": "page.services.items",
         "templateId": "astraChinaServiceCardTemplate",
-        "idPrefix": "astraChinaServiceCard",
-        "bindings": [
-          { "to": "config.title", "sources": ["title"] },
-          { "to": "config.description", "sources": ["description"] },
-          { "to": "config.linkLabel", "sources": ["indexLabel"] }
-        ]
+        "idPrefix": "astraChinaServiceCard"
       },
-      "config": { "id": "astra-china-services-grid", "tag": "div", "classes": "astraChinaGridTwo", "components": [] }
+      "config": {
+        "id": "astra-china-services-grid",
+        "tag": "div",
+        "classes": "astraChinaServicesList",
+        "components": []
+      }
     },
     {
       "id": "astraChinaServiceCardTemplate",
-      "type": "generic-card",
+      "type": "container",
       "config": {
-        "variant": "feature",
-        "title": "",
-        "description": "",
-        "benefits": [],
-        "linkLabel": "",
+        "tag": "article",
         "classes": "astraChinaServiceCard",
-        "featureTitleClasses": "astraChinaCardTitle",
-        "featureDescriptionClasses": "astraChinaCardDescription",
-        "linkClasses": "astraChinaServiceLabel"
+        "components": [
+          "astraChinaServiceIndex__{{index}}",
+          "astraChinaServiceBody__{{index}}"
+        ]
       }
     },
     {
@@ -392,42 +573,82 @@
         "id": "astra-china-process",
         "tag": "section",
         "classes": "astraChinaSection astraChinaRaisedSection",
-        "components": ["astraChinaProcessInner"]
+        "components": [
+          "astraChinaProcessInner"
+        ]
       }
     },
     {
       "id": "astraChinaProcessInner",
       "type": "container",
-      "config": { "id": "astra-china-process-inner", "tag": "div", "classes": "astraChinaWrap astraChinaStack", "components": ["astraChinaProcessBanner", "astraChinaProcessHeader", "astraChinaProcessGrid"] }
+      "config": {
+        "id": "astra-china-process-inner",
+        "tag": "div",
+        "classes": "astraChinaWrap astraChinaStack",
+        "components": [
+          "astraChinaProcessBanner",
+          "astraChinaProcessHeader",
+          "astraChinaProcessGrid"
+        ]
+      }
     },
     {
       "id": "astraChinaProcessBanner",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.banner",
-      "config": { "id": "astra-china-process-banner", "tag": "p", "text": "", "classes": "astraChinaProcessBanner" }
+      "valueInstructions": "set:config.text,i18n,page.process.banner;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.processBanner",
+      "config": {
+        "id": "astra-china-process-banner",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaProcessBanner"
+      }
     },
     {
       "id": "astraChinaProcessHeader",
       "type": "container",
-      "config": { "id": "astra-china-process-header", "tag": "div", "classes": "astraChinaSectionHeader", "components": ["astraChinaProcessEyebrow", "astraChinaProcessTitle", "astraChinaProcessDescription"] }
+      "config": {
+        "id": "astra-china-process-header",
+        "tag": "div",
+        "classes": "astraChinaSectionHeader",
+        "components": [
+          "astraChinaProcessEyebrowRow",
+          "astraChinaProcessTitle",
+          "astraChinaProcessDescription"
+        ]
+      }
     },
     {
       "id": "astraChinaProcessEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.eyebrow",
-      "config": { "id": "astra-china-process-eyebrow", "tag": "p", "text": "", "classes": "astraChinaEyebrow" }
+      "valueInstructions": "set:config.text,i18n,page.process.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "config": {
+        "id": "astra-china-process-eyebrow",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaEyebrow"
+      }
     },
     {
       "id": "astraChinaProcessTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.title",
-      "config": { "id": "astra-china-process-title", "tag": "h2", "text": "", "classes": "astraChinaSectionTitle" }
+      "valueInstructions": "set:config.text,i18n,page.process.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "config": {
+        "id": "astra-china-process-title",
+        "tag": "h2",
+        "text": "",
+        "classes": "astraChinaSectionTitle"
+      }
     },
     {
       "id": "astraChinaProcessDescription",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.process.description",
-      "config": { "id": "astra-china-process-description", "tag": "p", "text": "", "classes": "astraChinaSectionDescription" }
+      "valueInstructions": "set:config.text,i18n,page.process.description;set:config.styles,i18n,page.presentation.styles.sectionDescription",
+      "config": {
+        "id": "astra-china-process-description",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaSectionDescription"
+      }
     },
     {
       "id": "astraChinaProcessGrid",
@@ -438,88 +659,171 @@
         "templateId": "astraChinaProcessCardTemplate",
         "idPrefix": "astraChinaProcessCard",
         "bindings": [
-          { "to": "config.title", "sources": ["title"] },
-          { "to": "config.description", "sources": ["description"] },
-          { "to": "config.linkLabel", "sources": ["indexLabel"] }
+          {
+            "to": "config.classes",
+            "sources": [
+              "classes"
+            ]
+          }
         ]
       },
-      "config": { "id": "astra-china-process-grid", "tag": "div", "classes": "astraChinaGridFour", "components": [] }
+      "config": {
+        "id": "astra-china-process-grid",
+        "tag": "div",
+        "classes": "astraChinaTimeline",
+        "components": []
+      }
     },
     {
       "id": "astraChinaProcessCardTemplate",
-      "type": "generic-card",
+      "type": "container",
       "config": {
-        "variant": "feature",
-        "title": "",
-        "description": "",
-        "benefits": [],
-        "linkLabel": "",
+        "tag": "article",
         "classes": "astraChinaProcessCard",
-        "featureTitleClasses": "astraChinaCardTitle",
-        "featureDescriptionClasses": "astraChinaCardDescription",
-        "linkClasses": "astraChinaProcessWhen"
+        "components": [
+          "astraChinaProcessStamp__{{index}}",
+          "astraChinaProcessWhen__{{index}}",
+          "astraChinaProcessTitle__{{index}}",
+          "astraChinaProcessDescription__{{index}}"
+        ]
       }
     },
     {
       "id": "astraChinaWhy",
       "type": "container",
-      "config": { "id": "astra-china-why", "tag": "section", "classes": "astraChinaSection", "components": ["astraChinaWhyInner"] }
+      "config": {
+        "id": "astra-china-why",
+        "tag": "section",
+        "classes": "astraChinaSection",
+        "components": [
+          "astraChinaWhyInner"
+        ]
+      }
     },
     {
       "id": "astraChinaWhyInner",
       "type": "container",
-      "config": { "id": "astra-china-why-inner", "tag": "div", "classes": "astraChinaWrap astraChinaStack", "components": ["astraChinaWhyHeader", "astraChinaAttorney", "astraChinaProofGrid"] }
+      "config": {
+        "id": "astra-china-why-inner",
+        "tag": "div",
+        "classes": "astraChinaWrap astraChinaStack",
+        "components": [
+          "astraChinaWhyHeader",
+          "astraChinaAttorney",
+          "astraChinaProofGrid"
+        ]
+      }
     },
     {
       "id": "astraChinaWhyHeader",
       "type": "container",
-      "config": { "id": "astra-china-why-header", "tag": "div", "classes": "astraChinaSectionHeader", "components": ["astraChinaWhyEyebrow", "astraChinaWhyTitle"] }
+      "config": {
+        "id": "astra-china-why-header",
+        "tag": "div",
+        "classes": "astraChinaSectionHeader",
+        "components": [
+          "astraChinaWhyEyebrowRow",
+          "astraChinaWhyTitle"
+        ]
+      }
     },
     {
       "id": "astraChinaWhyEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.why.eyebrow",
-      "config": { "id": "astra-china-why-eyebrow", "tag": "p", "text": "", "classes": "astraChinaEyebrow" }
+      "valueInstructions": "set:config.text,i18n,page.why.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "config": {
+        "id": "astra-china-why-eyebrow",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaEyebrow"
+      }
     },
     {
       "id": "astraChinaWhyTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.why.title",
-      "config": { "id": "astra-china-why-title", "tag": "h2", "text": "", "classes": "astraChinaSectionTitle" }
+      "valueInstructions": "set:config.text,i18n,page.why.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "config": {
+        "id": "astra-china-why-title",
+        "tag": "h2",
+        "text": "",
+        "classes": "astraChinaSectionTitle"
+      }
     },
     {
       "id": "astraChinaAttorney",
       "type": "container",
-      "config": { "id": "astra-china-attorney", "tag": "article", "classes": "astraChinaAttorney", "components": ["astraChinaAttorneyImage", "astraChinaAttorneyCopy"] }
+      "config": {
+        "id": "astra-china-attorney",
+        "tag": "article",
+        "classes": "astraChinaAttorney",
+        "components": [
+          "astraChinaAttorneyImage",
+          "astraChinaAttorneyCopy"
+        ]
+      }
     },
     {
       "id": "astraChinaAttorneyImage",
       "type": "media",
       "valueInstructions": "set:config.src,var,astraChinaAssets.attorneyPortraitUrl;set:config.alt,i18n,page.attorney.alt",
-      "config": { "id": "astra-china-attorney-image", "tag": "image", "src": "", "alt": "", "width": 800, "height": 800, "loading": "lazy", "decoding": "async", "classes": "astraChinaAttorneyImage" }
+      "config": {
+        "id": "astra-china-attorney-image",
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "width": 800,
+        "height": 800,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "astraChinaAttorneyImage"
+      }
     },
     {
       "id": "astraChinaAttorneyCopy",
       "type": "container",
-      "config": { "id": "astra-china-attorney-copy", "tag": "div", "classes": "astraChinaStackSmall", "components": ["astraChinaAttorneyName", "astraChinaAttorneyTitle", "astraChinaAttorneyDescription"] }
+      "config": {
+        "id": "astra-china-attorney-copy",
+        "tag": "div",
+        "classes": "astraChinaStackSmall",
+        "components": [
+          "astraChinaAttorneyName",
+          "astraChinaAttorneyTitle",
+          "astraChinaAttorneyDescription"
+        ]
+      }
     },
     {
       "id": "astraChinaAttorneyName",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.attorney.name",
-      "config": { "id": "astra-china-attorney-name", "tag": "h3", "text": "", "classes": "astraChinaCardTitle" }
+      "valueInstructions": "set:config.text,i18n,page.attorney.name;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.attorneyName",
+      "config": {
+        "id": "astra-china-attorney-name",
+        "tag": "h3",
+        "text": "",
+        "classes": "astraChinaCardTitle"
+      }
     },
     {
       "id": "astraChinaAttorneyTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.attorney.title",
-      "config": { "id": "astra-china-attorney-title", "tag": "p", "text": "", "classes": "astraChinaAttorneyTitle" }
+      "valueInstructions": "set:config.text,i18n,page.attorney.title;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.attorneyTitle",
+      "config": {
+        "id": "astra-china-attorney-title",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaAttorneyTitle"
+      }
     },
     {
       "id": "astraChinaAttorneyDescription",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.attorney.description",
-      "config": { "id": "astra-china-attorney-description", "tag": "p", "text": "", "classes": "astraChinaCardDescription" }
+      "valueInstructions": "set:config.text,i18n,page.attorney.description;set:config.styles,i18n,page.presentation.styles.attorneyDescription",
+      "config": {
+        "id": "astra-china-attorney-description",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaCardDescription"
+      }
     },
     {
       "id": "astraChinaProofGrid",
@@ -528,57 +832,87 @@
         "source": "i18n",
         "path": "page.proofs",
         "templateId": "astraChinaProofCardTemplate",
-        "idPrefix": "astraChinaProofCard",
-        "bindings": [
-          { "to": "config.icon", "sources": ["icon"] },
-          { "to": "config.title", "sources": ["title"] },
-          { "to": "config.description", "sources": ["description"] }
-        ]
+        "idPrefix": "astraChinaProofCard"
       },
-      "config": { "id": "astra-china-proof-grid", "tag": "div", "classes": "astraChinaGridThree", "components": [] }
+      "config": {
+        "id": "astra-china-proof-grid",
+        "tag": "div",
+        "classes": "astraChinaGridThree",
+        "components": []
+      }
     },
     {
       "id": "astraChinaProofCardTemplate",
-      "type": "generic-card",
+      "type": "container",
       "config": {
-        "variant": "feature",
-        "icon": "",
-        "title": "",
-        "description": "",
-        "benefits": [],
+        "tag": "article",
         "classes": "astraChinaProofCard",
-        "featureIconContainerClasses": "astraChinaProofIcon",
-        "featureIconClasses": "astraChinaProofIcon",
-        "featureTitleClasses": "astraChinaCardTitle",
-        "featureDescriptionClasses": "astraChinaCardDescription"
+        "components": [
+          "astraChinaProofCheck",
+          "astraChinaProofTitle__{{index}}",
+          "astraChinaProofDescription__{{index}}"
+        ]
       }
     },
     {
       "id": "astraChinaFaqSection",
       "type": "container",
-      "config": { "id": "astra-china-faq", "tag": "section", "classes": "astraChinaSection astraChinaRaisedSection", "components": ["astraChinaFaqInner"] }
+      "config": {
+        "id": "astra-china-faq",
+        "tag": "section",
+        "classes": "astraChinaSection astraChinaRaisedSection",
+        "components": [
+          "astraChinaFaqInner"
+        ]
+      }
     },
     {
       "id": "astraChinaFaqInner",
       "type": "container",
-      "config": { "id": "astra-china-faq-inner", "tag": "div", "classes": "astraChinaWrap astraChinaStack", "components": ["astraChinaFaqHeader", "astraChinaFaqAccordion"] }
+      "config": {
+        "id": "astra-china-faq-inner",
+        "tag": "div",
+        "classes": "astraChinaWrap astraChinaStack",
+        "components": [
+          "astraChinaFaqHeader",
+          "astraChinaFaqAccordion"
+        ]
+      }
     },
     {
       "id": "astraChinaFaqHeader",
       "type": "container",
-      "config": { "id": "astra-china-faq-header", "tag": "div", "classes": "astraChinaSectionHeader", "components": ["astraChinaFaqEyebrow", "astraChinaFaqTitle"] }
+      "config": {
+        "id": "astra-china-faq-header",
+        "tag": "div",
+        "classes": "astraChinaSectionHeader",
+        "components": [
+          "astraChinaFaqEyebrowRow",
+          "astraChinaFaqTitle"
+        ]
+      }
     },
     {
       "id": "astraChinaFaqEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.faq.eyebrow",
-      "config": { "id": "astra-china-faq-eyebrow", "tag": "p", "text": "", "classes": "astraChinaEyebrow" }
+      "valueInstructions": "set:config.text,i18n,page.faq.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "config": {
+        "id": "astra-china-faq-eyebrow",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaEyebrow"
+      }
     },
     {
       "id": "astraChinaFaqTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.faq.title",
-      "config": { "id": "astra-china-faq-title", "tag": "h2", "text": "", "classes": "astraChinaSectionTitle" }
+      "valueInstructions": "set:config.text,i18n,page.faq.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.sectionTitle",
+      "config": {
+        "id": "astra-china-faq-title",
+        "tag": "h2",
+        "text": "",
+        "classes": "astraChinaSectionTitle"
+      }
     },
     {
       "id": "astraChinaFaqAccordion",
@@ -586,11 +920,17 @@
       "config": {
         "mode": "single",
         "allowToggle": true,
-        "itemsSource": { "source": "i18n", "path": "page.faq.items" },
+        "itemsSource": {
+          "source": "i18n",
+          "path": "page.faq.items"
+        },
         "renderMode": "detail",
         "containerClasses": "astraChinaFaqList",
         "defaultItemContainerClasses": "astraChinaFaqItem",
-        "defaultItemButtonConfig": { "classes": "astraChinaFaqButton" },
+        "defaultItemButtonConfig": {
+          "classes": "astraChinaFaqButton",
+          "iconClasses": "astraChinaFaqToggle"
+        },
         "defaultItemPanelClasses": "astraChinaFaqPanel",
         "buttonContentClasses": "astraChinaFaqButtonContent",
         "textStackClasses": "astraChinaFaqTextStack",
@@ -600,104 +940,731 @@
         "detailHeaderClasses": "astraChinaFaqHiddenHeader",
         "detailTitleClasses": "astraChinaFaqHiddenHeader",
         "detailContentClasses": "astraChinaFaqAnswer",
-        "toggleIconName": "expand_more"
-      }
+        "toggleIconName": "add",
+        "defaultItemIconIsExpandedClasses": "astraChinaFaqToggleOpen",
+        "defaultItemIconIsNotExpandedClasses": "astraChinaFaqToggleClosed"
+      },
+      "valueInstructions": "set:config.defaultItemButtonConfig.styles.fontFamily,i18n,page.presentation.bodyFont"
     },
     {
       "id": "astraChinaBook",
       "type": "container",
-      "config": { "id": "astra-china-book", "tag": "section", "classes": "astraChinaContactSection", "components": ["astraChinaBookInner"] }
+      "config": {
+        "id": "astra-china-book",
+        "tag": "section",
+        "classes": "astraChinaContactSection",
+        "components": [
+          "astraChinaContactTexture",
+          "astraChinaContactOverlay",
+          "astraChinaContactWatermarkSlot",
+          "astraChinaBookInner"
+        ]
+      }
     },
     {
       "id": "astraChinaBookInner",
       "type": "container",
-      "config": { "id": "astra-china-book-inner", "tag": "div", "classes": "astraChinaWrap astraChinaContactInner", "components": ["astraChinaContactCopy", "astraChinaContactActions"] }
+      "config": {
+        "id": "astra-china-book-inner",
+        "tag": "div",
+        "classes": "astraChinaWrap astraChinaContactInner",
+        "components": [
+          "astraChinaContactCopy",
+          "astraChinaContactActions"
+        ]
+      }
     },
     {
       "id": "astraChinaContactCopy",
       "type": "container",
-      "config": { "id": "astra-china-contact-copy", "tag": "div", "classes": "astraChinaStack", "components": ["astraChinaContactEyebrow", "astraChinaContactTitle", "astraChinaContactDescription"] }
+      "config": {
+        "id": "astra-china-contact-copy",
+        "tag": "div",
+        "classes": "astraChinaContactCopy",
+        "components": [
+          "astraChinaContactEyebrowRow",
+          "astraChinaContactTitle",
+          "astraChinaContactDescription"
+        ]
+      }
     },
     {
       "id": "astraChinaContactEyebrow",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.eyebrow",
-      "config": { "id": "astra-china-contact-eyebrow", "tag": "p", "text": "", "classes": "astraChinaEyebrow astraChinaEyebrowOnDark" }
+      "valueInstructions": "set:config.text,i18n,page.contact.eyebrow;set:config.styles.fontFamily,i18n,page.presentation.labelFont",
+      "config": {
+        "id": "astra-china-contact-eyebrow",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaEyebrow astraChinaEyebrowOnDark"
+      }
     },
     {
       "id": "astraChinaContactTitle",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.title",
-      "config": { "id": "astra-china-contact-title", "tag": "h2", "text": "", "classes": "astraChinaContactTitle" }
+      "valueInstructions": "set:config.text,i18n,page.contact.title;set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.contactTitle",
+      "config": {
+        "id": "astra-china-contact-title",
+        "tag": "h2",
+        "text": "",
+        "classes": "astraChinaContactTitle"
+      }
     },
     {
       "id": "astraChinaContactDescription",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.description",
-      "config": { "id": "astra-china-contact-description", "tag": "p", "text": "", "classes": "astraChinaContactDescription" }
+      "valueInstructions": "set:config.text,i18n,page.contact.description;set:config.styles,i18n,page.presentation.styles.contactDescription",
+      "config": {
+        "id": "astra-china-contact-description",
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaContactDescription"
+      }
     },
     {
       "id": "astraChinaContactActions",
       "type": "container",
-      "config": { "id": "astra-china-contact-actions", "tag": "div", "classes": "astraChinaContactActions", "components": ["astraChinaWechatCard", "astraChinaEmailLink"] }
+      "config": {
+        "id": "astra-china-contact-actions",
+        "tag": "div",
+        "classes": "astraChinaContactActions",
+        "components": [
+          "astraChinaWechatCard",
+          "astraChinaEmailLink"
+        ]
+      }
     },
     {
       "id": "astraChinaWechatCard",
       "type": "container",
       "condition": "all:var,astraChinaAssets.wechatQrUrl",
-      "config": { "id": "astra-china-wechat-card", "tag": "div", "classes": "astraChinaWechatCard", "components": ["astraChinaWechatImage", "astraChinaWechatLabel"] }
+      "config": {
+        "id": "astra-china-wechat-card",
+        "tag": "div",
+        "classes": "astraChinaWechatCard",
+        "components": [
+          "astraChinaWechatImage",
+          "astraChinaWechatLabel"
+        ]
+      }
     },
     {
       "id": "astraChinaWechatImage",
       "type": "media",
       "condition": "all:var,astraChinaAssets.wechatQrUrl",
       "valueInstructions": "set:config.src,var,astraChinaAssets.wechatQrUrl;set:config.alt,i18n,page.contact.wechatAlt",
-      "config": { "id": "astra-china-wechat-image", "tag": "image", "src": "", "alt": "", "width": 820, "height": 1214, "loading": "lazy", "decoding": "async", "classes": "astraChinaWechatImage" }
+      "config": {
+        "id": "astra-china-wechat-image",
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "width": 820,
+        "height": 1214,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "astraChinaWechatImage"
+      }
     },
     {
       "id": "astraChinaWechatLabel",
       "type": "text",
-      "valueInstructions": "set:config.text,i18n,page.contact.wechatLabel",
-      "config": { "id": "astra-china-wechat-label", "tag": "span", "text": "", "classes": "astraChinaWechatLabel" }
+      "valueInstructions": "set:config.text,i18n,page.contact.wechatLabel;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.wechatLabel",
+      "config": {
+        "id": "astra-china-wechat-label",
+        "tag": "span",
+        "text": "",
+        "classes": "astraChinaWechatLabel"
+      }
     },
     {
       "id": "astraChinaEmailLink",
       "type": "link",
-      "valueInstructions": "set:config.text,i18n,page.contact.emailLabel;set:config.href,var,astraChinaContact.emailHref",
-      "config": { "id": "astra-china-email-link", "href": "#", "text": "", "classes": "astraChinaOnDarkAction ank-color-HASHFBF8F2" }
+      "valueInstructions": "set:config.text,i18n,page.contact.emailLabel;set:config.href,var,astraChinaContact.emailHref;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.action",
+      "config": {
+        "id": "astra-china-email-link",
+        "href": "#",
+        "text": "",
+        "classes": "astraChinaOnDarkAction ank-color-HASHFBF8F2"
+      }
     },
     {
       "id": "astraChinaFooter",
       "type": "container",
-      "config": { "id": "astra-china-footer", "tag": "footer", "classes": "astraChinaFooter", "components": ["astraChinaFooterInner"] }
+      "config": {
+        "id": "astra-china-footer",
+        "tag": "footer",
+        "classes": "astraChinaFooter",
+        "components": [
+          "astraChinaFooterInner"
+        ]
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.bodyFont"
     },
     {
       "id": "astraChinaFooterInner",
       "type": "container",
-      "config": { "id": "astra-china-footer-inner", "tag": "div", "classes": "astraChinaWrap astraChinaFooterInner", "components": ["astraChinaFooterCopyright", "astraChinaFooterLinks"] }
+      "config": {
+        "id": "astra-china-footer-inner",
+        "tag": "div",
+        "classes": "astraChinaWrap astraChinaFooterInner",
+        "components": [
+          "astraChinaFooterIdentity",
+          "astraChinaFooterLinks"
+        ]
+      }
     },
     {
       "id": "astraChinaFooterCopyright",
       "type": "text",
       "valueInstructions": "set:config.text,i18n,page.footer.copyright",
-      "config": { "id": "astra-china-footer-copyright", "tag": "span", "text": "", "classes": "astraChinaFooterText" }
+      "config": {
+        "id": "astra-china-footer-copyright",
+        "tag": "span",
+        "text": "",
+        "classes": "astraChinaFooterText"
+      }
     },
     {
       "id": "astraChinaFooterLinks",
       "type": "container",
-      "config": { "id": "astra-china-footer-links", "tag": "div", "classes": "astraChinaFooterLinks", "components": ["astraChinaFooterPhone", "astraChinaFooterEmail"] }
+      "config": {
+        "id": "astra-china-footer-links",
+        "tag": "div",
+        "classes": "astraChinaFooterLinks",
+        "components": [
+          "astraChinaFooterPhone",
+          "astraChinaFooterEmail"
+        ]
+      }
     },
     {
       "id": "astraChinaFooterPhone",
       "type": "link",
       "valueInstructions": "set:config.text,var,astraChinaContact.phoneDisplay;set:config.href,var,astraChinaContact.phoneHref",
-      "config": { "id": "astra-china-footer-phone", "href": "#", "text": "", "classes": "astraChinaFooterLink ank-color-HASHFBF8F2" }
+      "config": {
+        "id": "astra-china-footer-phone",
+        "href": "#",
+        "text": "",
+        "classes": "astraChinaFooterLink ank-color-HASH6B6259"
+      }
     },
     {
       "id": "astraChinaFooterEmail",
       "type": "link",
       "valueInstructions": "set:config.text,var,astraChinaContact.email;set:config.href,var,astraChinaContact.emailHref",
-      "config": { "id": "astra-china-footer-email", "href": "#", "text": "", "classes": "astraChinaFooterLink ank-color-HASHFBF8F2" }
+      "config": {
+        "id": "astra-china-footer-email",
+        "href": "#",
+        "text": "",
+        "classes": "astraChinaFooterLink ank-color-HASH6B6259"
+      }
+    },
+    {
+      "id": "astraChinaServiceIndexTemplate",
+      "type": "container",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.services.items",
+        "templateId": "astraChinaServiceIndexTemplate",
+        "idPrefix": "astraChinaServiceIndex"
+      },
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaServiceIndex",
+        "components": [
+          "astraChinaServiceNumber__{{index}}",
+          "astraChinaServiceLabel__{{index}}"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaServiceBodyTemplate",
+      "type": "container",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.services.items",
+        "templateId": "astraChinaServiceBodyTemplate",
+        "idPrefix": "astraChinaServiceBody"
+      },
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaServiceBody",
+        "components": [
+          "astraChinaServiceTitle__{{index}}",
+          "astraChinaServiceDescription__{{index}}"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaServiceNumberTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.services.items",
+        "templateId": "astraChinaServiceNumberTemplate",
+        "idPrefix": "astraChinaServiceNumber",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "number"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "astraChinaServiceNumber"
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.monoFont"
+    },
+    {
+      "id": "astraChinaServiceLabelTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.services.items",
+        "templateId": "astraChinaServiceLabelTemplate",
+        "idPrefix": "astraChinaServiceLabel",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "label"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "astraChinaServiceLabel"
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.serviceLabel"
+    },
+    {
+      "id": "astraChinaServiceTitleTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.services.items",
+        "templateId": "astraChinaServiceTitleTemplate",
+        "idPrefix": "astraChinaServiceTitle",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "title"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "h3",
+        "text": "",
+        "classes": "astraChinaServiceTitle"
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.serviceTitle"
+    },
+    {
+      "id": "astraChinaServiceDescriptionTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.services.items",
+        "templateId": "astraChinaServiceDescriptionTemplate",
+        "idPrefix": "astraChinaServiceDescription",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "description"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaServiceDescription"
+      },
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.serviceDescription"
+    },
+    {
+      "id": "astraChinaProcessStampTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.process.items",
+        "templateId": "astraChinaProcessStampTemplate",
+        "idPrefix": "astraChinaProcessStamp",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "number"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "astraChinaProcessStamp"
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.monoFont"
+    },
+    {
+      "id": "astraChinaProcessWhenTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.process.items",
+        "templateId": "astraChinaProcessWhenTemplate",
+        "idPrefix": "astraChinaProcessWhen",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "when"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaProcessWhen"
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles.fontFamily,i18n,page.presentation.labelFont;set:config.styles,i18n,page.presentation.styles.processWhen"
+    },
+    {
+      "id": "astraChinaProcessTitleTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.process.items",
+        "templateId": "astraChinaProcessTitleTemplate",
+        "idPrefix": "astraChinaProcessTitle",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "title"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "h3",
+        "text": "",
+        "classes": "astraChinaProcessTitle"
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.processTitle"
+    },
+    {
+      "id": "astraChinaProcessDescriptionTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.process.items",
+        "templateId": "astraChinaProcessDescriptionTemplate",
+        "idPrefix": "astraChinaProcessDescription",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "description"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaProcessDescription"
+      },
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.processDescription"
+    },
+    {
+      "id": "astraChinaTrustDot",
+      "type": "container",
+      "config": {
+        "tag": "span",
+        "classes": "astraChinaTrustDot",
+        "ariaHidden": true
+      }
+    },
+    {
+      "id": "astraChinaTrustTextTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.hero.trustItems",
+        "templateId": "astraChinaTrustTextTemplate",
+        "idPrefix": "astraChinaTrustText",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "$item"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "astraChinaTrustText"
+      },
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.trust"
+    },
+    {
+      "id": "astraChinaProofCheck",
+      "type": "media",
+      "valueInstructions": "set:config.src,var,astraChinaAssets.checkUrl",
+      "config": {
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "width": 30,
+        "height": 30,
+        "classes": "astraChinaProofIcon",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "astraChinaProofTitleTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.proofs",
+        "templateId": "astraChinaProofTitleTemplate",
+        "idPrefix": "astraChinaProofTitle",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "title"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "h3",
+        "text": "",
+        "classes": "astraChinaProofTitle"
+      },
+      "valueInstructions": "set:config.styles.fontFamily,i18n,page.presentation.headingFont;set:config.styles,i18n,page.presentation.styles.proofTitle"
+    },
+    {
+      "id": "astraChinaProofDescriptionTemplate",
+      "type": "text",
+      "loopConfig": {
+        "source": "i18n",
+        "path": "page.proofs",
+        "templateId": "astraChinaProofDescriptionTemplate",
+        "idPrefix": "astraChinaProofDescription",
+        "bindings": [
+          {
+            "to": "config.text",
+            "sources": [
+              "description"
+            ]
+          }
+        ]
+      },
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "astraChinaProofDescription"
+      },
+      "valueInstructions": "set:config.styles,i18n,page.presentation.styles.proofDescription"
+    },
+    {
+      "id": "astraChinaContactTexture",
+      "type": "media",
+      "condition": "all:var,astraChinaAssets.textureUrl",
+      "valueInstructions": "set:config.src,var,astraChinaAssets.textureUrl",
+      "config": {
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "classes": "astraChinaContactTexture",
+        "loading": "lazy",
+        "decoding": "async"
+      }
+    },
+    {
+      "id": "astraChinaContactWatermark",
+      "type": "media",
+      "condition": "all:var,astraChinaAssets.whiteIconUrl",
+      "valueInstructions": "set:config.src,var,astraChinaAssets.whiteIconUrl",
+      "config": {
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "classes": "astraChinaContactWatermark",
+        "loading": "lazy",
+        "decoding": "async"
+      }
+    },
+    {
+      "id": "astraChinaContactOverlay",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaContactOverlay",
+        "ariaHidden": true
+      }
+    },
+    {
+      "id": "astraChinaFooterIdentity",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaFooterIdentity",
+        "components": [
+          "astraChinaFooterMark",
+          "astraChinaFooterCopyright"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaFooterMark",
+      "type": "media",
+      "condition": "all:var,astraChinaAssets.redIconUrl",
+      "valueInstructions": "set:config.src,var,astraChinaAssets.redIconUrl",
+      "config": {
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "classes": "astraChinaFooterMark",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "astraChinaHeroGlow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaHeroGlow",
+        "ariaHidden": true
+      }
+    },
+    {
+      "id": "astraChinaContactWatermarkSlot",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaContactWatermarkSlot",
+        "components": [
+          "astraChinaContactWatermark"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaEyebrowLine",
+      "type": "container",
+      "config": {
+        "tag": "span",
+        "classes": "astraChinaEyebrowLine",
+        "ariaHidden": true
+      }
+    },
+    {
+      "id": "astraChinaEyebrowLineOnDark",
+      "type": "container",
+      "config": {
+        "tag": "span",
+        "classes": "astraChinaEyebrowLine astraChinaEyebrowLineOnDark",
+        "ariaHidden": true
+      }
+    },
+    {
+      "id": "astraChinaHeroEyebrowRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaEyebrowRow",
+        "components": [
+          "astraChinaEyebrowLine",
+          "astraChinaHeroEyebrow"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaAudienceEyebrowRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaEyebrowRow",
+        "components": [
+          "astraChinaEyebrowLine",
+          "astraChinaAudienceEyebrow"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaServicesEyebrowRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaEyebrowRow",
+        "components": [
+          "astraChinaEyebrowLine",
+          "astraChinaServicesEyebrow"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaProcessEyebrowRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaEyebrowRow",
+        "components": [
+          "astraChinaEyebrowLine",
+          "astraChinaProcessEyebrow"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaWhyEyebrowRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaEyebrowRow",
+        "components": [
+          "astraChinaEyebrowLine",
+          "astraChinaWhyEyebrow"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaFaqEyebrowRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaEyebrowRow",
+        "components": [
+          "astraChinaEyebrowLine",
+          "astraChinaFaqEyebrow"
+        ]
+      }
+    },
+    {
+      "id": "astraChinaContactEyebrowRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "astraChinaEyebrowRow astraChinaEyebrowRowCentered",
+        "components": [
+          "astraChinaEyebrowLineOnDark",
+          "astraChinaContactEyebrow"
+        ]
+      }
     }
   ]
 }
