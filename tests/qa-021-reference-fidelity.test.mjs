@@ -38,7 +38,7 @@ test('QA-021 lets auxiliary text inherit the localized source line height', () =
   assert.equal(json('soft-landing-china/i18n/en.json').dictionary.page.presentation.bodyLineHeight, '1.55');
   const components = json('soft-landing-china/components.json').components;
   for (const id of ['astraChinaMain', 'astraChinaHeader', 'astraChinaFooter']) {
-    assert.match(components.find((entry) => entry.id === id).valueInstructions, /set:config.styles.lineHeight,i18n,page.presentation.bodyLineHeight/);
+    assert.match(components.find((entry) => entry.id === id).valueInstructions, /set:config.styles,i18n,page.presentation.styles.body/);
   }
   const combos = json('soft-landing-china/angora-combos.json').combos;
   for (const name of ['astraChinaAudienceDescription', 'astraChinaFaqQuestion', 'astraChinaFaqAnswer', 'astraChinaEyebrow']) {

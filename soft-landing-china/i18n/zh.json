@@ -385,6 +385,32 @@
           "proofDescription": {
             "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
             "lineHeight": "1.7"
+          },
+          "body": {
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "fontWeight": "400"
+          },
+          "mono": {
+            "fontFamily": "\"IBM Plex Mono\", monospace",
+            "fontWeight": "400"
+          },
+          "label": {
+            "fontFamily": "\"Noto Sans SC\", sans-serif",
+            "fontWeight": "400"
+          },
+          "heading": {
+            "fontFamily": "\"Noto Serif SC\", \"Source Serif 4\", serif"
+          },
+          "footer": {
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "fontSize": "0.86rem",
+            "fontWeight": "400"
+          },
+          "faqButton": {
+            "fontFamily": "\"Noto Sans SC\", \"IBM Plex Sans\", sans-serif",
+            "lineHeight": "1.7",
+            "fontWeight": "600"
           }
         },
         "bodyLineHeight": "1.7",

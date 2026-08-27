@@ -13,7 +13,7 @@ test('QA-020 restores source wrap and English serif hierarchy without a global r
   assert.match(classes('astraChinaWrap'), /ank-paddingInline-28px/);
   assert.match(classes('astraChinaHeroTitle'), /3_6rem/);
   assert.match(classes('astraChinaHeroTitle'), /ank-fontWeight-600/);
-  assert.match(component('astraChinaMain').valueInstructions, /page\.presentation\.bodyFont/);
+  assert.match(component('astraChinaMain').valueInstructions, /page\.presentation\.styles\.body/);
 });
 
 test('QA-020 uses opt-in source fonts and exact source responsive thresholds', () => {

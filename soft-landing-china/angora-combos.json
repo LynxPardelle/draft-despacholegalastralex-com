@@ -7,7 +7,7 @@
       "ank-position-fixed ank-top-8px ank-left-8px ank-zIndex-1400 ank-transform-translateYSDMIN160perED ank-transformFocus-translateYSD0ED ank-display-flex ank-alignItems-center ank-justifyContent-center ank-minHeight-44px ank-paddingInline-16px ank-paddingBlock-10px ank-borderRadius-4px ank-bg-HASHE00322 ank-color-HASHFBF8F2 ank-fontWeight-900 ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px"
     ],
     "astraChinaHeader": [
-      "ank-position-sticky ank-top-0 ank-zIndex-1100 ank-width-100per ank-bg-rgbaSD251COM248COM242COM0_92ED ank-backdropFilter-blurSD6pxED ank-color-HASH231B16 ank-borderBottom-1px__solid__HASHE3D6B0"
+      "ank-position-sticky ank-top-0 ank-zIndex-1100 ank-width-100per ank-bg-rgbaSD251COM248COM242COM0_92ED ank-backdropFilter-blurSD6pxED ank-color-HASH231B16 ank-borderBottom-1px__solid__HASHE3D6B0 ank-fontWeight-400"
     ],
     "astraChinaWrap": [
       "ank-width-100per ank-maxWidth-1120px ank-paddingInline-28px ank-marginInline-auto ank-boxSizing-borderMINbox"
@@ -43,7 +43,7 @@
       "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-24px ank-paddingBlock-14px ank-borderRadius-3px ank-fontSize-0_84rem ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-bg-HASHE00322 ank-border-1px__solid__HASHE00322 ank-fontSize-0_78rem ank-paddingInline-18px ank-paddingBlock-10px"
     ],
     "astraChinaMain": [
-      "ank-width-100per ank-bg-HASHFBF8F2 ank-color-HASH231B16"
+      "ank-width-100per ank-bg-HASHFBF8F2 ank-color-HASH231B16 ank-fontWeight-400"
     ],
     "astraChinaSection": [
       "ank-width-100per ank-boxSizing-borderMINbox ank-paddingBlock-80px ank-bg-HASHFBF8F2 ank-color-HASH231B16 ank-scrollMarginTop-104px"
@@ -220,7 +220,7 @@
       "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-minWidth-44px ank-minHeight-44px ank-boxSizing-borderMINbox ank-paddingInline-24px ank-paddingBlock-14px ank-borderRadius-3px ank-fontSize-0_84rem ank-fontWeight-400 ank-textAlign-center ank-textDecoration-none ank-outlineFocus-3px__solid__HASHE00322 ank-outlineOffsetFocus-2px ank-border-1px__solid__rgbaSD255COM255COM255COM0_4ED ank-bg-transparent ank-color-HASHFBF8F2"
     ],
     "astraChinaFooter": [
-      "ank-width-100per ank-boxSizing-borderMINbox ank-paddingBlock-44px ank-bg-HASHFBF8F2 ank-color-HASH6B6259 ank-borderTop-1px__solid__HASHE3D6B0"
+      "ank-width-100per ank-boxSizing-borderMINbox ank-paddingBlock-44px ank-bg-HASHFBF8F2 ank-color-HASH6B6259 ank-borderTop-1px__solid__HASHE3D6B0 ank-fontWeight-400"
     ],
     "astraChinaFooterInner": [
       "ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-flexWrap-wrap ank-gap-16px"
