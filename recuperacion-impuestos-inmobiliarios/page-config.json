@@ -9,6 +9,11 @@
     "siteFooter"
   ],
   "modalRootIds": [],
+  "googleFontsStylesheet": {
+    "es": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap",
+    "en": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap",
+    "zh": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+  },
   "metadata": {
     "status": "local-draft",
     "owner": "Astra Legal",
