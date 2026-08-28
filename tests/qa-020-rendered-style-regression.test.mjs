@@ -40,6 +40,14 @@ test('campaign header shares free space between brand, navigation and CTA like t
   assert.deepEqual(component('astraChinaHeaderInner').config.components, ['astraChinaBrandLink', 'astraChinaNav', 'astraChinaHeaderCta']);
 });
 
+test('campaign main return target reuses the sticky-header clearance of its sections', () => {
+  const combos = read('soft-landing-china/angora-combos.json').combos;
+  const clearance = combos.astraChinaSection.join(' ').match(/\bank-scrollMarginTop-\S+/)?.[0];
+  assert.ok(clearance, 'campaign sections must define their sticky-header clearance');
+  assert.ok(combos.astraChinaMain.join(' ').split(/\s+/).includes(clearance), 'the main anchor must retain that clearance so the mobile header does not cover its title');
+  assert.equal(component('astraChinaBrandLink').config.href, `#${component('astraChinaMain').config.id}`);
+});
+
 test('campaign media dimensions beat the shared intrinsic-image selector', () => {
   assert.deepEqual(component('astraChinaLogo').config.styles, { height: '34px', width: 'auto' });
   assert.equal(component('astraChinaLogo').config.width, 1204);
